@@ -738,11 +738,11 @@ NDP500 provides one RS232 interface, enabling control of devices such as IFP, pr
 
 1. Prepare cable for RS232 connection
 
-   <img src="../../NMP/UserManual/img/NDP-RS232.png" style="zoom: 25%;" /> 
+   <img src="../../NMP/UserManual/img/NMP-RS232.png" style="zoom: 25%;" /> 
 
 2. If your device uses a DB9 connector (Interactive Flat Panel, for example), connect one end of the cable to the RS232 connector, with the R, G, T pins corresponding to the RS232 connector. Connect the other end to the DB9 connector.
 
-   <img src="../../NMP/UserManual/img/NDP-RS232-DB9.png" style="zoom: 15%;" /> 
+   <img src="../../NMP/UserManual/img/NMP-RS232-DB9.png" style="zoom: 15%;" /> 
 
    - Connect the RS232 connector's T (transmit) pin to the DB9's RX (Pin 2).
    - Connect the RS232 connector's R (receive) pin to the DB9's TX (Pin 3).
