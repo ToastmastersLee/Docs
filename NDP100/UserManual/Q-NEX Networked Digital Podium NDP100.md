@@ -18,7 +18,7 @@
 
 <img src="./img/image-20240130095101608.png" style="zoom: 15%;" />
 
-<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstart Interactive Technology Group Co., Ltd.</div>
+<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstar Interactive Technology Group Co., Ltd.</div>
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
@@ -106,7 +106,7 @@ For references:
 
 
 
-## 2.2 Overview for Digital Podium
+## 2.2 Overview of Digital Podium
 
 <img src="./img/image-20231229094554240.png"  style="zoom: 25%;" /> 
 
@@ -144,12 +144,12 @@ For references:
 
 | No.  | Interface Name | Description                                                  |
 | ---- | -------------- | ------------------------------------------------------------ |
-| 1    | Power Outlet   | To connect lecturer’s laptop for power supply.<br /><img src="./img/note.png" /> **Note**: Do not connect high-powered appliances to this port to avoid potential damage to the Digital Podium. |
+| 1    | Power Outlet   | To connect the lecturer's laptop to the power supply.<br /><img src="./img/note.png" /> **Note**: Do not connect high-powered appliances to this port to avoid potential damage to the Digital Podium. |
 | 2    | USB-C          | Supports charging, Internet connectivity, and HDMI signal transmission for the teacher's laptop.<br /><img src="./img/note.png"  /> **Note**: Ensure the USB-C cable used complies with HDMI transmission requirements. |
-| 3    | HDMI           | An extended HDMI-IN port is provided for connecting lecturer’s  laptop as an input source. |
-| 3    | Touch USB      | By connecting lecturer’s laptop to the Touch USB port, it enables lecturer to touch control their laptop on Digital Podium's display screen. |
+| 3    | HDMI           | An extended HDMI-IN port is provided for connecting the lecturer's  laptop as an input source. |
+| 3    | Touch USB      | By connecting the lecturer's laptop to the Touch USB port, it enables the lecturer to touch control their laptop on the Digital Podium's display screen. |
 | 5    | PC USB         | Two USB ports extend the built-in PC's connectivity, allowing connection of external devices like USB flash drives. |
-| 6    | LAN            | The LAN port on Digital Podium is used to provide network connectivity for lecturer’s laptop. |
+| 6    | LAN            | The LAN port on the Digital Podium is used to provide network connectivity for the lecturer's laptop. |
 
 
 
@@ -169,7 +169,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 | No.  | Interface                                     | Description                                                  |
 | ---- | --------------------------------------------- | ------------------------------------------------------------ |
-| 1    | RJ45 * 4                                      | Ethernet ports (100Mbps，non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
+| 1    | RJ45 * 4                                      | Ethernet ports (100Mbps, non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
 | 2    | HDMI Matrix 3 * 3                             | Consists of 3 HDMI inputs and 3 HDMI outputs, forming the video matrix for NMP. |
 | 3    | 2.4G Wi-Fi Antenna Interface * 2              | Built-in 2.4G Wi-Fi RP Transceiver within NMP, allowing wireless device integration and control expansion with Q-NEX's CBX component. |
 | 4    | UHF Wireless Microphone Antenna Interface * 1 | Built-in receiver for UHF wireless microphones, supporting one-to-two wireless microphone setups for teaching/meeting scenarios. |
@@ -215,20 +215,20 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 **Handheld Microphone Usage:**
 
-- Press power button to turn on the microphone; long press to turn off.
+- Press the power button to turn on the microphone; long press to turn off.
 - Press **once** to switch channels; press **three** times quickly to enter pairing mode, , and press **once more** to exit pairing mode.
 
 **Paring Instructions**:
 
-Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to re-pair them.
+Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to repair them.
 
-1. To pair the handheld microphone, simply point it directly at the longest antenna on the right side of the NDP100, which is dedicated to UHF wireless comminication. 
+1. To pair the handheld microphone, simply point it directly at the longest antenna on the right side of the NDP100, which is dedicated to UHF wireless communication. 
 
 2. Before paring, turn the NDP main power off by tapping the power button on the Touch Panel.
 
    <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 25%;" /> 
 
-3. Press power button **three** times quickly to enter pairing mode.
+3. Press the power button **three** times quickly to enter pairing mode.
 
 4. Immediately power on NMP using Touch Panel, then the microphone will automatically pair with NMP (the NMP has a built-in receiver).
 
@@ -236,7 +236,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 <img src="./img/note.png"   />**Note**:
 
-- Ensure NMP main power is off before starting pairing.
+- Ensure the NMP main power is off before starting pairing.
 - To ensure successful pairing, bring the microphone close to the NMP's antenna during the pairing process. 
 
 
@@ -263,13 +263,13 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 **Pairing Instructions:**
 
-Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to re-pair them.
+Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to repair them.
 
-1. To pair the microphone, simply point it directly at the longest antenna on the right side of the NDP100, which is dedicated to UHF wireless comminication. 
+1. To pair the microphone, simply point it directly at the longest antenna on the right side of the NDP100, which is dedicated to UHF wireless communication. 
 
 2. Before paring, turn the NDP main power off by tapping the power button on the Touch Panel.
 
-3. With the lavalier microphone powered on, quickly press the paring button **three** times to enter pairing mode.
+3. With the lavalier microphone powered on, quickly press the pairing button **three** times to enter pairing mode.
 
 4. Immediately proceed to power on the NMP main power via the Touch Panel, then the lavalier microphone will automatically pair with the NMP (the NMP has a built-in receiver)
 
@@ -277,7 +277,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 <img src="./img/note.png"   />**Note** :
 
-- Ensure NMP main power is off before starting pairing.
+- Ensure the NMP main power is off before starting pairing.
 - To ensure successful pairing, bring the microphone close to the NMP's antenna during the pairing process. 
 
 
@@ -316,7 +316,7 @@ For users who have purchased the NDP100 demo sample unit for the first time, ple
 
 ### 3.2.1 Connect Touch Panel to NMP
 
-The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume and microphone control, as well as infrared and RS232 control, etc.
+The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
 
 1. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
 
@@ -334,7 +334,7 @@ The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work 
    <img src="./img/note.png" />**Note**：
 
    1. If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
-   2. For consistent access, consider using the Q-NEX Configtool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
+   2. For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
 
 3. Unlock the Touch Panel  to activate the NDP100 main power. 
 
@@ -363,7 +363,7 @@ For instructions on how to perform video switching with the NDP100, please refer
 
 The NDP100 comes with a built-in PC, tailored to enhance teaching and operational experiences. The built-in PC is pre-installed the Windows 11 Pro operating system. 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
 Please note that the operating system requires to purchase license from Microsoft separately.
 
@@ -375,13 +375,13 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
   IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space
 
-- [JoinMemos](https://www.iqboard.net/jms.php)：
+- [JoinMemos](https://www.iqboard.net/jms.php): 
 
-  JoinMemos is a meeting room software with tools like pens, sticky notes, and annotations. It offers brainstorming templates, sticky notes, and allows annotations on any content. Meeting content can be recorded and exported, and it features an advanced object recognition algorithm for hand and pen interaction.
+  JoinMemos is a meeting room software with tools like pens, sticky notes, and annotations. It offers brainstorming templates and sticky notes and allows annotations on any content. Meeting content can be recorded and exported, and it features an advanced object recognition algorithm for hand and pen interaction.
 
-- [IQ KitsMemos](https://www.iqboard.net/kitsmemos)：
+- [IQ KitsMemos](https://www.iqboard.net/kitsmemos): 
 
-  IQ KitsMemos is educational software featuring an interactive whiteboard, supporting document camera images. It offers engaging class activities and a desktop mode for presentation integration.
+  IQ KitsMemos is educational software featuring an interactive whiteboard, and supporting document camera images. It offers engaging class activities and a desktop mode for presentation integration.
 
 
 
@@ -391,7 +391,7 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
 By connecting the HDMI interface, LAN port, and Touch USB interface to the corresponding ports on the Digital Podium, you can achieve functions such as screen synchronization, touch control, and internet access for your laptop on the Digital Podium.
 
-Switch the input source  to ***PC*** by Touch Panel, Web-Console or Q-NEX App. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+Switch the input source  to ***PC*** by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
 
 
 ### 3.4.3 Connecting your laptop by USB-C
@@ -400,13 +400,13 @@ Switch the input source  to ***PC*** by Touch Panel, Web-Console or Q-NEX App. P
 
 Connect the laptop directly to the Digital Podium's USB-C port for power supply, network connection, and HDMI transmission.
 
-Switch the input source  to ***USB-C*** by Touch Panel, Web-Console or Q-NEX App.  Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+Switch the input source  to ***USB-C*** by Touch Panel, Web-Console, or Q-NEX App.  Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
 
 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
-- If the USB-C doesn't respond, try flipping the orientation of the USB-C connector of the USB-Cable.
+- If the USB-C doesn't respond, try flipping the orientation of the USB-C connector of the USB Cable.
 
   <img src="./img/USB-C-Filpping.png"  style="zoom: 20%;" /> 
 
@@ -490,12 +490,12 @@ The AV Control section of the NMP encompasses various features aimed at managing
 
 The  NMP's Video Matrix Switch routes video signals from multiple input sources to different output displays.
 
-- Connect display devices, such as laptop, document camera, IQShare(WP40) etc., to HDMI In.
-- Connect display devices, like IFP, TV, projector etc., to HDMI Out.
+- Connect display devices, such as laptops, document cameras, IQShare(WP40), etc., to HDMI In.
+- Connect display devices, like IFP, TV, projector, etc., to HDMI Out.
 
 
 
-While for the NDP100 interfaces, we have established the following configurations:
+For the NDP100 interfaces, we have established the following configurations:
 
 **HDMI INs for NDP100**:
 
@@ -545,13 +545,13 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 <img src="../../NMP/UserManual/img/passive-speaker.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 1. The NMP features an integrated power amplifier capable of delivering ***2\*(40w+40w)*** output, designed specifically for connecting with passive speakers.
 2. It's important to note that the NMP only supports ***fixed impedance*** speakers and does not support fixed voltage speakers.
@@ -564,13 +564,13 @@ After successful wiring and setup, you can control the volume via the Touch Pane
 
 <img src="../../NMP/UserManual/img/Speaker-Input-Sources.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**：indicates physical cables connection.        |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：indicates wireless connection               |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates physical cables connection.        |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: indicates wireless connection               |
 
  
 
@@ -588,13 +588,13 @@ If you find this legend doesn't meet your needs, feel free to consult our soluti
 
 <img src="../../NMP/UserManual/img/Speaker-Input-Sources-Typology.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： indicates the ability to output multiple audio signal simultaneously. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：only ONE audio source can be input to the speaker at a time |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time |
 
  The Speaker interface supports simultaneous mixing and output of audio from:
 
@@ -628,13 +628,13 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 <img src="../../NMP/UserManual/img/Audio-Input-Sources.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**：indicates physical cables connection.        |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：indicates wireless connection               |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates physical cables connection.        |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: indicates wireless connection               |
 
 
 
@@ -649,13 +649,13 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 <img src="../../NMP/UserManual/img/Audio-Input-Sources-Typology.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： indicates the ability to output multiple audio signal simultaneously. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：only ONE audio source can be input to the speaker at a time |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time |
 
 The Audio-out serves as an output for audio signals from various input sources.  It supports simultaneous mixing and output of audio from:
 
@@ -675,7 +675,7 @@ After completing the necessary wiring setup, users can control the Audio such as
 
 #### 4.2.2.3 Mic
 
-The Mic sources can combine both wireless and wired input, with outputs directed simultaneously to AUDIO OUT and SPEAKER interface.
+The Mic sources can combine both wireless and wired input, with outputs directed simultaneously to the AUDIO OUT and SPEAKER interface.
 
 Please note that the audio from the microphone (Mic-in) can be independently controlled through a dedicated control module. Users can control the volume or mute the microphone's audio using the dedicated Mic control module.
 
@@ -685,8 +685,8 @@ Please note that the audio from the microphone (Mic-in) can be independently con
 
 <img src="./img/note.png" />**Note**:
 
-1. Given the above screen-capture, adjustments made within the Speaker module will affect HDMI OUT A, AUDIO IN 1, and AUDIO IN 2 sources, but will not affect the microphone (Mic-in).
-2. During broadcasting, the Mic channel will be muted and users cannot unmute the microphone through the Touch Panel, Web-Console, or Q-NEX APP during the broadcast. The mute will automatically be lifted when the broadcast ends.
+1. Given the above screen capture, adjustments made within the Speaker module will affect HDMI OUT A, AUDIO IN 1, and AUDIO IN 2 sources, but will not affect the microphone (Mic-in).
+2. During broadcasting, the Mic channel will be muted and users cannot unmute the microphone through the Touch Panel, Web Console, or Q-NEX APP during the broadcast. The mute will automatically be lifted when the broadcast ends.
 
 
 
@@ -712,10 +712,10 @@ The Phantom Power adapter is also controlled by the Unified Power Switch. You ma
 
 This section governs the power management and operational control of connected devices through interfaces like Display, Up-Down, and External Wago connectors. Users can regulate power distribution and device states by NMP.
 
-**Power Specifications**：
+**Power Specifications**: 
 
 1. NMP device maximum power: 2000W.
-2. DISPALY port maximum power: 1200W.
+2. DISPLAY port maximum power: 1200W.
 3. UP-DOWN port maximum power: 300W
 4. EXTERNAL port maximum power: 1200W.  (Acts as a switch, the power does not count towards NMP's total power consumption)
 
@@ -723,7 +723,7 @@ This section governs the power management and operational control of connected d
 
 <img src="./img/warning.png" /> **Caution: Electrical Installation Requires Qualified Personnel**
 
-<font color=red>**The installation and wiring of components such as "DISPLAY," "UP-DWON," and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
+<font color=red>**The installation and wiring of components such as "DISPLAY", "UP-DWON", and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personnel.** </font>
 
 
 
@@ -733,9 +733,9 @@ To ensure safety during wiring, make sure the NDP is completely powered off, and
 
 
 
-#### 1. DISPALY
+#### 1. DISPLAY
 
-As a WAGO power interface, "DISPALY" serves different purposes in various scenarios. However, in the NDP100, it connects to a power distribution unit, enabling the functionality of the '[Unified Power Switch](#4.3.1.1.1 Unified Power Switch)'" for NDP100.
+As a WAGO power interface, "DISPLAY" serves different purposes in various scenarios. However, in the NDP100, it connects to a power distribution unit, enabling the functionality of the '[Unified Power Switch](#4.3.1.1.1 Unified Power Switch)'" for NDP100.
 
 <img src="../../NMP/UserManual/img/NMP_Display.png"  style="zoom: 25%;" /> 
 
@@ -753,7 +753,7 @@ As a WAGO power interface, "DISPALY" serves different purposes in various scenar
 
 <img src="./img/Unified-Power-Switch.png" style="zoom: 25%;" /> 
 
-The "Unified Power Switch" is a power switch controlled by the NDP100. It enables one-touch activation or deactivation of devices connected to the Digital Podium such as Built-in PC, Gooseneck microphone, Tabletop power outlet etc.
+The "Unified Power Switch" is a power switch controlled by the NDP100. It enables one-touch activation or deactivation of devices connected to the Digital Podium such as Built-in PC, Gooseneck microphone, Tabletop power outlets, etc.
 
 - Phantom power (Gooseneck microphone)
 - Tabletop power outlet 
@@ -788,37 +788,37 @@ The UP-DOWN  Wago interface is specifically designed for controlling projection 
 
 <img src="../../NMP/UserManual/img/Up-Down.png"  style="zoom: 20%;" />  
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;" /> | **Solid line**： Indicate devices connected via wired cables. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;" /> | **Solid line**: Indicate devices connected via wired cables. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 **Connection Steps:**
 
-1. Replace the plug of projection screen with WAGO connector. Refer to [3.1.1 WAGO Connector Installation Guide](#3.1.1 WAGO Connector Installation Guide) for Wago connector installation instructions.
+1. Replace the plug of the projection screen with the WAGO connector. Refer to [3.1.1 WAGO Connector Installation Guide](#3.1.1 WAGO Connector Installation Guide) for Wago connector installation instructions.
 2. Wire Configuration
    - Connect the "UP" wire to the "L" port of the Wago connector.
    - Connect the "DOWN" wire to the "N" port of the Wago connector.
    - Connect the "N" wire to the "G" port of the Wago connector.
-3. connect to Up-Down port. 
+3. connect to the Up-Down port. 
 4. Connect the other end of the wires to the corresponding terminals on the projection screen curtains.
 
 <img src="./img/note.png"  />**Note**: This wiring configuration is exclusively for use with projection screen curtains.
 
-After completing the required wiring setup, users can perform up and down operations using the Touch Panel, Web-Console, or Q-NEX APP. 
+After completing the required wiring setup, users can perform up and down operations using the Touch Panel, Web Console, or Q-NEX APP. 
 
 <img src="../../NMP/UserManual/img/Panel-Up-Down.png"  style="zoom: 25%;" /> 
 
 
 
-<img src="./img/note.png"  />**Note：about electric curtains control**
+<img src="./img/note.png"  />**Note: about electric curtains control**
 
 Users should be aware that our product also supports the control of electric curtains for raising and lowering. 
 
-However, this connection method can be much more complex, different products and scenarios may require different wiring configuration to achieve control. 
+However, this connection method can be much more complex, different products and scenarios may require different wiring configurations to achieve control. 
 
 Therefore, we recommend consulting our professional consulting team for assistance.
 
@@ -826,7 +826,7 @@ Therefore, we recommend consulting our professional consulting team for assistan
 
 #### 3. EXTERNAL
 
-The EXTERNAL interface on the NMP enables flexible lighting control. Users can directly manage lighting or integrate it with an SPDT switch for customized automation and centralized control. Control settings can be adjusted via the Touch Panel and Web-Console.
+The EXTERNAL interface on the NMP enables flexible lighting control. Users can directly manage lighting or integrate it with an SPDT switch for customized automation and centralized control. Control settings can be adjusted via the Touch Panel and Web Console.
 
 <img src="../../NMP/UserManual/img/NMP_External.png"  style="zoom: 25%;" /> 
 
@@ -834,11 +834,11 @@ There are two methods to achieve lighting control with NMP: direct connection an
 
 **1. Direct Connection to NMP:** 
 
-In this mode, user gains the ability to manage the lighting control by NMP.
+In this mode, the user gains the ability to manage the lighting control by NMP.
 
    <img src="../../NMP/UserManual/img/NMP-Direct-connect.png" style="zoom: 25%;" /> 
 
-<img src="./img/note.png"  />**Note**：The current-carrying capacity of the “EXTERNAL” should not exceed 1200W
+<img src="./img/note.png"  />**Note**: The current-carrying capacity of the "EXTERNAL" should not exceed 1200W
 
 **2. Integration with SPDT Switch:** 
 
@@ -846,7 +846,7 @@ By replacing the existing switch panel with a Single Pole Double Throw (SPDT) sw
 
 <img src="../../NMP/UserManual/img/NMP-SPDT-connect.png" style="zoom: 25%;" /> 
 
-![note](./img/note.png)**Note**：The current-carrying capacity of the “EXTERNAL” should not exceed 1200W
+![note](./img/note.png)**Note**: The current-carrying capacity of the "EXTERNAL" should not exceed 1200W
 
 After completing the wiring for the external port, you can control it on the Touch Panel and Web-Console. 
 
@@ -856,11 +856,11 @@ The NMP is equipped with both an IR IN and an IR OUT interface, allowing users t
 
 <img src="../../NMP/UserManual/img/NMP_IR.png"  style="zoom: 25%;" /> 
 
-To control IR-enabled devices (e.g., air conditioner, TV, projector), NMP supports batch application of infrared control codes, enabling efficient control without repetitive learning. 
+To control IR-enabled devices (e.g., air conditioners, TVs, projectors), NMP supports batch application of infrared control codes, enabling efficient control without repetitive learning. 
 
 Here's a simplified guide for using IR functionality with an air conditioning unit:
 
-1. Check if your air conditioner brand is in the Q-NEX database. If your air conditioner is recognized in the Q-NEX database, identify the control codes to manage and control it through the Touch Panel or Web-console。
+1. Check if your air conditioner brand is in the Q-NEX database. If your air conditioner is recognized in the Q-NEX database, identify the control codes to manage and control it through the Touch Panel or Web-console.
 2. If not in the database, use IR Learning on the Touch Panel or Web-console for control.
 
 #### 1. Air Conditioner-Identified in the code database
@@ -886,26 +886,26 @@ Here's a simplified guide for using IR functionality with an air conditioning un
 
 #### 2. Air Conditioner-Unable to Identify in the Code Database
 
-IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to “IR” port of NMP, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
+IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to "IR" port of NMP, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
 
 1. Log in to the "Dashboard -> Devices -> Processor manager". Select your NMP device, and in the "Infrared Control" module, click the "Edit" button. Follow the instructions below:
 
    | Step | Screenshot                                                   | Instructions                                                 |
    | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | S1   | <img src="../../NMP/UserManual/img/IR-Remote.png"  style="zoom: 33%;" /> | In the IR control interface, click "New remote control code." button |
+   | S1   | <img src="../../NMP/UserManual/img/IR-Remote.png"  style="zoom: 33%;" /> | In the IR control interface, click the "New remote control code." button |
    | S2   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240103180758896.png"  style="zoom: 33%;" /> | Select A/C click "Next".                                     |
    | S3   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102145125079.png"  style="zoom: 33%;" /> | Click "Start to learn"                                       |
-   | S4   | <img src="../../NMP/UserManual/img/IR-RemoteControl.png" style="zoom: 33%;" /> | 1. On the remote control, select the desired mode, such as setting the temperature to 25 degrees and choosing the cooling mode.<br />2. Power off the remote, then aim the remote at NMP's "IR IN" port, and press the remote's power button again.<br />3. The system will start learning the selected air-conditioning mode.<br />![note](./img/note.png):To learn the power-off function, aim the remote at the IR port and power off directly. |
-   | S5   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102145239578.png"  style="zoom: 33%;" /> | After successful learning, a "Success" prompt will  appear. Then click "Next" button |
+   | S4   | <img src="../../NMP/UserManual/img/IR-RemoteControl.png" style="zoom: 33%;" /> | 1. On the remote control, select the desired mode, such as setting the temperature to 25 degrees and choosing the cooling mode.<br />2. Power off the remote, then aim the remote at NMP's "IR IN" port and press the remote's power button again.<br />3. The system will start learning the selected air-conditioning mode.<br />![note](./img/note.png): To learn the power-off function, aim the remote at the IR port and power off directly. |
+   | S5   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102145239578.png"  style="zoom: 33%;" /> | After successful learning, a "Success" prompt will  appear. Then click the "Next" button |
    | S6   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240105104632355.png"  style="zoom: 33%;" /> | Enter the corresponding function name here                   |
    | S7   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240103182400863.png"  style="zoom: 33%;" /> | Then you will be redirected to the "IR Control Setting" page. Then, select the newly added function name and click Save. |
 
 
-2. After successfully saving, you can operate the device on the Touch Panel or Web-Console 
+2. After successfully saving, you can operate the device on the Touch Panel or Web Console 
 
 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
 To learn additional modes for the air conditioner, follow steps S1 through S7. Additionally, note that the process for learning codes on other infrared devices is similar to the above steps
 
@@ -915,7 +915,7 @@ To learn additional modes for the air conditioner, follow steps S1 through S7. A
 
 After learning and saving IR codes, you can control your devices using the Q-NEX APP, Web-Console, or Touch Panel. This section provides a quick guide on how to manage your devices efficiently through these platforms.
 
-1. Connect the infrared emitter to the 'IR' port on NMP, aim it at the air conditioner, ensuring no obstacles between the emitter and the air conditioner:
+1. Connect the infrared emitter to the 'IR' port on NMP, and aim it at the air conditioner, ensuring no obstacles between the emitter and the air conditioner:
 
    <img src="../../NMP/UserManual/img/IR-Emitter.png" style="zoom: 18%;" /> 
 
@@ -958,29 +958,29 @@ NMP provides one RS232 interface, enabling control of devices such as IFP, proje
 
    
 
-3. IInsert the RS232 connector into the RS232 interface on the NMP. Connect the DB9 connector to the corresponding device (e.g., Interactive Flat Panel), as shown in the following diagram:
+3. Insert the RS232 connector into the RS232 interface on the NMP. Connect the DB9 connector to the corresponding device (e.g., Interactive Flat Panel), as shown in the following diagram:
 
    <img src="../../NMP/UserManual/img/NMP-RS232-Connection.png" style="zoom: 12%;" />  
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 4. If your device requires the RS232 port instead of DB9, follow the same wiring instructions. Connect the RS232 cable between the NMP and the device's RS232 interface. The diagram below uses the IQ LCS710 (Lecture Recoding System) as an example.
 
    <img src="../../NMP/UserManual/img/NMP-RS232-Connection-LCS.png" style="zoom: 11%;" /> 
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 5. Navigate to the Q-NEX Dashboard, select the NDP device under "Dashboard -> Devices -> Processor Manager", and click on the "Serial Control" column. Choose the correct device type, brand, and model, then click "Save".
     <img src="../../NMP/UserManual/img/NMP-RS232-Type.png" style="zoom: 50%;" /> 
@@ -1007,7 +1007,7 @@ This diagram illustrates the components of the classroom broadcasting system, sh
 
 <img src="../../NMP/UserManual/img/Broadcasting-typology.png"  style="zoom: 15%;" /> 
 
-The broadcasting topology diagram illustrates a typical topology for a campus broadcasting systems.
+The broadcasting topology diagram illustrates a typical topology for a campus broadcasting system.
 
 <img src="./img/note.png" />**Note**: 
 
@@ -1023,7 +1023,7 @@ The broadcasting topology diagram illustrates a typical topology for a campus br
 
 In broadcast mode, the audio signal decoded by the NMP can be directly transmitted to the corresponding audio equipment via the SPEAKER and AUDIO OUT interfaces.
 
-For digital audio signals, they need to be processed through the HDMI OUT A port. During the broadcasting, only device (IFP, for example) connected to HDMI OUT A will have audio output. IFPs connected to HDMI OUT B and C will not receive audio.
+For digital audio signals, they need to be processed through the HDMI OUT A port. During the broadcasting, only the device (IFP, for example) connected to HDMI OUT A will have audio output. IFPs connected to HDMI OUT B and C will not receive audio.
 
 <img src="./img/note.png" />**Note**: 
 
@@ -1033,11 +1033,11 @@ For digital audio signals, they need to be processed through the HDMI OUT A port
 
 ### 4.4.3 Integrating NDP100 into Campus
 
-1. Refer to the [Device Connection Diagram for Broadcasting](#4.4.1 Device Connection Diagram for Broadcasting) provided above to setup the NDP100. Ensure the NDP100 is properly connected to the campus network infrastructure. Connect the necessary display and audio devices in the classroom, such as Interactive Flat Panels and speakers, to the NDP100.
+1. Refer to the [Device Connection Diagram for Broadcasting](#4.4.1 Device Connection Diagram for Broadcasting) provided above to set up the NDP100. Ensure the NDP100 is properly connected to the campus network infrastructure. Connect the necessary display and audio devices in the classroom, such as Interactive Flat Panels and speakers, to the NDP100.
 
 2. The Media Server should be directly connected to the school's core router to support campus-wide broadcasting. 
 
-   Below is the recommended **minimum** specifications for Media Server:
+   Below are the recommended **minimum** specifications for the Media Server:
 
    | Feature                 | Specification                                   |
    | ----------------------- | ----------------------------------------------- |
@@ -1090,7 +1090,7 @@ Please note that NDP100 also supports text broadcasting, without requiring Media
 
 ### 4.4.5 Campus-wide Broadcasting Solutions with NDP100
 
-The NDP100 extends its broadcasting capabilities beyond individual classroom, enabling collaboration with other NDP(s) unites and NMP(S) devices to establish campus-wide broadcasting solutions. 
+The NDP100 extends its broadcasting capabilities beyond individual classrooms, enabling collaboration with other NDP(s) units and NMP(S) devices to establish campus-wide broadcasting solutions. 
 
 Implementing a campus-wide broadcasting solution involves intricate configuration and necessitates consultation with our professional pre-sales team.
 
@@ -1112,7 +1112,7 @@ Implementing a campus-wide broadcasting solution involves intricate configuratio
 
 ### 4.4.3 Live Streaming Setup and Operation Steps
 
-1. **Create Streaming Room**: Log in to the web-console, navigate to the Streaming module, and create a new streaming room. Generate and save the room address and key.
+1. **Create Streaming Room**: Log in to the Web Console, navigate to the Streaming module, and create a new streaming room. Generate and save the room address and key.
 
    <img src="../../NMP/UserManual/img/Livestreaming-1.png"  style="zoom: 33%;" />  
 
@@ -1124,7 +1124,7 @@ Implementing a campus-wide broadcasting solution involves intricate configuratio
 
    For iPhone users, consider using third-party streaming tools like Larix, OBS Camera, or RTMP Live. Android users can utilize the Q-NEX APP, which already includes an integrated streaming module.
 
-3. **Preview and Distribute Stream**: In the web-console, preview the incoming video feed in the created room. Select the target NDP/NMP devices to distribute the stream and click "START" button. Once deployed, these devices will decode the stream and display it on their connected screens.
+3. **Preview and Distribute Stream**: In the Web Console, preview the incoming video feed in the created room. Select the target NDP/NMP devices to distribute the stream and click the "START" button. Once deployed, these devices will decode the stream and display it on their connected screens.
 
    <img src="../../NMP/UserManual/img/Livestreaming-3.png" style="zoom: 33%;" /> 
 
@@ -1136,7 +1136,7 @@ Implementing a campus-wide broadcasting solution involves intricate configuratio
 
 This section covers additional components and functionalities that expand the control and connectivity capabilities of the NDP100, including:
 
-- **Control Box (CBX):** Exploring the features and setup of the Control Box, which extend NDP100 wireless control ability.
+- **Control Box (CBX):** Exploring the features and setup of the Control Box, which extends NDP100 wireless control ability.
 - **Media Box:** Understanding the Media Box, a component that enhances multimedia capabilities and connectivity options.
 
 
@@ -1153,7 +1153,7 @@ The CBX features three interfaces: IR, Relay, and RS232. These interfaces allow 
 
 <img src="./img/note.png"  />**Note**:
 
-> Each CBX can control only one type of device at the time. For example, if you need to control both an air conditioner(via IR) and lights(via Relay), you must use two separate CBX unites, each dedicated to a specific device type, CBX cannot manage multiple device types simultaneously.
+> Each CBX can control only one type of device at a time. For example, if you need to control both an air conditioner(via IR) and lights(via Relay), you must use two separate CBX units, each dedicated to a specific device type, CBX cannot manage multiple device types simultaneously.
 
 
 
@@ -1229,13 +1229,13 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="../../NMP/UserManual/img/CBX/Connect-CBX200-NMP.jpg"  style="zoom: 25%;" /> 
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
     
 
@@ -1243,7 +1243,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="../../NMP/UserManual/img/CBX/CBX-Interfaces-Wiring-Guide.png"  style="zoom: 25%;" /> 
 
-   The diagram above illustrates the wiring sequence for connecting between CBX-RS232 and NMP-PANEL. Each terminal on the CBX is connected to the corresponding terminal on the NMP PANLE, ensuring proper wiring the cables.
+   The diagram above illustrates the wiring sequence for connecting CBX-RS232 and NMP-PANEL. Each terminal on the CBX is connected to the corresponding terminal on the NMP PANLE, ensuring proper wiring the cables.
 
    
 
@@ -1309,7 +1309,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
 <img src="./img/note.png"  />**Note**:
 
-1. If the NMP/NDP is being replaced, re-pairing is required. Follow the instructions in the section "[Paring and Setup](#2. Paring and Setup)" from the first step to re-pair.
+1. If the NMP/NDP is being replaced, re-pairing is required. Follow the instructions in the section "[Paring and Setup](#2. Paring and Setup)" from the first step to repair.
 
 
 
@@ -1362,13 +1362,13 @@ In LAN mode, users can perform local control operations such as AV matrix switch
 
 <img src="./img/note.png"   />**Note**: 
 
-- Users can remotely issue broadcast commands over the Internet, while all audio and video resources is pre-stored on the Media Server.
+- Users can remotely issue broadcast commands over the Internet, while all audio and video resources are pre-stored on the Media Server.
 
 To enable advanced remote control capabilities and access internet-based features, the demo sample unit requires permission to access the internet. 
 
 If the school network implements network control measures, the router of the demo sample unit must be configured to allow access based on MAC and IP address filtering. 
 
-Once configured, users can utilize Q-NEX APP, Web-Console, and Touch Panel to access higher-level remote device control functionalities, including AV broadcasting.
+Once configured, users can utilize the Q-NEX APP, Web-Console, and Touch Panel to access higher-level remote device control functionalities, including AV broadcasting.
 
 
 
@@ -1385,7 +1385,7 @@ If customers wish to incorporate the Demo Sample Unit into the entire campus net
 
 ## 6.2 Network Environment Requirement
 
-To ensure optimal integration, school network needs to meet specific requirements tailored for the NDP. 
+To ensure optimal integration, the school network needs to meet specific requirements tailored to the NDP. 
 
 1. The school should allow NDP to access the Internet.
 
@@ -1426,7 +1426,7 @@ To ensure optimal integration, school network needs to meet specific requirement
 
 6. NMP IP Address Setting:
 
-   - To prevent issues caused by NMP IP changes, it is recommended to set the NMP IP address as static.
+   - To prevent issues caused by NMP IP changes, it is recommended that the NMP IP address be set as static.
    - Ensure that before the initial use of NDP, the Touch Panel successfully connects to NDP using this IP.
 
 7. VLAN:
@@ -1449,7 +1449,7 @@ To resolve this issue, ensure that the sliding cover is fully positioned to the 
 
 ## 7.2 The Unified Power Switch didn't activate?
 
-If this issue occurs, make sure 'Display' is selected under 'Startup Options' in the 'Dashboard > Processor Manager > Editing Device' on Q-NEX Dashboard management platform. 
+If this issue occurs, make sure 'Display' is selected under 'Startup Options' in the 'Dashboard > Processor Manager > Editing Device' on the Q-NEX Dashboard management platform. 
 
 <img src="./img/image-20230907145712733.png"  style="zoom: 25%;" /> 
 
@@ -1486,6 +1486,6 @@ Yes, our dedicated support team is available via [info@qnextech.com](info@qnexte
 
 Q-NEX (https://qnextech.com/) is a subsidiary of Returnstar Interactive Technology Group Co, Ltd, a company that has been dedicated to the education industry since 2006. 
 
-Q-NEX is focused on delivering a Smart Campus Solution that converges AV and loT control across all campus facilities. Q-NEX offers deeply customized options that assist school IT administrators in managing all electronic facilities and allows teachers to simplify the operations of a multimedia classroom.
+Q-NEX is focused on delivering a Smart Campus Solution that converges AV and loT control across all campus facilities. Q-NEX offers deeply customized options that assist school IT administrators in managing all electronic facilities and allow teachers to simplify the operations of a multimedia classroom.
 
 <img src="../../NMP/UserManual/img/Contact-us.png"  style="zoom:25%;" /> 
