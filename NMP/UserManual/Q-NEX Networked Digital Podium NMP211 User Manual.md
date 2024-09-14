@@ -55,7 +55,7 @@ To ensure the safe and effective operation of this equipment, please read the fo
 
 # 1. Introduction
 
-The Q-NEX Networked Media Processor integrates the Ethernet connection into the device control system, allowing users to remotely control the device. It is mainly designed for assisting school's IT admin to well manage various electronic facilities in a school, and freeing teachers from complicated operation of a multimedia classroom.
+The Q-NEX Networked Media Processor integrates the Ethernet connection into the device control system, allowing users to remotely control the device. It is mainly designed to assist the school's IT admin in managing various electronic facilities in a school, and free teachers from the complicated operation of a multimedia classroom.
 
 
 
@@ -67,8 +67,8 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 
 | Term                                                 | Descriptions                                                 |
 | ---------------------------------------------------- | ------------------------------------------------------------ |
-| NMP                                                  | Networked Media Processor, NMP is the core component that enable functionalities such as remote device control, audio/video matrix switching, and advanced features like "Touch-Following,", "Broadcasting", and "Live Streaming". |
-| [Touch Panel](#2.3 Touch Panel )                     | The Touch Panel serves as the primary controling interface, providing intuitive touch-based controls for operation of the NMP. |
+| NMP                                                  | Networked Media Processor, NMP is the core component that enables functionalities such as remote device control, audio/video matrix switching, and advanced features like "Touch-Following,", "Broadcasting", and "Live Streaming". |
+| [Touch Panel](#2.3 Touch Panel )                     | The Touch Panel serves as the primary control interface, providing intuitive touch-based controls for the operation of the NMP. |
 | [Web-console](https://mg.qnextech.com/console/)      | Web-console is a web-based platform for remote device management of NMP, constituting a part of NMP. This platform enables operations similar to the Touch Panel for individual devices and also allows simultaneous operations on multiple NMPs. Additionally, it provides functions such as scheduling device controls, broadcasting, and live streaming. |
 | Q-NEX App                                            | A mobile application for controlling Q-NEX NMP systems       |
 | [Dashboard](https://mg.qnextech.com/dashboard/index) | The Dashboard is the backend management system of the Q-NEX platform, constituting a part of NMP. Basic configurations such as [IP lookup](#3.2 Connect Touch Panel to NMP) for the Touch Panel during the initial stage, or login information for Web-Console and Q-NEX App, as well as operations related to learning and utilizing the [infrared code library](#4.3.2 IR Control) mentioned in this document, all rely on the support of the Dashboard system. |
@@ -117,13 +117,13 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 | 5    | Display (WAGO) * 1                            | Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums. |
 | 6    | UP-DOWN (WAGO) * 1                            | Offering up, pause, and down functions for connected devices like projector screens and motorized curtains. |
 | 7    | RS232 * 1                                     | Allows connection to devices equipped with standard RS232 ports, such as Pan-Tilt-Zoom (PTZ) cameras and Interactive Flat Panels(IFP), etc. |
-| 8    | Panel * 1                                     | Interface for connection to mechanical control pannels, allowing direct control of basic devices and AV martix switching without the need for network connectivity. |
+| 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
 | 11   | Touch USB * 3                                 | USB-Device out * 1, USB-HOST in * 2 for NMP's touch-following feature. For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
-| 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone. Use a wired microphone for clear reinforcement duing instruction or conferences. |
+| 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone. Use a wired microphone for clear reinforcement during instruction or conferences. |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (one-to-two) for combined output. |
-| 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
+| 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones, etc. |
 | 15   | Audio Out                                     | Audio output interface for connecting to speakers or amplifiers. |
 | 16   | External Speaker Output                       | The NMP includes an integrated power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
 | 17   | Lock * 1                                      | Allows integration with door lock control systems, enabling scenarios such as automatic door lock closure after a specified period post door opening. |
@@ -135,7 +135,7 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 
 ## 2.3 Touch Panel
 
-The Touch Panel is a 10-inch Android touchscreen device, custom-desigend to work with the NMP. Its applications are tailored specifically for controlling various functions of the NMP, such as video matrix switching, volume and microphone control, as well as infrared and RS232 control, etc.
+The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work with the NMP. Its applications are tailored specifically for controlling various functions of the NMP, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
 
 <img src="./img/Touch-Panel-10.png" style="zoom: 25%;" /> 
 
@@ -154,20 +154,20 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-desigend to work
 
 **Handheld Micriophone Usgae:**
 
-- Press power button to turn on the microphone; long press to turn off.
+- Press the power button to turn on the microphone; long press to turn off.
 - Press **once** to switch channels; press **three** times quickly to enter pairing mode,, and press **once more** to exit pairing mode.
 
 **Paring Instructions**:
 
-Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to re-pair them.
+Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to repair them.
 
 1. Before pairing, ensure all NMP antennas are fully extended. Point the microphone at the UHF antenna (the longest one) for pairing.
 
-2. Ensure NMP main power is off before paring.
+2. Ensure the NMP main power is off before paring.
 
    > You may use the Touch Panel to power off the NMP's main power
 
-3. Press power button **three** times quickly to enter pairing mode.
+3. Press the power button **three** times quickly to enter pairing mode.
 
 4. Immediately power on NMP using Touch Panel, then the microphone will automatically pair with NMP( (the NMP has a built-in receiver).
 
@@ -175,7 +175,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 <img src="./img/note.png"  style="zoom:67%;" />Note :
 
-- Ensure NMP main power is off before starting pairing.
+- Ensure the NMP main power is off before starting pairing.
 - To ensure successful pairing, bring the microphone close to the NMP's antenna during the pairing process. 
 
 
@@ -204,7 +204,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 **Pairing Instructions:**
 
-Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to re-pair them.
+Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to repair them.
 
 1. Before pairing, ensure all NMP antennas are fully extended. Point the microphone at the UHF antenna (the longest one) for pairing.
 
@@ -212,7 +212,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
    > You may power off the NMP main power via the Touch Panel.
 
-3. With the lavalier microphone powered on, quickly press the paring button **three** times to enter pairing mode.
+3. With the lavalier microphone powered on, quickly press the pairing button **three** times to enter pairing mode.
 
 4. Immediately proceed to power on the NMP main power via the Touch Panel, then the lavalier microphone will automatically pair with the NMP (the NMP has a built-in receiver)
 
@@ -220,7 +220,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 <img src="./img/note.png"  style="zoom:67%;" />Note :
 
-- Ensure NMP main power is off before starting pairing.
+- Ensure the NMP main power is off before starting pairing.
 - To ensure successful pairing, bring the microphone close to the NMP's antenna during the pairing process. 
 
 
@@ -236,13 +236,13 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 
 1. Upon arrival in the classroom, connect the NMP's power to the general power supply within the classroom to provide power to the NMP. 
-2. Prepare a network cable with sufficient length. Connect one end to one of the LANs port of the NMP and the other end to the router in the classroom.
+2. Prepare a network cable with sufficient length. Connect one end to one of the LAN ports of the NMP and the other end to the router in the classroom.
 
 
 
 ## 3.2 Connect Touch Panel to NMP
 
-The Touch Panel is a 10-inch Android touchscreen device, custom-desigend to work with the NMP. Its applications are tailored specifically for controlling various functions of the NMP, such as video matrix switching, volume and microphone control, as well as infrared and RS232 control, etc.
+The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work with the NMP. Its applications are tailored specifically for controlling various functions of the NMP, such as video matrix switching, volume and microphone control, as well as infrared and RS232 control, etc.
 
 1. Power the Touch Panel: 
 
@@ -271,7 +271,7 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-desigend to work
 
 4. IP Address Retrieval
 
-   Retrieve the NMP IP address by logging into the [Dashbaord](https://mg.qnextech.com/dashboard/index) and visitting the  '***Devices >> Processor Manage***' page. Identify you NMP and note the IP adress from the 'IP Address' coclumn.
+   Retrieve the NMP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify your NMP and note the IP address from the 'IP Address' column.
 
    Enter this IP on the Touch Panel and click 'Connect'." to establish a connection with the NMP.
 
@@ -280,7 +280,7 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-desigend to work
    <img src="./img/note.png" />**Note**：
 
    1. If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
-   2. For consistent access, consider using the Q-NEX Configtool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
+   2. For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
 
 5. Unlock the Touch Panel to activate the NMP main power. 
 
@@ -292,7 +292,7 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-desigend to work
 
 <img src="./img/NMP-IFPs-Connection.png"  style="zoom: 15%;" /> 
 
-1. **Prepare HDMI Cable**: Ensure you have a sufficiently long HDMI cables to connect the IFPs to the NMP.
+1. **Prepare HDMI Cable**: Ensure you have sufficiently long HDMI cables to connect the IFPs to the NMP.
 2. **Connect HDMI Cable**: Plug one end into IFP and the other into NMP's HDMI Out ports
 
 Once the classroom displays are set up, users can utilize the Q-NEX software to manage input and output sources. 
@@ -315,7 +315,7 @@ To enable these advanced features, system integrators are required to perform ba
 
 The NMP includes several WAGO connectors that require proper wiring. These connectors are designated for DISPLAY, UP-DOWN, EXTERNAL, and POWER interfaces. 
 
-While the POWER interface is pre-configured before shipment, the other three interfaces need to be wired on-site based on the specific layout and requirements of the installation envronment.
+While the POWER interface is pre-configured before shipment, the other three interfaces need to be wired on-site based on the specific layout and requirements of the installation environment.
 
 Follow the steps below to correctly install these connectors.
 
@@ -349,7 +349,7 @@ Follow these steps to install the terminal blocks:
 
 ## 4.2 AV Control 
 
-The AV Control section of the NMP encompasses various features aimed at managing audiovisual signals through NMP.
+The AV Control section of the NMP encompasses various features aimed at managing audiovisual signals through the NMP.
 
 ### 4.2.1 Video Matrix Switch 
 
@@ -357,8 +357,8 @@ The AV Control section of the NMP encompasses various features aimed at managing
 
 - The  NMP's Video Matrix Switch routes video signals from multiple input sources to different output displays.
 
-  - Connect display devices, such as laptop, document camera, IQShare(WP40) etc., to HDMI In.
-  - Connect display devices, like IFP,TV, projector etc., to HDMI Out.
+  - Connect display devices, such as laptops, document cameras, IQShare(WP40), etc., to HDMI In.
+  - Connect display devices, like IFP, TV, projector, etc., to HDMI Out.
 
   
 
@@ -536,7 +536,7 @@ The Audio-out serves as an output for audio signals from various input sources. 
 
 ##### 3. Audio Interface Control Features
 
-After completing the necessary wiring setup, users can control the Audio such as volume, treble, and bass via the Touch Panel, Web-console, Q-NEX APP.
+After completing the necessary wiring setup, users can control the Audio such as volume, treble, and bass via the Touch Panel, Web Console, Q-NEX APP.
 
 <img src="./img/Audio-control.png" style="zoom: 25%;" /> 
 
@@ -544,7 +544,7 @@ After completing the necessary wiring setup, users can control the Audio such as
 
 #### 4.2.2.3 Mic
 
-The Mic sources can combine both wireless and wired input, with outputs directed simultaneously to AUDIO OUT and SPEAKER interface.
+The Mic sources can combine both wireless and wired input, with outputs directed simultaneously to the AUDIO OUT and SPEAKER interface.
 
 Please note that the audio from the microphone (Mic-in) can be independently controlled through a dedicated control module. Users can control the volume or mute the microphone's audio using the dedicated Mic control module.
 
@@ -554,8 +554,8 @@ Please note that the audio from the microphone (Mic-in) can be independently con
 
 <img src="./img/note.png" />**Note**:
 
-1. Given the above screen-capture, adjustments made within the Speaker module will affect HDMI OUT A, AUDIO IN 1, and AUDIO IN 2 sources, but will not affect the microphone (MIC IN).
-2. During broadcasting, the Mic channel will be muted and users cannot unmute the microphone through the Touch Panel, Web-Console, or Q-NEX APP during the broadcast. The mute will automatically be lifted when the broadcast ends.
+1. Given the above screen capture, adjustments made within the Speaker module will affect HDMI OUT A, AUDIO IN 1, and AUDIO IN 2 sources, but will not affect the microphone (MIC IN).
+2. During broadcasting, the Mic channel will be muted and users cannot unmute the microphone through the Touch Panel, Web Console, or Q-NEX APP during the broadcast. The mute will automatically be lifted when the broadcast ends.
 
 
 
@@ -570,7 +570,7 @@ This section governs the power management and operational control of connected d
 **Power Specifications**：
 
 1. NMP device maximum power: 2000W.
-2. DISPALY port maximum power: 1200W.
+2. DISPLAY port maximum power: 1200W.
 3. UP-DOWN port maximum power: 300W 
 4. EXTERNAL port maximum power: 1200W. (Acts as a switch, the power does not count towards NMP's total power consumption)
 
@@ -578,7 +578,7 @@ This section governs the power management and operational control of connected d
 
 <img src="./img/warning.png" /> **Caustion: Electrical Installtion Requires Qualified Personnel**
 
-<font color=red>**The installation and wiring of components such as "DISPLAY," "UP-DWON," and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with indutsry standards, these tasks must only be performed by licensed electricians or qualified techical personal.** </font>
+<font color=red>**The installation and wiring of components such as "DISPLAY," "UP-DWON," and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personnel.** </font>
 
 
 
@@ -588,9 +588,9 @@ To ensure safety during wiring, make sure the NMP is completely powered off, and
 
 
 
-#### 1. DISPALY 
+#### 1. DISPLAY 
 
-The DISPALY Wago interface serves to provide power to display devices such as IFPs and projectors. Additionally, it facilitates controlled shutdown procedures (with RS232 port) for these devices to mitigate the risk of damage caused by sudden power loss.
+The DISPLAY Wago interface serves to provide power to display devices such as IFPs and projectors. Additionally, it facilitates controlled shutdown procedures (with RS232 port) for these devices to mitigate the risk of damage caused by sudden power loss.
 
 <img src="./img/NMP_Display.png" alt="image-20240227115051983" style="zoom: 25%;" /> 
 
@@ -600,7 +600,7 @@ The DISPALY Wago interface serves to provide power to display devices such as IF
 
 1. Replace the device plug with the WAGO connector. Refer to [4.1.1 WAGO Connector Installation Guide](#4.1.1 WAGO Connector Installation Guide) for Wago connector installation instructions.
 2. Connect the WAGO connector to the DISPLAY port of the NMP.
-3. Devices can still be powered on of off by solely connecting to the DISPLAY port.
+3. Devices can still be powered on or off by solely connecting to the DISPLAY port.
 
 <img src="./img/note.png"  style="zoom:87%;" />Note:
 
@@ -608,7 +608,7 @@ For devices requiring controlled shutdown and delayed power-off settings (For ex
 
 <img src="./img/image-20240312150955448.png" alt="image-20240312150955448" style="zoom: 25%;" /> 
 
-To configure the power settings, log in to the Dashboard and navigate to "***Device >> Processor Manager.***" Select the appropriate device and click "Edit." In the edit page, scroll down to find the "Power Settings" tab. 
+To configure the power settings, log in to the Dashboard and navigate to "***Device >> Processor Manager.***" Select the appropriate device and click "Edit." On the edit page, scroll down to find the "Power Settings" tab. 
 
 In the "**\* Power off delay**" field, enter a value in seconds as shown in the example image：
 
@@ -640,17 +640,17 @@ The UP-DOWN  Wago interface is specifically designed for controlling projection 
 
 **Connection Steps:**
 
-1. Replace the plug of projection screen with WAGO connector. Refer to [4.1.1 WAGO Connector Installation Guide](#4.1.1 WAGO Connector Installation Guide) for Wago connector installation instructions.
+1. Replace the plug of the projection screen with the WAGO connector. Refer to [4.1.1 WAGO Connector Installation Guide](#4.1.1 WAGO Connector Installation Guide) for Wago connector installation instructions.
 2. Wire Configuration
    - Connect the "UP" wire to the "L" port of the Wago connector.
    - Connect the "DOWN" wire to the "N" port of the Wago connector.
    - Connect the "N" wire to the "G" port of the Wago connector.
-3. Connect to Up-Down port. 
+3. Connect to the Up-Down port. 
 4. Connect the other end of the wires to the corresponding terminals on the projection screen curtains.
 
 <img src="./img/note.png" /> **Note**: This wiring configuration is exclusively for use with projection screen curtains.
 
-After completing the required wiring setup, users can perform up and down operations using the Touch Panel, Web-Console, or Q-NEX APP. 
+After completing the required wiring setup, users can perform up and down operations using the Touch Panel, Web Console, or Q-NEX APP. 
 
 <img src="./img/Panel-Up-Down.png"  style="zoom: 25%;" /> 
 
@@ -660,7 +660,7 @@ After completing the required wiring setup, users can perform up and down operat
 
 Users should be aware that our product also supports the control of electric curtains for raising and lowering. 
 
-However, this connection method can be much more complex, different products and scenarios may require different wiring configuration to achieve control. 
+However, this connection method can be much more complex, different products and scenarios may require different wiring configurations to achieve control. 
 
 Therefore, we recommend consulting our professional consulting team for assistance.
 
@@ -670,7 +670,7 @@ Therefore, we recommend consulting our professional consulting team for assistan
 
 #### 3. EXTERNAL
 
-The EXTERNAL interface on the NMP enables flexible lighting control. Users can directly manage lighting or integrate it with an SPDT switch for customized automation and centralized control. Control settings can be adjusted via the Touch Panel and Web-Console.
+The EXTERNAL interface on the NMP enables flexible lighting control. Users can directly manage lighting or integrate it with an SPDT switch for customized automation and centralized control. Control settings can be adjusted via the Touch Panel and Web Console.
 
 <img src="./img/NMP_External.png" alt="image-20240227115151324" style="zoom: 25%;" /> 
 
@@ -682,7 +682,7 @@ In this mode, user gains the ability to manage the lighting control by NMP.
 
    <img src="./img/NMP-Direct-connect.png" style="zoom: 15%;" /> 
 
-<img src="./img/note.png" alt="note" style="zoom:67%;" />：The current-carrying capacity of the“External” should not exceed 1200W
+<img src="./img/note.png" alt="note" style="zoom:67%;" />： The current-carrying capacity of the“External” should not exceed 1200W
 
 **2. Integration with SPDT Switch:** 
 
@@ -690,7 +690,7 @@ By replacing the existing switch panel with a Single Pole Double Throw (SPDT) sw
 
 <img src="./img/NMP-SPDT-connect.png" style="zoom: 15%;" /> 
 
-![note](./img/note.png)：The current-carrying capacity of the“External” should not exceed 1200W
+![note](./img/note.png)： The current-carrying capacity of the“External” should not exceed 1200W
 
 After completing the wiring for the external port, you can control it on the Touch Panel and Web-Console. 
 
@@ -711,11 +711,11 @@ Here's a simplified guide for using IR functionality with an air conditioning un
 
 Follow these steps:
 
-1. Connect the infrared emitter to the 'IR' port on NMP, aim it at the air conditioner, ensuring no obstacles between the emitter and the air conditioner:
+1. Connect the infrared emitter to the 'IR' port on NMP, and aim it at the air conditioner, ensuring no obstacles between the emitter and the air conditioner:
 
    <img src="./img/IR-Emitter.png" style="zoom: 15%;" /> 
 
-2. Log in to Q-NEX Console -> Dashboard -> Devices -> Processor Manager. Choose your NMP device, inthe 'IR Control' module, click on the 'Edit' button:
+2. Log in to Q-NEX Console -> Dashboard -> Devices -> Processor Manager. Choose your NMP device, in the 'IR Control' module, and click on the 'Edit' button:
 
    <img src="./img/NMP_IR_Settings1.png" style="zoom: 25%;" /> 
 
@@ -736,24 +736,24 @@ Follow these steps:
 
 #### 2. Air Conditioner-Unable to Identify in the Code Database
 
-IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to “IR” port of NMP, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
+IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect the infrared transmitter to the “IR” port of NMP, aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
 
 1. Log in to the "Q-NEX console -> Dashboard -> Devices -> Processor manager". Select your NMP device, and in the "Infrared Control" module, click the "Edit" button. Follow the instructions below:
 
    | Step | Screenshot                                                   | Instructions                                                 |
    | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | S1   | <img src="./img/IR-Remote.png"  style="zoom: 33%;" />        | In the IR control interface, click "New remote control code." button |
+   | S1   | <img src="./img/IR-Remote.png"  style="zoom: 33%;" />        | In the IR control interface, click the "New remote control code." button |
    | S2   | <img src="./img/image-20240103180758896.png"  style="zoom: 25%;" /> | Select A/C click "Next".                                     |
    | S3   | <img src="./img/image-20240102145125079.png"  style="zoom:50%;" /> | Click "Start to learn"                                       |
-   | S4   | <img src="./img/IR-RemoteControl.png" style="zoom: 50%;" />  | 1. On the remote control, select the desired mode, such as setting the temperature to 25 degrees and choosing the cooling mode.<br />2. Power off the remote, then aim the remote at NMP's "IR IN" port, and press the remote's power button again.<br />3. The system will start learning the selected air-conditioning mode.<br />![note](./img/note.png):To learn the power-off function, aim the remote at the IR port and power off directly. |
-   | S5   | <img src="./img/image-20240102145239578.png"  style="zoom:50%;" /> | After successful learning, a "Success" prompt will  appear. Then click "Next" button |
+   | S4   | <img src="./img/IR-RemoteControl.png" style="zoom: 50%;" />  | 1. On the remote control, select the desired mode, such as setting the temperature to 25 degrees and choosing the cooling mode.<br />2. Power off the remote, then aim the remote at NMP's "IR IN" port and press the remote's power button again.<br />3. The system will start learning the selected air-conditioning mode.<br />![note](./img/note.png): To learn the power-off function, aim the remote at the IR port and power off directly. |
+   | S5   | <img src="./img/image-20240102145239578.png"  style="zoom:50%;" /> | After successful learning, a "Success" prompt will  appear. Then click the "Next" button |
    | S6   | <img src="./img/image-20240105104632355.png"  style="zoom: 33%;" /> | Enter the corresponding function name here                   |
    | S7   | <img src="./img/image-20240103182400863.png"  style="zoom: 50%;" /> | Then you will be redirected to the "IR Control Setting" page. Then, select the newly added function name and click Save. |
 
 
-2. After successfully saving, you can operate the device on the Touch Panel or Web-Console 
+2. After successfully saving, you can operate the device on the Touch Panel or Web Console 
 
-<img src="./img/note-0146502.png" alt="note" style="zoom:87%;" />：To learn additional modes for the air conditioner, follow steps S1 through S7. Additionally, note that the process for learning codes on other infrared devices is similar to the above steps
+<img src="./img/note-0146502.png" alt="note" style="zoom:87%;" />： To learn additional modes for the air conditioner, follow steps S1 through S7. Additionally, note that the process for learning codes on other infrared devices is similar to the above steps
 
 
 
@@ -886,7 +886,7 @@ This diagram illustrates the components of the classroom broadcasting system, sh
 
 <img src="./img/note.png"   />**Note**: 
 
-- Users can remotely issue broadcast commands over the Internet, while all audio and video resources is pre-stored on the Media Server.
+- Users can remotely issue broadcast commands over the Internet, while all audio and video resources are pre-stored on the Media Server.
 
 
 
@@ -894,7 +894,7 @@ This diagram illustrates the components of the classroom broadcasting system, sh
 
 <img src="./img/Broadcasting-typology.png"  style="zoom: 25%;" /> 
 
-The broadcasting topology diagram illustrates a typical topology for a campus broadcasting systems.
+The broadcasting topology diagram illustrates a typical topology for a campus broadcasting system.
 
 <img src="./img/note.png" />**Note**: 
 
@@ -910,7 +910,7 @@ The broadcasting topology diagram illustrates a typical topology for a campus br
 
 In broadcast mode, the audio signal decoded by the NMP can be directly transmitted to the corresponding audio equipment via the SPEAKER and AUDIO OUT interfaces.
 
-For digital audio signals, they need to be processed through the HDMI OUT A port. During the broadcasting, only device (IFP, for example) connected to HDMI OUT A will have audio output. IFPs connected to HDMI OUT B and C will not receive audio.
+For digital audio signals, they need to be processed through the HDMI OUT A port. During the broadcasting, only the device (IFP, for example) connected to HDMI OUT A will have audio output. IFPs connected to HDMI OUT B and C will not receive audio.
 
 <img src="./img/note.png" />**Note**: 
 
@@ -920,11 +920,11 @@ For digital audio signals, they need to be processed through the HDMI OUT A port
 
 ### 4.4.3 Integrating NMP into Campus
 
-1. Refer to the [Device Connection Diagram for Broadcasting](#4.4.1 Device Connection Diagram for Broadcasting) provided above to steup the NMP. Ensure the NMP is properly connected to the campus network infrastructure. Connect the necessary display and audio devices in the classroom, such as Interactive Flat Panels and speakers, to the NMP.
+1. Refer to the [Device Connection Diagram for Broadcasting](#4.4.1 Device Connection Diagram for Broadcasting) provided above to set up the NMP. Ensure the NMP is properly connected to the campus network infrastructure. Connect the necessary display and audio devices in the classroom, such as Interactive Flat Panels and speakers, to the NMP.
 
 2. The Media Server should be directly connected to the school's core router to support campus-wide broadcasting. 
 
-   Below is the recommended **minimum** specifications for Media Server:
+   Below is the recommended **minimum** specifications for the Media Server:
 
    | Feature                 | Specification                                   |
    | ----------------------- | ----------------------------------------------- |
@@ -949,9 +949,9 @@ For digital audio signals, they need to be processed through the HDMI OUT A port
 
 ### 4.4.4 Broadcasting Process 
 
-The broadcasting feature enables streaming of various audio and video formats, providing educators whit access to a wide range of multimedia resources stored on the school's media server.
+The broadcasting feature enables streaming of various audio and video formats, providing educators with access to a wide range of multimedia resources stored on the school's media server.
 
-This resources can be utilized not only teaching purpose but also for activities such as examinations, promotions, and other related applications.
+These resources can be utilized not only for teaching purposes but also for activities such as examinations, promotions, and other related applications.
 
 1. Administrators can pre-publish the content on the media server.
 
@@ -977,9 +977,9 @@ Please note that NMP also supports text broadcasting, without requiring Media Se
 
 ### 4.4.5 Campus-wide Broadcasting Solutions with NMP
 
-The NMP extends its broadcasting capabilities beyond individual classroom, enabling collaboration with other NMP(s) unites and NDP(Q-NEX Network Digital Podium)s to establish campus-wide broadcasting solutions. 
+The NMP extends its broadcasting capabilities beyond individual classrooms, enabling collaboration with other NMP(s) units and NDP(Q-NEX Networked Digital Podium)s to establish campus-wide broadcasting solutions. 
 
-Implementing a campus-wide broadcasting solution involves intricate configuration and necessiates consultation with our professional pre-sales team.
+Implementing a campus-wide broadcasting solution involves intricate configuration and necessitates consultation with our professional pre-sales team.
 
 
 
@@ -997,7 +997,7 @@ Implementing a campus-wide broadcasting solution involves intricate configuratio
 
 ### 4.4.3 Live Streaming Setup and Operation Steps
 
-1. **Create Streaming Room**: Log in to the web-console, navigate to the Streaming module, and create a new streaming room. Generate and save the room address and key.
+1. **Create Streaming Room**: Log in to the Web Console, navigate to the Streaming module, and create a new streaming room. Generate and save the room address and key.
 
    <img src="./img/Livestreaming-1.png"  style="zoom: 33%;" />  
 
@@ -1009,16 +1009,16 @@ Implementing a campus-wide broadcasting solution involves intricate configuratio
 
    For iPhone users, consider using third-party streaming tools like Larix, OBS Camera, or RTMP Live. Android users can utilize the Q-NEX APP, which already includes an integrated streaming module.
 
-3. **Preview and Distribute Stream**: In the web-console, preview the incoming video feed in the created room. Select the target NDP/NMP devices to distribute the stream and click "START" button. Once deployed, these devices will decode the stream and display it on their connected screens.
+3. **Preview and Distribute Stream**: In the web console, preview the incoming video feed in the created room. Select the target NDP/NMP devices to distribute the stream and click the "START" button. Once deployed, these devices will decode the stream and display it on their connected screens.
 
    <img src="./img/Livestreaming-3.png" style="zoom: 33%;" /> 
 
 
 # 5. Expanded Control and Connectivity
 
-This section covers addtional components and functionalities that expand the control and connectivity capabilities of the NMP, including:
+This section covers additional components and functionalities that expand the control and connectivity capabilities of the NMP, including:
 
-- **Control Box(CBX):** Exploring the features and setup of the Control Box, which extend NMP wireless control ability.
+- **Control Box(CBX):** Exploring the features and setup of the Control Box, which extends NMP wireless control ability.
 - **Media Box:** Understanding the Media Box, a component that enhances multimedia capabilities and connectivity options.
 - **Divisible Room Integration:** Exploring how the NMP can be integrated into a divisible room setup for enhanced flexibility and functionality.
 
@@ -1026,7 +1026,7 @@ This section covers addtional components and functionalities that expand the con
 
 ## 5.1 Control Box
 
-The Control Box (CBX) wirelessly connects to NMP using Wi-Fi 2.4G. Placed near devices like aire conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
+The Control Box (CBX) wirelessly connects to NMP using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
 
 <img src="./img/note.png"  />**Note**:
 
@@ -1036,7 +1036,7 @@ The CBX features three interfaces: IR, Relay, and RS232. These interfaces allow 
 
 <img src="./img/note.png"  />**Note**:
 
-> Each CBX can control only one type of device at the time. For example, if you need to control both an air conditioner(via IR) and lights(via Relay), you must use two separete CBX unites, each dedicated to a specific device type, CBX cannot manage mutiple device types simultaneously.
+> Each CBX can control only one type of device at a time. For example, if you need to control both an air conditioner(via IR) and lights(via Relay), you must use two separate CBX units, each dedicated to a specific device type, CBX cannot manage multiple device types simultaneously.
 
 
 
@@ -1098,11 +1098,11 @@ To ensure successful pairing and control between the NMP and CBX units, please f
 
 <img src="./img/note.png"   />**Note**: 
 
-Once a DIP switch combination is set and the CBX is paired with the NMP, do not alter the DIP switch positions. Changes will discrupt communication between the NMP and the CBX.
+Once a DIP switch combination is set and the CBX is paired with the NMP, do not alter the DIP switch positions. Changes will disrupt communication between the NMP and the CBX.
 
 
 
-#### 2. Paring and Setup
+#### 2. Pairing and Setup
 
 1. **Connect CBX and NMP, and Power On CBX**
 
@@ -1126,13 +1126,13 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="./img/CBX/CBX-Interfaces-Wiring-Guide.png"  style="zoom: 25%;" /> 
 
-   The diagram above illustrates the wiring sequence for connecting between CBX-RS232 and NMP-PANEL. Each terminal on the CBX is connected to the corresponding terminal on the NMP PANLE, ensuring proper wiring the cables.
+   The diagram above illustrates the wiring sequence for connecting CBX-RS232 and NMP-PANEL. Each terminal on the CBX is connected to the corresponding terminal on the NMP PANLE, ensuring proper wiring of the cables.
 
    
 
 2. **Initiate Paring Mode**
 
-   Press and hold the reset button for 4-5 seconds untile the idicator light turns red, then the CBX will automatically enter pairing mode with the NMP, indicated by a flashing green light.
+   Press and hold the reset button for 4-5 seconds until the indicator light turns red, then the CBX will automatically enter pairing mode with the NMP, indicated by a flashing green light.
 
    Once paired successfully, the green light will remain steady.
 
@@ -1156,21 +1156,21 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="./img/note.png"  />**Note**:
 
-   Each CBX can control only one type of device at a time. For instance, to control both an air conditioner (via IR) and light (via RELAY), two separate CBX unites are required, each dedicated to a specific device type. A single CBX cannot manage multiple device types simultaneously.
+   Each CBX can control only one type of device at a time. For instance, to control both an air conditioner (via IR) and light (via RELAY), two separate CBX units are required, each dedicated to a specific device type. A single CBX cannot manage multiple device types simultaneously.
 
 
 
 4. **Configure CBX in the Dashboard**
 
-   - Log in to the NMPmanagement system Dashboard, and navigate to Devices > Device Management.
+   - Log in to the NMP management system Dashboard, and navigate to Devices > Device Management.
 
    - Select the NMP and click the CBX edit button to configure.
 
      <img src="./img/CBX/CBX-UI-Config.png"  style="zoom: 15%;" />  
 
-5. **Set control Method According to the Controlled Device**
+5. **Set Control Method According to the Controlled Device**
 
-   Based on the DIP siwtch sequence, select the control method. (Power Control, RS232 Control, or IR Control)
+   Based on the DIP switch sequence, select the control method. (Power Control, RS232 Control, or IR Control)
 
    <img src="./img/CBX/CBX-UI-Settings.png"  style="zoom: 33%;" /> 
 
@@ -1192,13 +1192,13 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
 <img src="./img/note.png"  />**Note**:
 
-If the NMP is being replaced, re-pairing is required. Follow the instructions in this sections ([Paring and Setup](##2. Paring and Setup)) from the first step to re-pair.
+If the NMP is being replaced, re-pairing is required. Follow the instructions in this section ([Paring and Setup](##2. Paring and Setup)) from the first step to repair.
 
 
 
 ### 5.1.4 CBX Device Control
 
-Once the CBX configuratin is complete, users can control the connected devices through IR, RELAY, RS232 on CBX. 
+Once the CBX configuration is complete, users can control the connected devices through IR, RELAY, and RS232 on CBX. 
 
 Refer to the corresponding screenshots for guidance.
 
@@ -1213,7 +1213,7 @@ Refer to the corresponding screenshots for guidance.
 
 ## 6.1 Network Environment Requirement
 
-To ensure optimal integration, school network needs to meet specific requirements tailored for the NMP. 
+To ensure optimal integration, the school network needs to meet specific requirements tailored for the NMP. 
 
 1. The school should allow NMP to access the Internet.
 
@@ -1253,7 +1253,7 @@ To ensure optimal integration, school network needs to meet specific requirement
 
 6. NMP IP Address Setting:
 
-   - To prevent issues caused by NMP IP changes, it is recommended to set the NMP IP address as static.
+   - To prevent issues caused by NMP IP changes, it is recommended that the NMP IP address be set as static.
    - Ensure that before the initial use of NMP, the Touch Panel successfully connects to NMP using this IP.
 
 7. VLAN:
@@ -1268,6 +1268,6 @@ To ensure optimal integration, school network needs to meet specific requirement
 
 Q-NEX (https://qnextech.com/) is a subsidiary of Returnstar Interactive Technology Group Co, Ltd, a company that has been dedicated to the education industry since 2006. 
 
-Q-NEX is focused on delivering a Smart Campus Solution that converges AV and loT control across all campus facilities. Q-NEX offers deeply customized options that assist school IT administrators in managing all electronic facilities and allows teachers to simplify the operations of a multimedia classroom.
+Q-NEX is focused on delivering a Smart Campus Solution that converges AV and loT control across all campus facilities. Q-NEX offers deeply customized options that assist school IT administrators in managing all electronic facilities and allow teachers to simplify the operations of a multimedia classroom.
 
 <img src="./img/Contact-us.png"  style="zoom:25%;" /> 
