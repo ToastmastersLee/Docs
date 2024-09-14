@@ -83,7 +83,7 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 
 
 
-<img src="./img/NMP-Suite.png" style="zoom: 25%;" />
+<img src="./img/NMP-Suite-7.png" style="zoom: 50%;" />
 
 
 
