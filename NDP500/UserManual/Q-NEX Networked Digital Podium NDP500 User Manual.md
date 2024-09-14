@@ -4,7 +4,7 @@
 
 
 
-<div style="text-align:center; color:#2B5C9C; font-size:30px; font-weight:bold; ">Q-NEX Networked Digital Podium</div>
+<div style="text-align:center; color:#2B5C9C; font-size:30px; font-weight:bold; ">Q-NEX Desktop Digital Podium</div>
 
  <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP500</div>
 
@@ -18,7 +18,7 @@
 
 <img src="./img/NDP500.png" style="zoom: 35%;" />
 
-<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstart Interactive Technology Group Co., Ltd.</div>
+<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstar Interactive Technology Group Co., Ltd.</div>
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -130,7 +130,7 @@ This guide provides essential information to set up and use the NDP500 digital p
 
 Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to re-pair them.
 
-1. Bring the handheld microphone close to NDP500 for pairing. Ensure the microphone is horizontally aligned with the NDP500’s hidden antenna, as the transmitter is located in the middle of the microphone. Monitor the microphone’s display to confirm successful pairing.
+1. Bring the handheld microphone close to NDP500 for pairing. Ensure the microphone is horizontally aligned with the NDP500's hidden antenna, as the transmitter is located in the middle of the microphone. Monitor the microphone's display to confirm successful pairing.
 
    <img src="./img/handheld-1.png"  style="zoom: 20%;" /> 
 
@@ -138,7 +138,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
    <img src="./img/note.png"   />**Note** :
 
-   Avoid vertical alignment of the microphone with the NDP500’s hidden antenna during pairing, as this may cause the pairing to fail.
+   Avoid vertical alignment of the microphone with the NDP500's hidden antenna during pairing, as this may cause the pairing to fail.
 
 2. Before paring, turn the NDP main power off by tapping the power button on the Touch Panel.
 
@@ -282,7 +282,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 <img src="./img/warning.png" /> **Caution: Electrical Installation Requires Qualified Personnel**
 
-<font color=red>**The installation and wiring of components such as "DISPLAY," "UP-DWON," and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
+<font color=red>**The installation and wiring of components such as "DISPLAY", "UP-DWON", and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
 
 
 
@@ -355,7 +355,7 @@ Follow these steps to install the terminal blocks:
 Ensure that both your USB and HDMI cables are of sufficient length. Following the diagram provided:
 
 1. **HDMI Connection**:
-   - Connect one end of the HDMI cable to the NDP500’s HDMI OUT port.
+   - Connect one end of the HDMI cable to the NDP500's HDMI OUT port.
    - Connect the other end to the HDMI port of the IFP.
 2. **USB Connection**:
    - To enable the touch functionality, also connect the USB cable from the NDP500 to the IFP.
@@ -372,7 +372,7 @@ To ensure a smooth initial setup, follow these steps to power on the NDP500, con
 
 2. Connect the NDP500 to a router using an Ethernet cable. This ensures that the NDP500 acquires an IP address.
 
-   <img src="./img/note.png" />**Note**：
+   <img src="./img/note.png" />**Note**: 
 
    If your location has network restrictions, contact your network administrator for assistance with this step. Refer to the "[Appendix - Network Environment Requirement](#5.1 Network Environment Requirement)" section for specific network requirements for the NDP500.
 
@@ -386,7 +386,7 @@ To ensure a smooth initial setup, follow these steps to power on the NDP500, con
 
    <img src="./img/CPL20-Connection-Setting.jpg" style="zoom: 10%;" /> 
 
-   <img src="./img/note.png" />**Note**：
+   <img src="./img/note.png" />**Note**: 
 
    1. If connection issues arise, use the router device or NDP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
    2. For consistent access, consider using the Q-NEX Configtool to set a static IP for the NDP500, preventing IP changes post-reboot or network alterations.
@@ -401,7 +401,7 @@ To ensure a smooth initial setup, follow these steps to power on the NDP500, con
 
 The NDP500 allows for one built-in OPS (Open Pluggable Specification) module, which serves as one of the three input sources. The OPS module comes with built-in touch functionality.
 
-<img src="./img/note.png" />**Note**：
+<img src="./img/note.png" />**Note**: 
 
 Please note that while the OPS is one of the input sources for the NDP500, if you want the OPS to have network access, you should connect it separately via a wireless network or by running an Ethernet cable directly from a router or switch to the OPS. 
 
@@ -436,7 +436,7 @@ This section outlines the key steps for wiring and configuring the NDP500 system
 
 <img src="./img/VideoSwitch.png" style="zoom: 25%;" /> 
 
-The NDP500’s Video Matrix Switch allows routing of video signals to multiple displays, such as interactive flat panels. 
+The NDP500's Video Matrix Switch allows routing of video signals to multiple displays, such as interactive flat panels. 
 
 It supports switching between input sources, ensuring the correct content is shown on the desired screens. 
 
@@ -470,19 +470,19 @@ The diagram illustrates the audio signal topology for the NDP500, specifically f
 
 <img src="./img/SPEAKER-Topology-NDP500.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： indicates the ability to output multiple audio signal simultaneously. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：only ONE audio source can be input to the speaker at a time. |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time. |
 
 
 
 **Key Points:**
 
-1. **HDMI IN 1, 2, 3**: Only one input source can output audio to the speaker at a time, controlled via a software platform like the Touch Panel’s matrix switching.
+1. **HDMI IN 1, 2, 3**: Only one input source can output audio to the speaker at a time, controlled via a software platform like the Touch Panel's matrix switching.
 2. **HDMI OUT A**: Has the capability to convert digital signals into analog output.
 3. **Other Inputs** (Audio IN, Wired MIC, Wireless MIC): These inputs can simultaneously output audio to the SPEAKER OUT.
 
@@ -493,13 +493,13 @@ The diagram illustrates the audio signal topology for the NDP500, specifically f
 <img src="./img/AUDIO-Topology-NDP500.png" style="zoom: 25%;" /> 
 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： indicates the ability to output multiple audio signal simultaneously. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：only ONE audio source can be input to the speaker at a time. |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time. |
 
 The **AUDIO OUT** port functions similarly to the **SPEAKER OUT** port, with both handling audio signals from various sources. 
 
@@ -514,9 +514,9 @@ The **AUDIO OUT** port functions similarly to the **SPEAKER OUT** port, with bot
 This section governs the power management and operational control of connected devices through interfaces like Display, Up-Down, and External connectors. Users can regulate power distribution and device states by NDP500.
 
 - Refer to the video at [4:35](https://www.youtube.com/watch?v=kHRZHC7xY_I&t=275s) for instructions on making a C14 cable and connecting it to the External, Display, and Up-Down ports.
-- Follow the steps outlined in section “[3.1 C14 Plug Installation Guide](#3.1 C14 Plug Installation Guide)” to properly install the C14 power connector.
+- Follow the steps outlined in section "[3.1 C14 Plug Installation Guide](#3.1 C14 Plug Installation Guide)" to properly install the C14 power connector.
 
-**Power Specifications**：
+**Power Specifications**: 
 
 1. NDP500 maximum power: 2000W.
 2. DISPALY port maximum power: 1200W.
@@ -527,7 +527,7 @@ This section governs the power management and operational control of connected d
 
 <img src="./img/warning.png" /> **Caution: Electrical Installation Requires Qualified Personnel**
 
-<font color=red>**The installation and wiring of components such as "DISPLAY," "UP-DWON," and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
+<font color=red>**The installation and wiring of components such as "DISPLAY", "UP-DWON", and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
 
 
 
@@ -545,7 +545,7 @@ The DISPALY interface serves to provide power to display devices such as IFPs an
 
 <img src="./img/C14/NDP500_DISPLAY_FrontView.png"  style="zoom: 33%;" /> 
 
-The diagram above illustrates the correct wiring for the NDP500’s DISPLAY interfaces. It is crucial to connect the neutral (N), live (L), and ground (G) wires correctly to ensure safe operation.
+The diagram above illustrates the correct wiring for the NDP500's DISPLAY interfaces. It is crucial to connect the neutral (N), live (L), and ground (G) wires correctly to ensure safe operation.
 
 **Connection Steps:**
 
@@ -561,11 +561,11 @@ For devices requiring controlled shutdown and delayed power-off settings (For ex
 
 To configure the power settings, log in to the Dashboard and navigate to "***Device >> Processor Manager.***" Select the appropriate device and click "Edit." In the edit page, scroll down to find the "Power Settings" tab. 
 
-In the "**\* Power off delay**" field, enter a value in seconds as shown in the example image：
+In the "**\* Power off delay**" field, enter a value in seconds as shown in the example image: 
 
 <img src="./img/DISPALY-Delay.png" style="zoom: 15%;" /> 
 
-After completing the wiring, you can use the Q-NEX software platform (such as the Touch Panel) to control the DISPLAY port：
+After completing the wiring, you can use the Q-NEX software platform (such as the Touch Panel) to control the DISPLAY port: 
 
 <img src="./img/DISPLAY-ON-CP20.png" alt="image-20240809171919891" style="zoom: 33%;" /> 	 
 
@@ -573,7 +573,7 @@ After completing the wiring, you can use the Q-NEX software platform (such as th
 
 ####  2. UP-DOWN 
 
-The UP-DOWN interface on the NDP500 is designed specifically for controlling motorized projection screens, allowing users to raise or lower the screen remotely via the NDP’s control options, including the Q-NEX Console, mobile app, or Touch Panel.
+The UP-DOWN interface on the NDP500 is designed specifically for controlling motorized projection screens, allowing users to raise or lower the screen remotely via the NDP's control options, including the Q-NEX Console, mobile app, or Touch Panel.
 
 <img src="./img/UP-DOWN.png"  style="zoom: 25%;" /> 
 
@@ -593,7 +593,7 @@ After completing the required wiring setup, users can perform up and down operat
 
 <img src="./img/UP-DOWN-CPL20.png" style="zoom: 33%;" /> 
 
-<img src="./img/note.png"  />**Note：about electric curtains control**
+<img src="./img/note.png"  />**Note: about electric curtains control**
 
 Users should be aware that NDP500 also supports the control of electric curtains for raising and lowering. 
 
@@ -621,7 +621,7 @@ In this mode, user gains the ability to manage the lighting control by NDP.
 
    <img src="./img/NDP500-Direct-connect.png"  style="zoom: 25%;" /> 
 
-<img src="./img/note.png"  />**Note**：The current-carrying capacity of the “EXTERNAL” should not exceed 1200W
+<img src="./img/note.png"  />**Note**: The current-carrying capacity of the "EXTERNAL" should not exceed 1200W
 
 **2. Integration with SPDT Switch:** 
 
@@ -629,7 +629,7 @@ By replacing the existing switch panel with a Single Pole Double Throw (SPDT) sw
 
 <img src="./img/NDP500-SPDT-connect.png" style="zoom: 25%;" /> 
 
-![note](./img/note.png)**Note**：The current-carrying capacity of the “EXTERNAL” should not exceed 1200W
+![note](./img/note.png)**Note**: The current-carrying capacity of the "EXTERNAL" should not exceed 1200W
 
 After completing the wiring for the external port, you can control it on the Touch Panel and Web-Console. 
 
@@ -664,7 +664,7 @@ Follow these steps:
 
    | Step | Screenshot                                                   | Instructions                                                 |
    | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | S1   | <img src="../../NMP/UserManual/img/IR-AC.png"  style="zoom: 50%;" /> | In the IR control page, click “Identify New A/C control code" |
+   | S1   | <img src="../../NMP/UserManual/img/IR-AC.png"  style="zoom: 50%;" /> | In the IR control page, click "Identify New A/C control code" |
    | S2   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102143241844.png"  style="zoom: 33%;" /> | Click the "Start" button                                     |
    | S3   | <img src="./img/IR-RemoteControl.png" style="zoom: 33%;" />  | Align the remote control with the IR interface, press the power button, and the system will automatically identify the remote control code. |
    | S4   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102171053971.png" style="zoom: 33%;" /> | Upon successful identification, it will display " Identify successfully." |
@@ -675,7 +675,7 @@ Follow these steps:
 
 
 #### 2. Air Conditioner-Unable to Identify in the Code Database
-IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to “IR” port of NDP500, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
+IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to "IR" port of NDP500, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
 
 1. Log in to the "Dashboard -> Devices -> Processor manager". Select your NDP500 device, and in the "Infrared Control" module, click the "Edit" button. Follow the instructions below:
 
@@ -694,7 +694,7 @@ IR remote control module is available for unrecognized air conditioners or other
 
 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
 To learn additional modes for the air conditioner, follow steps S1 through S7. Additionally, note that the process for learning codes on other infrared devices is similar to the above steps
 
@@ -760,25 +760,25 @@ NDP500 provides one RS232 interface, enabling control of devices such as IFP, pr
 
    <img src="./img/NDP500-RS232-Connection.png" style="zoom: 10%;" />  
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 4. If your device requires the RS232 port instead of DB9, follow the same wiring instructions. Connect the RS232 cable between the NDP500 and the device's RS232 interface. The diagram below uses the IQ LCS710 (Lecture Recoding System) as an exmaple.
 
    <img src="./img/NDP500-RS232-Connection-LCS.png" style="zoom: 15%;" /> 
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 5. Navigate to the Q-NEX console, select the NDP500 device under "Dashboard -> Devices -> Processor Manager", and click on the "Serial Control" column. Choose the correct device type, brand, and model, then click "Save".
 
@@ -797,7 +797,7 @@ NDP500 provides one RS232 interface, enabling control of devices such as IFP, pr
 
 <img src="./img/NDP-RS485-Connection.png" style="zoom: 10%;" /> 
 
-The NDP500’s RS485 interface is configured with three pins: **G** (Ground), **B** (Data-), and **A** (Data+). 
+The NDP500's RS485 interface is configured with three pins: **G** (Ground), **B** (Data-), and **A** (Data+). 
 
 Follow these steps to connect a PTZ camera using the RS485 interface.
 
@@ -1001,13 +1001,13 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="./img/Connect-CBX200-NDP500.jpg"  style="zoom: 25%;" /> 
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
     
 

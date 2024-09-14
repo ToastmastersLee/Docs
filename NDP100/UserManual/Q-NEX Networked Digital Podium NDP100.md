@@ -18,7 +18,7 @@
 
 <img src="./img/image-20240130095101608.png" style="zoom: 15%;" />
 
-<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstart Interactive Technology Group Co., Ltd.</div>
+<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstar Interactive Technology Group Co., Ltd.</div>
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
@@ -144,12 +144,12 @@ For references:
 
 | No.  | Interface Name | Description                                                  |
 | ---- | -------------- | ------------------------------------------------------------ |
-| 1    | Power Outlet   | To connect lecturer’s laptop for power supply.<br /><img src="./img/note.png" /> **Note**: Do not connect high-powered appliances to this port to avoid potential damage to the Digital Podium. |
+| 1    | Power Outlet   | To connect lecturer's laptop for power supply.<br /><img src="./img/note.png" /> **Note**: Do not connect high-powered appliances to this port to avoid potential damage to the Digital Podium. |
 | 2    | USB-C          | Supports charging, Internet connectivity, and HDMI signal transmission for the teacher's laptop.<br /><img src="./img/note.png"  /> **Note**: Ensure the USB-C cable used complies with HDMI transmission requirements. |
-| 3    | HDMI           | An extended HDMI-IN port is provided for connecting lecturer’s  laptop as an input source. |
-| 3    | Touch USB      | By connecting lecturer’s laptop to the Touch USB port, it enables lecturer to touch control their laptop on Digital Podium's display screen. |
+| 3    | HDMI           | An extended HDMI-IN port is provided for connecting lecturer's  laptop as an input source. |
+| 3    | Touch USB      | By connecting lecturer's laptop to the Touch USB port, it enables lecturer to touch control their laptop on Digital Podium's display screen. |
 | 5    | PC USB         | Two USB ports extend the built-in PC's connectivity, allowing connection of external devices like USB flash drives. |
-| 6    | LAN            | The LAN port on Digital Podium is used to provide network connectivity for lecturer’s laptop. |
+| 6    | LAN            | The LAN port on Digital Podium is used to provide network connectivity for lecturer's laptop. |
 
 
 
@@ -169,7 +169,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 | No.  | Interface                                     | Description                                                  |
 | ---- | --------------------------------------------- | ------------------------------------------------------------ |
-| 1    | RJ45 * 4                                      | Ethernet ports (100Mbps，non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
+| 1    | RJ45 * 4                                      | Ethernet ports (100Mbps, non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
 | 2    | HDMI Matrix 3 * 3                             | Consists of 3 HDMI inputs and 3 HDMI outputs, forming the video matrix for NMP. |
 | 3    | 2.4G Wi-Fi Antenna Interface * 2              | Built-in 2.4G Wi-Fi RP Transceiver within NMP, allowing wireless device integration and control expansion with Q-NEX's CBX component. |
 | 4    | UHF Wireless Microphone Antenna Interface * 1 | Built-in receiver for UHF wireless microphones, supporting one-to-two wireless microphone setups for teaching/meeting scenarios. |
@@ -363,7 +363,7 @@ For instructions on how to perform video switching with the NDP100, please refer
 
 The NDP100 comes with a built-in PC, tailored to enhance teaching and operational experiences. The built-in PC is pre-installed the Windows 11 Pro operating system. 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
 Please note that the operating system requires to purchase license from Microsoft separately.
 
@@ -375,11 +375,11 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
   IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space
 
-- [JoinMemos](https://www.iqboard.net/jms.php)：
+- [JoinMemos](https://www.iqboard.net/jms.php): 
 
   JoinMemos is a meeting room software with tools like pens, sticky notes, and annotations. It offers brainstorming templates, sticky notes, and allows annotations on any content. Meeting content can be recorded and exported, and it features an advanced object recognition algorithm for hand and pen interaction.
 
-- [IQ KitsMemos](https://www.iqboard.net/kitsmemos)：
+- [IQ KitsMemos](https://www.iqboard.net/kitsmemos): 
 
   IQ KitsMemos is educational software featuring an interactive whiteboard, supporting document camera images. It offers engaging class activities and a desktop mode for presentation integration.
 
@@ -404,7 +404,7 @@ Switch the input source  to ***USB-C*** by Touch Panel, Web-Console or Q-NEX App
 
 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
 - If the USB-C doesn't respond, try flipping the orientation of the USB-C connector of the USB-Cable.
 
@@ -545,13 +545,13 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 <img src="../../NMP/UserManual/img/passive-speaker.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 1. The NMP features an integrated power amplifier capable of delivering ***2\*(40w+40w)*** output, designed specifically for connecting with passive speakers.
 2. It's important to note that the NMP only supports ***fixed impedance*** speakers and does not support fixed voltage speakers.
@@ -564,13 +564,13 @@ After successful wiring and setup, you can control the volume via the Touch Pane
 
 <img src="../../NMP/UserManual/img/Speaker-Input-Sources.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**：indicates physical cables connection.        |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：indicates wireless connection               |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates physical cables connection.        |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: indicates wireless connection               |
 
  
 
@@ -588,13 +588,13 @@ If you find this legend doesn't meet your needs, feel free to consult our soluti
 
 <img src="../../NMP/UserManual/img/Speaker-Input-Sources-Typology.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： indicates the ability to output multiple audio signal simultaneously. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：only ONE audio source can be input to the speaker at a time |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time |
 
  The Speaker interface supports simultaneous mixing and output of audio from:
 
@@ -628,13 +628,13 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 <img src="../../NMP/UserManual/img/Audio-Input-Sources.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**：indicates physical cables connection.        |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：indicates wireless connection               |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates physical cables connection.        |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: indicates wireless connection               |
 
 
 
@@ -649,13 +649,13 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 <img src="../../NMP/UserManual/img/Audio-Input-Sources-Typology.png" style="zoom: 25%;" /> 
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： indicates the ability to output multiple audio signal simultaneously. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：only ONE audio source can be input to the speaker at a time |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: indicates the direction of audio signal flow through the connections. |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time |
 
 The Audio-out serves as an output for audio signals from various input sources.  It supports simultaneous mixing and output of audio from:
 
@@ -712,7 +712,7 @@ The Phantom Power adapter is also controlled by the Unified Power Switch. You ma
 
 This section governs the power management and operational control of connected devices through interfaces like Display, Up-Down, and External Wago connectors. Users can regulate power distribution and device states by NMP.
 
-**Power Specifications**：
+**Power Specifications**: 
 
 1. NMP device maximum power: 2000W.
 2. DISPALY port maximum power: 1200W.
@@ -723,7 +723,7 @@ This section governs the power management and operational control of connected d
 
 <img src="./img/warning.png" /> **Caution: Electrical Installation Requires Qualified Personnel**
 
-<font color=red>**The installation and wiring of components such as "DISPLAY," "UP-DWON," and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
+<font color=red>**The installation and wiring of components such as "DISPLAY", "UP-DWON", and "EXTERNAL" interfaces involve working with high-voltage systems. To ensure safety and compliance with industry standards, these tasks must only be performed by licensed electricians or qualified technical personal.** </font>
 
 
 
@@ -788,13 +788,13 @@ The UP-DOWN  Wago interface is specifically designed for controlling projection 
 
 <img src="../../NMP/UserManual/img/Up-Down.png"  style="zoom: 20%;" />  
 
-**Line Type Representation：**
+**Line Type Representation: **
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;" /> | **Solid line**： Indicate devices connected via wired cables. |
-| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;" /> | **Solid line**: Indicate devices connected via wired cables. |
+| <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 **Connection Steps:**
 
@@ -814,7 +814,7 @@ After completing the required wiring setup, users can perform up and down operat
 
 
 
-<img src="./img/note.png"  />**Note：about electric curtains control**
+<img src="./img/note.png"  />**Note: about electric curtains control**
 
 Users should be aware that our product also supports the control of electric curtains for raising and lowering. 
 
@@ -838,7 +838,7 @@ In this mode, user gains the ability to manage the lighting control by NMP.
 
    <img src="../../NMP/UserManual/img/NMP-Direct-connect.png" style="zoom: 25%;" /> 
 
-<img src="./img/note.png"  />**Note**：The current-carrying capacity of the “EXTERNAL” should not exceed 1200W
+<img src="./img/note.png"  />**Note**: The current-carrying capacity of the "EXTERNAL" should not exceed 1200W
 
 **2. Integration with SPDT Switch:** 
 
@@ -846,7 +846,7 @@ By replacing the existing switch panel with a Single Pole Double Throw (SPDT) sw
 
 <img src="../../NMP/UserManual/img/NMP-SPDT-connect.png" style="zoom: 25%;" /> 
 
-![note](./img/note.png)**Note**：The current-carrying capacity of the “EXTERNAL” should not exceed 1200W
+![note](./img/note.png)**Note**: The current-carrying capacity of the "EXTERNAL" should not exceed 1200W
 
 After completing the wiring for the external port, you can control it on the Touch Panel and Web-Console. 
 
@@ -860,7 +860,7 @@ To control IR-enabled devices (e.g., air conditioner, TV, projector), NMP suppor
 
 Here's a simplified guide for using IR functionality with an air conditioning unit:
 
-1. Check if your air conditioner brand is in the Q-NEX database. If your air conditioner is recognized in the Q-NEX database, identify the control codes to manage and control it through the Touch Panel or Web-console。
+1. Check if your air conditioner brand is in the Q-NEX database. If your air conditioner is recognized in the Q-NEX database, identify the control codes to manage and control it through the Touch Panel or Web-console.
 2. If not in the database, use IR Learning on the Touch Panel or Web-console for control.
 
 #### 1. Air Conditioner-Identified in the code database
@@ -886,7 +886,7 @@ Here's a simplified guide for using IR functionality with an air conditioning un
 
 #### 2. Air Conditioner-Unable to Identify in the Code Database
 
-IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to “IR” port of NMP, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
+IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to "IR" port of NMP, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
 
 1. Log in to the "Dashboard -> Devices -> Processor manager". Select your NMP device, and in the "Infrared Control" module, click the "Edit" button. Follow the instructions below:
 
@@ -905,7 +905,7 @@ IR remote control module is available for unrecognized air conditioners or other
 
 
 
-<img src="./img/note.png"  />**Note**：
+<img src="./img/note.png"  />**Note**: 
 
 To learn additional modes for the air conditioner, follow steps S1 through S7. Additionally, note that the process for learning codes on other infrared devices is similar to the above steps
 
@@ -962,25 +962,25 @@ NMP provides one RS232 interface, enabling control of devices such as IFP, proje
 
    <img src="../../NMP/UserManual/img/NMP-RS232-Connection.png" style="zoom: 12%;" />  
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 4. If your device requires the RS232 port instead of DB9, follow the same wiring instructions. Connect the RS232 cable between the NMP and the device's RS232 interface. The diagram below uses the IQ LCS710 (Lecture Recoding System) as an example.
 
    <img src="../../NMP/UserManual/img/NMP-RS232-Connection-LCS.png" style="zoom: 11%;" /> 
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 5. Navigate to the Q-NEX Dashboard, select the NDP device under "Dashboard -> Devices -> Processor Manager", and click on the "Serial Control" column. Choose the correct device type, brand, and model, then click "Save".
     <img src="../../NMP/UserManual/img/NMP-RS232-Type.png" style="zoom: 50%;" /> 
@@ -1229,13 +1229,13 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="../../NMP/UserManual/img/CBX/Connect-CBX200-NMP.jpg"  style="zoom: 25%;" /> 
 
-   **Line Type Representation：**
+   **Line Type Representation: **
 
    | Lines                                                        | Descriptions                                                 |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**：The arrowheads indicate the direction of device connection |
-   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**： Indicate devices connected via wired cables. |
-   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**：Indicate devices directly plugged into interfaces (without intermediary cables) |
+   | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+   | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
+   | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
     
 
