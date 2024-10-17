@@ -4,7 +4,7 @@
 
 ### **Overview**
 
-- **NDP500**: A standalone digital podium designed to create a smart classroom by integrating AV, device control, and network-based functionalities.
+- **NDP500**: A standalone digital podium designed to create a smart classroom by integrating AV, device control, and network-based functionalities. The NDP500 is a standalone digital podium equipped with a 21-inch touchscreen, supporting both finger and active capacitive pen inputs, and an embedded 10-inch control screen for managing devices connected to the NDP500. It also features a built-in OPS module and comes with two standard wireless microphones (handheld and lapel). 
 - **CBX Expansion**: With the addition of the CBX wireless communication control, the NDP500 can extend its capabilities to manage devices in larger spaces, such as auditoriums or lecture halls.
 - **Classroom Cascading**: Multiple NDP units (including NDP500, NDP100, and NMP) can be deployed across different classrooms. Through cascading, they form a unified, campus-wide smart control solution.
 
