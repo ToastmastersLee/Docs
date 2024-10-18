@@ -4,7 +4,7 @@
 
 
 
-<img src="../../UserManual/img/image-20240130095101608.png" style="zoom:67%;" />
+<img src="../UserManual/img/image-20240130095101608.png" style="zoom:67%;" />
 
 
 
@@ -18,7 +18,7 @@ This Quick Guide provides a concise overview of the NDP100, offering users a qui
 
 ## 1.1 Topology Diagram 
 
-<img src="../../UserManual/img/NDP100_topology.jpg"  style="zoom:120%;" /> 
+<img src="../UserManual/img/NDP100_topology.jpg"  style="zoom:120%;" /> 
 
 
 
@@ -28,7 +28,7 @@ This Quick Guide provides a concise overview of the NDP100, offering users a qui
 
 For references:
 
-<img src="../../UserManual/img/image-20240307175115035.png"  style="zoom:97%;" /> 
+<img src="../UserManual/img/image-20240307175115035.png"  style="zoom:97%;" /> 
 
 
 
@@ -40,15 +40,15 @@ For references:
 
 ## 2.1 Dimensions
 
-<img src="../../UserManual/img/image-20240307181453777.png"  style="zoom:97%;" /> 
+<img src="../UserManual/img/image-20240307181453777.png"  style="zoom:97%;" /> 
 
- <img src="../../UserManual/img/image-20240307181534520.png"  style="zoom:107%;" />
+ <img src="../UserManual/img/image-20240307181534520.png"  style="zoom:107%;" />
 
 
 
 ## 2.2 Overview for Digital Podium
 
-<img src="../../UserManual/img/image-20231229094554240.png"  style="zoom: 97%;" /> 
+<img src="../UserManual/img/image-20231229094554240.png"  style="zoom: 97%;" /> 
 
 
 
@@ -65,7 +65,7 @@ For references:
 
 ## 2.3 Tabletop Introduction
 
-<img src="../../UserManual/img/image-20231228145623389.png"  style="zoom: 97%;" />
+<img src="../UserManual/img/image-20231228145623389.png"  style="zoom: 97%;" />
 
 | No   | Name                    | Description                                                  |
 | ---- | ----------------------- | ------------------------------------------------------------ |
@@ -80,12 +80,12 @@ For references:
 
 ## 2.4 Podium's Interface Introduction
 
-<img src="../../UserManual/img/NDP-Interface-Seq.png"  style="zoom:97%;" /> 
+<img src="../UserManual/img/NDP-Interface-Seq.png"  style="zoom:97%;" /> 
 
 | No.  | Interface Name | Description                                                  |
 | ---- | -------------- | ------------------------------------------------------------ |
-| 1    | Power Outlet   | To connect lecturer’s laptop for power supply.<br /><img src="../../UserManual/img/note.png"  /> Note: Do not connect high-powered appliances to this port to avoid potential damage to the Digital Podium. |
-| 2    | USB-C          | Supports charging, Internet connectivity, and HDMI signal transmission for the teacher's laptop.<br /><img src="../../UserManual/img/note.png" /> Note: Ensure the USB-C cable used complies with HDMI transmission requirements. |
+| 1    | Power Outlet   | To connect lecturer’s laptop for power supply.<br /><img src="../UserManual/img/note.png"  /> Note: Do not connect high-powered appliances to this port to avoid potential damage to the Digital Podium. |
+| 2    | USB-C          | Supports charging, Internet connectivity, and HDMI signal transmission for the teacher's laptop.<br /><img src="../UserManual/img/note.png" /> Note: Ensure the USB-C cable used complies with HDMI transmission requirements. |
 | 3    | HDMI           | An extended HDMI-IN port is provided for connecting lecturer’s  laptop as an input source. |
 | 3    | Touch USB      | By connecting lecturer’s laptop to the Touch USB port, it enables lecturer to touch control their laptop on Digital Podium's display screen. |
 | 5    | PC USB         | Two USB ports extend the built-in PC's connectivity, allowing connection of external devices like USB flash drives. |
@@ -101,11 +101,11 @@ For references:
 
 1. Insert the key into the keyhole on the left side of the Digital Podium, and the sliding cover panel can be withdrawn.
 
-   <img src="../../UserManual/img/Slide-Cover-Key.png" style="zoom: 97%;" /> 
+   <img src="../UserManual/img/Slide-Cover-Key.png" style="zoom: 97%;" /> 
 
 2. Use the **up / down** buttons on the tabletop, to elevate the Digital Podium's display to the desired angle.
 
-   <img src="../../UserManual/img/note.png"  /> **Note**: 
+   <img src="../UserManual/img/note.png"  /> **Note**: 
 
    If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left.  
 
@@ -126,7 +126,7 @@ For references:
 
 ## 3.2 Power and Network Access
 
-<img src="../../UserManual/img/NDP100-Power-Network.png" style="zoom: 53%;" />  
+<img src="../UserManual/img/NDP100-Power-Network.png" style="zoom: 53%;" />  
 
 1. The NDP100 is equipped with an integrated switch and power strip.
 2. Upon arrival in the classroom, connect the NDP100's power strip to the general power supply within the classroom to provide power to the NDP100. (Grounding work inside the NDP100 has been completed before shipment.)
@@ -151,7 +151,7 @@ The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work 
 
 ## 3.3 Connecting IFPs to NDP100
 
-<img src="../../UserManual/img/NPD-IFPs.png"  style="zoom: 87%;" /> 
+<img src="../UserManual/img/NPD-IFPs.png"  style="zoom: 87%;" /> 
 
 1. **Prepare HDMI Cable**: Ensure you have a sufficiently long HDMI cable to connect the IFPs to the NDP100.
 2. **Connect HDMI Cable**: Plug one end into IFP and the other into NDP100's HDMI Out port, preferably HDMI Out B.
@@ -190,7 +190,7 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
 ### 3.4.2 Connecting your laptop by HDMI
 
-<img src="../../UserManual/img/Connected-HDMI.png"  style="zoom: 50%;" /> 
+<img src="../UserManual/img/Connected-HDMI.png"  style="zoom: 50%;" /> 
 
 By connecting the HDMI interface, LAN port, and Touch USB interface to the corresponding ports on the Digital Podium, you can achieve functions such as screen synchronization, touch control, and internet access for your laptop on the Digital Podium.
 
@@ -199,7 +199,7 @@ Switch the input source  to ***PC*** by Touch Panel, Web-Console or Q-NEX App.
 
 ### 3.4.3 Connecting your laptop by USB-C
 
-<img src="../../UserManual/img/Connected-UBS-C.png"  style="zoom: 50%;" /> 
+<img src="../UserManual/img/Connected-UBS-C.png"  style="zoom: 50%;" /> 
 
 Connect the laptop directly to the Digital Podium's USB-C port for power supply, network connection, and HDMI transmission.
 
@@ -211,7 +211,7 @@ Switch the input source  to ***USB-C*** by Touch Panel, Web-Console or Q-NEX App
 
 - If the USB-C doesn't respond, try flipping the orientation of the USB-C connector of the USB-Cable.
 
-  <img src="../../UserManual/img/USB-C-Filpping.png"  style="zoom: 50%;" /> 
+  <img src="../UserManual/img/USB-C-Filpping.png"  style="zoom: 50%;" /> 
 
   
 
@@ -222,7 +222,7 @@ Switch the input source  to ***USB-C*** by Touch Panel, Web-Console or Q-NEX App
 
 ### 3.4.4 Connecting USB Flash Drive
 
-<img src="../../UserManual/img/Connected-USB-F.png"  style="zoom: 50%;" /> 
+<img src="../UserManual/img/Connected-USB-F.png"  style="zoom: 50%;" /> 
 
 The Digital Podium's USB ports are linked to the built-in PC. Simply insert a USB flash drive into the port to access and operate its contents directly on the Interactive Pen Display.
 
@@ -231,5 +231,5 @@ The Digital Podium's USB ports are linked to the built-in PC. Simply insert a US
 
 Connect the Document Camera to the HDMI and Power Supply port.
 
-<img src="../../UserManual/img/image-20231229131916692.png" alt="image-20231229131916692" style="zoom: 33%;" /> 
+<img src="../UserManual/img/image-20231229131916692.png" alt="image-20231229131916692" style="zoom: 33%;" /> 
 
