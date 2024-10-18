@@ -48,7 +48,7 @@ For references:
 
 ## 2.2 Overview for Digital Podium
 
-<img src="../UserManual/img/image-20231229094554240.png"  style="zoom: 97%;" /> 
+<img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 97%;" /> 
 
 
 
@@ -63,9 +63,11 @@ For references:
 | 7    | Rack/Shelf                                   | Storage for NMP, Built-in PC, power supply, and microphone base.<br />Dimensions: 500(L) x 490(W) x 590(H) mm |
 | 8    | Foldable Stand                               | Versatile platform for teaching devices, ergonomic design.<br />Dimensions: 400(L) x 450(W) mm, Corner radius: R40, Weight Capacity: 15kg |
 
+
+
 ## 2.3 Tabletop Introduction
 
-<img src="../UserManual/img/image-20231228145623389.png"  style="zoom: 97%;" />
+<img src="../UserManual/img/NDP100v3-tabletop-min.png"  style="zoom: 97%;" />
 
 | No   | Name                    | Description                                                  |
 | ---- | ----------------------- | ------------------------------------------------------------ |
