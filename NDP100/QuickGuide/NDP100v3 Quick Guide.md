@@ -42,7 +42,7 @@ For references:
 
 <img src="../UserManual/img/NDP100v3-dimension.png"  style="zoom:97%;" /> 
 
-<img src="../UserManual/img/NDP100v3-dimension-bridview.png"  style="zoom:97%;" />
+<img src="../UserManual/img/NDP100v3-dimension-birdview.png"  style="zoom:97%;" />
 
 | No   | Name     | Description                     |
 | ---- | -------- | ------------------------------- |
@@ -83,7 +83,7 @@ e:
 | 5    | Interface                                   | Input/output connections for device integration such as USB drives, laptops, or other peripherals. |
 | 6    | Cabinet Antenna (5-in-1)                    | Antenna unit for Wi-Fi and UHF communications. Includes 2 antennas for built-in PC Wi-Fi, 2 antennas for NMP Wi-Fi, and 1 UHF antenna for wireless microphone. |
 | 7    | Touch Panel                                 | Central control interface for managing classroom devices and settings. |
-| 8    | Touch Panel Button                          | An extension of the Touch Panel's power button on the tabletop. A short press puts the screen in sleep or wake mode, while a long press (over 3 seconds) powers the device on or off. |
+| 8    | Touch Panel Button                          | An extension of the Touch Panel's power button on the tabletop. A short press puts the screen into sleep mode or wakes it, while a long press (over 3 seconds) powers the device on or off. |
 | 9    | Up/Down Buttons                             | Motorized control for adjusting display height, with limit switch functionality. Red and blue indicator lights show the status: red means the sliding cover is not fully latched and the buttons won’t respond, while blue allows normal operation. |
 | 10   | Gooseneck Microphone                        | High-quality microphone for capturing clear audio during lectures. <br />**Dimensions**: 600(L) mm |
 
