@@ -53,7 +53,7 @@ For references:
 
 <img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 97%;" /> 
 
-escriptions:
+Descriptions:
 
 | No   | Name                              | Description                                                  |
 | ---- | --------------------------------- | ------------------------------------------------------------ |
@@ -64,7 +64,7 @@ escriptions:
 | 5    | Keyboard Tray                     | Space-efficient tray designed for the wireless keyboard and mouse, ensuring convenient access during use. <br />**Dimensions**: 507(L) x 180(W) mm |
 | 6    | Front Drawer                      | Secure storage compartment with a combination lock and key, offering extra safety for sensitive devices or materials. <br />**Dimensions**: 480(L) x 220(W) x 100(H) mm |
 | 7    | Rack/Shelf                        | Spacious storage area for the NMP, built-in PC, and other necessary equipment. <br />**Dimensions**: 500(L) x 490(W) x 590(H) mm |
-| 8    | Foldable Stand                    | Versatile platform designed for supporting teaching equipment, such as document cameras or additional displays, with ergonomic folding design for easy storage. <br />**Dimensions**: 575(L) x 545(W) mm, Weight Capacity: 15kg |
+| 8    | Foldable Stand                    | Versatile platform designed for supporting teaching equipment, such as document cameras or additional displays, with an ergonomic folding design for easy storage. <br />**Dimensions**: 575(L) x 545(W) mm, Weight Capacity: 15kg |
 
 
 
@@ -83,7 +83,7 @@ e:
 | 5    | Interface                                   | Input/output connections for device integration such as USB drives, laptops, or other peripherals. |
 | 6    | Cabinet Antenna (5-in-1)                    | Antenna unit for Wi-Fi and UHF communications. Includes 2 antennas for built-in PC Wi-Fi, 2 antennas for NMP Wi-Fi, and 1 UHF antenna for wireless microphone. |
 | 7    | Touch Panel                                 | Central control interface for managing classroom devices and settings. |
-| 8    | Touch Panel Button                          | An extension of the Touch Panel's power button on the tabletop. A short press puts the screen to the sleep or wakes it, while a long press (over 3 seconds) powers the device on or off. |
+| 8    | Touch Panel Button                          | An extension of the Touch Panel's power button on the tabletop. A short press puts the screen in sleep or wake mode, while a long press (over 3 seconds) powers the device on or off. |
 | 9    | Up/Down Buttons                             | Motorized control for adjusting display height, with limit switch functionality. Red and blue indicator lights show the status: red means the sliding cover is not fully latched and the buttons won’t respond, while blue allows normal operation. |
 | 10   | Gooseneck Microphone                        | High-quality microphone for capturing clear audio during lectures. <br />**Dimensions**: 600(L) mm |
 
@@ -113,7 +113,7 @@ e:
 
    <img src="../UserManual/img/Slide-Cover-Key.png" style="zoom: 97%;" /> 
 
-2. Use the **up / down** buttons on the tabletop, to elevate the Networked Digital Podium's display to the desired angle.
+2. Use the **Up / Down** buttons on the tabletop, to elevate the Networked Digital Podium's display to the desired angle.
 
    <img src="../UserManual/img/note.png"  /> **Note**: 
 
