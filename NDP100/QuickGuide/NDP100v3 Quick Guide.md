@@ -58,7 +58,7 @@ escriptions:
 | No   | Name                              | Description                                                  |
 | ---- | --------------------------------- | ------------------------------------------------------------ |
 | 1    | Tabletop                          | Stable surface for teaching activities.                      |
-| 2    | Wireless Microphones              | Two high-quality wireless microphones for flexible voice capture during lectures or presentations. <img src="../UserManual/img/note.png"  />**Note**: Wireless receiver built into NMP for easy pairing. |
+| 2    | Wireless Microphones              | Two high-quality wireless microphones for flexible voice capture during lectures or presentations.<br /> <img src="../UserManual/img/note.png"  />**Note**: Wireless receiver built into NMP for easy pairing. |
 | 3    | Sliding Cover Panel               | Protective storage cover, made of eco-friendly material with improved durability. Supports up to 30kg weight.<br />**Dimensions**: 870(L) x 600(W) x 18(H) mm |
 | 4    | Wireless Keyboard and Mouse Combo | Providing control for the built-in PC during lectures and presentations. |
 | 5    | Keyboard Tray                     | Space-efficient tray designed for the wireless keyboard and mouse, ensuring convenient access during use. <br />**Dimensions**: 507(L) x 180(W) mm |
@@ -85,7 +85,7 @@ e:
 | 7    | Touch Panel                                 | Central control interface for managing classroom devices and settings. |
 | 8    | Touch Panel Button                          | An extension of the Touch Panel's power button on the tabletop. A short press puts the screen to the sleep or wakes it, while a long press (over 3 seconds) powers the device on or off. |
 | 9    | Up/Down Buttons                             | Motorized control for adjusting display height, with limit switch functionality. Red and blue indicator lights show the status: red means the sliding cover is not fully latched and the buttons won’t respond, while blue allows normal operation. |
-| 10   | Gooseneck Microphone                        | High-quality microphone for capturing clear audio during lectures. **Dimensions**: 600(L) mm |
+| 10   | Gooseneck Microphone                        | High-quality microphone for capturing clear audio during lectures. <br />**Dimensions**: 600(L) mm |
 
 ## 2.4 Podium's Interface Introduction
 
