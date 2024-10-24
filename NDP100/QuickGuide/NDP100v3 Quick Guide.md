@@ -8,11 +8,11 @@
 
 
 
-[toc]
+
 
 # 1. Introduction 
 
-This Quick Guide provides a concise overview of the NDP100, offering users a quick introduction to its basic functionalities and setup. For a more detailed understanding of the NDP100, please refer to the "Q-NEX Digital Podium NDP100 User Manual".
+This Quick Guide provides a concise overview of the NDP100, offering users a quick introduction to its basic functionalities and setup. For a more detailed understanding of the NDP100, please refer to the "Q-NEX Networked Digital Podium NDP100 User Manual".
 
 
 
@@ -42,26 +42,29 @@ For references:
 
 <img src="../UserManual/img/NDP100v3-dimension.png"  style="zoom:97%;" /> 
 
+<img src="../UserManual/img/NDP100v3-dimension-birdview.png"  style="zoom:97%;" />
 
+| No   | Name     | Description                     |
+| ---- | -------- | ------------------------------- |
+| 1    | Body     | 870(L) x 609(W) x 1211.02(H) mm |
+| 2    | Tabletop | 2161.65(L) x 609(W)             |
 
-
-
-## 2.2 Overview for Digital Podium
+## 2.2 Overview of Networked Digital Podium
 
 <img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 97%;" /> 
 
+Descriptions:
 
-
-| No   | Name                                         | Description                                                  |
-| ---- | -------------------------------------------- | ------------------------------------------------------------ |
-| 1    | Overall                                      | Dimensions: 820(L) x 611(W) x 1123(H) mm <br>Materials: Reinforced steel structure with powder-coated anti-rust paint |
-| 2    | Tabletop                                     | Stable surface for teaching activities, adjustable for different scenarios.<br />Dimensions: 820(L) x 273(W) x 610(H) mm (closed), 1620(L) x 273(W) x 610(H) mm (fully extended) |
-| 3    | Sliding Cover Panel                          | Protective storage cover, eco-friendly material, weight capacity: 30kg.<br />Dimensions: 820(L) x 600(W) x 18(H) mm, Corner radius: R40 |
-| 4    | Keyboard Tray                                | Convenient space for wireless keyboard and mouse.<br />Dimensions: 420(L) x 180(W) mm |
-| 5    | Wireless Keyboard and Mouse Combo (Optional) | Convenient input accessories for PC-based lectures.          |
-| 6    | Front Drawer                                 | Hidden compartment for standard-sized devices, with security lock.<br />Dimensions: 480(L) x 220(W) x 100(H) mm |
-| 7    | Rack/Shelf                                   | Storage for NMP, Built-in PC, power supply, and microphone base.<br />Dimensions: 500(L) x 490(W) x 590(H) mm |
-| 8    | Foldable Stand                               | Versatile platform for teaching devices, ergonomic design.<br />Dimensions: 400(L) x 450(W) mm, Corner radius: R40, Weight Capacity: 15kg |
+| No   | Name                              | Description                                                  |
+| ---- | --------------------------------- | ------------------------------------------------------------ |
+| 1    | Tabletop                          | Stable surface for teaching activities.                      |
+| 2    | Wireless Microphones              | Two high-quality wireless microphones for flexible voice capture during lectures or presentations.<br /> <img src="../UserManual/img/note.png"  />**Note**: Wireless receiver built into NMP for easy pairing. |
+| 3    | Sliding Cover Panel               | Protective storage cover, made of eco-friendly material with improved durability. Supports up to 30kg weight.<br />**Dimensions**: 870(L) x 600(W) x 18(H) mm |
+| 4    | Wireless Keyboard and Mouse Combo | Providing control for the built-in PC during lectures and presentations. |
+| 5    | Keyboard Tray                     | Space-efficient tray designed for the wireless keyboard and mouse, ensuring convenient access during use. <br />**Dimensions**: 507(L) x 180(W) mm |
+| 6    | Front Drawer                      | Secure storage compartment with a combination lock and key, offering extra safety for sensitive devices or materials. <br />**Dimensions**: 480(L) x 220(W) x 100(H) mm |
+| 7    | Rack/Shelf                        | Spacious storage area for the NMP, built-in PC, and other necessary equipment. <br />**Dimensions**: 500(L) x 490(W) x 590(H) mm |
+| 8    | Foldable Stand                    | Versatile platform designed for supporting teaching equipment, such as document cameras or additional displays, with an ergonomic folding design for easy storage. <br />**Dimensions**: 575(L) x 545(W) mm, Weight Capacity: 15kg |
 
 
 
@@ -69,16 +72,20 @@ For references:
 
 <img src="../UserManual/img/NDP100v3-tabletop-min.png"  style="zoom: 97%;" />
 
-| No   | Name                    | Description                                                  |
-| ---- | ----------------------- | ------------------------------------------------------------ |
-| 1    | Interactive Pen Display | Central touchscreen supports finger touch or electromagnetic pen input. Positioned for student interaction. |
-| 2    | Groove                  | Holder for 1 electromagnetic pen. Dimensions: 390(L) mm.     |
-| 3    | Wireless Charging       | Charges smartphones wirelessly with 15W output.              |
-| 4    | Interface               | Input/output connections for device integration like USB flash drives or notebooks. |
-| 5    | Antenna                 | Enhances Wi-Fi signals for Built-in PC (2 antennas) and NMP (3 antennas). |
-| 6    | Touch Panel             | Central control hub for classroom devices.                   |
-| 7    | Gooseneck Microphone    | Captures high-quality audio during lectures. Dimensions: 600(L) mm. |
-| 8    | Up/Down Buttons         | Motorized control for Display height adjustment. Includes Limit Switch for obstruction prevention. |
+e:
+
+| No   | Name                                        | Description                                                  |
+| ---- | ------------------------------------------- | ------------------------------------------------------------ |
+| 1    | Interactive Pen Display                     | Central touchscreen supporting both finger touch and electromagnetic pen input. Positioned for interaction during lectures. |
+| 2    | Groove                                      | Holder for the Interactive Pen Display's active capacitive pen <br />**Dimensions**: 390(L) mm |
+| 3    | Secure Drawer with Combination Lock and Key | Storage drawer equipped with both combination lock and key for secure storage of important items. |
+| 4    | Wireless Charging                           | Integrated wireless charging pad for smartphones, with a 15W output. |
+| 5    | Interface                                   | Input/output connections for device integration such as USB drives, laptops, or other peripherals. |
+| 6    | Cabinet Antenna (5-in-1)                    | Antenna unit for Wi-Fi and UHF communications. Includes 2 antennas for built-in PC Wi-Fi, 2 antennas for NMP Wi-Fi, and 1 UHF antenna for wireless microphone. |
+| 7    | Touch Panel                                 | Central control interface for managing classroom devices and settings. |
+| 8    | Touch Panel Button                          | An extension of the Touch Panel's power button on the tabletop. A short press puts the screen into sleep mode or wakes it, while a long press (over 3 seconds) powers the device on or off. |
+| 9    | Up/Down Buttons                             | Motorized control for adjusting display height, with limit switch functionality. Red and blue indicator lights show the status: red means the sliding cover is not fully latched and the buttons won’t respond, while blue allows normal operation. |
+| 10   | Gooseneck Microphone                        | High-quality microphone for capturing clear audio during lectures. <br />**Dimensions**: 600(L) mm |
 
 ## 2.4 Podium's Interface Introduction
 
@@ -88,8 +95,8 @@ For references:
 
 | No.  | Interface Name         | Description                                                  |
 | ---- | ---------------------- | ------------------------------------------------------------ |
-| 1    | Power Outlet           | Provides power supply for the lecturer's laptop or other low-powered devices. <br /><img src="../UserManual/img/note.png"  />**Note**: Avoid connecting high-powered appliances to this port to prevent potential damage to the Digital Podium. |
-| 2    | HDMI IN 1              | Connects the lecturer’s laptop or other HDMI source as an input for display on the Digital Podium. |
+| 1    | Power Outlet           | Provides power supply for the lecturer's laptop or other low-powered devices. <br /><img src="../UserManual/img/note.png"  />**Note**: Avoid connecting high-powered appliances to this port to prevent potential damage to the Networked Digital Podium. |
+| 2    | HDMI IN 1              | Connects the lecturer’s laptop or other HDMI source as input for display on the Networked Digital Podium. |
 | 3    | Touch USB              | Enables touch control functionality for the lecturer’s laptop when connected, allowing interaction with the podium’s display. |
 | 4    | HDMI IN 2              | An additional HDMI input port for connecting secondary input devices like a camera or another laptop. |
 | 5    | PC USB                 | Two USB ports extending the built-in PC's connectivity, allowing external devices such as USB flash drives or peripherals. |
@@ -100,21 +107,21 @@ For references:
 
 # 3. Getting Started 
 
-## 3.1 Unlock Digital Podium
+## 3.1 Unlock Networked Digital Podium
 
-1. Insert the key into the keyhole on the left side of the Digital Podium, and the sliding cover panel can be withdrawn.
+1. Insert the key into the keyhole on the left side of the Networked Digital Podium, and the sliding cover panel can be withdrawn.
 
    <img src="../UserManual/img/Slide-Cover-Key.png" style="zoom: 97%;" /> 
 
-2. Use the **up / down** buttons on the tabletop, to elevate the Digital Podium's display to the desired angle.
+2. Use the **Up / Down** buttons on the tabletop, to elevate the Networked Digital Podium's display to the desired angle.
 
    <img src="../UserManual/img/note.png"  /> **Note**: 
 
    If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left.  
 
-3. Unlock the Touch Panel  to activate the Q-NEX Digital Podium.
+3. Unlock the Touch Panel  to activate the Q-NEX Networked Digital Podium.
 
-   After turning on the main power of Digital Podium on the Touch Panel, the following power sources will automatically turn on:
+   After turning on the main power of the Networked Digital Podium on the Touch Panel, the following power sources will automatically turn on:
 
    - Gooseneck microphone
    - Tabletop power outlet 
@@ -123,7 +130,7 @@ For references:
      - Built-in PC (OPS) power
      - Motor power (Interactive Pen Display elevation and descent)
 
-   When the main power supply of the NDP100 is turned off, these devices will be automatically powered off as well. It simplifies the operation of controlling NDP100's devices by one-touch control on Touch Panel.
+   When the main power supply of the NDP100 is turned off, these devices will be automatically powered off as well. It simplifies the operation of controlling NDP100's devices by one-touch control on the Touch Panel.
 
    <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/Panel-Power-On.png"  style="zoom: 50%;" /> 
 
@@ -133,11 +140,11 @@ For references:
 
 1. The NDP100 is equipped with an integrated switch and power strip.
 2. Upon arrival in the classroom, connect the NDP100's power strip to the general power supply within the classroom to provide power to the NDP100. (Grounding work inside the NDP100 has been completed before shipment.)
-3. Prepare a network cable with sufficient length. Connect one end to the switch of the NDP100 and the other end to the router in the classroom.
+3. Prepare a network cable with sufficient length. Connect one end to the NDP100 switch and the other end to the router in the classroom.
 
 ### 3.2.1 Connect Touch Panel to NMP
 
-The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume and microphone control, as well as infrared and RS232 control, etc.
+The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
 
 1. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
 
