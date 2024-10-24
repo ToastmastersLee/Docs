@@ -49,6 +49,8 @@ For references:
 | 1    | Body     | 870(L) x 609(W) x 1211.02(H) mm |
 | 2    | Tabletop | 2161.65(L) x 609(W)             |
 
+
+
 ## 2.2 Overview of Networked Digital Podium
 
 <img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 97%;" /> 
