@@ -120,7 +120,7 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 | 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
-| 11   | Touch USB * 3                                 | USB-Device out * 1, USB-HOST in * 2 for NMP's touch-following feature. For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
+| 11   | Touch USB * 3                                 | All three USB ports transmit touch signals. USB DEVICE is used for the Interactive Pen Display, while USB HOST 1 connects to a laptop and USB HOST 2 connects to the OPS. Ensure correct pairing with the corresponding HDMI inputs to enable the touch-following feature across devices.<br />For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
 | 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone. Use a wired microphone for clear reinforcement during instruction or conferences. |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (one-to-two) for combined output. |
 | 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones, etc. |
@@ -399,6 +399,12 @@ The AV Control section of the NMP encompasses various features aimed at managing
 <img src="./img/Touch-Following.png"  style="zoom: 25%;" /> 
 
 "Touch-following" is a feature that enables continuous touch operation across multiple input sources.It allows users to switch between devices without interrupting touch functionality, ensuring a smooth and uninterrupted user experience. 
+
+**USB Port Assignments for Touch-following**：
+
+- **USB DEVICE** (Interactive Pen Display Touch): This port is dedicated to the connection of the Interactive Pen Display to ensure smooth and accurate touch signal transmission.
+- ·**USB HOST 1** (Laptop Touch): This port is d‘´459esigned to transmit touch signals from a connected laptop to the NMP device, ensuring touch functionality follows the input from the laptop.
+- **USB HOST 2** (OPS Touch): This port is reserved for the OPS (Onboard PC System) connection, allowing touch signals to flow through the OPS system for uninterrupted touch control when the OPS is active.
 
 <img src="./img/note.png" alt="note" />**Note**: 
 
