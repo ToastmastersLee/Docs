@@ -1,3 +1,7 @@
+---
+title: Q-NEX Networked Digital Podium NDP100 Quick Guide
+author: Q-NEX team
+---
 
 
 
