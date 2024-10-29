@@ -32,7 +32,7 @@
 
 
 
-[^1]: 隐藏掉In, Out描述，只体现HOST，Devices<br><img src="/Users/leewang/Documents/Githubs/IQ/QNEX/Designs/Touch-Following.png"  style="zoom: 39%;" />
+[^1]: 隐藏掉In, Out描述，只体现HOST，Devices<br><img src="../../NMP/UserManual/img/Touch-Following.png"  style="zoom: 39%;" />
 
 
 
