@@ -43,3 +43,10 @@
 | 202405    | Edited | 1. Surface玻璃参数为AG+AF<br />2. 移除电容触控的”Compatible operating systems“对于”Android和Mac"的支持情况（后续继续跟进）<br />3. 移除Audio out的mixed描述，有疑问再说<br />4. 移除 USB接口对于 In, Out的描述，统一改成Host, Device以减少困惑 <br />5. 移除 Communication interface下的“Phoenix 4 Pin *1;”接口<br />6. 调整“Power amplifier”描述<br />7. 调整Antenna参数描述<br />8. 拆分Power Control，并调整Power Control的描述<br />9. 调整广播、流媒体参数表,移除掉原来诸多协议，对分辨率和码率做最新的更新调整<br /> | 2024-05-24    | Lee                  |
 | 202405-v2 | Edited | 1. 调整HDMI Matrix为 HDMI Port名称<br />2. 移除“Handwriting Specification”下的“Signal Interface”选项。<br />3. Single pole double throw（SPDT） switch (External port) * 1；调整为“ External port (RELAY) * 1” | 2024-05-24    |                      |
 
+
+
+
+
+## References
+
+1. [smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/10. Digital Podium (NDP100 & NDP500)](smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/10. Digital Podium (NDP100 & NDP500))
