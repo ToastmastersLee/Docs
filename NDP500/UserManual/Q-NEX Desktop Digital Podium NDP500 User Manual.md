@@ -658,7 +658,7 @@ Follow these steps:
 
 1. Log in to  Dashboard -> Devices -> Processor Manager. Choose your NDP device, in the 'IR Control' module, click on the 'Edit' button:
 
-   <img src="../../NMP/UserManual/img/NDP_IR_Settings1.png" style="zoom: 33%;" /> 
+   <img src="../../NMP/UserManual/img/NMP_IR_Settings1.png" style="zoom: 33%;" /> 
 
 2. Follow these steps:
 
