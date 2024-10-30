@@ -126,6 +126,12 @@ The NDP500 provides multiple flexible and efficient control options to meet vari
 
 - **Streaming Distribution**: The NDP500 supports live streaming through the Q-NEX APP and Web Console, allowing users to transmit video content to connected displays as streaming media. This feature is ideal for remote teaching, online meetings, and event broadcasting.
 
+
+
+<img src="../UserManual/img/CBX200-Topology.png"  style="zoom: 50%;" />
+
+
+
 ------
 
 ## 8. **CBX Expansion Control**
