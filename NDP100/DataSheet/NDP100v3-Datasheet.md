@@ -1,3 +1,15 @@
+<style>
+table th {
+    font-weight: bold;
+    color: white; /* 字体颜色为白色 */
+    background-color: #1f4e79; /* 背景颜色为蓝色 */
+    padding: 6px 13px;
+    text-align: center;
+}
+</style>
+
+
+
 <img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
 
@@ -12,7 +24,9 @@
 
 
 
-<img src="../UserManual/img/NDP100v3-All.png" style="zoom: 25%;" />
+<img src="../UserManual/img/NDP100v3-All.png" style="zoom: 15%;" />
+
+
 
 
 
@@ -44,9 +58,9 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 ## Dimension 
 
-<img src="../UserManual/img/NDP100v3-dimension.png"  style="zoom: 50%;" />
+<img src="../UserManual/img/NDP100v3-dimension.png"  style="zoom: 25%;" />
 
-<img src="../UserManual/img/NDP100v3-dimension-birdview.png"  style="zoom: 67%;" />
+<img src="../UserManual/img/NDP100v3-dimension-birdview.png"  style="zoom: 33%;" />
 
 | No   | Name            | Description                                                  |
 | ---- | --------------- | ------------------------------------------------------------ |
@@ -54,14 +68,15 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 | 2    | Weight (kg)     | **Net Weight:** 90 kg <br> **Gross Weight:** 131 kg          |
 | 3    | Materials       | Reinforced steel plate structure with powder-coated anti-rust paint on the metal surface |
 
-
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
 
 ## Podium Body
 
-<img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 97%;" />
+<img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 10%;" />
 
-| No   | Name                              | Description                                                  |
-| ---- | --------------------------------- | ------------------------------------------------------------ |
+| No   | Name              | Description              |
+| ---- | ----------------- | ------------------- |
 | 1    | Tabletop                          | Stable surface for teaching activities.                      |
 | 2    | Wireless Microphones              | Two high-quality wireless microphones for flexible voice capture during lectures or presentations.<br /> <img src="../UserManual/img/note.png"  />**Note**: Wireless receiver built into NMP for easy pairing. |
 | 3    | Sliding Cover Panel               | Protective storage cover, made of eco-friendly material with improved durability. Supports up to 30kg weight.<br />**Dimensions**: 870(L) x 600(W) x 18(H) mm |
@@ -73,9 +88,26 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="page-break-after: always; break-after: page;"></div>
+
+<!-- break -->
+
 ## Tabletop
 
-<img src="../UserManual/img/NDP100v3-tabletop-min.png"  style="zoom: 50%;" />
+<img src="../UserManual/img/NDP100v3-tabletop-min.png"  style="zoom: 10%;" />
 
 | No   | Name                                        | Description                                                  |
 | ---- | ------------------------------------------- | ------------------------------------------------------------ |
@@ -94,7 +126,7 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 # Interactive Pen Display
 
-<img src="../UserManual/img/NDP100v3-Screen.png"  style="zoom: 50%;" />
+<img src="../UserManual/img/NDP100v3-Screen.png"  style="zoom: 15%;" />
 
 
 
@@ -109,6 +141,8 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 | 5    | Surface        | 6H tempered explosion-proof glass |
 | 6    | View Angle     | 178° (H), 178° (V)                |
 
+
+
 **Touch**
 
 | No.  | Item                | Specification   |
@@ -120,6 +154,8 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 | 5    | Touch Points        | 10 points touch |
 | 6    | Response Time       | <15 ms          |
 
+
+
 **Ports**
 
 | No.  | Item                       | Specification |
@@ -129,6 +165,8 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 | 3    | VGA Audio Input            | 1             |
 | 4    | DC 12V Input               | 1             |
 | 5    | Capacitive Touch Interface | 1 set         |
+
+
 
 **General Specifications**
 
@@ -148,7 +186,7 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities of the digital podium.  
 
-<img src="../../NMP/UserManual/img/NMP211-Interface-Back.png" style="zoom: 33%;" />
+<img src="../../NMP/UserManual/img/NMP211-Interface-Back.png" style="zoom: 15%;" />
 
  
 
@@ -197,9 +235,7 @@ The table below shows the minimum recommended specifications::
 
 # Touch Panel
 
-<img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 50%;" />
-
-
+<img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 33%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -244,7 +280,7 @@ The table below shows the minimum recommended specifications::
 
 # Doc Camera-  E4521(Optional)
 
-<img src="../../NMP/UserManual/img/E4521.jpg" style="zoom: 25%;" />
+<img src="../../NMP/UserManual/img/E4521.jpg" style="zoom: 10%;" />
 
 | No.  | Item                        | Specification                                                |
 | ---- | --------------------------- | ------------------------------------------------------------ |
@@ -379,5 +415,4 @@ The table below shows the minimum recommended specifications::
 <img src="../UserManual/img/note.png"  />**Note:** 
 
 The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
-
 

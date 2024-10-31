@@ -1,0 +1,625 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
+</style><title>NDP100v3-Datasheet</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><style>
+table th {
+    font-weight: bold;
+    color: white; /* 字体颜色为白色 */
+    background-color: #1f4e79; /* 背景颜色为蓝色 */
+    padding: 6px 13px;
+    text-align: center;
+}
+</style><p>&nbsp;</p><p><img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" /></p><p>&nbsp;</p><div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Digital Podium</div> <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP100</div><p>&nbsp;</p> <div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— Datasheet ——</div><p>&nbsp;</p><p><img src="../UserManual/img/NDP100v3-All.png" style="zoom: 15%;" /></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h1 id='product-list'><span>Product List</span></h1><p><span>The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set of components to support versatile classroom and presentation needs.</span></p><figure class='table-figure'><table><thead><tr><th><span>Product</span></th><th><span>Model</span></th><th><span>Components</span></th></tr></thead><tbody><tr><td><span>Podium</span></td><td><span>-</span></td><td><span>Podium Body * 1</span></td></tr><tr><td><span>Interactive Pen Display</span></td><td><span>-</span></td><td><span>Interactive Pen Display PD150 * 1</span></td></tr><tr><td><span>Networked Media Processor</span></td><td><span>-</span></td><td><span>NMP211 * 1</span><br /><span>Touch Panel * 1</span><br /><span>Wireless Microphone * 2</span></td></tr><tr><td><span>Built-in PC</span></td><td><span>-</span></td><td><span>Built-in PC * 1</span></td></tr><tr><td><span>Gooseneck Microphone</span></td><td><span>-</span></td><td><span>Gooseneck Microphone * 1</span></td></tr><tr><td><span>Document Camera (Optional)</span></td><td><span>E4521</span></td><td><span>Document Camera E4521 * 1 (Optional)</span></td></tr><tr><td><span>Full Gigabit Switch</span></td><td><span>-</span></td><td><span>Full Gigabit Switch * 1</span></td></tr><tr><td><span>Router (Optional)</span></td><td><span>-</span></td><td><span>Router * 1 (Optional)</span></td></tr><tr><td><span>Lite Media Server (Optional)</span></td><td><span>-</span></td><td><span>Lite Media Server * 1 (Optional)</span></td></tr></tbody></table></figure><p>&nbsp;</p><h1 id='podium'><span>Podium</span></h1><p>&nbsp;</p><h2 id='dimension'><span>Dimension </span></h2><p><img src="../UserManual/img/NDP100v3-dimension.png"  style="zoom: 25%;" /></p><p><img src="../UserManual/img/NDP100v3-dimension-birdview.png"  style="zoom: 33%;" /></p><figure class='table-figure'><table><thead><tr><th><span>No</span></th><th><span>Name</span></th><th><span>Description</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Dimensions (mm)</span></td><td><span>870(L) x 609(W) x 1212(H) (closed) </span><br><span> 2162(L) x 609(W) x 1212(H) (fully extended)</span></td></tr><tr><td><span>2</span></td><td><span>Weight (kg)</span></td><td><strong><span>Net Weight:</span></strong><span> 90 kg </span><br><span> </span><strong><span>Gross Weight:</span></strong><span> 131 kg</span></td></tr><tr><td><span>3</span></td><td><span>Materials</span></td><td><span>Reinforced steel plate structure with powder-coated anti-rust paint on the metal surface</span></td></tr></tbody></table></figure><div style="page-break-after: always; break-after: page;"></div><!-- break --><h2 id='podium-body'><span>Podium Body</span></h2><p><img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 10%;" /></p><figure class='table-figure'><table><thead><tr><th><span>No</span></th><th><span>Name</span></th><th><span>Description</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Tabletop</span></td><td><span>Stable surface for teaching activities.</span></td></tr><tr><td><span>2</span></td><td><span>Wireless Microphones</span></td><td><span>Two high-quality wireless microphones for flexible voice capture during lectures or presentations.</span><br /><span> </span><img src="../UserManual/img/note.png"  /><strong><span>Note</span></strong><span>: Wireless receiver built into NMP for easy pairing.</span></td></tr><tr><td><span>3</span></td><td><span>Sliding Cover Panel</span></td><td><span>Protective storage cover, made of eco-friendly material with improved durability. Supports up to 30kg weight.</span><br /><strong><span>Dimensions</span></strong><span>: 870(L) x 600(W) x 18(H) mm</span></td></tr><tr><td><span>4</span></td><td><span>Wireless Keyboard and Mouse Combo</span></td><td><span>Providing control for the built-in PC during lectures and presentations.</span></td></tr><tr><td><span>5</span></td><td><span>Keyboard Tray</span></td><td><span>Space-efficient tray designed for the wireless keyboard and mouse, ensuring convenient access during use. </span><br /><strong><span>Dimensions</span></strong><span>: 507(L) x 180(W) mm</span></td></tr><tr><td><span>6</span></td><td><span>Front Drawer</span></td><td><span>Secure storage compartment with a combination lock and key, offering extra safety for sensitive devices or materials. </span><br /><strong><span>Dimensions</span></strong><span>: 480(L) x 220(W) x 100(H) mm</span></td></tr><tr><td><span>7</span></td><td><span>Rack/Shelf</span></td><td><span>Spacious storage area for the NMP, built-in PC, and other necessary equipment. </span><br /><strong><span>Dimensions</span></strong><span>: 500(L) x 490(W) x 590(H) mm</span></td></tr><tr><td><span>8</span></td><td><span>Foldable Stand</span></td><td><span>Versatile platform designed for supporting teaching equipment, such as document cameras or additional displays, with an ergonomic folding design for easy storage. </span><br /><strong><span>Dimensions</span></strong><span>: 575(L) x 545(W) mm, Weight Capacity: 15kg</span></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><div style="page-break-after: always; break-after: page;"></div><!-- break --><h2 id='tabletop'><span>Tabletop</span></h2><p><img src="../UserManual/img/NDP100v3-tabletop-min.png"  style="zoom: 10%;" /></p><figure class='table-figure'><table><thead><tr><th><span>No</span></th><th><span>Name</span></th><th><span>Description</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Interactive Pen Display</span></td><td><span>Central touchscreen supporting both finger touch and electromagnetic pen input. Positioned for interaction during lectures.</span></td></tr><tr><td><span>2</span></td><td><span>Groove</span></td><td><span>Holder for the Interactive Pen Display&#39;s active capacitive pen </span><br /><strong><span>Dimensions</span></strong><span>: 390(L) mm</span></td></tr><tr><td><span>3</span></td><td><span>Secure Drawer with Combination Lock and Key</span></td><td><span>Storage drawer equipped with both combination lock and key for secure storage of important items.</span></td></tr><tr><td><span>4</span></td><td><span>Wireless Charging</span></td><td><span>Integrated wireless charging pad for smartphones, with a 15W output.</span></td></tr><tr><td><span>5</span></td><td><span>Interface</span></td><td><span>Input/output connections for device integration such as USB drives, laptops, or other peripherals.</span></td></tr><tr><td><span>6</span></td><td><span>Cabinet Antenna (5-in-1)</span></td><td><span>Antenna unit for Wi-Fi and UHF communications. Includes 2 antennas for built-in PC Wi-Fi, 2 antennas for NMP Wi-Fi, and 1 UHF antenna for wireless microphone.</span></td></tr><tr><td><span>7</span></td><td><span>Touch Panel</span></td><td><span>Central control interface for managing classroom devices and settings.</span></td></tr><tr><td><span>8</span></td><td><span>Touch Panel Button</span></td><td><span>An extension of the Touch Panel&#39;s power button on the tabletop. A short press puts the screen into sleep mode or wakes it, while a long press (over 3 seconds) powers the device on or off.</span></td></tr><tr><td><span>9</span></td><td><span>Up/Down Buttons</span></td><td><span>Motorized control for adjusting display height, with limit switch functionality. Red and blue indicator lights show the status: red means the sliding cover is not fully latched and the buttons won’t respond, while blue allows normal operation.</span></td></tr><tr><td><span>10</span></td><td><span>Gooseneck Microphone</span></td><td><span>High-quality microphone for capturing clear audio during lectures. </span><br /></td></tr></tbody></table></figure><p>&nbsp;</p><h1 id='interactive-pen-display'><span>Interactive Pen Display</span></h1><p><img src="../UserManual/img/NDP100v3-Screen.png"  style="zoom: 15%;" /></p><p>&nbsp;</p><p><strong><span>Screen</span></strong></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Panel Type</span></td><td><span>TFT-LCD</span></td></tr><tr><td><span>2</span></td><td><span>Size</span></td><td><span>21.5 inch (16:9)</span></td></tr><tr><td><span>3</span></td><td><span>Resolution</span></td><td><span>250 cd/m²</span></td></tr><tr><td><span>4</span></td><td><span>Contrast Ratio</span></td><td><span>1000:1</span></td></tr><tr><td><span>5</span></td><td><span>Surface</span></td><td><span>6H tempered explosion-proof glass</span></td></tr><tr><td><span>6</span></td><td><span>View Angle</span></td><td><span>178° (H), 178° (V)</span></td></tr></tbody></table></figure><p>&nbsp;</p><p><strong><span>Touch</span></strong></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Technology</span></td><td><span>Capacitive</span></td></tr><tr><td><span>2</span></td><td><span>Pen</span></td><td><span>Active pen</span></td></tr><tr><td><span>3</span></td><td><span>Scanning Resolution</span></td><td><span>4096×4096</span></td></tr><tr><td><span>4</span></td><td><span>Voltage</span></td><td><span>DC+5V ±5%</span></td></tr><tr><td><span>5</span></td><td><span>Touch Points</span></td><td><span>10 points touch</span></td></tr><tr><td><span>6</span></td><td><span>Response Time</span></td><td><span>&lt;15 ms</span></td></tr></tbody></table></figure><p>&nbsp;</p><p><strong><span>Ports</span></strong></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>HDMI Input</span></td><td><span>1</span></td></tr><tr><td><span>2</span></td><td><span>VGA Input</span></td><td><span>1</span></td></tr><tr><td><span>3</span></td><td><span>VGA Audio Input</span></td><td><span>1</span></td></tr><tr><td><span>4</span></td><td><span>DC 12V Input</span></td><td><span>1</span></td></tr><tr><td><span>5</span></td><td><span>Capacitive Touch Interface</span></td><td><span>1 set</span></td></tr></tbody></table></figure><p>&nbsp;</p><p><strong><span>General Specifications</span></strong></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Built-in Speaker</span></td><td><span>4Ω 3W</span></td></tr><tr><td><span>2</span></td><td><span>Stand Adjustment</span></td><td><span>12° ~ 130°</span></td></tr><tr><td><span>3</span></td><td><span>Power Supply</span></td><td><span>External Power Adapter (input 100-240V AC, 50/60Hz, output 12V DC 4A)</span></td></tr><tr><td><span>4</span></td><td><span>Weight</span></td><td><span>8.5KG</span></td></tr><tr><td><span>5</span></td><td><span>Dimension</span></td><td><span>523.6×315.1×48mm</span></td></tr><tr><td><span>6</span></td><td><span>Working Environment</span></td><td><span>Working Temperature: 0~40℃; Working Humidity: 10~90%</span></td></tr><tr><td><span>7</span></td><td><span>Storage Environment</span></td><td><span>Storage Temperature: -20~60℃; Storage Humidity: 10~90%</span></td></tr></tbody></table></figure><p>&nbsp;</p><h1 id='controller-nmp'><span>Controller-NMP</span></h1><p><span>The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities of the digital podium.  </span></p><p><img src="../../NMP/UserManual/img/NMP211-Interface-Back.png" style="zoom: 15%;" /></p><p><span> </span></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Interface</span></th><th><span>Description</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>RJ45 * 4</span></td><td><span>Ethernet ports (100Mbps, non-PoE) for NMP network connectivity; also enables NMP to function as a switch.</span></td></tr><tr><td><span>2</span></td><td><span>HDMI Matrix 3 * 3</span></td><td><span>Consists of 3 HDMI inputs and 3 HDMI outputs, forming the video matrix for NMP.</span></td></tr><tr><td><span>3</span></td><td><span>2.4G Wi-Fi Antenna Interface * 2</span></td><td><span>Built-in 2.4G Wi-Fi RP Transceiver within NMP, allowing wireless device integration and control expansion with Q-NEX&#39;s CBX component.</span></td></tr><tr><td><span>4</span></td><td><span>UHF Wireless Microphone Antenna Interface * 1</span></td><td><span>Built-in receiver for UHF wireless microphones, supporting one-to-two wireless microphone setups for teaching/meeting scenarios.</span></td></tr><tr><td><span>5</span></td><td><span>Display (WAGO) * 1</span></td><td><span>Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums.</span></td></tr><tr><td><span>6</span></td><td><span>UP-DOWN (WAGO) * 1</span></td><td><span>Offering up, pause, and down functions for connected devices like projector screens and motorized curtains.</span></td></tr><tr><td><span>7</span></td><td><span>RS232 * 1</span></td><td><span>Allows connection to devices equipped with standard RS232 ports, such as Pan-Tilt-Zoom (PTZ) cameras and Interactive Flat Panels (IFP), etc.</span></td></tr><tr><td><span>8</span></td><td><span>Panel * 1</span></td><td><span>Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matix switching without the need for network connectivity.</span></td></tr><tr><td><span>9</span></td><td><span>IR * 2</span></td><td><span>IR learner port * 1: Used for learning IR remote control codes.</span><br /><span>IR emitter port * 1: For infrared remote-control functionality.</span></td></tr><tr><td><span>10</span></td><td><span>USB * 2</span></td><td><span>Reserved for card reader</span></td></tr><tr><td><span>11</span></td><td><span>Touch USB * 3</span></td><td><span>USB-Device OUT * 1, USB-HOST IN * 2 for NMP&#39;s touch-following feature.</span></td></tr><tr><td><span>12</span></td><td><span>6.35mm Wired Microphone In * 1</span></td><td><span>Interface for connecting a 6.35mm wired microphone.</span></td></tr><tr><td><span>13</span></td><td><span>3.5mm MIC Mixed Out * 1</span></td><td><span>Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output.</span></td></tr><tr><td><span>14</span></td><td><span>Audio-IN * 2</span></td><td><span>Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc.</span></td></tr><tr><td><span>15</span></td><td><span>Audio Out</span></td><td><span>Audio output interface for connecting to speakers or amplifiers.</span></td></tr><tr><td><span>16</span></td><td><span>External Speaker Output</span></td><td><span>The NMP includes an integrated power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only).</span></td></tr><tr><td><span>17</span></td><td><span>Built-in OPS Control (LOCK Interface) * 1</span></td><td><span>Be used to monitor and control the OPS within the Digital Podium, synchronized with NDP power management.</span></td></tr><tr><td><span>18</span></td><td><span>Power Fuse * 1</span></td><td><span>Power fuse for protection against electrical faults.</span></td></tr><tr><td><span>19</span></td><td><span>External Port (WAGO) * 1</span></td><td><span>External port interface for lighting control and other devices. there are two methods to control lighting and other devices:</span><br /><span>1. </span><strong><span>Direct Connection to NMP-External</span></strong><span>: With this mode, users can directly manage lighting control using NMP.</span><br /><span>2. </span><strong><span>Integration with SPDT Switch</span></strong><span>: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting.</span></td></tr><tr><td><span>20</span></td><td><span>NMP Power Supply (WAGO) * 1</span></td><td><span>Power supply for NMP, supporting wide voltage range (110-240 V AC).</span></td></tr></tbody></table></figure><p>&nbsp;</p><p><strong><span>Media Server (Optional)</span></strong></p><p><img src="../UserManual/img/note.png"  /><strong><span>Note</span></strong><span>:</span></p><p><font color=red><span> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</span></font></p><p><span>The table below shows the minimum recommended specifications::</span></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Storage Type</span></td><td><span>ECC</span></td></tr><tr><td><span>2</span></td><td><span>RAM</span></td><td><span>16G</span></td></tr><tr><td><span>3</span></td><td><span>HDD Storage</span></td><td><span>4T * 4 SATA</span></td></tr><tr><td><span>4</span></td><td><span>CPU</span></td><td><span>4-core 8-thread CPU</span></td></tr><tr><td><span>5</span></td><td><span>System</span></td><td><span>Windows Server OS</span></td></tr></tbody></table></figure><p>&nbsp;</p><h1 id='touch-panel'><span>Touch Panel</span></h1><p><img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 33%;" /></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Model</span></td><td><span>CPL20</span></td></tr><tr><td><span>2</span></td><td><span>CPU</span></td><td><span>Quad-core, Main frequency 1.6GHz</span></td></tr><tr><td><span>3</span></td><td><span>GPU</span></td><td><span>Quad-core</span></td></tr><tr><td><span>4</span></td><td><span>RAM</span></td><td><span>2G</span></td></tr><tr><td><span>5</span></td><td><span>ROM</span></td><td><span>16G</span></td></tr><tr><td><span>6</span></td><td><span>O.S.</span></td><td><span>Android 10</span></td></tr><tr><td><span>7</span></td><td><span>Screen</span></td><td><span>10-inch 1280*800 IPS</span></td></tr><tr><td><span>8</span></td><td><span>Dimension (mm)</span></td><td><span>244</span><em><span>171.5</span></em><span>28mm (L</span><em><span>H</span></em><span>W)</span></td></tr><tr><td><span>9</span></td><td><span>Touch</span></td><td><span>Capacitive screen with tempered glass, 10-point touch </span><br><span> Optical bonding</span></td></tr><tr><td><span>10</span></td><td><span>I/O Port</span></td><td><span>RJ45*1 (PoE supported) </span><br><span> USB2.0 *3 </span><br><span> Type-C OTG *1 </span><br><span> Audio (3.5mm) *1 </span><br><span> DC (12V) *1</span></td></tr><tr><td><span>11</span></td><td><span>Physical Button</span></td><td><span>Power *1</span></td></tr><tr><td><span>12</span></td><td><span>IC</span></td><td><span>Supported</span></td></tr><tr><td><span>13</span></td><td><span>Working</span></td><td><span>-20°C to 70°C</span></td></tr><tr><td><span>14</span></td><td><span>Working Humidity</span></td><td><span>&lt;85%</span></td></tr><tr><td><span>15</span></td><td><span>Installation</span></td><td><span>Desktop stand</span></td></tr></tbody></table></figure><p>&nbsp;</p><h1 id='built-in-pc'><span>Built-in PC</span></h1><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Processor</span></td><td><span>Intel® Core™ i5 (11th Generation)</span></td></tr><tr><td><span>2</span></td><td><span>RAM</span></td><td><span>16GB </span><br><span> 2x DDR4 slots, up to 32GB</span></td></tr><tr><td><span>3</span></td><td><span>Storage</span></td><td><span>1TB SSD</span></td></tr><tr><td><span>4</span></td><td><span>Graphics Card</span></td><td><span>CPU Integrated Graphics, HD Graphics</span></td></tr><tr><td><span>5</span></td><td><span>Network Card</span></td><td><span>1 × RJ45 LAN 10/100/1000M</span></td></tr><tr><td><span>6</span></td><td><span>WiFi</span></td><td><span>IEEE 802.11 a/g/n/ac</span></td></tr><tr><td><span>7</span></td><td><span>USB</span></td><td><span>3 × USB3.0 </span><br><span> 3 × USB2.0</span></td></tr><tr><td><span>8</span></td><td><span>Power Button</span></td><td><span>1 × power button</span></td></tr><tr><td><span>9</span></td><td><span>Audio</span></td><td><span>1 × LINE-OUT &amp; MIC-IN</span></td></tr><tr><td><span>10</span></td><td><span>LED Light</span></td><td><span>1 × Power light &amp; 1 × Hard disk light</span></td></tr><tr><td><span>11</span></td><td><span>Power Supply Input</span></td><td><span>19V</span></td></tr><tr><td><span>12</span></td><td><span>Dimension</span></td><td><span>180mm (L) x 195mm (W) x 42mm (H)</span></td></tr><tr><td><span>13</span></td><td><span>Temperature</span></td><td><span>Operating temperature: 0°C ~ 50°C </span><br><span> Storage temperature: -20~70°C</span></td></tr><tr><td><span>14</span></td><td><span>Humidity</span></td><td><span>5%~90% No condensation</span></td></tr></tbody></table></figure><p>&nbsp;</p><h1 id='doc-camera---e4521optional'><span>Doc Camera-  E4521(Optional)</span></h1><p><img src="../../NMP/UserManual/img/E4521.jpg" style="zoom: 10%;" /></p><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Imaging Device</span></td><td><span>1/2.8 inch Sony CMOS</span></td></tr><tr><td><span>2</span></td><td><span>Total Pixels</span></td><td><span>8 MP</span></td></tr><tr><td><span>3</span></td><td><span>Horizontal Resolution</span></td><td><span>1600 TV line</span></td></tr><tr><td><span>4</span></td><td><span>Zoom</span></td><td><span>10X optical zoom, 10X digital zoom</span></td></tr><tr><td><span>5</span></td><td><span>Focus</span></td><td><span>Automatic / manual</span></td></tr><tr><td><span>6</span></td><td><span>Aperture</span></td><td><span>Automatic</span></td></tr><tr><td><span>7</span></td><td><span>White Balance</span></td><td><span>Automatic</span></td></tr><tr><td><span>8</span></td><td><span>Image Processing</span></td><td><span>Color / black and white, mirroring, text / image, brightness adjustment, image freeze, zoom in / out</span></td></tr><tr><td><span>9</span></td><td><span>IR Remote Control</span></td><td><span>Standard</span></td></tr><tr><td><span>10</span></td><td><span>VGA/HDMI Frame Rate</span></td><td><span>3840*2160P@20fps (maximum) 1080P@30fps</span></td></tr><tr><td><span>11</span></td><td><span>VGA Resolution</span></td><td><span>XGA, SXGA, 1080P</span></td></tr><tr><td><span>12</span></td><td><span>HDMI Resolution</span></td><td><span>4K, 1080P</span></td></tr><tr><td><span>13</span></td><td><span>Resolution</span></td><td><span>4K (3840 * 2160) / 1920 * 1080</span></td></tr><tr><td><span>14</span></td><td><span>USB Video Stream Format</span></td><td><span>3840*2160 @ 15fps, 1080P@30fps</span></td></tr><tr><td><span>15</span></td><td><span>File Shooting Range</span></td><td><span>A3 and below</span></td></tr><tr><td><span>16</span></td><td><span>Input Interface</span></td><td><span>VGA *1, HDMI *1, Audio *1</span></td></tr><tr><td><span>17</span></td><td><span>Output Interface</span></td><td><span>VGA *1, HDMI *1, Audio *1, USB2.0 *1</span></td></tr><tr><td><span>18</span></td><td><span>TF Card</span></td><td><span>Support</span></td></tr><tr><td><span>19</span></td><td><span>USB Mouse</span></td><td><span>Support</span></td></tr><tr><td><span>20</span></td><td><span>Operation Function by Mouse</span></td><td><span>Annotation, Auto focus, Zoom in, Zoom out, Take photos, Video, Video playback, Split screen, Picture in picture, Freeze, Title, Rotate, Image, Text, etc.</span></td></tr><tr><td><span>21</span></td><td><span>Auxiliary Light</span></td><td><span>LED lights, three-level dimming</span></td></tr><tr><td><span>22</span></td><td><span>Operating Voltage</span></td><td><span>12V (external DC12V power adapter)</span></td></tr><tr><td><span>23</span></td><td><span>Booth Volume</span></td><td><span>Folding: 373.5 * 110 * 160mm </span><br><span> Unfolding: 448 * 385 * 160mm</span></td></tr><tr><td><span>24</span></td><td><span>Net Weight</span></td><td><span>2.80 KG</span></td></tr><tr><td><span>25</span></td><td><span>Package Dimensions</span></td><td><span>400 * 755 * 208mm</span></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><h1 id='microphone'><span>Microphone</span></h1><p>&nbsp;</p><h2 id='handheld-microphone'><span>Handheld Microphone</span></h2><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Receiving Sensitivity</span></td><td><span>&gt;=85dBm</span></td></tr><tr><td><span>2</span></td><td><span>Receiver Working Current</span></td><td><span>5V/180mA</span></td></tr><tr><td><span>3</span></td><td><span>Frequency Range</span></td><td><span>640MHz ~ 690MHz</span></td></tr><tr><td><span>4</span></td><td><span>Sensitivity</span></td><td><span>51dB ± 3dB (0dB = 1V/Pa 1 KHz)</span></td></tr><tr><td><span>5</span></td><td><span>Frequency Response</span></td><td><span>50Hz ~ 15KHz</span></td></tr><tr><td><span>6</span></td><td><span>Microphone Type</span></td><td><span>Dynamic cardioid microphone</span></td></tr><tr><td><span>7</span></td><td><span>SNR</span></td><td><span>&gt;=65dB</span></td></tr><tr><td><span>8</span></td><td><span>Transmit Power</span></td><td><span>&gt;20dBm</span></td></tr><tr><td><span>9</span></td><td><span>Distortion</span></td><td><span>&lt;0.5%</span></td></tr><tr><td><span>10</span></td><td><span>Effective Distance</span></td><td><span>&lt;40m</span></td></tr><tr><td><span>11</span></td><td><span>Latency</span></td><td><span>&lt;5ms</span></td></tr><tr><td><span>12</span></td><td><span>Operating Temperature</span></td><td><span>-25°C ~ 60°C</span></td></tr><tr><td><span>13</span></td><td><span>Power Supply</span></td><td><span>2 * AA batteries</span></td></tr><tr><td><span>14</span></td><td><span>Microphone Working Current</span></td><td><span>100mA @ 3V</span></td></tr><tr><td><span>15</span></td><td><span>Battery Lifetime</span></td><td><span>12 Hours</span></td></tr></tbody></table></figure><p>&nbsp;</p><h2 id='lapel-microphone'><span>Lapel Microphone</span></h2><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Receiving Sensitivity</span></td><td><span>&gt;=85dBm</span></td></tr><tr><td><span>2</span></td><td><span>Receiver Working Current</span></td><td><span>5V/180mA</span></td></tr><tr><td><span>3</span></td><td><span>Frequency Range</span></td><td><span>640MHz ~ 690MHz</span></td></tr><tr><td><span>4</span></td><td><span>Sensitivity</span></td><td><span>51dB ± 3dB (0dB = 1V/Pa 1 KHz)</span></td></tr><tr><td><span>5</span></td><td><span>Frequency Response</span></td><td><span>50Hz ~ 15KHz</span></td></tr><tr><td><span>6</span></td><td><span>Microphone Type</span></td><td><span>Condenser microphone</span></td></tr><tr><td><span>7</span></td><td><span>SNR</span></td><td><span>&gt;=105dB</span></td></tr><tr><td><span>8</span></td><td><span>Transmit Power</span></td><td><span>16 ~ 25dBm</span></td></tr><tr><td><span>9</span></td><td><span>Distortion</span></td><td><span>&lt;0.5%</span></td></tr><tr><td><span>10</span></td><td><span>Effective Distance</span></td><td><span>&lt;40m</span></td></tr><tr><td><span>11</span></td><td><span>Latency</span></td><td><span>&lt;5ms</span></td></tr><tr><td><span>12</span></td><td><span>Operating Temperature</span></td><td><span>-25°C ~ 60°C</span></td></tr><tr><td><span>13</span></td><td><span>Power Supply</span></td><td><span>2 * AA batteries</span></td></tr><tr><td><span>14</span></td><td><span>Microphone Working Current</span></td><td><span>200mA @ 3V</span></td></tr><tr><td><span>15</span></td><td><span>Battery Lifetime</span></td><td><span>5 Hours</span></td></tr></tbody></table></figure><h2 id='gooseneck-microphone'><span>Gooseneck Microphone</span></h2><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Polar Pattern</span></td><td><span>Supercardioid</span></td></tr><tr><td><span>2</span></td><td><span>Frequency Response</span></td><td><span>70 ~ 20KHz</span></td></tr><tr><td><span>3</span></td><td><span>Sensitivity (0dB=1V/1Pa, 1KHz)</span></td><td><span>-45dB (±2dB)</span></td></tr><tr><td><span>4</span></td><td><span>Output Impedance</span></td><td><span>200 ohm Balanced</span></td></tr><tr><td><span>5</span></td><td><span>Power Supply</span></td><td><span>External Power Adapter (Input 100-220V AC, 50/60Hz, Output 10V DC 350 mA)</span></td></tr><tr><td><span>6</span></td><td><span>Anti-interference</span></td><td><span>Resistance to mobile phone interference and electromagnetic interference</span></td></tr><tr><td><span>7</span></td><td><span>Weight (g)</span></td><td><span>200</span></td></tr></tbody></table></figure><h1 id='full-gigabit-switch'><span>Full Gigabit Switch</span></h1><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>RJ45 Ports</span></td><td><span>8 * 10/100/1000M self-adaptive Ethernet ports</span></td></tr><tr><td><span>2</span></td><td><span>Standards</span></td><td><span>IEEE802.3, IEEE802.3i, IEEE802.3u, IEEE802.3ab, IEEE802.3x</span></td></tr><tr><td><span>3</span></td><td><span>Protocol</span></td><td><span>CSMA/CD</span></td></tr><tr><td><span>4</span></td><td><span>Data Transfer Rate</span></td><td><span>2000Mbps (Full Duplex)</span></td></tr><tr><td><span>5</span></td><td><span>Network Media</span></td><td><span>Cat5e or above UTP/STP (&lt;=100m)</span></td></tr><tr><td><span>6</span></td><td><span>Store and Forward</span></td><td><span>Supported</span></td></tr><tr><td><span>7</span></td><td><span>Switching Capacity</span></td><td><span>16Gbps</span></td></tr><tr><td><span>8</span></td><td><span>MAC Address Table Depth</span></td><td><span>4K</span></td></tr><tr><td><span>9</span></td><td><span>Power Input</span></td><td><span>External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 9V DC, 0.6A)</span></td></tr></tbody></table></figure><h1 id='router-optional'><span>Router (Optional)</span></h1><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Protocol Standards</span></td><td><span>IEEE 802.3, IEEE 802.3u, IEEE 802.3x</span></td></tr><tr><td><span>2</span></td><td><span>Ports</span></td><td><span>4 x 10/100M RJ45 ports (with auto-flip) </span><br><span> 1 x 10/100M RJ45 port (with auto-flip)</span></td></tr><tr><td><span>3</span></td><td><span>LEDs</span></td><td><span>LAN port status lights </span><br><span> WAN port status lights </span><br><span> System status light (SYS)</span></td></tr><tr><td><span>4</span></td><td><span>Buttons</span></td><td><span>Reset button</span></td></tr><tr><td><span>5</span></td><td><span>Dimensions</span></td><td><span>158mm x 122mm x 34mm</span></td></tr><tr><td><span>6</span></td><td><span>Power Input</span></td><td><span>External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 5V DC, 0.6A)</span></td></tr><tr><td><span>7</span></td><td><span>Working/Storage Environment</span></td><td><span>Temperature: 0°C ~ 40°C </span><br><span> Humidity: 10% ~ 90%RH (non-condensing) </span><br><span> Storage Temperature: -40°C ~ 70°C </span><br><span> Storage Humidity: 5% ~ 90%RH (non-condensing)</span></td></tr></tbody></table></figure><h1 id='lite-media-serveroptional'><span>Lite Media Server(Optional)</span></h1><figure class='table-figure'><table><thead><tr><th><span>No.</span></th><th><span>Item</span></th><th><span>Specification</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Processor</span></td><td><span>Intel® Core™ i5 4200M 2.5GHz</span></td></tr><tr><td><span>2</span></td><td><span>RAM</span></td><td><span>4GB DDR3</span></td></tr><tr><td><span>3</span></td><td><span>Storage</span></td><td><span>256G SSD</span></td></tr><tr><td><span>4</span></td><td><span>Network Card</span></td><td><span>1 × RJ45 LAN 10/100/1000M</span></td></tr><tr><td><span>5</span></td><td><span>WiFi</span></td><td><span>IEEE 802.11 a/g/n/ac</span></td></tr><tr><td><span>6</span></td><td><span>Power Supply Input</span></td><td><span>19V</span></td></tr><tr><td><span>7</span></td><td><span>Dimension</span></td><td><span>180mm (L) x 195mm (W) x 42mm (H)</span></td></tr><tr><td><span>8</span></td><td><span>Temperature</span></td><td><span>Operating temperature: 0°C ~ 50°C </span><br><span> Storage temperature: -20°C ~ 70°C</span></td></tr><tr><td><span>9</span></td><td><span>Humidity</span></td><td><span>5% ~ 90% No condensation</span></td></tr></tbody></table></figure><p><img src="../UserManual/img/note.png"  /><strong><span>Note:</span></strong><span> </span></p><p><span>The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.</span></p><p>&nbsp;</p></div></div>
+</body>
+</html>
