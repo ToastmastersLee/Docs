@@ -38,8 +38,6 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 
 
-
-
 # Podium
 
 
@@ -61,8 +59,6 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 ## Podium Body
 
 <img src="../UserManual/img/NDP100v3-overview_intro-min.PNG"  style="zoom: 97%;" />
-
-
 
 | No   | Name                              | Description                                                  |
 | ---- | --------------------------------- | ------------------------------------------------------------ |
@@ -328,8 +324,6 @@ The table below shows the minimum recommended specifications::
 | 14   | Microphone Working Current | 200mA @ 3V                     |
 | 15   | Battery Lifetime           | 5 Hours                        |
 
-
-
 ## Gooseneck Microphone
 
 | No.  | Item                           | Specification                                                |
@@ -341,12 +335,6 @@ The table below shows the minimum recommended specifications::
 | 5    | Power Supply                   | External Power Adapter (Input 100-220V AC, 50/60Hz, Output 10V DC 350 mA) |
 | 6    | Anti-interference              | Resistance to mobile phone interference and electromagnetic interference |
 | 7    | Weight (g)                     | 200                                                          |
-
-
-
-
-
-
 
 # Full Gigabit Switch
 
@@ -362,8 +350,6 @@ The table below shows the minimum recommended specifications::
 | 8    | MAC Address Table Depth | 4K                                                           |
 | 9    | Power Input             | External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 9V DC, 0.6A) |
 
-
-
 # Router (Optional)
 
 | No.  | Item                        | Specification                                                |
@@ -375,8 +361,6 @@ The table below shows the minimum recommended specifications::
 | 5    | Dimensions                  | 158mm x 122mm x 34mm                                         |
 | 6    | Power Input                 | External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 5V DC, 0.6A) |
 | 7    | Working/Storage Environment | Temperature: 0°C ~ 40°C <br> Humidity: 10% ~ 90%RH (non-condensing) <br> Storage Temperature: -40°C ~ 70°C <br> Storage Humidity: 5% ~ 90%RH (non-condensing) |
-
-
 
 # Lite Media Server(Optional)
 
