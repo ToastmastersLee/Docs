@@ -78,8 +78,6 @@ Descriptions:
 
 <img src="../UserManual/img/NDP100v3-tabletop-min.png"  style="zoom: 97%;" />
 
-e:
-
 | No   | Name                                        | Description                                                  |
 | ---- | ------------------------------------------- | ------------------------------------------------------------ |
 | 1    | Interactive Pen Display                     | Central touchscreen supporting both finger touch and electromagnetic pen input. Positioned for interaction during lectures. |

@@ -49,4 +49,5 @@
 
 ## References
 
-1. [smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/10. Digital Podium (NDP100 & NDP500)](smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/10. Digital Podium (NDP100 & NDP500))
+1. smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/
+1. [smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/4.图片Product pictures/00 产品图片-2024 products/QNEX/01 产品图 Products](smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/4.图片Product pictures/00 产品图片-2024 products/QNEX/01 产品图 Products)
