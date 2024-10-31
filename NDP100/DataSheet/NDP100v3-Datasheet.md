@@ -10,6 +10,7 @@ table th {
 
 
 
+
 <img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
 
@@ -85,20 +86,6 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 | 6    | Front Drawer                      | Secure storage compartment with a combination lock and key, offering extra safety for sensitive devices or materials. <br />**Dimensions**: 480(L) x 220(W) x 100(H) mm |
 | 7    | Rack/Shelf                        | Spacious storage area for the NMP, built-in PC, and other necessary equipment. <br />**Dimensions**: 500(L) x 490(W) x 590(H) mm |
 | 8    | Foldable Stand                    | Versatile platform designed for supporting teaching equipment, such as document cameras or additional displays, with an ergonomic folding design for easy storage. <br />**Dimensions**: 575(L) x 545(W) mm, Weight Capacity: 15kg |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div style="page-break-after: always; break-after: page;"></div>
