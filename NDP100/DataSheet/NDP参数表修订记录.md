@@ -6,11 +6,14 @@
 
 ## NDP100 v3
 
-| Version    | Status | Description                                                  | Date Modified | Modifier/Contributor   |
-| ---------- | ------ | ------------------------------------------------------------ | ------------- | ---------------------- |
-| 2024-10-14 | Add    | 新增参数表，提交给市场部                                     | 2024-10-15    | Lee                    |
-| 2024-10-15 | Add    | 新增NDP100产品重量数据：<br />净重：90千克<br />毛重：90 + 36 + 5 = 131千克[^2] | 2024-10-15    | 剑锋、何凯、狄霞、王力 |
-| 2024-10-22 | Edited | 1. 调整“Interactive Pen Display-Surface"玻璃铅笔硬度为6H（原7是莫氏硬度）<br />2. 调整Interactive Pen Display的built-in speaker 为“4Ω 3W” （原 4Ω 3W * 2） | 2024-10-22    | 王力、陈珂             |
+| Version     | Status  | Description                                                  | Date Modified | Modifier/Contributor   |
+| ----------- | ------- | ------------------------------------------------------------ | ------------- | ---------------------- |
+| 2024-10-14  | Add     | 新增参数表，提交给市场部                                     | 2024-10-15    | Lee                    |
+| 2024-10-15  | Add     | 新增NDP100产品重量数据：<br />净重：90千克<br />毛重：90 + 36 + 5 = 131千克[^2] | 2024-10-15    | 剑锋、何凯、狄霞、王力 |
+| 2024-10-22  | Edited  | 1. 调整“Interactive Pen Display-Surface"玻璃铅笔硬度为6H（原7是莫氏硬度）<br />2. 调整Interactive Pen Display的built-in speaker 为“4Ω 3W” （原 4Ω 3W * 2） | 2024-10-22    | 王力、陈珂             |
+| 2024-11-1   | New     | 当前Excel转ppt再转word/pdf的流程太长，且git无法追溯到调整细节，现在全部用MD输出内容，再用word直接复制套用格式 | 2024-11-1     | 王力、觅觅             |
+| 2024-11-1-2 | Deleted | 按照冰雯建议，移除掉E4521、TouchPanel等这些图片，只保留必要的NDP100本身的图片，以及核心硬件NMP的图片 | 2024-11-1     | 冰雯                   |
+| 2024-11-04  | Added   | 因E4521的参数是一年多之前的，期间可能发生过多次调整，本次拿NAS最新的覆盖上去 | 2024-11-04    | 王力、冰雯             |
 
 
 
@@ -18,9 +21,7 @@
 
 
 
-## NDP100 v2 / NMP211
-
-
+## NDP100v2 (不再维护)
 
 | Version                                                  | Status  | Description                                                  | Date Modified | Modifier/Contributor |
 | -------------------------------------------------------- | ------- | ------------------------------------------------------------ | ------------- | -------------------- |
@@ -51,3 +52,35 @@
 
 1. smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/
 1. [smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/4.图片Product pictures/00 产品图片-2024 products/QNEX/01 产品图 Products](smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/4.图片Product pictures/00 产品图片-2024 products/QNEX/01 产品图 Products)
+1. [E4521参数表](smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/8.IQ产品线/6. IQView/E4521)
+
+
+
+### 关于NDP参数表维护的一些想法记录
+
+
+
+参考：
+
+1. https://www.maxhub.com/en/smart-lectern/
+
+2. [Smart Lectern - Brochure](https://sgp-cstore-pub.maxhub.com/maxhub_global_public/31a4f9f20a0a42bdaf5ab3dc29478e0c)
+
+3. [MAXHUB SL22MC-Specication](https://sgp-cstore-pub.maxhub.com/maxhub_global_public/upload/lwfrv7g0/MAXHUB%20SL22MC%20(20240517).pdf)：
+
+   分为两部部分：
+
+   - 第一页
+     1. 产品介绍
+     2. 图片
+     3. Key Features
+   - 第二页
+     1. 主要参数描述
+     2. 网络营销地址
+        - 官网
+        - 邮箱
+        - Youtube
+        - facebook
+        - linkedin
+
+4. 啊啊

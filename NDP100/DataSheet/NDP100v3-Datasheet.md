@@ -113,10 +113,6 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 # Interactive Pen Display
 
-<img src="../UserManual/img/NDP100v3-Screen.png"  style="zoom: 15%;" />
-
-
-
 **Screen**
 
 | No.  | Item           | Specification                     |
@@ -186,7 +182,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 5    | Display (WAGO) * 1                            | Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums. |
 | 6    | UP-DOWN (WAGO) * 1                            | Offering up, pause, and down functions for connected devices like projector screens and motorized curtains. |
 | 7    | RS232 * 1                                     | Allows connection to devices equipped with standard RS232 ports, such as Pan-Tilt-Zoom (PTZ) cameras and Interactive Flat Panels (IFP), etc. |
-| 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matix switching without the need for network connectivity. |
+| 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote-control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
 | 11   | Touch USB * 3                                 | USB-Device OUT * 1, USB-HOST IN * 2 for NMP's touch-following feature. |
@@ -221,8 +217,6 @@ The table below shows the minimum recommended specifications::
 
 
 # Touch Panel
-
-<img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 33%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -265,39 +259,35 @@ The table below shows the minimum recommended specifications::
 
 
 
-# Doc Camera-  E4521(Optional)
+# Doc Camera-  E4521 (Optional)
 
-<img src="../../NMP/UserManual/img/E4521.jpg" style="zoom: 10%;" />
+| No.  | Model                                           | E4521                                                        |
+| ---- | ----------------------------------------------- | ------------------------------------------------------------ |
+| 1    | Resolution                                      | 8.0MP                                                        |
+| 2    | Sensor Pixel                                    | 1/2.8" Sony CMOS                                             |
+| 3    | Frame Rate                                      | 30fps                                                        |
+| 4    | Zoom                                            | 10x Optical Zoom, 10x Digital Zoom                           |
+| 5    | Focus                                           | automatic / manual                                           |
+| 6    | Shooting Range                                  | A3                                                           |
+| 7    | Device Structure                                | Folding, support for multi-angle shooting, the lens body rotates 90 degrees left and right |
+| 8    | HDMI Output                                     | 4K, 1080P                                                    |
+| 9    | VGA Output                                      | 1080P                                                        |
+| 10   | Record Output                                   | 3840\*2160P@20fps (Max), 1080P@30fps                         |
+| 11   | USB Output                                      | 3840\*2160 @ 15fps, 1080P@30fps                              |
+| 12   | Image Adjustment                                | Brightness, sharpness, contrast, saturation                  |
+| 13   | Image Trick                                     | Freeze, Mirror, B&W/Color, Text, Image, On-Screen Contrast, Picture-in-Picture, etc. |
+| 14   | LED Light                                       | 3-level adjustment                                           |
+| 15   | Interface                                       | VGA (Input\*1 & Output\*1), HDMI (Input\*1 & Output\*1), USB\*1, USB Mouse |
+| 16   | TF Card Storage                                 | Maximum support 32G                                          |
+| 17   | Native Annotation Function (by mouse operation) | Real-time annotation, auto focus, zoom in, zoom out, photo, video, video playback, on-screen comparison, picture-in-picture, freeze, title freeze, rotate, image, text and other functions |
+| 18   | Button                                          | Power, Switch, Rotate, Light, Zoom In&Out, Brightness Up&Down, AF |
+| 19   | Infrared Remote Control                         | Yes                                                          |
+| 20   | MIC                                             | Yes                                                          |
+| 21   | Power Supply                                    | DC 12V                                                       |
+| 22   | Size                                            | Folded: 373.5\*110\*160mm; <br />Expanded: 448\*385\*160mm   |
+| 23   | Weight                                          | 2.8kg                                                        |
 
-| No.  | Item                        | Specification                                                |
-| ---- | --------------------------- | ------------------------------------------------------------ |
-| 1    | Imaging Device              | 1/2.8 inch Sony CMOS                                         |
-| 2    | Total Pixels                | 8 MP                                                         |
-| 3    | Horizontal Resolution       | 1600 TV line                                                 |
-| 4    | Zoom                        | 10X optical zoom, 10X digital zoom                           |
-| 5    | Focus                       | Automatic / manual                                           |
-| 6    | Aperture                    | Automatic                                                    |
-| 7    | White Balance               | Automatic                                                    |
-| 8    | Image Processing            | Color / black and white, mirroring, text / image, brightness adjustment, image freeze, zoom in / out |
-| 9    | IR Remote Control           | Standard                                                     |
-| 10   | VGA/HDMI Frame Rate         | 3840*2160P@20fps (maximum) 1080P@30fps                       |
-| 11   | VGA Resolution              | XGA, SXGA, 1080P                                             |
-| 12   | HDMI Resolution             | 4K, 1080P                                                    |
-| 13   | Resolution                  | 4K (3840 * 2160) / 1920 * 1080                               |
-| 14   | USB Video Stream Format     | 3840*2160 @ 15fps, 1080P@30fps                               |
-| 15   | File Shooting Range         | A3 and below                                                 |
-| 16   | Input Interface             | VGA *1, HDMI *1, Audio *1                                    |
-| 17   | Output Interface            | VGA *1, HDMI *1, Audio *1, USB2.0 *1                         |
-| 18   | TF Card                     | Support                                                      |
-| 19   | USB Mouse                   | Support                                                      |
-| 20   | Operation Function by Mouse | Annotation, Auto focus, Zoom in, Zoom out, Take photos, Video, Video playback, Split screen, Picture in picture, Freeze, Title, Rotate, Image, Text, etc. |
-| 21   | Auxiliary Light             | LED lights, three-level dimming                              |
-| 22   | Operating Voltage           | 12V (external DC12V power adapter)                           |
-| 23   | Booth Volume                | Folding: 373.5 * 110 * 160mm <br> Unfolding: 448 * 385 * 160mm |
-| 24   | Net Weight                  | 2.80 KG                                                      |
-| 25   | Package Dimensions          | 400 * 755 * 208mm                                            |
-
-
+\*Specifications are subject to change without notice. \*All dimensions ±1cm.
 
 
 
@@ -379,13 +369,13 @@ The table below shows the minimum recommended specifications::
 | ---- | --------------------------- | ------------------------------------------------------------ |
 | 1    | Protocol Standards          | IEEE 802.3, IEEE 802.3u, IEEE 802.3x                         |
 | 2    | Ports                       | 4 x 10/100M RJ45 ports (with auto-flip) <br> 1 x 10/100M RJ45 port (with auto-flip) |
-| 3    | LEDs                        | LAN port status lights <br> WAN port status lights <br> System status light (SYS) |
+| 3    | LEDs                        | LAN port status lights <br>WAN port status lights <br>System status light (SYS) |
 | 4    | Buttons                     | Reset button                                                 |
 | 5    | Dimensions                  | 158mm x 122mm x 34mm                                         |
 | 6    | Power Input                 | External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 5V DC, 0.6A) |
 | 7    | Working/Storage Environment | Temperature: 0°C ~ 40°C <br> Humidity: 10% ~ 90%RH (non-condensing) <br> Storage Temperature: -40°C ~ 70°C <br> Storage Humidity: 5% ~ 90%RH (non-condensing) |
 
-# Lite Media Server(Optional)
+# Lite Media Server (Optional)
 
 | No.  | Item               | Specification                                                |
 | ---- | ------------------ | ------------------------------------------------------------ |
