@@ -185,7 +185,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote-control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
-| 11   | Touch USB * 3                                 | USB-Device OUT * 1, USB-HOST IN * 2 for NMP's touch-following feature. |
+| 11   | Touch USB * 3                                 | **TOUCH USB IN * 1 **:  Receives touch signals from the Interactive Pen Display. <br />**TOUCH USB OUT * 2** : Sends touch signals to OPS or Laptop for touch-following functionality. |
 | 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone.          |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output. |
 | 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
@@ -198,13 +198,50 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 
-**Media Server (Optional)**
+**Networked AV Decoder**
+
+Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
+
+| No.  | Item                    | Specification                                                |
+| ---- | ----------------------- | ------------------------------------------------------------ |
+| 1    | Decoding Protocol       | RTMP                                                         |
+| 2    | Resolution              | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 3    | Media Source            | Media server with Q-NEX streaming service system             |
+| 4    | Playback Options        | Instant playback or scheduled playback on classroom media devices |
+| 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
+| 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
+
+**Live AV Streaming**
+
+Streams live video from IP cameras via RTMP protocol, using the media server to deliver real-time content to classroom devices.
+
+| No.  | Item               | Specification                                    |
+| ---- | ------------------ | ------------------------------------------------ |
+| 1    | Streaming Protocol | RTMP                                             |
+| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps        |
+| 3    | Source             | IP cameras and similar devices                   |
+| 4    | Media Source       | Media server with Q-NEX streaming service system |
+| 5    | Purpose            | Delivers live content to classroom media devices |
+
+**General Specifications**
+
+| No.  | Item              | Specification                                                |
+| ---- | ----------------- | ------------------------------------------------------------ |
+| 1    | Size \(mm\)       | 440(L)\*292(W)\*50(H)                                        |
+| 2    | Weight            | 3.9 Kg                                                       |
+| 3    | Design            | Standard 1U rack-mount, suitable for installation in various types of cabinets |
+| 4    | Motherboard       | Industrial-grade, high-speed 32-bit CPU with embedded operating system |
+| 5    | Push Notification | Displays messages, alerts, and announcements from IT admin or teachers on classroom displays instantly or on schedule |
+
+
+
+# Media Server (Optional)
 
 <img src="../UserManual/img/note.png"  />**Note**:
 
 <font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
 
-The table below shows the minimum recommended specifications::
+The table below shows the minimum recommended specifications:
 
 | No.  | Item         | Specification       |
 | ---- | ------------ | ------------------- |
@@ -341,7 +378,7 @@ The table below shows the minimum recommended specifications::
 
 | No.  | Item                           | Specification                                                |
 | ---- | ------------------------------ | ------------------------------------------------------------ |
-| 1    | Polar Pattern                  | Supercardioid                                                |
+| 1    | Polar Pattern                  | Super cardioid                                               |
 | 2    | Frequency Response             | 70 ~ 20KHz                                                   |
 | 3    | Sensitivity (0dB=1V/1Pa, 1KHz) | -45dB (±2dB)                                                 |
 | 4    | Output Impedance               | 200 ohm Balanced                                             |

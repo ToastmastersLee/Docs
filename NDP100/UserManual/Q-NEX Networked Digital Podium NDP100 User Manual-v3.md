@@ -179,7 +179,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote-control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
-| 11   | Touch USB * 3                                 | USB-Device out * 1, USB-HOST in * 2 for NMP's touch-following feature. For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
+| 11   | TOUCH USB * 3                                 | **TOUCH USB IN * 1 **:  Receives touch signals from the Interactive Pen Display. <br />**TOUCH USB OUT * 2** : Sends touch signals to OPS or Laptop for touch-following functionality.<br />For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
 | 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone.          |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output. |
 | 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
