@@ -37,19 +37,27 @@ table th {
 
 # Product List
 
-The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set of components to support versatile classroom and presentation needs.
+The Q-NEX Networked Digital Podium (NDP100) comes with a set of components to support versatile classroom and presentation needs.
 
-| Product                      | Model | Components                                                   |
-| ---------------------------- | ----- | ------------------------------------------------------------ |
-| Podium                       | -     | Podium Body * 1                                              |
-| Interactive Pen Display      | -     | Interactive Pen Display PD150 * 1                            |
-| Networked Media Processor    | -     | NMP211 * 1<br />Touch Panel * 1<br />Wireless Microphone * 2 |
-| Built-in PC                  | -     | Built-in PC * 1                                              |
-| Gooseneck Microphone         | -     | Gooseneck Microphone * 1                                     |
-| Document Camera (Optional)   | E4521 | Document Camera E4521 * 1 (Optional)                         |
-| Full Gigabit Switch          | -     | Full Gigabit Switch * 1                                      |
-| Router (Optional)            | -     | Router * 1 (Optional)                                        |
-| Lite Media Server (Optional) | -     | Lite Media Server * 1 (Optional)                             |
+| Product                   | Model | Components                                                   |
+| ------------------------- | ----- | ------------------------------------------------------------ |
+| Podium                    | -     | Podium Body * 1                                              |
+| Interactive Pen Display   | -     | Interactive Pen Display * 1                                  |
+| Networked Media Processor | -     | NMP211 * 1<br />Touch Panel * 1<br />Wireless Microphone * 2 |
+| Built-in PC               | -     | Built-in PC * 1                                              |
+| Gooseneck Microphone      | -     | Gooseneck Microphone * 1                                     |
+| Full Gigabit Switch       | -     | Full Gigabit Switch * 1                                      |
+
+
+
+Below are several optional products listed that we suggest to take with NDP100：
+
+| Product           | Model         | Components            |
+| ----------------- | ------------- | --------------------- |
+| Media Server      |               | Media Server * 1      |
+| Lite Media Server | -             | Lite Media Server * 1 |
+| Router            | -             | Router * 1            |
+| Document Camera   | E4521/  E6511 | Document Camera * 1   |
 
 
 
@@ -176,7 +184,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | No.  | Interface                                     | Description                                                  |
 | ---- | --------------------------------------------- | ------------------------------------------------------------ |
 | 1    | RJ45 * 4                                      | Ethernet ports (100Mbps, non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
-| 2    | HDMI Matrix 3 * 3                             | Consists of 3 HDMI inputs and 3 HDMI outputs, forming the video matrix for NMP. |
+| 2    | HDMI Matrix 3 * 2                             | Consists of 3 HDMI INs and 3 HDMI OUTs, the HDMI OUT A and HDMI OUT C output same content, forming the 3 x 2 video matrix for NMP. |
 | 3    | 2.4G Wi-Fi Antenna Interface * 2              | Built-in 2.4G Wi-Fi RP Transceiver within NMP, allowing wireless device integration and control expansion with Q-NEX's CBX component. |
 | 4    | UHF Wireless Microphone Antenna Interface * 1 | Built-in receiver for UHF wireless microphones, supporting one-to-two wireless microphone setups for teaching/meeting scenarios. |
 | 5    | Display (WAGO) * 1                            | Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums. |
@@ -185,7 +193,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote-control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
-| 11   | Touch USB * 3                                 | **TOUCH USB IN * 1 **:  Receives touch signals from the Interactive Pen Display. <br />**TOUCH USB OUT * 2** : Sends touch signals to OPS or Laptop for touch-following functionality. |
+| 11   | Touch USB * 3                                 | TOUCH USB IN * 1 :  Receives touch signals from the Interactive Pen Display. <br />TOUCH USB OUT * 2 : Sends touch signals to OPS or Laptop for touch-following functionality. |
 | 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone.          |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output. |
 | 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
@@ -235,24 +243,6 @@ Streams live video from IP cameras via RTMP protocol, using the media server to 
 
 
 
-# Media Server (Optional)
-
-<img src="../UserManual/img/note.png"  />**Note**:
-
-<font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
-
-The table below shows the minimum recommended specifications:
-
-| No.  | Item         | Specification       |
-| ---- | ------------ | ------------------- |
-| 1    | Storage Type | ECC                 |
-| 2    | RAM          | 16G                 |
-| 3    | HDD Storage  | 4T * 4 SATA         |
-| 4    | CPU          | 4-core 8-thread CPU |
-| 5    | System       | Windows Server OS   |
-
-
-
 # Touch Panel
 
 | No.  | Item             | Specification                                                |
@@ -264,9 +254,9 @@ The table below shows the minimum recommended specifications:
 | 5    | ROM              | 16G                                                          |
 | 6    | O.S.             | Android 10                                                   |
 | 7    | Screen           | 10-inch 1280*800 IPS                                         |
-| 8    | Dimension (mm)   | 244*171.5*28mm (L*H*W)                                       |
-| 9    | Touch            | Capacitive screen with tempered glass, 10-point touch <br> Optical bonding |
-| 10   | I/O Port         | RJ45*1 (PoE supported) <br> USB2.0 *3 <br> Type-C OTG *1 <br> Audio (3.5mm) *1 <br> DC (12V) *1 |
+| 8    | Dimension (mm)   | 244(L)\*171.5(H)\*28(W)                                      |
+| 9    | Touch            | Capacitive screen with tempered glass, 10-point touch <br>Optical bonding |
+| 10   | I/O Port         | RJ45*1 (PoE supported) <br>USB2.0 *3 <br>Type-C OTG *1 <br>Audio (3.5mm) *1 <br>DC (12V) *1 |
 | 11   | Physical Button  | Power *1                                                     |
 | 12   | IC               | Supported                                                    |
 | 13   | Working          | -20°C to 70°C                                                |
@@ -295,36 +285,6 @@ The table below shows the minimum recommended specifications:
 | 14   | Humidity           | 5%~90% No condensation                                       |
 
 
-
-# Doc Camera-  E4521 (Optional)
-
-| No.  | Model                                           | E4521                                                        |
-| ---- | ----------------------------------------------- | ------------------------------------------------------------ |
-| 1    | Resolution                                      | 8.0MP                                                        |
-| 2    | Sensor Pixel                                    | 1/2.8" Sony CMOS                                             |
-| 3    | Frame Rate                                      | 30fps                                                        |
-| 4    | Zoom                                            | 10x Optical Zoom, 10x Digital Zoom                           |
-| 5    | Focus                                           | automatic / manual                                           |
-| 6    | Shooting Range                                  | A3                                                           |
-| 7    | Device Structure                                | Folding, support for multi-angle shooting, the lens body rotates 90 degrees left and right |
-| 8    | HDMI Output                                     | 4K, 1080P                                                    |
-| 9    | VGA Output                                      | 1080P                                                        |
-| 10   | Record Output                                   | 3840\*2160P@20fps (Max), 1080P@30fps                         |
-| 11   | USB Output                                      | 3840\*2160 @ 15fps, 1080P@30fps                              |
-| 12   | Image Adjustment                                | Brightness, sharpness, contrast, saturation                  |
-| 13   | Image Trick                                     | Freeze, Mirror, B&W/Color, Text, Image, On-Screen Contrast, Picture-in-Picture, etc. |
-| 14   | LED Light                                       | 3-level adjustment                                           |
-| 15   | Interface                                       | VGA (Input\*1 & Output\*1), HDMI (Input\*1 & Output\*1), USB\*1, USB Mouse |
-| 16   | TF Card Storage                                 | Maximum support 32G                                          |
-| 17   | Native Annotation Function (by mouse operation) | Real-time annotation, auto focus, zoom in, zoom out, photo, video, video playback, on-screen comparison, picture-in-picture, freeze, title freeze, rotate, image, text and other functions |
-| 18   | Button                                          | Power, Switch, Rotate, Light, Zoom In&Out, Brightness Up&Down, AF |
-| 19   | Infrared Remote Control                         | Yes                                                          |
-| 20   | MIC                                             | Yes                                                          |
-| 21   | Power Supply                                    | DC 12V                                                       |
-| 22   | Size                                            | Folded: 373.5\*110\*160mm; <br />Expanded: 448\*385\*160mm   |
-| 23   | Weight                                          | 2.8kg                                                        |
-
-\*Specifications are subject to change without notice. \*All dimensions ±1cm.
 
 
 
@@ -400,17 +360,25 @@ The table below shows the minimum recommended specifications:
 | 8    | MAC Address Table Depth | 4K                                                           |
 | 9    | Power Input             | External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 9V DC, 0.6A) |
 
-# Router (Optional)
 
-| No.  | Item                        | Specification                                                |
-| ---- | --------------------------- | ------------------------------------------------------------ |
-| 1    | Protocol Standards          | IEEE 802.3, IEEE 802.3u, IEEE 802.3x                         |
-| 2    | Ports                       | 4 x 10/100M RJ45 ports (with auto-flip) <br> 1 x 10/100M RJ45 port (with auto-flip) |
-| 3    | LEDs                        | LAN port status lights <br>WAN port status lights <br>System status light (SYS) |
-| 4    | Buttons                     | Reset button                                                 |
-| 5    | Dimensions                  | 158mm x 122mm x 34mm                                         |
-| 6    | Power Input                 | External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 5V DC, 0.6A) |
-| 7    | Working/Storage Environment | Temperature: 0°C ~ 40°C <br> Humidity: 10% ~ 90%RH (non-condensing) <br> Storage Temperature: -40°C ~ 70°C <br> Storage Humidity: 5% ~ 90%RH (non-condensing) |
+
+# Media Server (Optional)
+
+<img src="../UserManual/img/note.png"  />**Note**:
+
+<font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
+
+The table below shows the minimum recommended specifications:
+
+| No.  | Item         | Specification       |
+| ---- | ------------ | ------------------- |
+| 1    | Storage Type | ECC                 |
+| 2    | RAM          | 16G                 |
+| 3    | HDD Storage  | 4T * 4 SATA         |
+| 4    | CPU          | 4-core 8-thread CPU |
+| 5    | System       | Windows Server OS   |
+
+
 
 # Lite Media Server (Optional)
 
@@ -429,4 +397,48 @@ The table below shows the minimum recommended specifications:
 <img src="../UserManual/img/note.png"  />**Note:** 
 
 The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
+
+
+
+# Router (Optional)
+
+| No.  | Item                        | Specification                                                |
+| ---- | --------------------------- | ------------------------------------------------------------ |
+| 1    | Protocol Standards          | IEEE 802.3, IEEE 802.3u, IEEE 802.3x                         |
+| 2    | Ports                       | 4 x 10/100M RJ45 ports (with auto-flip) <br> 1 x 10/100M RJ45 port (with auto-flip) |
+| 3    | LEDs                        | LAN port status lights <br>WAN port status lights <br>System status light (SYS) |
+| 4    | Buttons                     | Reset button                                                 |
+| 5    | Dimensions                  | 158mm x 122mm x 34mm                                         |
+| 6    | Power Input                 | External Power Adapter (Input: 100~240V AC, 50/60Hz; Output: 5V DC, 0.6A) |
+| 7    | Working/Storage Environment | Temperature: 0°C ~ 40°C <br> Humidity: 10% ~ 90%RH (non-condensing) <br> Storage Temperature: -40°C ~ 70°C <br> Storage Humidity: 5% ~ 90%RH (non-condensing) |
+
+# Doc Camera-  E4521 (Optional)
+
+| No.  | Model                                           | E4521                                                        |
+| ---- | ----------------------------------------------- | ------------------------------------------------------------ |
+| 1    | Resolution                                      | 8.0MP                                                        |
+| 2    | Sensor Pixel                                    | 1/2.8" Sony CMOS                                             |
+| 3    | Frame Rate                                      | 30fps                                                        |
+| 4    | Zoom                                            | 10x Optical Zoom, 10x Digital Zoom                           |
+| 5    | Focus                                           | automatic / manual                                           |
+| 6    | Shooting Range                                  | A3                                                           |
+| 7    | Device Structure                                | Folding, support for multi-angle shooting, the lens body rotates 90 degrees left and right |
+| 8    | HDMI Output                                     | 4K, 1080P                                                    |
+| 9    | VGA Output                                      | 1080P                                                        |
+| 10   | Record Output                                   | 3840\*2160P@20fps (Max), 1080P@30fps                         |
+| 11   | USB Output                                      | 3840\*2160 @ 15fps, 1080P@30fps                              |
+| 12   | Image Adjustment                                | Brightness, sharpness, contrast, saturation                  |
+| 13   | Image Trick                                     | Freeze, Mirror, B&W/Color, Text, Image, On-Screen Contrast, Picture-in-Picture, etc. |
+| 14   | LED Light                                       | 3-level adjustment                                           |
+| 15   | Interface                                       | VGA (Input\*1 & Output\*1), HDMI (Input\*1 & Output\*1), USB\*1, USB Mouse |
+| 16   | TF Card Storage                                 | Maximum support 32G                                          |
+| 17   | Native Annotation Function (by mouse operation) | Real-time annotation, auto focus, zoom in, zoom out, photo, video, video playback, on-screen comparison, picture-in-picture, freeze, title freeze, rotate, image, text and other functions |
+| 18   | Button                                          | Power, Switch, Rotate, Light, Zoom In&Out, Brightness Up&Down, AF |
+| 19   | Infrared Remote Control                         | Yes                                                          |
+| 20   | MIC                                             | Yes                                                          |
+| 21   | Power Supply                                    | DC 12V                                                       |
+| 22   | Size                                            | Folded: 373.5\*110\*160mm; <br />Expanded: 448\*385\*160mm   |
+| 23   | Weight                                          | 2.8kg                                                        |
+
+\*Specifications are subject to change without notice. \*All dimensions ±1cm.
 
