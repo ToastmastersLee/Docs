@@ -56,6 +56,8 @@ To ensure the safe and effective operation of this equipment, please read the fo
 - **Pressure Avoidance**: Do not apply excessive pressure to the LCD screen. Interact with the touchscreen using the provided stylus or a soft, non-abrasive object.
 - **Image Retention Prevention**: To prevent image retention or screen burn-in, avoid displaying static images on the LCD screen for extended periods. Use a screen saver or regularly change the displayed content.
 
+
+
 # 1. Introduction 
 
 

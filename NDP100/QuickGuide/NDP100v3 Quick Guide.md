@@ -123,20 +123,8 @@ Descriptions:
 
    If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left.  
 
-3. Unlock the Touch Panel  to activate the Q-NEX Networked Digital Podium.
+    
 
-   After turning on the main power of the Networked Digital Podium on the Touch Panel, the following power sources will automatically turn on:
-
-   - Gooseneck microphone
-   - Tabletop power outlet 
-   - Switching Power Supply, which includes:
-     - Interactive Pen Display power
-     - Built-in PC (OPS) power
-     - Motor power (Interactive Pen Display elevation and descent)
-
-   When the main power supply of the NDP100 is turned off, these devices will be automatically powered off as well. It simplifies the operation of controlling NDP100's devices by one-touch control on the Touch Panel.
-
-   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/Panel-Power-On.png"  style="zoom: 50%;" /> 
 
 ## 3.2 Power and Network Access
 
@@ -150,18 +138,33 @@ Descriptions:
 
 The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
 
-1. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
+1. After purchasing, you’ll receive your account details from our sales team via email or other methods (e.g., WhatsApp, phone).
 
-   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/image-20240226184302159.png" style="zoom: 33%;" /> 
+1. Log in to the Web-Console at https://mg.qnextech.com/console/login.
 
+1. In Web-Console, use the "Dashboard" button to access the Dashboard platform. For platform roles, see "1.3 Terminology" in the User Manual.
 
-2. IP Address Retrieval: Referencing the '***Devices >> Processor Manage***' page, locate and retrieve the NMP IP address. Input this address on the Touch Panel interface and click 'Connect.'
+1. IP Address Retrieval: Referencing the '***Devices >> Processor Manage***' page, locate and retrieve the NMP IP address. Input this address on the Touch Panel interface and click 'Connect.'
 
    <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/NMP-Adding.png" style="zoom: 25%;" />  
+
+5. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
+
+   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/image-20240226184302159.png" style="zoom: 33%;" /> 
 
    <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/note.png" />**Note**：
 
    If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
+
+6. Unlock the Touch Panel  to activate the Q-NEX Networked Digital Podium.
+
+   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/Panel-Power-On.png"  style="zoom: 50%;" /> 
+
+   Turning on the NDP100’s main power via the Touch Panel automatically powers on:
+
+   - Interactive Pen Display /Built-in PC (OPS)  / UP-Down Button / Gooseneck Mic / Tabletop Power Outlet
+
+
 
 ## 3.3 Connecting IFPs to NDP100
 
