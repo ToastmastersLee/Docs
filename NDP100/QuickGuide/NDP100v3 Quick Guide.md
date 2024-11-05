@@ -141,19 +141,19 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
 
 4. IP Address Retrieval: Referencing the '***Devices >> Processor Manage***' page, locate and retrieve the NMP IP address. Input this address on the Touch Panel interface and click 'Connect.'
 
-   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/NMP-Adding.png" style="zoom: 25%;" />  
+   <img src="../../NMP/UserManual/img/NMP-Adding.png" style="zoom: 25%;" />  
 
 5. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
 
-   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/image-20240226184302159.png" style="zoom: 33%;" /> 
+   <img src="../../NMP/UserManual/img/NMP_Connection_Settings.png" style="zoom: 33%;" /> 
 
-   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/note.png" />**Note**：
+   <img src="../../NMP/UserManual/img/note.png" />**Note**：
 
    If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
 
 6. Unlock the Touch Panel  to activate the Q-NEX Networked Digital Podium.
 
-   <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/Panel-Power-On.png"  style="zoom: 50%;" /> 
+   <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 50%;" /> 
 
    Turning on the NDP100’s main power via the Touch Panel automatically powers on:
 
