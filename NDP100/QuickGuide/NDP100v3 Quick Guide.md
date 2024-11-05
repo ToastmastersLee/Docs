@@ -117,14 +117,7 @@ Descriptions:
 
    <img src="../UserManual/img/Slide-Cover-Key.png" style="zoom: 97%;" /> 
 
-2. Use the **Up / Down** buttons on the tabletop, to elevate the Networked Digital Podium's display to the desired angle.
-
-   <img src="../UserManual/img/note.png"  /> **Note**: 
-
-   If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left.  
-
     
-
 
 ## 3.2 Power and Network Access
 
@@ -163,6 +156,12 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
    Turning on the NDP100’s main power via the Touch Panel automatically powers on:
 
    - Interactive Pen Display /Built-in PC (OPS)  / UP-Down Button / Gooseneck Mic / Tabletop Power Outlet
+
+7. Use the **UP / DOWN** buttons on the tabletop, to elevate the Networked Digital Podium's display to the desired angle.
+
+   <img src="../UserManual/img/note.png"  /> **Note**: 
+
+   If the display screen doesn't raise when pressing "UP / DOWN," ensure the sliding cover is fully to the left.  
 
 
 
