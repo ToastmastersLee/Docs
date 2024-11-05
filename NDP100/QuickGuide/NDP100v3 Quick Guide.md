@@ -133,11 +133,13 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
 
 1. After purchasing, you’ll receive your account details from our sales team via email or other methods (e.g., WhatsApp, phone).
 
-1. Log in to the Web-Console at https://mg.qnextech.com/console/login.
+2. Log in to the Web-Console at https://mg.qnextech.com/console/login.
 
-1. In Web-Console, use the "Dashboard" button to access the Dashboard platform. For platform roles, see "1.3 Terminology" in the User Manual.
+3. In Web-Console, use the "Dashboard" button to access the Dashboard platform. For platform roles, see "1.3 Terminology" in the User Manual.
 
-1. IP Address Retrieval: Referencing the '***Devices >> Processor Manage***' page, locate and retrieve the NMP IP address. Input this address on the Touch Panel interface and click 'Connect.'
+   
+
+4. IP Address Retrieval: Referencing the '***Devices >> Processor Manage***' page, locate and retrieve the NMP IP address. Input this address on the Touch Panel interface and click 'Connect.'
 
    <img src="/Users/leewang/Documents/Githubs/IQ/NDP/NDP100/用户手册/img/NMP-Adding.png" style="zoom: 25%;" />  
 

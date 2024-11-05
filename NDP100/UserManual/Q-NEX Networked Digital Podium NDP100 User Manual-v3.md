@@ -206,7 +206,7 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 ### 2.5.3 Handheld Microphone
 
-<img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240229180807266.png" style="zoom: 33%;" /> 
+<img src="../../NMP/UserManual/img/image-20240229180807266.png" style="zoom: 33%;" /> 
 
 
 
@@ -245,7 +245,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 ### 2.5.4 Lapel Microphone
 
-<img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240229181828663.png"  style="zoom: 33%;" /> 
+<img src="../../NMP/UserManual/img/image-20240229181828663.png"  style="zoom: 33%;" /> 
 
 
 
@@ -317,20 +317,26 @@ The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work 
 
 2. Log in to the Web-Console at https://mg.qnextech.com/console/login.
 
-3. In Web-Console, use the "Dashboard" button to access the Dashboard platform. For platform roles, see "1.3 Terminology" in the User Manual.
+3. In Web-Console, use the "Dashboard" button to access the Dashboard platform. 
+
+   <img src="../../NMP/UserManual/img/Web-Console-Dashboard.png" style="zoom: 25%;" /> 
+
+   > For platform roles, see "1.3 Terminology" in the User Manual.
 
 4. Retrieve the NDP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify you NMP and note the IP address from the 'IP Address' column.
 
-   Enter this IP on the Touch Panel and click 'Connect'." to establish a connection with the NMP.<img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/NMP-Adding.png" style="zoom: 25%;" />  
+   Enter this IP on the Touch Panel and click 'Connect'." to establish a connection with the NMP.<img src="../../NMP/UserManual/img/NMP-Adding.png" style="zoom: 25%;" />  
 
    <img src="./img/note.png" />**Note**：
 
    - If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
    - For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
 
-5. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.<img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/NMP_Connection_Settings.png" style="zoom: 25%;" /> 
+5. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.<img src="../../NMP/UserManual/img/NMP_Connection_Settings.png" style="zoom: 25%;" /> 
 
-6. Unlock the Touch Panel  to activate the NDP100 main power. <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 25%;" /> 
+6. Unlock the Touch Panel  to activate the NDP100 main power. 
+
+   <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 25%;" /> 
 
    <img src="./img/note.png" />**Note**：
 
@@ -872,11 +878,11 @@ Here's a simplified guide for using IR functionality with an air conditioning un
    | Step | Screenshot                                                   | Instructions                                                 |
    | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
    | S1   | <img src="../../NMP/UserManual/img/IR-AC.png"  style="zoom: 33%;" /> | In the IR control page, click “Identify New A/C control code" |
-   | S2   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102143241844.png"  style="zoom: 33%;" /> | Click the "Start" button                                     |
+   | S2   | <img src="../../NMP/UserManual/img/image-20240102143241844.png"  style="zoom: 33%;" /> | Click the "Start" button                                     |
    | S3   | <img src="../../NMP/UserManual/img/IR-RemoteControl.png" style="zoom: 33%;" /> | Align the remote control with the IR interface, press the power button, and the system will automatically identify the remote control code. |
-   | S4   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102171053971.png" style="zoom: 33%;" /> | Upon successful identification, it will display " Identify successfully." |
-   | S5   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102143918858.png"  style="zoom: 33%;" /> | After identification, enter the air conditioner's brand and category, then click Save. |
-   | S6   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102143354231.png" style="zoom: 33%;" /> | You will be redirected to the IR Control Setting page. Select the newly added air conditioner name and click Save. |
+   | S4   | <img src="../../NMP/UserManual/img/image-20240102171053971.png" style="zoom: 33%;" /> | Upon successful identification, it will display " Identify successfully." |
+   | S5   | <img src="../../NMP/UserManual/img/image-20240102143918858.png"  style="zoom: 33%;" /> | After identification, enter the air conditioner's brand and category, then click Save. |
+   | S6   | <img src="../../NMP/UserManual/img/image-20240102143354231.png" style="zoom: 33%;" /> | You will be redirected to the IR Control Setting page. Select the newly added air conditioner name and click Save. |
 
 3. After successful saving, control the air conditioner on the Touch Panel or Web-console
 
@@ -891,12 +897,12 @@ IR remote control module is available for unrecognized air conditioners or other
    | Step | Screenshot                                                   | Instructions                                                 |
    | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
    | S1   | <img src="../../NMP/UserManual/img/IR-Remote.png"  style="zoom: 33%;" /> | In the IR control interface, click the "New remote control code." button |
-   | S2   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240103180758896.png"  style="zoom: 33%;" /> | Select A/C click "Next".                                     |
-   | S3   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102145125079.png"  style="zoom: 33%;" /> | Click "Start to learn"                                       |
+   | S2   | <img src="../../NMP/UserManual/img/image-20240103180758896.png"  style="zoom: 33%;" /> | Select A/C click "Next".                                     |
+   | S3   | <img src="../../NMP/UserManual/img/image-20240102145125079.png"  style="zoom: 33%;" /> | Click "Start to learn"                                       |
    | S4   | <img src="../../NMP/UserManual/img/IR-RemoteControl.png" style="zoom: 33%;" /> | 1. On the remote control, select the desired mode, such as setting the temperature to 25 degrees and choosing the cooling mode.<br />2. Power off the remote, then aim the remote at NMP's "IR IN" port and press the remote's power button again.<br />3. The system will start learning the selected air-conditioning mode.<br />![note](./img/note.png): To learn the power-off function, aim the remote at the IR port and power off directly. |
-   | S5   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240102145239578.png"  style="zoom: 33%;" /> | After successful learning, a "Success" prompt will  appear. Then click the "Next" button |
-   | S6   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240105104632355.png"  style="zoom: 33%;" /> | Enter the corresponding function name here                   |
-   | S7   | <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/image-20240103182400863.png"  style="zoom: 33%;" /> | Then you will be redirected to the "IR Control Setting" page. Then, select the newly added function name and click Save. |
+   | S5   | <img src="../../NMP/UserManual/img/image-20240102145239578.png"  style="zoom: 33%;" /> | After successful learning, a "Success" prompt will  appear. Then click the "Next" button |
+   | S6   | <img src="../../NMP/UserManual/img/image-20240105104632355.png"  style="zoom: 33%;" /> | Enter the corresponding function name here                   |
+   | S7   | <img src="../../NMP/UserManual/img/image-20240103182400863.png"  style="zoom: 33%;" /> | Then you will be redirected to the "IR Control Setting" page. Then, select the newly added function name and click Save. |
 
 
 2. After successfully saving, you can operate the device on the Touch Panel or Web Console 

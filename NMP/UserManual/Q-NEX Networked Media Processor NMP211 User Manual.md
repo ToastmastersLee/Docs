@@ -261,15 +261,19 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
 
      <img src="./img/NMP-RJ45-Connection.png" style="zoom: 15%;" />  
 
-   - Or connect the Touch Panel to the router/switch, ensuring the Touch Panel and NMP are on the same LAN.
+   - Or connect the Touch Panel to the router/switch, ensuring the Touch Panel and NMP are on the same LAN
 
-3. Enter the NMP IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
+3. After purchasing, you’ll receive your account details from our sales team via email or other methods (e.g., WhatsApp, phone).
 
-   <img src="./img/NMP_Connection_Settings.png" style="zoom: 15%;" /> 
+4. Log in to the Web-Console at https://mg.qnextech.com/console/login.
 
-   
+5. In Web-Console, use the "Dashboard" button to access the Dashboard platform. 
 
-4. IP Address Retrieval
+   <img src="./img/Web-Console-Dashboard.png" style="zoom:25%;" /> 
+
+   > For platform roles, see "1.3 Terminology" in the User Manual.
+
+6. IP Address Retrieval
 
    Retrieve the NMP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify your NMP and note the IP address from the 'IP Address' column.
 
@@ -279,10 +283,14 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
 
    <img src="./img/note.png" />**Note**:
 
-   1. If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
-   2. For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
+   - If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
+   - For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
 
-5. Unlock the Touch Panel to activate the NMP main power. 
+7. Enter the NMP IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
+
+   <img src="./img/NMP_Connection_Settings.png" style="zoom: 15%;" /> 
+
+8. Unlock the Touch Panel to activate the NMP main power. 
 
    <img src="./img/Panel-Power-On.png"  style="zoom: 15%;" /> 
 
