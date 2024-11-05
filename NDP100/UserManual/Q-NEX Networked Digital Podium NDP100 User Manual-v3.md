@@ -292,15 +292,8 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
    <img src="./img/Slide-Cover-Key.png" style="zoom: 33%;" /> 
 
-2. Use the **up / down** buttons on the tabletop, to elevate the Digital Podium's display to the desired angle.
-
-   <img src="./img/note.png"  /> **Note**: 
-
-   If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left. 
-
-   Please refer to section [#6.1 Why doesn't the 'Up/Down' button work](##6.1 Why doesn't the 'Up/Down' button work? ) for detailed instructions.
-
    
+
 
 ## 3.2 Power and Network Access 
 
@@ -320,31 +313,34 @@ For users who have purchased the NDP100 demo sample unit for the first time, ple
 
 The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
 
-1. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.
+1. After purchasing, you’ll receive your account details from our sales team via email or other methods (e.g., WhatsApp, phone).
 
-   <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/NMP_Connection_Settings.png" style="zoom: 25%;" /> 
+2. Log in to the Web-Console at https://mg.qnextech.com/console/login.
 
+3. In Web-Console, use the "Dashboard" button to access the Dashboard platform. For platform roles, see "1.3 Terminology" in the User Manual.
 
-2. IP Address Retrieval
+4. Retrieve the NDP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify you NMP and note the IP address from the 'IP Address' column.
 
-   Retrieve the NDP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify you NMP and note the IP address from the 'IP Address' column.
-
-   Enter this IP on the Touch Panel and click 'Connect'." to establish a connection with the NMP.
-
-   <img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/NMP-Adding.png" style="zoom: 25%;" />  
+   Enter this IP on the Touch Panel and click 'Connect'." to establish a connection with the NMP.<img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/NMP-Adding.png" style="zoom: 25%;" />  
 
    <img src="./img/note.png" />**Note**：
 
-   1. If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
-   2. For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
+   - If connection issues arise, use the router device or NMP config Tool.exe to identify the correct IP address, particularly in situations where DHCP changes may not be immediately reflected in the web-based backend.
+   - For consistent access, consider using the Q-NEX Config Tool to set a static IP for the NMP, preventing IP changes post-reboot or network alterations.
 
-3. Unlock the Touch Panel  to activate the NDP100 main power. 
+5. Enter IP Address: After connecting to the network, input the NMP IP address on the Touch Panel.<img src="/Users/leewang/Documents/Githubs/IQ/QNEX/用户手册/img/NMP_Connection_Settings.png" style="zoom: 25%;" /> 
 
-   <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 25%;" /> 
+6. Unlock the Touch Panel  to activate the NDP100 main power. <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 25%;" /> 
 
-   Due to the NDP100 [Unified Power Switch](##4.3.1.1.1 Unified Power Switch) power management strategy, simply unlocking the Touch Panel and turning on the NDP100 main power will automatically power on the corresponding devices.
+   <img src="./img/note.png" />**Note**：
 
+   Due to the NDP100 [Unified Power Switch](#Unified Power Switch) power management strategy, simply unlocking the Touch Panel and turning on the NDP100 main power will automatically power on the corresponding devices.
 
+7. Use the **up / down** buttons on the tabletop, to elevate the Digital Podium's display to the desired angle.
+
+   <img src="./img/note.png"  /> **Note**: 
+
+   If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left. 
 
 ## 3.3 Connecting IFPs to NDP100
 
