@@ -157,7 +157,7 @@ For references:
 
 ## 2.5 Core Components of the NDP100 
 
-<img src="../../NMP/UserManual/img/NMP-Suite-7.png" style="zoom: 25%;" /> 
+<img src="../../NMP/UserManual/img/NMP-Suite-10.png" style="zoom: 15%;" /> 
 
 The NDP100 comprises essential core components that enable functionalities such as remote device control, audio/video matrix switching, and advanced features like "Touch-Following,", "Broadcasting", and "Live Streaming".
 
@@ -196,7 +196,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 ### 2.5.2 Touch Panel 
 
-<img src="../../NMP/UserManual/img/Touch-Panel-7.png" style="zoom: 20%;" />  
+<img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 20%;" />  
 
 The Touch Panel allows users to access NMP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, user still can perform local operations like matrix switching and volume adjustments.
 
