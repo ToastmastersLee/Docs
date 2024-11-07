@@ -286,7 +286,9 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 # 3. Start Using Digital Podium
 
-## 3.1 Unlock Digital Podium
+
+
+## 3.1 Unlock Digital Podium 【王力：补充UP、DOWN按钮使用描述】
 
 1. Insert the key into the keyhole on the left side of the Digital Podium, and the sliding cover panel can be withdrawn.
 
@@ -348,7 +350,7 @@ The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work 
 
    If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left. 
 
-## 3.3 Connecting IFPs to NDP100
+## 3.3 Connecting IFPs to NDP100 【王力】
 
 <img src="./img/NPD-IFPs.png"  style="zoom: 20%;" /> 
 
@@ -389,7 +391,7 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
 
 
-### 3.4.2 Connecting your laptop by HDMI
+### 3.4.2 Connecting your laptop by HDMI 【诗雨】
 
 <img src="./img/Connected-HDMI.png"  style="zoom: 20%;" /> 
 
@@ -398,7 +400,7 @@ By connecting the HDMI interface, LAN port, and Touch USB interface to the corre
 Switch the input source  to ***PC*** by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
 
 
-### 3.4.3 Connecting your laptop by USB-C
+### 3.4.3 Connecting your laptop by USB-C  【诗雨】
 
 <img src="./img/Connected-UBS-C.png"  style="zoom: 20%;" /> 
 
@@ -408,27 +410,15 @@ Switch the input source  to ***USB-C*** by Touch Panel, Web-Console, or Q-NEX Ap
 
 
 
-<img src="./img/note.png"  />**Note**: 
 
-- If the USB-C doesn't respond, try flipping the orientation of the USB-C connector of the USB Cable.
-
-  <img src="./img/USB-C-Filpping.png"  style="zoom: 20%;" /> 
-
-  
-
-- In addition, some laptops come with their own USB-C data cables primarily for charging purposes. To enable network connection and video signal transmission, you may need to purchase a USB-C data cable that specifically supports these functions
-
-
-
-
-### 3.4.4 Connecting USB Flash Drive
+### 3.4.4 Connecting USB Flash Drive  【诗雨】
 
 <img src="./img/Connected-USB-F.png"  style="zoom: 20%;" /> 
 
 The Digital Podium's USB ports are linked to the built-in PC. Simply insert a USB flash drive into the port to access and operate its contents directly on the Interactive Pen Display.
 
 
-### 3.4.5 Using Document Camera(Optional)
+### 3.4.5 Using Document Camera(Optional)  【诗雨】
 
 Connect the Document Camera to the HDMI and Power Supply port.
 
@@ -529,7 +519,7 @@ After connecting the desired input and output devices, users can perform video m
 
  
 
-####  4.2.1.1 Touch-following 
+####  4.2.1.1 Touch-following 【王力】
 
 <img src="../../NMP/UserManual/img/Touch-Following.png"  style="zoom: 20%;" /> 
 
@@ -543,9 +533,9 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 ### 4.2.2 Audio Control
 
-#### 4.2.2.1 SPEAKER
+#### 4.2.2.1 SPEAKER 【诗雨：线条样式统一】
 
-##### 1. SPEAKER Connection Instructions
+##### 1. SPEAKER Connection Instructions 【诗雨：线条样式统一】
 
 <img src="../../NMP/UserManual/img/passive-speaker.png" style="zoom: 25%;" /> 
 
@@ -564,7 +554,7 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 After successful wiring and setup, you can control the volume via the Touch Panel, Web-console, or Q-NEX APP.
 
-##### 2. Device Connection Diagram for SPEAKER
+##### 2. Device Connection Diagram for SPEAKER  【诗雨：线条样式统一】
 
 <img src="../../NMP/UserManual/img/Speaker-Input-Sources.png" style="zoom: 25%;" /> 
 
@@ -694,7 +684,7 @@ Please note that the audio from the microphone (Mic-in) can be independently con
 
 
 
-##### Wired Mic in NDP100
+##### Wired Mic in NDP100 【诗雨: 更换线条不用虚线？风格和之前的同意】
 
 <img src="./img/Gooseneck-Mic.png" style="zoom: 10%;" /> 
 
@@ -781,8 +771,6 @@ When the main power of the NDP100 is turned on / off, these devices will be auto
    - **Power Off**: When the Unified Power Switch is off, a shutdown command is sent to OPS. Power is cut only after OPS completes shutdown. 
 
      If OPS fails to shut down within a set time, power will be forcibly cut. The delay is configurable in **Q-NEX > Dashboard > Device Management > Power Settings**.
-
-2. If you find that attempting to turn on / off the main power of the NDP100 does not activate the "Unified Power Switch," please refer to Q&A section [7.2 The Unified Power Switch didn't activate?](#7.2 The Unified Power Switch didn't activate?) for troubleshooting.
 
 
 
@@ -938,7 +926,7 @@ After learning and saving IR codes, you can control your devices using the Q-NEX
 
 
 
-### 4.3.3 RS232 Control
+### 4.3.3 RS232 Control 【诗雨： 3, 4 线条风格统一下】
 
 NMP provides one RS232 interface, enabling control of devices such as IFP, projectors, and PTZ cameras.
 
