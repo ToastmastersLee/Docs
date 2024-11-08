@@ -221,15 +221,13 @@ Requires a media server to decode and play networked media content on classroom 
 
 **Live AV Streaming**
 
-Streams live video from IP cameras via RTMP protocol, using the media server to deliver real-time content to classroom devices.
+Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
 
-| No.  | Item               | Specification                                    |
-| ---- | ------------------ | ------------------------------------------------ |
-| 1    | Streaming Protocol | RTMP                                             |
-| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps        |
-| 3    | Source             | IP cameras and similar devices                   |
-| 4    | Media Source       | Media server with Q-NEX streaming service system |
-| 5    | Purpose            | Delivers live content to classroom media devices |
+| No.  | Item               | Specification                                                |
+| ---- | ------------------ | ------------------------------------------------------------ |
+| 1    | Streaming Protocol | RTMP                                                         |
+| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 3    | Source             | IP cameras, smartphones with broadcasting software (e.g., OBS), PCs with OBS, audio/video encoders |
 
 **General Specifications**
 
