@@ -332,10 +332,6 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 
 
-
-
-
-
 # Full Gigabit Switch
 
 | No.  | Item                    | Specification                                                |
