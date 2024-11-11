@@ -172,7 +172,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | No.  | Interface                                     | Description                                                  |
 | ---- | --------------------------------------------- | ------------------------------------------------------------ |
 | 1    | RJ45 * 4                                      | Ethernet ports (100Mbps, non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
-| 2    | HDMI Matrix 3 * 3                             | Consists of 3 HDMI inputs and 3 HDMI outputs, forming the video matrix for NMP. |
+| 2    | HDMI Matrix 3 * 2                             | Enables simultaneous display on both the podium and classroom screens, allowing teachers to control and present lesson content directly from the podium without needing to turn around frequently. |
 | 3    | 2.4G Wi-Fi Antenna Interface * 2              | Built-in 2.4G Wi-Fi RP Transceiver within NMP, allowing wireless device integration and control expansion with Q-NEX's CBX component. |
 | 4    | UHF Wireless Microphone Antenna Interface * 1 | Built-in receiver for UHF wireless microphones, supporting one-to-two wireless microphone setups for teaching/meeting scenarios. |
 | 5    | Display (WAGO) * 1                            | Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums. |

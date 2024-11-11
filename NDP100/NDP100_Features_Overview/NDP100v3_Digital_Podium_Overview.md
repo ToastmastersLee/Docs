@@ -46,12 +46,14 @@ The NDP100 provides flexible and efficient control methods to meet diverse usage
 
 ## 5. **Broadcast and Live Streaming Features**
 
+##  <font color=red>(Function not involved in the project)</font>
+
 - **Streaming Broadcast**: With built-in streaming decoding, the NDP100 supports remote broadcast commands through the Q-NEX platform, enabling preloaded media to be streamed to classroom displays, suitable for classroom broadcasts, campus announcements, and more.
 - **Live Streaming**: Through the Q-NEX APP and Web Console, the NDP100 allows live streaming within the campus network. Users can stream video content from mobile cameras, IP cameras, etc., to connected classroom displays, supporting remote teaching, online conferences, and event broadcasting.
 
 
 
-## 6. **CBX Extension Control**
+## 6. **CBX Extension Control** (Optional support)
 
 - **Wireless Control via CBX**: The CBX extension module wirelessly connects to the NDP100 via 2.4G Wi-Fi, enabling remote control of devices such as air conditioners, lighting, and interactive displays. This module supports control via IR, relay, and RS232, allowing flexible device management without complex wiring.
 
