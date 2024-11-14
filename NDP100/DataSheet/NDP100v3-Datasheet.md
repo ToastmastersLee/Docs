@@ -106,7 +106,7 @@ Below are several optional products listed that we suggest to take with NDP100ï¼
 
 | No   | Name                                        | Description                                                  |
 | ---- | ------------------------------------------- | ------------------------------------------------------------ |
-| 1    | Interactive Pen Display                     | Central touchscreen supporting both finger touch and electromagnetic pen input. Positioned for interaction during lectures. |
+| 1    | Interactive Pen Display                     | Central touchscreen supporting both finger touch and active pen input. Positioned for interaction during lectures. |
 | 2    | Groove                                      | Holder for the Interactive Pen Display's active capacitive pen <br />**Dimensions**: 390(L) mm |
 | 3    | Secure Drawer with Combination Lock and Key | Storage drawer equipped with both combination lock and key for secure storage of important items. |
 | 4    | Wireless Charging                           | Integrated wireless charging pad for smartphones, with a 15W output. |
