@@ -184,12 +184,12 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 11   | TOUCH USB * 3                                 | **TOUCH USB IN * 1 **:  Receives touch signals from the Interactive Pen Display. <br />**TOUCH USB OUT * 2** : Sends touch signals to OPS or Laptop for touch-following functionality.<br />For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
 | 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone.          |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output. |
-| 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
-| 15   | Audio Out                                     | Audio output interface for connecting to speakers or amplifiers. |
-| 16   | External Speaker Output                       | The NMP includes an integrated power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
+| 14   | AUDIO IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
+| 15   | AUDIO OUT                                     | Audio output interface for connecting to speakers or amplifiers. |
+| 16   | External Speaker Output                       | The NMP includes a built-in power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
 | 17   | Built-in OPS Control (LOCK Interface) * 1     | Be used to monitor and control the OPS within the Digital Podium, synchronized with NDP power management. |
 | 18   | Power Fuse * 1                                | Power fuse for protection against electrical faults.         |
-| 19   | External Port (WAGO) * 1                      | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
+| 19   | EXTERNAL Port (WAGO) * 1                      | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
 | 20   | NMP Power Supply (WAGO) * 1                   | Power supply for NMP, supporting wide voltage range (110-240 V AC). |
 
 
