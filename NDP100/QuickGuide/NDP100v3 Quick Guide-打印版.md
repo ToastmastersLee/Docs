@@ -20,24 +20,6 @@ This Quick Guide provides a concise overview of the NDP100, offering users a qui
 
 
 
-## 1.1 Topology Diagram 
-
-<img src="../UserManual/img/NDP100v3_topology.png"  style="zoom:120%;" /> 
-
-
-
-
-
-## 1.2 Device Connection Diagram
-
-For references:
-
-<img src="../UserManual/img/image-20240307175115035.png"  style="zoom:97%;" /> 
-
-
-
-
-
 # 2. Understanding the Podium
 
 
@@ -99,7 +81,7 @@ Descriptions:
 
 | No.  | Interface Name         | Description                                                  |
 | ---- | ---------------------- | ------------------------------------------------------------ |
-| 1    | Power Outlet           | Provides power supply for the lecturer's laptop or other low-powered devices. <br /><img src="../UserManual/img/note.png"  />**Note**: Avoid connecting high-powered appliances to this port to prevent potential damage to the Networked Digital Podium. |
+| 1    | Power Outlet           | Provides power supply for the lecturer's laptop or other low-powered devices. |
 | 2    | HDMI IN 1              | Connects the lecturer’s laptop or other HDMI source as input for display on the Networked Digital Podium. |
 | 3    | Touch USB              | Enables touch control functionality for the lecturer’s laptop when connected, allowing interaction with the podium’s display. |
 | 4    | HDMI IN 2              | An additional HDMI input port for connecting secondary input devices like a camera or another laptop. |
@@ -115,13 +97,13 @@ Descriptions:
 
 1. Insert the key into the keyhole on the left side of the Networked Digital Podium, and the sliding cover panel can be withdrawn.
 
-   <img src="../UserManual/img/Slide-Cover-Key.png" style="zoom: 97%;" /> 
+   <img src="../UserManual/img/Slide-Cover-Key.png" style="zoom: 67%;" /> 
 
     
 
 ## 3.2 Power and Network Access
 
-<img src="../UserManual/img/NDP100-Power-Network.png" style="zoom: 53%;" />  
+<img src="../UserManual/img/NDP100-Power-Network.png" style="zoom: 33%;" />  
 
 1. The NDP100 is equipped with an integrated switch and power strip.
 2. Upon arrival in the classroom, connect the NDP100's power strip to the general power supply within the classroom to provide power to the NDP100. (Grounding work inside the NDP100 has been completed before shipment.)
@@ -153,7 +135,7 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
 
 6. Unlock the Touch Panel  to activate the Q-NEX Networked Digital Podium.
 
-   <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 50%;" /> 
+   <img src="../../NMP/UserManual/img/Panel-Power-On.png"  style="zoom: 33%;" /> 
 
    Turning on the NDP100’s main power via the Touch Panel automatically powers on:
 
@@ -169,7 +151,7 @@ The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work
 
 ## 3.3 Connecting IFPs to NDP100
 
-<img src="../UserManual/img/NPDv3-IFPs.png"  style="zoom: 87%;" /> 
+<img src="../UserManual/img/NPDv3-IFPs.png"  style="zoom: 50%;" /> 
 
 1. **Prepare HDMI Cable**: Ensure you have a sufficiently long HDMI cable to connect the IFPs to the NDP100.
 2. **Connect HDMI Cable**: Plug one end into IFP and the other into NDP100's HDMI Out port, preferably HDMI Out A.
