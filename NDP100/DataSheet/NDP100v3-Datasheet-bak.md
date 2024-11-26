@@ -383,6 +383,12 @@ The Q-NEX Networked Digital Podium (NDP100) comes with a carefully selected set 
 
 
 
+- 单独购买适配器参数：19V 4.74A或以上，或者12V 7.5A或以上，接口DC5.5*2.5mm
+
+  > 2024-11 Bonnie泰国客户
+
+
+
 # Doc Camera-  E4521(Optional)
 
 | No.  | Item                        | Specification                                                |
