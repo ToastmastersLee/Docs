@@ -391,38 +391,27 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
 
 
-### 3.4.2 Connecting your laptop by HDMI 【诗雨】
+### 3.4.2 Connecting your laptop by HDMI
 
-<img src="./img/Connected-HDMI.png"  style="zoom: 20%;" /> 
+<img src="./img/Connected-HDMI-v3.jpg"  style="zoom: 20%;" /> 
 
 By connecting the HDMI interface, LAN port, and Touch USB interface to the corresponding ports on the Digital Podium, you can achieve functions such as screen synchronization, touch control, and internet access for your laptop on the Digital Podium.
 
 Switch the input source  to ***PC*** by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
 
 
-### 3.4.3 Connecting your laptop by USB-C  【诗雨】
+### 3.4.3 Connecting USB Flash Drive
 
-<img src="./img/Connected-UBS-C.png"  style="zoom: 20%;" /> 
-
-Connect the laptop directly to the Digital Podium's USB-C port for power supply, network connection, and HDMI transmission.
-
-Switch the input source  to ***USB-C*** by Touch Panel, Web-Console, or Q-NEX App.  Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
-
-
-
-
-### 3.4.4 Connecting USB Flash Drive  【诗雨】
-
-<img src="./img/Connected-USB-F.png"  style="zoom: 20%;" /> 
+<img src="./img/Connected-USB-F.jpg"  style="zoom: 20%;" /> 
 
 The Digital Podium's USB ports are linked to the built-in PC. Simply insert a USB flash drive into the port to access and operate its contents directly on the Interactive Pen Display.
 
 
-### 3.4.5 Using Document Camera(Optional)  【诗雨】
+### 3.4.4 Using Document Camera(Optional) 
 
 Connect the Document Camera to the HDMI and Power Supply port.
 
-<img src="./img/image-20231229131916692.png" style="zoom: 18%;" /> 
+<img src="./img/Using-Document Camera.jpg" style="zoom: 18%;" /> 
 
 
 
@@ -533,11 +522,11 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 ### 4.2.2 Audio Control
 
-#### 4.2.2.1 SPEAKER 【诗雨：线条样式统一】
+#### 4.2.2.1 SPEAKER
 
-##### 1. SPEAKER Connection Instructions 【诗雨：线条样式统一】
+##### 1. SPEAKER Connection Instructions
 
-<img src="../../NMP/UserManual/img/passive-speaker.png" style="zoom: 25%;" /> 
+<img src="../../NMP/UserManual/img/passive-speaker.jpg" style="zoom: 25%;" /> 
 
 **Line Type Representation: **
 
@@ -554,9 +543,9 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 After successful wiring and setup, you can control the volume via the Touch Panel, Web-console, or Q-NEX APP.
 
-##### 2. Device Connection Diagram for SPEAKER  【诗雨：线条样式统一】
+##### 2. Device Connection Diagram for SPEAKER 
 
-<img src="../../NMP/UserManual/img/Speaker-Input-Sources.png" style="zoom: 25%;" /> 
+<img src="../../NMP/UserManual/img/Speaker-Input-Sources.jpg" style="zoom: 25%;" /> 
 
 **Line Type Representation: **
 
@@ -620,7 +609,7 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 
 
-<img src="../../NMP/UserManual/img/Audio-Input-Sources.png" style="zoom: 25%;" /> 
+<img src="../../NMP/UserManual/img/Audio-Input-Sources.jpg" style="zoom: 25%;" /> 
 
 **Line Type Representation: **
 
@@ -684,9 +673,9 @@ Please note that the audio from the microphone (Mic-in) can be independently con
 
 
 
-##### Wired Mic in NDP100 【诗雨: 更换线条不用虚线？风格和之前的同意】
+##### Wired Mic in NDP100
 
-<img src="./img/Gooseneck-Mic.png" style="zoom: 10%;" /> 
+<img src="./img/Gooseneck-Mic.jpg" style="zoom: 10%;" /> 
 
 
 
@@ -778,7 +767,7 @@ When the main power of the NDP100 is turned on / off, these devices will be auto
 
 The UP-DOWN  Wago interface is specifically designed for controlling projection screens. Users can remotely raise or lower the projection screen via the NMP's control options, including the Q-NEX Console, mobile app, or Touch Panel.
 
-<img src="../../NMP/UserManual/img/Up-Down.png"  style="zoom: 20%;" />  
+<img src="../../NMP/UserManual/img/Up-Down.jpg"  style="zoom: 20%;" />  
 
 **Line Type Representation: **
 
@@ -926,7 +915,7 @@ After learning and saving IR codes, you can control your devices using the Q-NEX
 
 
 
-### 4.3.3 RS232 Control 【诗雨： 3, 4 线条风格统一下】
+### 4.3.3 RS232 Control
 
 NMP provides one RS232 interface, enabling control of devices such as IFP, projectors, and PTZ cameras.
 
@@ -952,7 +941,7 @@ NMP provides one RS232 interface, enabling control of devices such as IFP, proje
 
 3. Insert the RS232 connector into the RS232 interface on the NMP. Connect the DB9 connector to the corresponding device (e.g., Interactive Flat Panel), as shown in the following diagram:
 
-   <img src="../../NMP/UserManual/img/NMP-RS232-Connection.png" style="zoom: 12%;" />  
+   <img src="../../NMP/UserManual/img/NMP-RS232-Connection-v3.png" style="zoom: 12%;" />  
 
    **Line Type Representation: **
 
@@ -964,7 +953,7 @@ NMP provides one RS232 interface, enabling control of devices such as IFP, proje
 
 4. If your device requires the RS232 port instead of DB9, follow the same wiring instructions. Connect the RS232 cable between the NMP and the device's RS232 interface. The diagram below uses the IQ LCS710 (Lecture Recoding System) as an example.
 
-   <img src="../../NMP/UserManual/img/NMP-RS232-Connection-LCS.png" style="zoom: 11%;" /> 
+   <img src="../../NMP/UserManual/img/NMP-RS232-Connection-LCS-v3.png" style="zoom: 11%;" /> 
 
    **Line Type Representation: **
 
