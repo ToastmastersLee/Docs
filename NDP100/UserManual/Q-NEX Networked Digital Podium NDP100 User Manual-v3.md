@@ -381,13 +381,6 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
   IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space
 
-- [JoinMemos](https://www.iqboard.net/jms.php): 
-
-  JoinMemos is a meeting room software with tools like pens, sticky notes, and annotations. It offers brainstorming templates and sticky notes and allows annotations on any content. Meeting content can be recorded and exported, and it features an advanced object recognition algorithm for hand and pen interaction.
-
-- [IQ KitsMemos](https://www.iqboard.net/kitsmemos): 
-
-  IQ KitsMemos is educational software featuring an interactive whiteboard, and supporting document camera images. It offers engaging class activities and a desktop mode for presentation integration.
 
 
 

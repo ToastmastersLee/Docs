@@ -6,10 +6,11 @@
 
 ## User Manual v3
 
-| Version | Status | Description                                                  | Date Modified | Modifier/Contributor |
-| ------- | ------ | ------------------------------------------------------------ | ------------- | -------------------- |
-| v3.0    | Added  | 初稿                                                         | 2024-10       | Lee                  |
-| v3.1    | Added  | 1. 根据张静HK客户建议，在Quick Guide / User Manual中新增如何获取账号信息以及登录平台的URL地址与步骤<br />2. 调整原来的描述顺序 | 2024-11-05    | Lee                  |
+| Version | Status  | Description                                                  | Date Modified | Modifier/Contributor |
+| ------- | ------- | ------------------------------------------------------------ | ------------- | -------------------- |
+| v3.0    | Added   | 初稿                                                         | 2024-10       | Lee                  |
+| v3.1    | Added   | 1. 根据张静HK客户建议，在Quick Guide / User Manual中新增如何获取账号信息以及登录平台的URL地址与步骤<br />2. 调整原来的描述顺序 | 2024-11-05    | Lee                  |
+| v3.2    | Deleted | 1. 移除掉“3.4.1 Using the Built-in PC”章节关于<br />- [JoinMemos](https://www.iqboard.net/jms.php)和<br />- [IQ KitsMemos](https://www.iqboard.net/kitsmemos)https://www.iqboard.net/kitsmemos的说明<br />（Ref: 黎明提交的 202412031724000512734  **海外工程变更审批单**） | 2024-12-10    | 黎明，Lee            |
 
 *Status：New，Edited，Added，Deleted
 
