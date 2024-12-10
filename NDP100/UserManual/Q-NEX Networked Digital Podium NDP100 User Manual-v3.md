@@ -508,15 +508,40 @@ After connecting the desired input and output devices, users can perform video m
 
  
 
-####  4.2.1.1 Touch-following 【王力】
-
-<img src="../../NMP/UserManual/img/Touch-Following.png"  style="zoom: 20%;" /> 
+####  4.2.1.1 Touch-following
 
 "Touch-following" is a feature that enables continuous touch operation across multiple input sources. It allows users to switch between devices without interrupting touch functionality, ensuring a smooth and uninterrupted user experience. 
 
+<img src="../../NMP/UserManual/img/Touch-Following-NDP100v3.jpg"  style="zoom: 25%;" /> 
+
+**Technical Wiring Instructions for NDP100 Touch-Following Feature**：
+
+- **Interactive Pen Display**
+
+  | NDP100v3 Port | Target Device Port | Purpose                                   |
+  | ------------- | ------------------ | ----------------------------------------- |
+  | OUT A (HDMI)  | HDMI Input         | Video signal from NDP100v3 to Pen Display |
+  | Touch USB 3   | USB-B Input        | Touch signal from Pen Display to NDP100v3 |
+
+- **OPS Module**
+
+  | NDP100v3 Port | Target Device Port | Purpose                           |
+  | ------------- | ------------------ | --------------------------------- |
+  | IN 1 (HDMI)   | HDMI Output        | Video signal from OPS to NDP100v3 |
+  | Touch USB 1   | USB-B Input        | Touch signal from NDP100v3 to OPS |
+
+- **External Laptop**
+
+  | NDP100v3 Port | Target Device Port | Purpose                              |
+  | ------------- | ------------------ | ------------------------------------ |
+  | IN 2 (HDMI)   | HDMI Output        | Video signal from Laptop to NDP100v3 |
+  | Touch USB 2   | USB-B Input        | Touch signal from NDP100v3 to Laptop |
+
 <img src="./img/note.png"  />**Note**: 
 
-Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
+- Ensure all connections are secure to maintain stable signal flow.
+- Match the HDMI and USB ports according to the table for correct functionality.
+- For troubleshooting, check all cables and ports in the above sequence.
 
 
 
