@@ -358,12 +358,12 @@ The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work 
 
    If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left. 
 
-## 3.3 Connecting IFPs to NDP100 【王力】
+## 3.3 Connecting IFPs to NDP100 
 
-<img src="./img/NPD-IFPs.png"  style="zoom: 20%;" /> 
+<img src="../UserManual/img/NPDv3-IFPs.png"  style="zoom: 20%;" /> 
 
 1. **Prepare HDMI Cable**: Ensure you have a sufficiently long HDMI cable to connect the IFPs to the NDP100.
-2. **Connect HDMI Cable**: Plug one end into IFP and the other into NDP100's HDMI Out port, preferably HDMI Out B.
+2. **Connect HDMI Cable**: Plug one end into IFP and the other into NDP100's HDMI Out port, preferably HDMI Out A.
 
 Once the classroom displays are set up, users can utilize the Q-NEX software to manage input and output sources. 
 
