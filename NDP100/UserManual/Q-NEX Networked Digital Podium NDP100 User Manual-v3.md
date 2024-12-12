@@ -701,15 +701,19 @@ Please note that the audio from the microphone (Mic-in) can be independently con
 
 ##### Wired Mic in NDP100
 
-<img src="./img/Gooseneck-Mic.jpg" style="zoom: 10%;" /> 
+<img src="./img/Gooseneck-Mic-v3.png" style="zoom: 10%;" /> 
 
 
 
-The NDP100 is equipped with a gooseneck microphone suite, powered by Phantom Power. The audio signal is input through the NMP's 6.35mm MIC IN port and output via the SPEAKER or AUDIO OUT ports. Please refer to the provided wiring diagram for reference.
+The NDP100 is equipped with a gooseneck microphone suite, powered by a Power Power connected to the base. 
+
+The audio signal is input through the NMP's 6.35mm MIC IN port and output via the SPEAKER and AUDIO OUT ports. 
+
+Please refer to the wiring diagram for installation and connection details.
 
 <img src="./img/note.png" />**Note**:
 
-The Phantom Power adapter is also controlled by the Unified Power Switch. You may refer to section [Unified Power Switch](#Unified Power Switch) for more details.
+The gooseneck's power is also controlled by the Unified Power Switch. You may refer to section [Unified Power Switch](#Unified Power Switch) for more details.
 
 
 
@@ -764,7 +768,7 @@ As a WAGO power interface, "DISPLAY" serves different purposes in various scenar
 
 The "Unified Power Switch" is a power switch controlled by the NDP100. It enables one-touch activation or deactivation of devices connected to the Digital Podium such as Built-in PC, Gooseneck microphone, Tabletop power outlets, etc.
 
-- Phantom power (Gooseneck microphone)
+- Gooseneck microphone power
 - Tabletop power outlet 
 - Switching Power Supply, which includes:
   - Interactive Pen Display power
