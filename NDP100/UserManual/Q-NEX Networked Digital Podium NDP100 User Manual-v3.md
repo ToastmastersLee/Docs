@@ -377,6 +377,10 @@ For instructions on how to perform video switching with the NDP100, please refer
 
 The NDP100 comes with a built-in PC, tailored to enhance teaching and operational experiences. The built-in PC is pre-installed the Windows 11 Pro operating system. 
 
+Switch the input source to ***OPS*** (the first icon) by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+
+<img src="./img/Video-Switch-3x1-ops.png"  style="zoom: 25%;" /> 
+
 <img src="./img/note.png"  />**Note**: 
 
 Please note that the operating system requires to purchase license from Microsoft separately.
@@ -400,7 +404,9 @@ Connect the **HDMI IN 1** and **Touch USB** ports to enable the **[touch-followi
 
 Use the **LAN port** to provide internet access for the laptop (Provided the NDP100 is connected to a router with internet access.)
 
-Switch the input source to ***PC*** by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+Switch the input source to ***laptop*** (the second icon) by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+
+<img src="./img/Video-Switch-3x1-laptop.jpg"  style="zoom: 25%;" /> 
 
 
 
@@ -417,6 +423,10 @@ The Digital Podium's USB ports are linked to the built-in PC. Simply insert a US
 Connect the Document Camera to the HDMI IN 2 (recommended)  and Power Supply port.
 
 <img src="./img/UsingDocCamera-v3.png" style="zoom: 25%;" /> 
+
+Switch the input source to the second icon by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+
+<img src="./img/Video-Switch-3x1-IN3.png"  style="zoom:25%;" /> 
 
 <img src="./img/note.png"  /> **Note**: 
 
@@ -507,7 +517,7 @@ For information on the deployment of HDMI OUT ports on the NDP100, please refer 
 
 After connecting the desired input and output devices, users can perform video matrix switching from various input sources to different output displays via Touch Panel, Web-console, or Q-NEX App.
 
-<img src="./img/Video-Switch.jpg"  style="zoom: 25%;" /> 
+<img src="./img/Video-Switch-3x2.jpg"  style="zoom: 25%;" /> 
 
  
 
