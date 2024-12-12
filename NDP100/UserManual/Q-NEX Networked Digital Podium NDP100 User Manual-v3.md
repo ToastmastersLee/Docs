@@ -713,7 +713,7 @@ Please note that the audio from the microphone (Mic-in) can be independently con
 
 ##### Wired Mic in NDP100
 
-<img src="./img/Gooseneck-Mic-v3.png" style="zoom: 10%;" /> 
+<img src="./img/Gooseneck-Mic-v3.png" style="zoom: 6%;" /> 
 
 
 
