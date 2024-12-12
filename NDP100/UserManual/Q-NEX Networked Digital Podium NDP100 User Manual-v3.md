@@ -296,7 +296,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 
 
-## 3.1 Unlock Digital Podium 【王力：补充UP、DOWN按钮使用描述】
+## 3.1 Unlock Digital Podium 
 
 1. Insert the key into the keyhole on the left side of the Digital Podium, and the sliding cover panel can be withdrawn.
 
@@ -352,11 +352,11 @@ The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work 
 
    Due to the NDP100 [Unified Power Switch](#Unified Power Switch) power management strategy, simply unlocking the Touch Panel and turning on the NDP100 main power will automatically power on the corresponding devices.
 
-7. Use the **up / down** buttons on the tabletop, to elevate the Digital Podium's display to the desired angle.
+7. Use the **UP / DWON** buttons on the tabletop, to elevate the Digital Podium's display to the desired angle.
 
    <img src="./img/note.png"  /> **Note**: 
 
-   If the display screen doesn't raise when pressing "Up," ensure the sliding cover is fully to the left. 
+   If the interactive pend display screen doesn't raise when pressing "UP," ensure the sliding cover is fully to the left. 
 
 ## 3.3 Connecting IFPs to NDP100 
 
@@ -396,9 +396,13 @@ Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
 <img src="./img/Connected-HDMI-v3.jpg"  style="zoom: 20%;" /> 
 
-By connecting the HDMI interface, LAN port, and Touch USB interface to the corresponding ports on the Digital Podium, you can achieve functions such as screen synchronization, touch control, and internet access for your laptop on the Digital Podium.
+Connect the **HDMI IN 1** and **Touch USB** ports to enable the **[touch-following](#4.2.1.1 Touch-following)** functionality.
 
-Switch the input source  to ***PC*** by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+Use the **LAN port** to provide internet access for the laptop (Provided the NDP100 is connected to a router with internet access.)
+
+Switch the input source to ***PC*** by Touch Panel, Web Console, or Q-NEX APP. Please refer to section [4.2.1 Video Matrix Switch](#4.2.1 Video Matrix Switch) for more details.
+
+
 
 
 ### 3.4.3 Connecting USB Flash Drive
@@ -410,11 +414,13 @@ The Digital Podium's USB ports are linked to the built-in PC. Simply insert a US
 
 ### 3.4.4 Using Document Camera(Optional) 
 
-Connect the Document Camera to the HDMI and Power Supply port.
+Connect the Document Camera to the HDMI IN 2 (recommended)  and Power Supply port.
 
-<img src="./img/Using-Document Camera.jpg" style="zoom: 18%;" /> 
+<img src="./img/UsingDocCamera-v3.png" style="zoom: 25%;" /> 
 
+<img src="./img/note.png"  /> **Note**: 
 
+**HDMI IN 1** and **Touch USB** are paired to support interactive touch control and should be used accordingly for devices requiring touch functionality.
 
 
 
@@ -450,7 +456,7 @@ Follow the steps below to correctly install these connectors.
 
 ### 4.1.2 Terminal Block Installation Guide
 
-The NMP features several terminal block interfaces that also require proper wiring, these include interfaces for RS232, PANEL, SPEAKER, and LOCK.
+The NDP features several terminal block interfaces that also require proper wiring, these include interfaces for RS232, PANEL, SPEAKER, and LOCK.
 
 These terminal block connections need to be configured on-site, tailored to the specific size and requirements of the installation environment. 
 
