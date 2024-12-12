@@ -64,7 +64,7 @@ To ensure the safe and effective operation of this equipment, please read the fo
 
 ## 1.1 Internal NDP100 Topology Diagram 
 
-<img src="./img/NDP100_topology.jpg"  style="zoom: 50%;" /> 
+<img src="./img/NDP100v3_topology.png" alt="NDP100_topology.jpg" style="zoom: 50%;" /> 
 
 
 
@@ -468,44 +468,40 @@ Follow these steps to install the terminal blocks:
 
 The AV Control section of the NMP encompasses various features aimed at managing audiovisual signals through NMP.
 
-### 4.2.1 Video Matrix Switch
+### 4.2.1 Video Matrix Switch 
 
 <img src="../../NMP/UserManual/img/Video-Matrix.png" style="zoom: 25%;" /> 
 
 The  NMP's Video Matrix Switch routes video signals from multiple input sources to different output displays.
 
-- Connect display devices, such as laptops, document cameras, IQShare(WP40), etc., to HDMI In.
-- Connect display devices, like IFP, TV, projector, etc., to HDMI Out.
-
-
+- Connect display devices, such as laptops, document cameras, IQShare(WP40), etc., to **HDMI INs**.
+- Connect display devices, like IFP, TV, projector, etc., to **HDMI OUTs**.
 
 For the NDP100 interfaces, we have established the following configurations:
 
 **HDMI INs for NDP100**:
 
-| HDMI In Port | Input Source           |
-| ------------ | ---------------------- |
-| HDMI In 1    | Built-in PC            |
-| HDMI In 2    | Podium Desktop HDMI-In |
-| HDMI In 3    | Podium Desktop USB-C   |
+| HDMI IN Port | Input Source             |
+| ------------ | ------------------------ |
+| HDMI IN 1    | Built-in PC              |
+| HDMI IN 2    | Podium Desktop HDMI IN 1 |
+| HDMI IN 3    | Podium Desktop HDMI IN 2 |
 
-**HDMI Outs for NDP100**:
+**HDMI OUTs for NDP100**:
 
-| HDMI Out Port | Output Destination             |
+| HDMI OUT Port | Output Destination             |
 | ------------- | ------------------------------ |
-| HDMI Out A    | Interactive Pen Display        |
-| HDMI Out B    | Interactive Flat Pen Display 1 |
-| HDMI Out C    | Interactive Flat Pen Display 2 |
+| HDMI OUT A    | Interactive Flat Pen Display 1 |
+| HDMI OUT B    | Interactive Flat Pen Display 2 |
+| HDMI OUT C    | Interactive Pen Display        |
 
 <img src="./img/note.png" />**Note**:
 
-For information on the deployment of HDMI Out ports on the NDP100, please refer to "[3.3 Connecting IFPs to NDP100](#3.3 Connecting IFPs to NDP100)."
-
-
+For information on the deployment of HDMI OUT ports on the NDP100, please refer to "[3.3 Connecting IFPs to NDP100](#3.3 Connecting IFPs to NDP100)."
 
 After connecting the desired input and output devices, users can perform video matrix switching from various input sources to different output displays via Touch Panel, Web-console, or Q-NEX App.
 
-<img src="../../NMP/UserManual/img/Video-Switch.png"  style="zoom: 25%;" /> 
+<img src="./img/Video-Switch.jpg"  style="zoom: 25%;" /> 
 
  
 
@@ -1444,56 +1440,7 @@ To ensure optimal integration, the school network needs to meet specific require
 
    NDP does not support VLAN. NDP, Touch Panel, and Media Server should be connected to the campus network as described above but should not be on VLAN.
 
-
-
-# 7. Frequently Asked Questions (FAQ)
-
-
-
-## 7.1 Why doesn't the 'Up/Down' button work?
-
-If the 'UP / DOWN' button is not functioning, it may be due to the advanced 'Limited Switch' feature incorporated into the NDP100 podium.
-
-This safety mechanism restricts the activation of the 'UP / DOWN' button when the sliding cover is not fully positioned to the left. This restriction is in place to prevent potential motor damage and ensure operational safety.
-
-To resolve this issue, ensure that the sliding cover is fully positioned to the left before attempting to use the "UP / DOWN" button.
-
-## 7.2 The Unified Power Switch didn't activate?
-
-If this issue occurs, make sure 'Display' is selected under 'Startup Options' in the 'Dashboard > Processor Manager > Editing Device' on the Q-NEX Dashboard management platform. 
-
-<img src="./img/image-20230907145712733.png"  style="zoom: 25%;" /> 
-
-Contact your administrator for help if needed.
-
-
-
-## 7.3 Why doesn't the air conditioner turn off with the Touch Panel?
-
-Contact the school admin to check if it's connected. Also, ensure the air conditioner brand is compatible with the Digital Podium.
-
-
-
-## 7.4 Why can't my laptop access the internet through the Digital Podium?
-
-1. Make sure your laptop is connected to the Digital Podium's LAN port.
-2. Check if the classroom router connected to the Digital Podium has internet access. Consult your school's IT admin if unsure."
-
-## 7.5 Why can't I screen transmit via USB-C on the Digital Podium?
-
-Make sure your USB-C cable supports HDMI transmission. Some laptops may only provide power and internet, not HDMI. You may need an additional USB-C cable for full functionality.
-
-
-
-## 7.6 Is technical support available?
-
-Yes, our dedicated support team is available via [info@qnextech.com](info@qnextech.com) to assist with any inquiries or issues.
-
-
-
-
-
-# 8. Contact Us
+# 7. Contact Us
 
 Q-NEX (https://qnextech.com/) is a subsidiary of Returnstar Interactive Technology Group Co, Ltd, a company that has been dedicated to the education industry since 2006. 
 
