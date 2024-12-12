@@ -148,7 +148,7 @@ For references:
 
 ## 2.4 Podium's Interface Introduction
 
-<img src="../UserManual/img/NDPv3-Interface-Seq.png"  style="zoom:97%;" /> 
+<img src="../UserManual/img/NDPv3-Interface-Seq.png"  style="zoom: 25%;" /> 
 
 
 
@@ -515,24 +515,24 @@ After connecting the desired input and output devices, users can perform video m
 
 - **Interactive Pen Display**
 
-  | NDP100v3 Port | Target Device Port | Purpose                                   |
-  | ------------- | ------------------ | ----------------------------------------- |
-  | OUT A (HDMI)  | HDMI Input         | Video signal from NDP100v3 to Pen Display |
-  | Touch USB 3   | USB-B Input        | Touch signal from Pen Display to NDP100v3 |
+  | NDP100 Port  | Target Device Port | Purpose                                 |
+  | ------------ | ------------------ | --------------------------------------- |
+  | OUT A (HDMI) | HDMI Input         | Video signal from NDP100 to Pen Display |
+  | Touch USB 3  | USB-B Input        | Touch signal from Pen Display to NDP100 |
 
 - **OPS Module**
 
-  | NDP100v3 Port | Target Device Port | Purpose                           |
-  | ------------- | ------------------ | --------------------------------- |
-  | IN 1 (HDMI)   | HDMI Output        | Video signal from OPS to NDP100v3 |
-  | Touch USB 1   | USB-B Input        | Touch signal from NDP100v3 to OPS |
+  | NDP100 Port | Target Device Port | Purpose                         |
+  | ----------- | ------------------ | ------------------------------- |
+  | IN 1 (HDMI) | HDMI Output        | Video signal from OPS to NDP100 |
+  | Touch USB 1 | USB-B Input        | Touch signal from NDP100 to OPS |
 
 - **External Laptop**
 
-  | NDP100v3 Port | Target Device Port | Purpose                              |
-  | ------------- | ------------------ | ------------------------------------ |
-  | IN 2 (HDMI)   | HDMI Output        | Video signal from Laptop to NDP100v3 |
-  | Touch USB 2   | USB-B Input        | Touch signal from NDP100v3 to Laptop |
+  | NDP100 Port | Target Device Port | Purpose                            |
+  | ----------- | ------------------ | ---------------------------------- |
+  | IN 2 (HDMI) | HDMI Output        | Video signal from Laptop to NDP100 |
+  | Touch USB 2 | USB-B Input        | Touch signal from NDP100 to Laptop |
 
 <img src="./img/note.png"  />**Note**: 
 
