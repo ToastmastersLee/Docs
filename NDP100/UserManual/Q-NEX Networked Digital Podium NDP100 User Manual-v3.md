@@ -86,9 +86,9 @@ For references:
 
 | Term                                                 | Descriptions                                                 |
 | ---------------------------------------------------- | ------------------------------------------------------------ |
-| [NMP](#2.5 Core Components of the NDP100 )           | Networked Media Processor, NMP is the core component of NDP that enable functionalities such as remote device control, audio/video matrix switching, and advanced features like "Touch-Following,", "Broadcasting", and "Live Streaming". |
-| [Touch Panel](#2.5.2 Touch Panel )                   | The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for operation of the NDP. |
-| [Web-console](https://mg.qnextech.com/console/)      | Web-console is a web-based platform for remote device management of NDP/NMP, constituting a part of NDP. This platform enables operations similar to the Touch Panel for individual devices and also allows simultaneous operations on multiple NDP and NMP. Additionally, it provides functions such as scheduling device controls, broadcasting, and live streaming. |
+| [NMP](#2.5 Core Components of the NDP100 )           | Networked Media Processor, NMP is the core component of NDP that enables functionalities such as remote device control, audio/video matrix switching, and advanced features like "Touch-Following,", "Broadcasting", and "Live Streaming". |
+| [Touch Panel](#2.5.2 Touch Panel )                   | The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NDP. |
+| [Web-console](https://mg.qnextech.com/console/)      | Web-console is a web-based platform for remote device management of NDP/NMP, constituting a part of NDP. This platform enables operations similar to the Touch Panel for individual devices and also allows simultaneous operations on multiple NDP and NMPs. Additionally, it provides functions such as scheduling device controls, broadcasting, and live streaming. |
 | Q-NEX App                                            | A mobile application for controlling Q-NEX (NDP, NMP)  systems |
 | [Dashboard](https://mg.qnextech.com/dashboard/index) | The Dashboard is the backend management system of the Q-NEX platform, constituting a part of NDP/NMP. Basic configurations such as [IP lookup](#3.2.1 Connect Touch Panel to NMP) for the Touch Panel during the initial stage, or login information for Web-Console and Q-NEX App, as well as operations related to learning and utilizing the [infrared code library](#4.3.2 IR Control) mentioned in this document, all rely on the support of the Dashboard system. |
 | Device Connection Diagram                            | Illustrates the physical connections and layout between devices, emphasizing direct connections and interface relationships. Helps understand specific device connections, including ports, cables, and physical details of the connections. |
@@ -158,7 +158,7 @@ For references:
 | 2    | HDMI IN 1              | Connects the lecturer’s laptop or other HDMI source as input for display on the Networked Digital Podium. |
 | 3    | Touch USB              | Enables touch control functionality for the lecturer’s laptop when connected, allowing interaction with the podium’s display. |
 | 4    | HDMI IN 2              | An additional HDMI input port for connecting secondary input devices like a camera or another laptop. |
-| 5    | PC USB                 | Two USB ports extending the built-in PC's connectivity, allowing external devices such as USB flash drives or peripherals. |
+| 5    | PC USB                 | Two USB ports extend the built-in PC's connectivity, allowing external devices such as USB flash drives or peripherals. |
 | 6    | LAN                    | Provides network connectivity for the lecturer’s laptop via a wired Ethernet connection. |
 | 7    | 5-in-1 Cabinet Antenna | Combines multiple antennas for enhanced communication:<br /> (1) 2 * 2.4 GHz and 5 GHz dual-band Wi-Fi for the built-in PC. <br /> (2) 2 * 2.4GHz Wi-Fi for NMP to connect external CBXs. <br /> (3) 1 * UHF antenna for the wireless mic receiver built into the NMP. |
 
@@ -186,13 +186,13 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 5    | Display (WAGO) * 1                            | Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums. |
 | 6    | UP-DOWN (WAGO) * 1                            | Offering up, pause, and down functions for connected devices like projector screens and motorized curtains. |
 | 7    | RS232 * 1                                     | Allows connection to devices equipped with standard RS232 ports, such as Pan-Tilt-Zoom (PTZ) cameras and Interactive Flat Panels (IFP), etc. |
-| 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matix switching without the need for network connectivity. |
+| 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
 | 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote-control functionality. |
 | 10   | USB * 2                                       | Reserved for card reader                                     |
 | 11   | TOUCH USB * 3                                 | **TOUCH USB IN * 1 **:  Receives touch signals from the Interactive Pen Display. <br />**TOUCH USB OUT * 2** : Sends touch signals to OPS or Laptop for touch-following functionality.<br />For details, refer to section [4.2.1.1 Touch-following](#4.2.1.1 Touch-following). |
 | 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone.          |
 | 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output. |
-| 14   | AUDIO IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
+| 14   | AUDIO IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones, etc. |
 | 15   | AUDIO OUT                                     | Audio output interface for connecting to speakers or amplifiers. |
 | 16   | External Speaker Output                       | The NMP includes a built-in power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
 | 17   | Built-in OPS Control (LOCK Interface) * 1     | Be used to monitor and control the OPS within the Digital Podium, synchronized with NDP power management. |
@@ -206,9 +206,9 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 <img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 20%;" />  
 
-The Touch Panel allows users to access NMP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, user still can perform local operations like matrix switching and volume adjustments.
+The Touch Panel allows users to access NMP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, users still can perform local operations like matrix switching and volume adjustments.
 
-The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for operation of the NDP. 
+The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NDP. 
 
 
 
@@ -230,7 +230,7 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 **Paring Instructions**:
 
-Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to repair them.
+Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to reconfigure them.
 
 1. To pair the handheld microphone, simply point it directly at the longest antenna on the right side of the NDP100, which is dedicated to UHF wireless communication. 
 
@@ -273,7 +273,7 @@ Please note that the microphones are pre-configured before shipping. Unless nece
 
 **Pairing Instructions:**
 
-Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to repair them.
+Please note that the microphones are pre-configured before shipping. Unless necessary, there is no need to reconfigure them.
 
 1. To pair the microphone, simply point it directly at the longest antenna on the right side of the NDP100, which is dedicated to UHF wireless communication. 
 
@@ -321,19 +321,19 @@ For users who have purchased the NDP100 demo sample unit for the first time, ple
 
 ### 3.2.1 Connect Touch Panel to NMP
 
-The Touch Panel is a 7-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
+The Touch Panel is a 10-inch Android touchscreen device, custom-designed to work with the NMP (a core component of NDP100). Its applications are tailored specifically for controlling various functions of the NDP100, such as video matrix switching, volume, and microphone control, as well as infrared and RS232 control, etc.
 
 1. After purchasing, you’ll receive your account details from our sales team via email or other methods (e.g., WhatsApp, phone).
 
-2. Log in to the Web-Console at https://mg.qnextech.com/console/login.
+2. Log in to the Web Console at https://mg.qnextech.com/console/login.
 
-3. In Web-Console, use the "Dashboard" button to access the Dashboard platform. 
+3. In Web Console, use the "Dashboard" button to access the Dashboard platform. 
 
    <img src="../../NMP/UserManual/img/Web-Console-Dashboard.png" style="zoom: 25%;" /> 
 
    > For platform roles, see "1.3 Terminology" in the User Manual.
 
-4. Retrieve the NDP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify you NMP and note the IP address from the 'IP Address' column.
+4. Retrieve the NDP IP address by logging into the [Dashboard](https://mg.qnextech.com/dashboard/index) and visiting the  '***Devices >> Processor Manage***' page. Identify your NMP and note the IP address from the 'IP Address' column.
 
    Enter this IP on the Touch Panel and click 'Connect'." to establish a connection with the NMP.<img src="../../NMP/UserManual/img/NMP-Adding.png" style="zoom: 25%;" />  
 
@@ -385,13 +385,13 @@ Switch the input source to ***OPS*** (the first icon) by Touch Panel, Web Consol
 
 Please note that the operating system requires to purchase license from Microsoft separately.
 
-The built-in PC serves as one of the default input sources for the NDP100 and can be [switched](#4.2.1 Video Matrix Switch) using Q-NEX software such as Touch Panel, Q-NEX App and Q-NEX Web-console. 
+The built-in PC serves as one of the default input sources for the NDP100 and can be [switched](#4.2.1 Video Matrix Switch) using Q-NEX software such as Touch Panel, Q-NEX App, and Q-NEX Web-console. 
 
 Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
 
 - [IQClass One](https://www.iqboard.net/iqclassone.php): 
 
-  IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space
+  IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space.
 
 
 
@@ -482,7 +482,7 @@ Follow these steps to install the terminal blocks:
 
 ## 4.2 AV Control 
 
-The AV Control section of the NMP encompasses various features aimed at managing audiovisual signals through NMP.
+The AV Control section of the NMP encompasses various features aimed at managing audiovisual signals through the NMP.
 
 ### 4.2.1 Video Matrix Switch 
 
@@ -490,7 +490,7 @@ The AV Control section of the NMP encompasses various features aimed at managing
 
 The  NMP's Video Matrix Switch routes video signals from multiple input sources to different output displays.
 
-- Connect display devices, such as laptops, document cameras, IQShare(WP40), etc., to **HDMI INs**.
+- Connect input sources, such as laptops, document cameras, IQShare(wireless presentation system), etc., to **HDMI INs**.
 - Connect display devices, like IFP, TV, projector, etc., to **HDMI OUTs**.
 
 For the NDP100 interfaces, we have established the following configurations:
@@ -500,15 +500,15 @@ For the NDP100 interfaces, we have established the following configurations:
 | HDMI IN Port | Input Source             |
 | ------------ | ------------------------ |
 | HDMI IN 1    | Built-in PC              |
-| HDMI IN 2    | Podium Desktop HDMI IN 1 |
-| HDMI IN 3    | Podium Desktop HDMI IN 2 |
+| HDMI IN 2    | Podium HDMI IN 1 |
+| HDMI IN 3    | Podium HDMI IN 2 |
 
 **HDMI OUTs for NDP100**:
 
 | HDMI OUT Port | Output Destination             |
 | ------------- | ------------------------------ |
-| HDMI OUT A    | Interactive Flat Pen Display 1 |
-| HDMI OUT B    | Interactive Flat Pen Display 2 |
+| HDMI OUT A    | Interactive Flat Panel 1 |
+| HDMI OUT B    | Interactive Flat Panel(qqq但是其实这里不需要是interactive display, 只需要是display就可以?) 2 |
 | HDMI OUT C    | Interactive Pen Display        |
 
 <img src="./img/note.png" />**Note**:
@@ -570,12 +570,12 @@ After connecting the desired input and output devices, users can perform video m
 
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of device connection |
+| <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow Direction**: The arrowheads indicate the direction of the device connection |
 | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: Indicate devices connected via wired cables. |
 | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 1. The NMP features an integrated power amplifier capable of delivering ***2\*(40w+40w)*** output, designed specifically for connecting with passive speakers.
-2. It's important to note that the NMP only supports ***fixed impedance*** speakers and does not support fixed voltage speakers.
+2. It's important to note that the NMP only supports ***fixed impedance*** speakers and does not support fixed-voltage speakers.
 3. To connect passive speakers, users should replace the speaker cable with a ***Phoenix audio connector*** and plug it into the designated speaker interface.
 4. The NMP supports the connection of up to ***two pairs*** of passive speakers.
 
@@ -590,7 +590,7 @@ After successful wiring and setup, you can control the volume via the Touch Pane
 | Lines                                                        | Descriptions                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="../../NMP/UserManual/img/lines/V-arrow.png" style="zoom:67%;"  /> | **Arrow-head**: indicates the direction of audio signal flow through the connections. |
-| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates physical cables connection.        |
+| <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates physical cable connection.        |
 | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: indicates wireless connection               |
 
  
@@ -599,7 +599,7 @@ After successful wiring and setup, you can control the volume via the Touch Pane
 
 Please note that this legend is designed to explain the flow of audio signals. It is not intended to restrict the compatibility to only these devices. 
 
-In fact, The NMP offers versatile connectivity options for various devices, enabling customized solutions for different scenarios. 
+The NMP offers versatile connectivity options for various devices, enabling customized solutions for different scenarios. 
 
 If you find this legend doesn't meet your needs, feel free to consult our solutions team.
 
@@ -688,7 +688,7 @@ The Audio-out serves as an output for audio signals from various input sources. 
 
 ##### 3. Audio Interface Control Features
 
-After completing the necessary wiring setup, users can control the Audio such as volume, treble, and bass via the Touch Panel, Web-console, Q-NEX APP.
+After completing the necessary wiring setup, users can control the Audio such as volume, treble, and bass via the Touch Panel, Web console, and Q-NEX APP.
 
 <img src="../../NMP/UserManual/img/Audio-control.png" style="zoom: 25%;" /> 
 
@@ -909,7 +909,7 @@ Here's a simplified guide for using IR functionality with an air conditioning un
 
 #### 2. Air Conditioner-Unable to Identify in the Code Database
 
-IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect infrared transmitter to "IR" port of NMP, and aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
+IR remote control module is available for unrecognized air conditioners or other devices using infrared remote control. Connect the infrared transmitter to the "IR" port of NMP, aim the transmitter at the device, and ensure there will be no blocks in between the transmitter and the device.
 
 1. Log in to the "Dashboard -> Devices -> Processor manager". Select your NMP device, and in the "Infrared Control" module, click the "Edit" button. Follow the instructions below:
 
@@ -1022,7 +1022,7 @@ This diagram illustrates the components of the classroom broadcasting system, sh
 
 - This section is tailored for formal campus production environments. Therefore, if the school enforces network controls, refer to section [6.2 Network Environment Requirement](#6.2 Network Environment Requirement) to ensure NDP100's correct access to the campus network.
 - For NDP100 Demo Sample Unit, refer to section [6.1 NDP100 Demo Sample Unit](#6.1 NDP100 Demo Sample Unit) Instructions.
-- Users can remotely issue broadcast commands over the Internet, while all audio and video resources is pre-stored on the Media Server.
+- Users can remotely issue broadcast commands over the Internet, while all audio and video resources are pre-stored on the Media Server.
 
 
 
@@ -1085,9 +1085,9 @@ For digital audio signals, they need to be processed through the HDMI OUT A port
 
 ### 4.4.4 Broadcasting Process 
 
-The broadcasting feature enables streaming of various audio and video formats, providing educators whit access to a wide range of multimedia resources stored on the school's media server.
+The broadcasting feature enables streaming of various audio and video formats, providing educators with access to a wide range of multimedia resources stored on the school's media server.
 
-These resources can be utilized not only teaching purpose but also for activities such as examinations, promotions, and other related applications.
+These resources can be utilized not only for teaching purposes but also for activities such as examinations, promotions, and other related applications.
 
 1. Administrators can pre-publish the content on the media server.
 
@@ -1242,7 +1242,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
 
 
-#### 2. Paring and Setup
+#### 2. Pairing and Setup
 
 1. **Connect CBX and NMP, and Power On CBX**
 
@@ -1296,7 +1296,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    <img src="./img/note.png"  />**Note**:
 
-   Each CBX can control only one type of device at a time. For instance, to control both an air conditioner (via IR) and light (via RELAY), two separate CBX unites are required, each dedicated to a specific device type. A single CBX cannot manage multiple device types simultaneously.
+   Each CBX can control only one type of device at a time. For instance, to control both an air conditioner (via IR) and light (via RELAY), two separate CBX units are required, each dedicated to a specific device type. A single CBX cannot manage multiple device types simultaneously.
 
    
 
@@ -1308,7 +1308,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
      <img src="../../NMP/UserManual/img/CBX/CBX-UI-Config.png"  style="zoom: 15%;" /> 
 
-5. **Set control Method According to the Controlled Device**
+5. **Set Control Method According to the Controlled Device**
 
    Based on the DIP switch sequence, select the control method. (Power Control, RS232 Control, or IR Control)
 
