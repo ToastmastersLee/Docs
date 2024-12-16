@@ -575,7 +575,7 @@ After connecting the desired input and output devices, users can perform video m
 | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: Indicate devices directly plugged into interfaces (without intermediary cables) |
 
 1. The NMP features an integrated power amplifier capable of delivering ***2\*(40w+40w)*** output, designed specifically for connecting with passive speakers.
-2. It's important to note that the NMP only supports ***fixed impedance*** speakers and does not support fixed-voltage speakers.
+2. It's important to note that the NMP only supports ***fixed impedance*** speakers and does not support fixed voltage speakers.
 3. To connect passive speakers, users should replace the speaker cable with a ***Phoenix audio connector*** and plug it into the designated speaker interface.
 4. The NMP supports the connection of up to ***two pairs*** of passive speakers.
 
@@ -1091,7 +1091,7 @@ These resources can be utilized not only for teaching purposes but also for acti
 
 1. Administrators can pre-publish the content on the media server.
 
-2. Users can issue broadcasting commands via various terminals such as the Q-NEX APP and Web-Console over the internet.
+2. Users can issue broadcasting commands via various terminals such as the Q-NEX APP and Web-Console over the Internet.
 
    <img src="./img/image-20240418161642740.png"  style="zoom:18%;" /> <img src="./img/image-20240418161746582.png"  style="zoom: 20%;" />
 
@@ -1196,7 +1196,7 @@ With the CBX, device management is efficient and tidy, eliminating the need for 
 | 2    | Reset Button      | Resets the CBX to its default factory settings               |
 | 3    | Link Indicator    | Displays the connection status between the CBX and the NMP   |
 | 4    | DIP Switch        | Used for configuration settings and adjustments of the CBX   |
-| 5    | RS232             | Allows wired communication and control with RS232-compatibale devices. |
+| 5    | RS232             | Allows wired communication and control with RS232-compatible devices. |
 | 6    | IR                | Enables IR communication for controlling devices with infrared signals. |
 | 7    | Relay             | Provides control over devices using relay switches for on/off functions. |
 
@@ -1262,11 +1262,11 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
     
 
-   **Interface Wiring Illustration for CBX-RS223 and NMP-PANLE**:
+   **Interface Wiring Illustration for CBX-RS223 and NMP-PANEL**:
 
    <img src="../../NMP/UserManual/img/CBX/CBX-Interfaces-Wiring-Guide.png"  style="zoom: 25%;" /> 
 
-   The diagram above illustrates the wiring sequence for connecting CBX-RS232 and NMP-PANEL. Each terminal on the CBX is connected to the corresponding terminal on the NMP PANLE, ensuring proper wiring the cables.
+   The diagram above illustrates the wiring sequence for connecting CBX-RS232 and NMP-PANEL. Each terminal on the CBX is connected to the corresponding terminal on the NMP PANEL, ensuring proper wiring of the cables.
 
    
 
@@ -1318,7 +1318,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
    A CBX in a disabled state indicates that no device is currently connected to the NMP via Wi-Fi. 
 
-   If you are certain that the CBX has been successfully paired and connected previously, please check the current network status of the CBX and ensure that it is properly powered.
+   If you are certain that the CBX has been successfully paired and connected previously, please check its current network status and ensure that it is properly powered.
 
    - For RS232-connected devices, set the device brand and model.
 
@@ -1357,7 +1357,7 @@ Refer to the corresponding screenshots for guidance.
 
 ### 6.1.1 Introduction to Demo Sample Unit
 
-The demo sample unit (demo unit) is a specially configured version of the NDP100, designed to simplify initial setup and demonstrate basic functionality. In addition to being equipped with a built-in router and a Lite Media Server (referred to as LMS), primarily utilized for demonstrating video broadcasting and live streaming capabilities. 
+The demo sample unit (demo unit) is a specially configured version of the NDP100, designed to simplify initial setup and demonstrate basic functionality. It is equipped with a built-in router and a Lite Media Server (referred to as LMS), primarily utilized for demonstrating video broadcasting and live streaming capabilities. 
 
 <img src="./img/note.png"  />**Note**:
 
