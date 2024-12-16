@@ -507,8 +507,8 @@ For the NDP100 interfaces, we have established the following configurations:
 
 | HDMI OUT Port | Output Destination             |
 | ------------- | ------------------------------ |
-| HDMI OUT A    | Interactive Flat Panel 1 |
-| HDMI OUT B    | Interactive Flat Panel(qqq但是其实这里不需要是interactive display, 只需要是display就可以?) 2 |
+| HDMI OUT A    | Display 1 |
+| HDMI OUT B    | Display 2 |
 | HDMI OUT C    | Interactive Pen Display        |
 
 <img src="./img/note.png" />**Note**:
