@@ -1426,7 +1426,7 @@ To ensure optimal integration, the school network needs to meet specific require
    - 110.90.11.185:80 (HTTP)
    - 110.90.11.185:443 (HTTPS)
    - 110.90.11.185:12573 (NDP Communication Service)
-   - 27.151.13.85:12583 (NDP Upgrade Service).
+   - 110.90.11.185:12583 (NDP Upgrade Service)
 
 4. MAC Address Control Requirements:
 
