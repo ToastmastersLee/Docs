@@ -403,7 +403,13 @@ The NDP500 allows for one built-in OPS (Open Pluggable Specification) module, wh
 
 <img src="./img/note.png" />**Note**: 
 
-Please note that while the OPS is one of the input sources for the NDP500, if you want the OPS to have network access, you should connect it separately via a wireless network or by running an Ethernet cable directly from a router or switch to the OPS. 
+- Please note that while the OPS is one of the input sources for the NDP500, if you want the OPS to have network access, you should connect it separately via a wireless network or by running an Ethernet cable directly from a router or switch to the OPS. 
+
+- The built-in OPS comes with proprietary software, [IQClass One](https://www.iqboard.net/iqclassone.php), developed by IQ&Q-NEX:
+
+  IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space.
+
+
 
 ### 3.5.2 External Input Source Configuration
 

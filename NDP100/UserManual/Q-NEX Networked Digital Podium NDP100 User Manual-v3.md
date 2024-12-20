@@ -387,11 +387,9 @@ Please note that the operating system requires to purchase license from Microsof
 
 The built-in PC serves as one of the default input sources for the NDP100 and can be [switched](#4.2.1 Video Matrix Switch) using Q-NEX software such as Touch Panel, Q-NEX App, and Q-NEX Web-console. 
 
-Each NDP100 comes with proprietary software developed by IQ&Q-NEX, including:
+The built-in OPS comes with proprietary software, [IQClass One](https://www.iqboard.net/iqclassone.php),  developed by IQ&Q-NEX:
 
-- [IQClass One](https://www.iqboard.net/iqclassone.php): 
-
-  IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space.
+IQClass One is interactive teaching software with split-screen writing and 40-point interaction. It features gesture recognition and easy access to teaching resources. Review lessons conveniently with screen recording and QR code sharing. Enjoy simultaneous student interaction and unlimited writing space.
 
 
 
