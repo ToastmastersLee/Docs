@@ -4,6 +4,8 @@
 
 
 
+
+
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Digital Podium</div>
 
  <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP100</div>
