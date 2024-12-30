@@ -883,8 +883,6 @@ In this sub-scenario, the existing electric lock retains only the lock and lock 
 
 The NMP can be configured for manual door closing or automatic door closing with a delay of 5 seconds.
 
-
-
 <img src="./img/Lock-App.png"  style="zoom: 31%;" /> <img src="./img/Lock-Web.png"  style="zoom: 20%;" />  
 
 
