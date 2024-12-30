@@ -26,7 +26,7 @@
 
 [toc]
 
-# Safety Instructions
+# Safety Instructions 【4.3.4 Electric LOCK connection】章节需要补充
 
 To ensure the safe and effective operation of this equipment, please read the following instructions carefully. Failure to comply with these guidelines may result in serious injury or damage to the device.
 
@@ -821,8 +821,11 @@ NMP provides one RS232 interface, enabling control of devices such as IFP, proje
 
 
 
+### 4.3.4 Electric LOCK connection【类型补充，张静，2024-12-30】
 
-### 4.3.4 Electric LOCK connection
+> 这个类型的锁，卡片读取的信息是存在单台机子上，不会保存到我们平台上，这样卡片管理的时候，要每张卡，每台机子上去一一录入·····
+>
+> - 至少要说明，这种类型有什么限制，以及如果要避开这个限制，应该要咨询售前解决方案团队
 
 Please connect the required interface according to your electronic lock type.
 
