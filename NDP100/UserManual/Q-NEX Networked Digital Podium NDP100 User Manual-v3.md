@@ -1332,7 +1332,7 @@ Once a DIP switch combination is set and the CBX is paired with the NMP, do not 
 
 <img src="./img/note.png"  />**Note**:
 
-1. If the NMP/NDP is being replaced, re-pairing is required. Follow the instructions in the section "[Paring and Setup](#2. Paring and Setup)" from the first step to repair.
+1. If the NMP/NDP is being replaced, re-pairing is required. Follow the instructions in the section "[Paring and Setup](#2. Pairing and Setup)" from the first step to repair.
 
 
 
