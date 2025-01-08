@@ -17,7 +17,7 @@ table th {
 
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Media Processor</div>
 
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211</div>
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211-R</div>
 
 
 
@@ -100,6 +100,8 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 ## Handheld Microphone
 
+<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/image-20250108111102060.png" alt="image-20250108111102060" style="zoom:67%;" />
+
 | **Specification**                      | Specification                |
 | -------------------------------------- | ---------------------------- |
 | Matching models                        | Q-NEX NMP                    |
@@ -118,6 +120,8 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 ## Lapel Microphone
 
+<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/image-20250108111130629.png" alt="image-20250108111130629" style="zoom:67%;" />
+
 | **Specification**                      | **V220-B**                   |
 | -------------------------------------- | ---------------------------- |
 | Matching models                        | Q-NEX NMP                    |
@@ -131,3 +135,4 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | RF power                               | 0 dBm                        |
 | Maximum wireless transmission distance | 15-20m                       |
 | Size                                   | 57\*24\*27mm                 |
+
