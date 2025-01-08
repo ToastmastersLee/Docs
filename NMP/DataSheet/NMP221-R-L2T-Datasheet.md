@@ -25,6 +25,8 @@ table th {
 
 
 
+<img src="./img/NMP211-R-L2T-Main.png" style="zoom: 10%;" />
+
 
 
 # NMP211
