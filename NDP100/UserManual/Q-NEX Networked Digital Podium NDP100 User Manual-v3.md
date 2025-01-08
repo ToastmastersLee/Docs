@@ -208,7 +208,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 <img src="../../NMP/UserManual/img/Touch-Panel-10.png" style="zoom: 20%;" />  
 
-The Touch Panel allows users to access NMP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, users still can perform local operations like matrix switching and volume adjustments.
+The Touch Panel allows users to access NMP, NDP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, users still can perform local operations like matrix switching and volume adjustments.
 
 The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NDP. 
 

@@ -17,7 +17,7 @@ table th {
 
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Media Processor</div>
 
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211-R</div>
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211-R-L2T</div>
 
 
 
@@ -29,7 +29,7 @@ table th {
 
 # NMP211
 
-The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities of the digital podium.  
+The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
 <img src="../../NMP/UserManual/img/NMP211-Interface-Back.png" style="zoom: 15%;" />
 
@@ -74,6 +74,10 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 # Touch Panel
 
+The Touch Panel allows users to access NMP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, users still can perform local operations like matrix switching and volume adjustments.
+
+The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NMP. 
+
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
 | 1    | Model            | CPL20                                                        |
@@ -97,6 +101,8 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 # Microphone
+
+
 
 ## Handheld Microphone
 
@@ -135,4 +141,24 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | RF power                               | 0 dBm                        |
 | Maximum wireless transmission distance | 15-20m                       |
 | Size                                   | 57\*24\*27mm                 |
+
+
+
+
+
+# Control Box
+
+The Control Box (CBX) wirelessly connects to a NMP using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
+
+<img src="../../NMP/UserManual/img/CBX/CBX200-Interface.png"  style="zoom: 33%;" />
+
+| No.  | Interface         | Description                                                  |
+| ---- | ----------------- | ------------------------------------------------------------ |
+| 1    | Power Supply (DC) | 12V,1A                                                       |
+| 2    | Reset Button      | Resets the CBX to its default factory settings               |
+| 3    | Link Indicator    | Displays the connection status between the CBX and the NMP   |
+| 4    | DIP Switch        | Used for configuration settings and adjustments of the CBX   |
+| 5    | RS232             | Allows wired communication and control with RS232-compatible devices. |
+| 6    | IR                | Enables IR communication for controlling devices with infrared signals. |
+| 7    | Relay             | Provides control over devices using relay switches for on/off functions. |
 
