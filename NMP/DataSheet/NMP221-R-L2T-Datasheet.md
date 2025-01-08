@@ -102,9 +102,9 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 
 
-# Microphone
+# Microphones
 
-
+The NMP211 comes with 2.4GHz wireless microphones, offering reliable audio performance for classrooms, meetings, and presentations.
 
 ## Handheld Microphone
 
