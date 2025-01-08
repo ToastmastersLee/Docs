@@ -11,6 +11,7 @@ table th {
 
 
 
+
 <img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
 
@@ -108,41 +109,41 @@ The NMP211 comes with 2.4GHz wireless microphones, offering reliable audio perfo
 
 ## Handheld Microphone
 
-<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/image-20250108111102060.png" alt="image-20250108111102060" style="zoom:67%;" />
+<img src="./img/image-20250108111102060.png" alt="image-20250108111102060" style="zoom:67%;" />
 
-| **Specification**                      | Specification                |
-| -------------------------------------- | ---------------------------- |
-| Matching models                        | Q-NEX NMP                    |
-| Frequency Response                     | 40-16K (Hz)                  |
-| Directivity                            | Capacitive Uni-Directional   |
-| Sensitivity                            | -44 (dB)                     |
-| Frequency Range                        | 2400-2482 MHz                |
-| Modulation Mode                        | GFSK                         |
-| Power supply                           | 3.7V / 800mA lithium battery |
-| Battery life                           | >8-12H                       |
-| RF power                               | 0 dBm                        |
-| Maximum wireless transmission distance | 10-15m                       |
-| Size                                   | 160\*15mm                    |
+| No.  | Item                                   | Specification                |
+| ---- | -------------------------------------- | ---------------------------- |
+| 1    | Matching models                        | Q-NEX NMP                    |
+| 2    | Frequency Response                     | 40-16K (Hz)                  |
+| 3    | Directivity                            | Capacitive Uni-Directional   |
+| 4    | Sensitivity                            | -44 (dB)                     |
+| 5    | Frequency Range                        | 2400-2482 MHz                |
+| 6    | Modulation Mode                        | GFSK                         |
+| 7    | Power supply                           | 3.7V / 800mA lithium battery |
+| 8    | Battery life                           | >8-12H                       |
+| 9    | RF power                               | 0 dBm                        |
+| 10   | Maximum wireless transmission distance | 10-15m                       |
+| 11   | Size                                   | 160*15mm                     |
 
 
 
 ## Lapel Microphone
 
-<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/image-20250108111130629.png" alt="image-20250108111130629" style="zoom:67%;" />
+<img src="./img/image-20250108111130629.png" alt="image-20250108111130629" style="zoom:67%;" />
 
-| **Specification**                      | **V220-B**                   |
-| -------------------------------------- | ---------------------------- |
-| Matching models                        | Q-NEX NMP                    |
-| Frequency Response                     | 40-16K (Hz)                  |
-| Directivity                            | Capacitive Uni-Directional   |
-| Sensitivity                            | -46 (dB)                     |
-| Frequency Range                        | 2400-2482 MHz                |
-| Modulation Mode                        | GFSK                         |
-| Power supply                           | 3.7V / 800mA lithium battery |
-| Battery life                           | >6-8 H                       |
-| RF power                               | 0 dBm                        |
-| Maximum wireless transmission distance | 15-20m                       |
-| Size                                   | 57\*24\*27mm                 |
+| No.  | Item                                   | Specification                |
+| ---- | -------------------------------------- | ---------------------------- |
+| 1    | Matching models                        | Q-NEX NMP                    |
+| 2    | Frequency Response                     | 40-16K (Hz)                  |
+| 3    | Directivity                            | Capacitive Uni-Directional   |
+| 4    | Sensitivity                            | -46 (dB)                     |
+| 5    | Frequency Range                        | 2400-2482 MHz                |
+| 6    | Modulation Mode                        | GFSK                         |
+| 7    | Power supply                           | 3.7V / 800mA lithium battery |
+| 8    | Battery life                           | >6-8 H                       |
+| 9    | RF power                               | 0 dBm                        |
+| 10   | Maximum wireless transmission distance | 15-20m                       |
+| 11   | Size                                   | 57*24*27mm                   |
 
 
 
