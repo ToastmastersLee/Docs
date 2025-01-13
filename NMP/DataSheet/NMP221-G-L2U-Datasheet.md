@@ -18,7 +18,7 @@ table th {
 
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Media Processor</div>
 
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211-R-L2U</div>
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211-G-L2U</div>
 
 
 
@@ -170,55 +170,41 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 
 
+# Media Server (Optional)
 
+<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/note-6757382.png"  />**Note**:
 
-# Microphone
+<font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
 
+The table below shows the minimum recommended specifications:
 
-
-## Handheld Microphone
-
-| No.  | Item                       | Specification                  |
-| ---- | -------------------------- | ------------------------------ |
-| 1    | Receiving Sensitivity      | >=85dBm                        |
-| 2    | Receiver Working Current   | 5V/180mA                       |
-| 3    | Frequency Range            | 640MHz ~ 690MHz                |
-| 4    | Sensitivity                | 51dB ± 3dB (0dB = 1V/Pa 1 KHz) |
-| 5    | Frequency Response         | 50Hz ~ 15KHz                   |
-| 6    | Microphone Type            | Dynamic cardioid microphone    |
-| 7    | SNR                        | >=65dB                         |
-| 8    | Transmit Power             | >20dBm                         |
-| 9    | Distortion                 | <0.5%                          |
-| 10   | Effective Distance         | <40m                           |
-| 11   | Latency                    | <5ms                           |
-| 12   | Operating Temperature      | -25°C ~ 60°C                   |
-| 13   | Power Supply               | 2 * AA batteries               |
-| 14   | Microphone Working Current | 100mA @ 3V                     |
-| 15   | Battery Lifetime           | 12 Hours                       |
+| No.  | Item         | Specification       |
+| ---- | ------------ | ------------------- |
+| 1    | Storage Type | ECC                 |
+| 2    | RAM          | 16G                 |
+| 3    | HDD Storage  | 4T * 4 SATA         |
+| 4    | CPU          | 4-core 8-thread CPU |
+| 5    | System       | Windows Server OS   |
 
 
 
-## Lapel Microphone
+# Lite Media Server (Optional)
 
-| No.  | Item                       | Specification                  |
-| ---- | -------------------------- | ------------------------------ |
-| 1    | Receiving Sensitivity      | >=85dBm                        |
-| 2    | Receiver Working Current   | 5V/180mA                       |
-| 3    | Frequency Range            | 640MHz ~ 690MHz                |
-| 4    | Sensitivity                | 51dB ± 3dB (0dB = 1V/Pa 1 KHz) |
-| 5    | Frequency Response         | 50Hz ~ 15KHz                   |
-| 6    | Microphone Type            | Condenser microphone           |
-| 7    | SNR                        | >=105dB                        |
-| 8    | Transmit Power             | 16 ~ 25dBm                     |
-| 9    | Distortion                 | <0.5%                          |
-| 10   | Effective Distance         | <40m                           |
-| 11   | Latency                    | <5ms                           |
-| 12   | Operating Temperature      | -25°C ~ 60°C                   |
-| 13   | Power Supply               | 2 * AA batteries               |
-| 14   | Microphone Working Current | 200mA @ 3V                     |
-| 15   | Battery Lifetime           | 5 Hours                        |
+| No.  | Item               | Specification                                                |
+| ---- | ------------------ | ------------------------------------------------------------ |
+| 1    | Processor          | Intel® Core™ i5 4200M 2.5GHz                                 |
+| 2    | RAM                | 4GB DDR3                                                     |
+| 3    | Storage            | 256G SSD                                                     |
+| 4    | Network Card       | 1 × RJ45 LAN 10/100/1000M                                    |
+| 5    | WiFi               | IEEE 802.11 a/g/n/ac                                         |
+| 6    | Power Supply Input | 19V                                                          |
+| 7    | Dimension          | 180mm (L) x 195mm (W) x 42mm (H)                             |
+| 8    | Temperature        | Operating temperature: 0°C ~ 50°C <br> Storage temperature: -20°C ~ 70°C |
+| 9    | Humidity           | 5% ~ 90% No condensation                                     |
 
-## 
+<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/note-6757382.png"  />**Note:** 
+
+The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
 
 
 

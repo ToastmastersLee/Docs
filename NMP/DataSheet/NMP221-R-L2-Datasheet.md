@@ -57,7 +57,28 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 17   | External Port (WAGO) * 1           | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
 | 18   | NMP Power Supply (WAGO) * 1        | Power supply for NMP, supporting wide voltage range (110-240 V AC). |
 
+**Networked AV Decoder**
 
+Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
+
+| No.  | Item                    | Specification                                                |
+| ---- | ----------------------- | ------------------------------------------------------------ |
+| 1    | Decoding Protocol       | RTMP                                                         |
+| 2    | Resolution              | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 3    | Media Source            | Media server with Q-NEX streaming service system             |
+| 4    | Playback Options        | Instant playback or scheduled playback on classroom media devices |
+| 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
+| 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
+
+**Live AV Streaming**
+
+Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
+
+| No.  | Item               | Specification                                                |
+| ---- | ------------------ | ------------------------------------------------------------ |
+| 1    | Streaming Protocol | RTMP                                                         |
+| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 3    | Source             | IP cameras, smartphones with broadcasting software (e.g., OBS), PCs with OBS, audio/video encoders |
 
 **General Specifications**
 
