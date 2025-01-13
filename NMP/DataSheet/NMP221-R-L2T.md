@@ -34,9 +34,7 @@ table th {
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
-<img src="./img/image-20250108161304204.png"  style="zoom: 25%;" />
-
- 
+<img src="./img/NMP211-R-L2T.png"  style="zoom: 25%;" />
 
 | No.  | Interface                                      | Description                                                  |
 | ---- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -80,6 +78,8 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 The Touch Panel allows users to access NMP functionalities such as power control, matrix switching, volume adjustment, and Divisible Room operations. Even in LAN-connected environments without Internet access, users still can perform local operations like matrix switching and volume adjustments.
 
 The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NMP. 
+
+<img src="./img/NMP-CPL20.png" alt="NMP-CPL20.png" style="zoom: 33%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
