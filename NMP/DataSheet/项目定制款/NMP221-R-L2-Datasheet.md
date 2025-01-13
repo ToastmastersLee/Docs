@@ -11,8 +11,7 @@ table th {
 
 
 
-
-<img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
+<img src="../../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
 
 
@@ -34,7 +33,7 @@ table th {
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
-<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/NMP211-R-L2.png" alt="image-20250113151610686" style="zoom: 25%;" />
+<img src="../img/NMP211-R-L2.png" alt="image-20250113151610686" style="zoom: 25%;" />
 
 | No.  | Interface                          | Description                                                  |
 | ---- | ---------------------------------- | ------------------------------------------------------------ |
@@ -52,7 +51,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 12   | Audio-IN * 2                       | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
 | 13   | Audio Out                          | Audio output interface for connecting to speakers or amplifiers. |
 | 14   | External Speaker Output            | The NMP includes an integrated power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
-| 15   | Electric Lock Interface (LOCK) * 1 | Allows integration with electric lock systems, enabling scenarios such as automatic door locking after a specified period post door opening. <br /><img src="../UserManual/img/note.png"  style="zoom:67%;" />Note: <br />Only supports electric locks, not electronic lock systems. |
+| 15   | Electric Lock Interface (LOCK) * 1 | Allows integration with electric lock systems, enabling scenarios such as automatic door locking after a specified period post door opening. <br /><img src="../../UserManual/img/note.png"  style="zoom:67%;" />Note: <br />Only supports electric locks, not electronic lock systems. |
 | 16   | Power Fuse * 1                     | Power fuse for protection against electrical faults.         |
 | 17   | External Port (WAGO) * 1           | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
 | 18   | NMP Power Supply (WAGO) * 1        | Power supply for NMP, supporting wide voltage range (110-240 V AC). |
@@ -98,7 +97,7 @@ The Touch Panel allows users to access NMP functionalities such as power control
 
 The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NMP. 
 
-<img src="./img/NMP-CPL20.png" alt="NMP-CPL20" style="zoom: 33%;" />
+<img src="../img/NMP-CPL20.png" alt="NMP-CPL20" style="zoom: 33%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |

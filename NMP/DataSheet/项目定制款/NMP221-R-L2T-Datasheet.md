@@ -11,8 +11,7 @@ table th {
 
 
 
-
-<img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
+<img src="../../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
 
 
@@ -26,7 +25,7 @@ table th {
 
 
 
-<img src="./img/NMP211-R-L2T-Main.png" style="zoom: 10%;" />
+<img src="../img/NMP211-R-L2T-Main.png" style="zoom: 10%;" />
 
 
 
@@ -34,7 +33,7 @@ table th {
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
-<img src="./img/NMP211-R-L2T.png"  style="zoom: 25%;" />
+<img src="../img/NMP211-R-L2T.png"  style="zoom: 25%;" />
 
 | No.  | Interface                                      | Description                                                  |
 | ---- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -54,7 +53,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 14   | Audio-IN * 2                                   | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
 | 15   | Audio Out                                      | Audio output interface for connecting to speakers or amplifiers. |
 | 16   | External Speaker Output                        | The NMP includes an integrated power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
-| 17   | Electric Lock Interface (LOCK) * 1             | Allows integration with electric lock systems, enabling scenarios such as automatic door locking after a specified period post door opening. <br /><img src="../UserManual/img/note.png"  style="zoom:67%;" />Note: <br />Only supports electric locks, not electronic lock systems. |
+| 17   | Electric Lock Interface (LOCK) * 1             | Allows integration with electric lock systems, enabling scenarios such as automatic door locking after a specified period post door opening. <br /><img src="../../UserManual/img/note.png"  style="zoom:67%;" />Note: <br />Only supports electric locks, not electronic lock systems. |
 | 18   | Power Fuse * 1                                 | Power fuse for protection against electrical faults.         |
 | 19   | External Port (WAGO) * 1                       | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
 | 20   | NMP Power Supply (WAGO) * 1                    | Power supply for NMP, supporting wide voltage range (110-240 V AC). |
@@ -79,7 +78,7 @@ The Touch Panel allows users to access NMP functionalities such as power control
 
 The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NMP. 
 
-<img src="./img/NMP-CPL20.png" alt="NMP-CPL20.png" style="zoom: 33%;" />
+<img src="../img/NMP-CPL20.png" alt="NMP-CPL20.png" style="zoom: 33%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -153,7 +152,7 @@ The NMP211 comes with 2.4GHz wireless microphones, offering reliable audio perfo
 
 The Control Box (CBX) wirelessly connects to a NMP using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
 
-<img src="../../NMP/UserManual/img/CBX/CBX200-Interface.png"  style="zoom: 33%;" />
+<img src="../../../NMP/UserManual/img/CBX/CBX200-Interface.png"  style="zoom: 33%;" />
 
 | No.  | Interface         | Description                                                  |
 | ---- | ----------------- | ------------------------------------------------------------ |
