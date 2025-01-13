@@ -23,7 +23,7 @@ table th {
 
  <div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— Datasheet ——</div>
 
-
+<img src="../img/NMP-Combos-WhiteLabel.png"  style="zoom: 50%;" />
 
 
 
@@ -97,7 +97,7 @@ The Touch Panel allows users to access NMP functionalities such as power control
 
 The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NMP. 
 
-<img src="../img/NMP-CPL20.png" alt="NMP-CPL20" style="zoom: 33%;" />
+<img src="../img/CPL20-White_Label.png"  style="zoom: 25%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
