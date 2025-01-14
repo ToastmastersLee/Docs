@@ -4,7 +4,7 @@
 
 
 
-## Interactive Pen Display
+## Interactive Pen Display for NMP221-G-L2
 
 2025-01-14
 
