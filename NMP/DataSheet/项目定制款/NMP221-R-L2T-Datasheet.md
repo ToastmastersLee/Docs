@@ -17,7 +17,7 @@ table th {
 
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Media Processor</div>
 
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP211-R-L2T</div>
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NMP221-R-L2T</div>
 
 
 
@@ -29,7 +29,7 @@ table th {
 
 
 
-# NMP211
+# NMP221
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
@@ -104,7 +104,7 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 # Microphones
 
-The NMP211 comes with 2.4GHz wireless microphones, offering reliable audio performance for classrooms, meetings, and presentations.
+The NMP221 comes with 2.4GHz wireless microphones, offering reliable audio performance for classrooms, meetings, and presentations.
 
 ## Handheld Microphone
 

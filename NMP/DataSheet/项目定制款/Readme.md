@@ -11,7 +11,7 @@
 
 
 
-## 2. NMP221-G-L2
+## 2. NMP211-G-L2
 
  **2025-01-13:**
 
@@ -20,7 +20,7 @@
 
 
 
-## 3. Interactive Pen Display for NMP221-G-L2
+## 3. Interactive Pen Display for NMP211-G-L2
 
 2025-01-14
 
@@ -37,3 +37,9 @@
    - 《Interactive Pen Display》的格式与常规的参数表有所不同。数据源和格式主要整理自《1、NewCircles触控显示器P22ATV.docx》文档。
    - 《1、NewCircles触控显示器P22ATV.docx》该文档中提到的书写硬度用的却是莫氏硬度，需要注意矫正。
    - 该屏幕虽然和NDP500是统一规格，但是两边的**尺寸**是不一样的，因此不能混用。NDP500为了嵌入10寸屏，屏幕扩大到了23.8寸；而厂家提供的标准屏是21.5寸，也是NDP100常用的常规屏。
+
+
+
+## References
+
+1. [smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/](smb://192.168.10.168/IQ-国际事业部/4.跨部门共享区/1.售前支持Pre-sales/2. 营销工具（彩页&参数表&图片&视频等）Marketing materials/9.Q-NEX产品线/01 Brochure&Datasheet&Manuals/)
