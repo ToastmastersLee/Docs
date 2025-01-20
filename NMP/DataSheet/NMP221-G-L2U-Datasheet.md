@@ -59,7 +59,19 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 19   | External Port (WAGO) * 1                      | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
 | 20   | NMP Power Supply (WAGO) * 1                   | Power supply for NMP, supporting wide voltage range (110-240 V AC). |
 
-**Networked AV Decoder**
+
+
+####  Wireless Module
+
+| No.  | Specification             | Details                                                      |
+| ---- | ------------------------- | ------------------------------------------------------------ |
+| 1    | **RF Transceiver**        | “Wi-Fi friendly” 2.4 GHz spread spectrum 2-way RF (2400 to 2483 MHz) |
+| 2    | **RF Transmitting Power** | 13.5dBm                                                      |
+| 3    | **Range**                 | < 30 m, support to connect up to 4 units of control box for extended RS232/IR/Relay control |
+
+
+
+#### Networked AV Decoder
 
 Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
 
@@ -72,7 +84,7 @@ Requires a media server to decode and play networked media content on classroom 
 | 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
 | 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
 
-**Live AV Streaming**
+#### Live AV Streaming
 
 Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
 
@@ -123,6 +135,23 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 
 # Microphone
+
+**Wireless MIC Receiver**:
+
+| No.  | Specification                   | Details                                            |
+| ---- | ------------------------------- | -------------------------------------------------- |
+| 1    | **Connection**                  | Control Box (CBX) - support RS232/IR/Relay control |
+| 2    | **Power Supply**                | 5-12V / 500mA                                      |
+| 3    | **Frequency Bandwidth**         | 12MHz                                              |
+| 4    | **Frequency Response**          | 30Hz - 15KHz                                       |
+| 5    | **Frequency Range**             | 640 - 690MHz                                       |
+| 6    | **Maximum Channels**            | 48                                                 |
+| 7    | **Receiving Sensitivity**       | <= -105dBm                                         |
+| 8    | **SNR (Signal-to-Noise Ratio)** | >= 80dB                                            |
+| 9    | **Audio Output Level Value**    | 350 mV                                             |
+| 10   | **Distortion (THD+N)**          | < 0.5%                                             |
+| 11   | **Latency**                     | < 3ms                                              |
+| 12   | **Operating Temperature**       | -25°C to -60°C                                     |
 
 
 
