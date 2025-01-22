@@ -4,7 +4,7 @@
 
 
 
-<img src="./img/image-20250114093842833.png" alt="image-20250114093842833" style="zoom:50%;" />
+<img src="../img/image-20250114093842833.png" alt="image-20250114093842833" style="zoom:50%;" />
 
 
 

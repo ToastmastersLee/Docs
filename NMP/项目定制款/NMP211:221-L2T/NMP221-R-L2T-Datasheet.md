@@ -25,7 +25,7 @@ table th {
 
 
 
-<img src="../img/NMP211-R-L2T-Main.png" style="zoom: 10%;" />
+<img src="./img/NMP211-R-L2T-Main.png" style="zoom: 10%;" />
 
 
 
@@ -33,7 +33,7 @@ table th {
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
-<img src="../img/NMP211-R-L2T.png"  style="zoom: 25%;" />
+<img src="./img/NMP211-R-L2T.png"  style="zoom: 25%;" />
 
 | No.  | Interface                                      | Description                                                  |
 | ---- | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -108,7 +108,7 @@ The NMP221 comes with 2.4GHz wireless microphones, offering reliable audio perfo
 
 ## Handheld Microphone
 
-<img src="./img/image-20250108111102060.png" alt="image-20250108111102060" style="zoom:67%;" />
+<img src="./img/image-20250108111102060.png"  style="zoom:67%;" />
 
 | No.  | Item                                   | Specification                |
 | ---- | -------------------------------------- | ---------------------------- |
