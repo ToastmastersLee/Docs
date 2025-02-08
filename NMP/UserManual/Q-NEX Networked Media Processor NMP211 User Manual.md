@@ -67,7 +67,7 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 
 | Term                                                 | Descriptions                                                 |
 | ---------------------------------------------------- | ------------------------------------------------------------ |
-| NMP                                                  | Networked Media Processor, NMP is the core component that enables functionalities such as remote device control, audio/video matrix switching, and advanced features like "Touch-Following,", "Broadcasting", and "Live Streaming". |
+| NMP                                                  | The Networked Media Processor (NMP) is a centralized controller that supports functions like remote device control, audio/video matrix switching, and advanced features such as 'Touch Following', 'Broadcasting', and 'Live Streaming'. |
 | [Touch Panel](#2.3 Touch Panel )                     | The Touch Panel serves as the primary control interface, providing intuitive touch-based controls for the operation of the NMP. |
 | [Web-console](https://mg.qnextech.com/console/)      | Web-console is a web-based platform for remote device management of NMP, constituting a part of NMP. This platform enables operations similar to the Touch Panel for individual devices and also allows simultaneous operations on multiple NMPs. Additionally, it provides functions such as scheduling device controls, broadcasting, and live streaming. |
 | Q-NEX App                                            | A mobile application for controlling Q-NEX NMP systems       |
