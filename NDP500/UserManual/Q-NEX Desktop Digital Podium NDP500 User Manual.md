@@ -468,7 +468,9 @@ This feature ensures that the NDP500's Primary Screen (HDMI OUT A) displays the 
 
 - Refer to the video at [3:04](https://www.youtube.com/watch?v=kHRZHC7xY_I&t=184s) for instructions on connecting audio cables, including Audio In, Audio Out, Mic In, and Speaker ports. 
 
+<img src="./img/NDP500-Audio-Overview.png" style="zoom: 25%;" /> 
 
+The NDP500 handles audio input and output through multiple interfaces. It receives audio signals from **HDMI IN**, **AUDIO IN**, and **microphones (wired and wireless)**. These signals are processed and routed to different outputs: **SPEAKER OUT** for direct playback, **AUDIO OUT** for external audio systems, and **MIC OUT** for microphone signal distribution. The following sections explain each interface in detail, including signal flow and connection methods.
 
 ### 4.2.1 SPEAKER
 

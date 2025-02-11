@@ -560,6 +560,12 @@ After connecting the desired input and output devices, users can perform video m
 
 ### 4.2.2 Audio Control
 
+<img src="../../NMP/UserManual/img/NMP-Audio-Overview.png" style="zoom: 15%;" /> 
+
+The NDP system handles audio output through three main ports: **Speaker Out**, **Audio Out**, and **Mic Out**. 
+
+This section is organized based on these interfaces, explaining their respective audio sources and signal flow. Each subsection includes a topology diagram to illustrate the connections and signal paths for better understanding.
+
 #### 4.2.2.1 SPEAKER
 
 ##### 1. SPEAKER Connection Instructions

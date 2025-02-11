@@ -13,6 +13,7 @@
 | v3.2    | Deleted | 1. 移除掉“3.4.1 Using the Built-in PC”章节关于<br />- [JoinMemos](https://www.iqboard.net/jms.php)和<br />- [IQ KitsMemos](https://www.iqboard.net/kitsmemos)https://www.iqboard.net/kitsmemos的说明<br />（Ref: 黎明提交的 202412031724000512734  **海外工程变更审批单**） | 2024-12-10    | 黎明，Lee            |
 | v3.3    | Edited  | 1. 由于鹅颈麦的Phatom power已移除，因此对应4.2.2.3 Mic章节也要进行调整<br />2. 移除 **Q&A 章节**。原因：情况太多描述无法覆盖全；维护起来容易丢三落四（如USB-C已移除掉了，但是Q&A章节由于缺少人力二次审核导致忘记移除）。后续如果客户与反馈需要再加入。 | 2024-12-12    | 诗雨，Lee            |
 | v3.4    | Edited  | 调整固件升级服务器`27.151.13.85:12583 (NDP Upgrade Service)` 为`110.90.11.185:12583 (NDP Upgrade Service)`。原因是老的服务器出现故障，迁移到了新服务器上 | 2024-12-19    | Lee                  |
+| v3.5    | Added   | 1. 针对`4.2.2 Audio Control`章节新增拓扑overview图和简要说明，增加使用者对音频拓扑图的总体理解 | 2025-02-11    | Lee、道秀            |
 
 *Status：New，Edited，Added，Deleted
 
