@@ -421,6 +421,10 @@ Ensure correct matching of HDMI and Touch USB connections to avoid confusion.
 
 ### 4.2.2 Audio Control
 
+<img src="./img/NMP-Audio-Overview.png" style="zoom: 15%;" /> 
+
+The NMP system handles audio output through three main ports: **SEAPKER OUT, AUDIO OUT, and MIC OUT**. This section is organized based on these interfaces, explaining their audio sources and signal flow. Each subsection includes a topology diagram to illustrate the connections and signal paths for better understanding.
+
 #### 4.2.2.1 SPEAKER
 
 ##### 1. SPEAKER Connection Instructions
@@ -444,7 +448,7 @@ After successful wiring and setup, you can control the volume via the Touch Pane
 
 ##### 2. Device Connection Diagram for SPEAKER
 
-<img src="./img/Speaker-Input-Sources.png" style="zoom: 25%;" />
+<img src="./img/Speaker-Input-Sources.png" style="zoom: 25%;" /> 
 
 **Line Type Representation: **
 
@@ -468,7 +472,7 @@ If you find this legend doesn't meet your needs, feel free to consult our soluti
 
 ##### 3. Topology Diagram for SPEAKER
 
-<img src="./img/Speaker-Input-Sources-Typology.png" style="zoom: 25%;" />
+<img src="./img/Speaker-Input-Sources-Typology.png" style="zoom: 25%;" /> 
 
 **Line Type Representation: **
 
@@ -506,7 +510,7 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 ##### 1. Device Connection Diagram for AUDIO
 
-<img src="./img/Audio-Input-Sources.png" style="zoom: 25%;" />
+<img src="./img/Audio-Input-Sources.png" style="zoom: 25%;" /> 
 
 
 
@@ -529,7 +533,7 @@ After completing the necessary wiring setup, users can control the volume, trebl
 
 ##### 2. Topology Diagram for AUDIO
 
-<img src="./img/Audio-Input-Sources-Typology.png" style="zoom: 25%;" />
+<img src="./img/Audio-Input-Sources-Typology.png" style="zoom: 25%;" /> 
 
 **Line Type Representation：**
 

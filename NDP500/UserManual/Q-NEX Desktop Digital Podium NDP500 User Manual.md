@@ -494,7 +494,11 @@ The diagram illustrates the audio signal topology for the NDP500, specifically f
 
 
 
-### 4.2.2 Audio
+### 4.2.2 AUDIO
+
+The diagram illustrates the audio signal topology for the SPEAKER output of NDP500. 
+
+The **AUDIO OUT** port functions similarly to the **SPEAKER OUT** port, with both handling audio signals from various sources. 
 
 <img src="./img/AUDIO-Topology-NDP500.png" style="zoom: 25%;" /> 
 
@@ -507,7 +511,7 @@ The diagram illustrates the audio signal topology for the NDP500, specifically f
 | <img src="../../NMP/UserManual/img/lines/V-solid.png" style="zoom:67%;"   /> | **Solid line**: indicates the ability to output multiple audio signal simultaneously. |
 | <img src="../../NMP/UserManual/img/lines/V-dash.png" style="zoom:67%;"  /> | **Dashed line**: only ONE audio source can be input to the speaker at a time. |
 
-The **AUDIO OUT** port functions similarly to the **SPEAKER OUT** port, with both handling audio signals from various sources. 
+
 
 
 
