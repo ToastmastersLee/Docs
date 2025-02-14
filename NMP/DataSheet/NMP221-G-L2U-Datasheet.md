@@ -26,7 +26,7 @@ table th {
 
 
 
-<img src="./img/NMP211-R-L2T-Main.png" style="zoom: 10%;" />
+<img src="../UserManual/img/NMP-Suite-10.png" style="zoom: 10%;" />
 
 
 
@@ -34,7 +34,7 @@ table th {
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
-<img src="../../NMP/UserManual/img/NMP211-Interface-Back.png"  style="zoom: 19%;" />
+<img src="../../NMP/UserManual/img/NMP211-Interface-Back.png"  style="zoom: 12%;" />
 
 | No.  | Interface                                     | Description                                                  |
 | ---- | --------------------------------------------- | ------------------------------------------------------------ |
@@ -110,7 +110,7 @@ The Touch Panel allows users to access NMP functionalities such as power control
 
 The Touch Panel serves as the primary controlling interface, providing intuitive touch-based controls for the operation of the NMP. 
 
-<img src="./img/NMP-CPL20.png" alt="NMP-CPL20.png" style="zoom: 33%;" />
+<img src="./img/NMP-CPL20.png" alt="NMP-CPL20.png" style="zoom: 15%;" />
 
 | No.  | Item             | Specification                                                |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -201,7 +201,7 @@ The Touch Panel serves as the primary controlling interface, providing intuitive
 
 # Media Server (Optional)
 
-<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/note-6757382.png"  />**Note**:
+<img src="../UserManual/img/note.png" style="zoom:55%;" />**Note**:
 
 <font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
 
@@ -231,7 +231,7 @@ The table below shows the minimum recommended specifications:
 | 8    | Temperature        | Operating temperature: 0°C ~ 50°C <br> Storage temperature: -20°C ~ 70°C |
 | 9    | Humidity           | 5% ~ 90% No condensation                                     |
 
-<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NMP/DataSheet/img/note-6757382.png"  />**Note:** 
+<img src="../UserManual/img/note.png" style="zoom:67%;" />**Note:** 
 
 The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
 
