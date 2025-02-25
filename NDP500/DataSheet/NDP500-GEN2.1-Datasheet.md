@@ -155,7 +155,7 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 | ---- | --------------------- | ------------------------------------------------------------ |
 | 1    | **IN 1**              | Connected to HDMI Seamless Matrix Switcher (IN 1) for seamless input switch. The source is from NDP500's HDMI IN 1; for example, if a laptop is connected to HDMI IN 1, switching to IN 1 will display the laptop's content. |
 | 2    | **IN 2**              | Connected to HDMI Seamless Matrix Switcher (IN 2) for seamless input switch. Similar to IN 1, used for different video sources like a document camera, laptop, etc. |
-| 3    | **IN 3**              | Connected to HDMI Seamless Matrix Switcher (IN 3). The input source is from the built-in OPS of NDP500. |
+| 3    | **IN 3**              | Connected to HDMI Seamless Matrix Switcher (IN 3). The input source is from the built-in PC of NDP500. |
 | 4    | **IN 4**              | Connected to HDMI Seamless Matrix Switcher (IN 4), used for NDP500's broadcast functionality. |
 | 5    | **OUT 3**             | Output connected to the Seamless Matrix Switcher's OUT 3, used to switch content for NDP500's Interactive Pen Display. |
 | 6    | **MIC BASE** (LAN)    | Reserved interface.                                          |
