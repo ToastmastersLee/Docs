@@ -1,5 +1,11 @@
-
-
+---
+title: Q-NEX Networked Digital Podium NDP500 User Manual
+author: Q-NEX team
+version: GEN 1.0
+date: 2025-02-25
+status: Sealed
+tags: [NDP500, UserManual, Q-NEX]
+---
 <img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
 

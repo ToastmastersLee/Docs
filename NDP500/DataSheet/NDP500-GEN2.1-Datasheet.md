@@ -114,13 +114,42 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 ### 2.3 Interface
 
-**Left //待补充**
+**Front View** 
+
+<img src="./img/image-20240705102715413.png" alt=" " style="zoom: 25%;" />
+
+| No.  | Interface        | Description                                                  |
+| ---- | ---------------- | ------------------------------------------------------------ |
+| 1    | Indicator Light  | Display the operational status of the NDP500. The indicator has two states:<br />- Red (No signal source)<br />- Green (Signal source present) |
+| 2    | Card Reader Area | Allows users to authenticate using a swipe card for access control and logging in. |
+| 3    | Hidden Antenna   | UHF for wireless microphones<br />2.4G Wi-Fi for CBX         |
 
 
 
-**Rear** 
+**Left View**
 
-<img src="./img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom:50%;" />
+| No.  | Interface    | Description                                                  |
+| ---- | ------------ | ------------------------------------------------------------ |
+| 1    | OPS Slot * 1 | Supports the insertion and removal of Euro-standard OPS (Open Pluggable Specification) modules. |
+
+
+
+**Right View**
+
+| No.  | Interface        | Description                                                  |
+| ---- | ---------------- | ------------------------------------------------------------ |
+| 1    | HDMI IN 1        | Connects to devices such as laptops. For Interactive Pen Display and IFP reverse touch control, USB HOST connection is also required. |
+| 2    | USB-HOST         | USB-TYPE B 2.0. Paired with HDMI IN 1 to enable reverse touch control and other interactive functions. |
+| 3    | HDMI IN 2        | Acts as the third input source for the NDP500.               |
+| 4    | MIC IN-2 (3.5mm) | Line-in interface for connecting external microphones or audio devices. |
+
+
+
+**Rear View**
+
+<img src="./img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom: 33%;" /> 
+
+<img src="./img/image-20250225171932384.png" alt="image-20250225171932384" style="zoom:50%;" /> 
 
 | No.  | Interface             | Description                                                  |
 | ---- | --------------------- | ------------------------------------------------------------ |
@@ -139,8 +168,13 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 | 15   | **IR-OUT**            | IR port for controlling compatible devices remotely (e.g., projector, screen). |
 | 16   | **MIC IN 1**          | Input port for microphones or audio sources, supporting various microphone models. |
 | 17   | **MIC OUT**           | Output port for routing audio from microphones to other systems or devices. |
-
-
+| 18   | AUDIO OUT             | 3.5mm port for audio output to speakers or amplifiers.       |
+| 19   | SPEAKER * 2           | Terminal block with 4-pin for connecting two pairs of passive speakers. Integrated dual-channel amplifier, with 40W and 4-8Ω load per channel. |
+| 20   | UP-DOWN               | C13 outlet offering up, pause, and down functions for connected devices like projector screens and motorized curtains.  (110~220V AC, 300W) |
+| 21   | DISPLAY               | C13 outlet used for power control of connected display devices like IFPs and projectors, supporting delayed power off. (110~220V AC, 1200W) |
+| 22   | EXTERNAL              | C13 outlet, acts as a switch for controlling external devices such as lighting. Can be directly connected to NDP500-External or integrated with an SPDT switch. (110~220V AC, 1200W, This power does not count towards Digital's total power consumption) |
+| 23   | POWER                 | C14 inlet for powering the entire NDP500 unit, including the 23.8-inch display, 10.1-inch control screen, and internal OPS. (110~220V AC, 2000W) |
+| 24   | POWER SWITCH          | Switch for powering the NDP500 unit on and off.              |
 
 ### 2.4 Built-in PC
 
@@ -168,9 +202,7 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 
 
-
-
-## 3. HDMI  Seamless Matrix Switcher
+## 3. HDMI Seamless Matrix Switcher
 
 <img src="../UserManual/img/Seamless_AV_Switcher_Wireframe.png" alt="Seamless_AV_Switcher_Wireframe" style="zoom: 33%;" />
 
@@ -251,7 +283,7 @@ Requires a media server to decode and play networked media content on classroom 
 | No.  | Item                    | Specification                                                |
 | ---- | ----------------------- | ------------------------------------------------------------ |
 | 1    | Decoding Protocol       | RTMP                                                         |
-| 2    | Resolution              | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 2    | Resolution              | 720p@30fps (recommended), up to 1080@30fps                   |
 | 3    | Media Source            | Media server with Q-NEX streaming service system             |
 | 4    | Playback Options        | Instant playback or scheduled playback on classroom media devices |
 | 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
@@ -264,12 +296,8 @@ Supports live video streaming from various sources, including IP cameras, smartp
 | No.  | Item               | Specification                                                |
 | ---- | ------------------ | ------------------------------------------------------------ |
 | 1    | Streaming Protocol | RTMP                                                         |
-| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 2    | Resolution         | 720p@30fps (recommended), up to 1080@30fps                   |
 | 3    | Source             | IP cameras, smartphones with broadcasting software (e.g., OBS), PCs with OBS, audio/video encoders |
-
-
-
-
 
 ### 5.3 Media Server (Optional)
 
