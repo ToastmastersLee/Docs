@@ -40,7 +40,7 @@ table th {
 
 
 
-### 2.1 Display
+### 2.1 Display Screen
 
 **General Specification**
 
@@ -83,8 +83,6 @@ Uses an active capacitive pen with 4096 pressure levels, supporting Windows Ink.
 | **Identification Height**        | <5mm              |
 | **Windows INK**                  | YES               |
 | **Compatible Operating Systems** | Windows 7/8/10/11 |
-
-**Explanation**: The handwriting functionality uses a capacitive touch screen and requires an active capacitive pen. It supports 4096 levels of pen pressure, allowing for detailed and responsive handwriting input. The reading accuracy is ±0.25 mm at the center, and it can detect writing heights as small as 5mm. The system also supports Windows Ink for a seamless writing experience across compatible Windows operating systems.
 
 
 
@@ -135,6 +133,32 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 
 
+### 2.4 Built-in PC
+
+| Item              | Specification                                    |
+| ----------------- | ------------------------------------------------ |
+| **CPU**           | Intel ® Core™ i5                                 |
+| **RAM**           | 8GB                                              |
+| **Storage**       | 512 SSD                                          |
+| **Graphics Card** | Intel® Iris® Xe Graphics eligible                |
+| **Network Card**  | 1 × 10/100/1000M self adaptive Ethernet LAN port |
+| **WIFI**          | Supports 802.11ac/a/b/g/n; BT                    |
+
+
+
+### 2.5 General Specification
+
+| Item                  | Specification                                                |
+| --------------------- | ------------------------------------------------------------ |
+| **Stand Adjustment**  | 30°-60°                                                      |
+| **Power Supply**      | 100V~240V AC 50 / 60Hz                                       |
+| **Temperature**       | During use: +0 – +40°C; in storage: -15– +60°C               |
+| **Humidity**          | During use: 20-80% (no condensation); in storage: 10-90% (no condensation) |
+| **Net Weight**        | 25 kg                                                        |
+| **Product Size (mm)** | 716(L) * 350(W) * 242(H)                                     |
+
+
+
 
 
 ## 3. HDMI  Seamless Matrix Switcher
@@ -167,7 +191,7 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 ## 4. Microphone 
 
-#### Wireless Mic Receiver (Built-in NDP500)
+### 4.1 Wireless Mic Receiver (Built-in NDP500)
 
 | No.  | Item                  | Specification                                        |
 | ---- | --------------------- | ---------------------------------------------------- |
@@ -185,7 +209,7 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 
 
-#### Wireless Microphone WX-D11
+### 4.2 Wireless Microphone WX-D11
 
 | No.  | Item                       | Specification                                    |
 | ---- | -------------------------- | ------------------------------------------------ |
@@ -211,7 +235,7 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 
 
-### Networked AV Decoder
+### 5.1 Networked AV Decoder
 
 Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
 
@@ -224,7 +248,7 @@ Requires a media server to decode and play networked media content on classroom 
 | 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
 | 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
 
-### Live AV Streaming
+### 5.2 Live AV Streaming
 
 Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
 
@@ -238,7 +262,7 @@ Supports live video streaming from various sources, including IP cameras, smartp
 
 
 
-### Media Server (Optional)
+### 5.3 Media Server (Optional)
 
 <img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
@@ -256,7 +280,7 @@ The table below shows the minimum recommended specifications:
 
 
 
-### Lite Media Server (Optional)
+### 5.4 Lite Media Server (Optional)
 
 | No.  | Item               | Specification                                                |
 | ---- | ------------------ | ------------------------------------------------------------ |
@@ -294,7 +318,7 @@ The Control Box (CBX) wirelessly connects to a NDP500 using Wi-Fi 2.4G. Placed n
 
 
 
-###  Wireless Reciver Module
+###  6.1 Wireless Reciver Module
 
 | No.  | Specification             | Details                                                      |
 | ---- | ------------------------- | ------------------------------------------------------------ |
