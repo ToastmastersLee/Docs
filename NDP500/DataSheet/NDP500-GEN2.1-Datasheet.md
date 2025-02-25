@@ -30,7 +30,9 @@ table th {
 
 
 
-## 1. Product List
+## 1. Product List //少图
+
+
 
 
 
@@ -38,11 +40,78 @@ table th {
 
 
 
+### 2.1 Display
+
+**General Specification**
+
+| Item                      | Specification                                                |
+| ------------------------- | ------------------------------------------------------------ |
+| **Panel Type**            | IPS (TFT-LCD)                                                |
+| **Effective Screen Size** | 23.8 inch                                                    |
+| **Resolution**            | 1920(H) x 1080 (V)                                           |
+| **Colors**                | 16.7M                                                        |
+| **Brightness**            | 300 cd/m²                                                    |
+| **Contrast Ratio**        | 1000:1                                                       |
+| **Surface**               | 3mm Hardened Anti-Reflection Safety Glass (7 H); AG+AF, Optical Bonding technology |
+| **Viewing Angles**        | 178° (H), 178° (V), Optical Bonding technology               |
 
 
-### NDP500 Interface //临时示意图
 
-The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
+**Touch Specification**
+
+Supports up to 10 touch points with a 4096 x 4096 resolution, compatible with Windows 7/8/10/11.
+
+| Item                             | Specification        |
+| -------------------------------- | -------------------- |
+| **Technology**                   | Capacitive           |
+| **Touch Points**                 | 10-point multi-touch |
+| **Resolution**                   | 4096 x 4096          |
+| **Compatible Operating Systems** | Windows 7/8/10/11    |
+
+
+
+**Handwriting Specification**
+
+Uses an active capacitive pen with 4096 pressure levels, supporting Windows Ink.
+
+| Item                             | Specification     |
+| -------------------------------- | ----------------- |
+| **Technology**                   | Capacitive        |
+| **Pen**                          | Active pen        |
+| **Pen Pressure**                 | 4096 levels       |
+| **Reading Accuracy**             | ±0.25 mm (center) |
+| **Identification Height**        | <5mm              |
+| **Windows INK**                  | YES               |
+| **Compatible Operating Systems** | Windows 7/8/10/11 |
+
+**Explanation**: The handwriting functionality uses a capacitive touch screen and requires an active capacitive pen. It supports 4096 levels of pen pressure, allowing for detailed and responsive handwriting input. The reading accuracy is ±0.25 mm at the center, and it can detect writing heights as small as 5mm. The system also supports Windows Ink for a seamless writing experience across compatible Windows operating systems.
+
+
+
+### 2.2 Touch Panel
+
+The Touch Panel allows users to access NDP500 functionalities such as power control, matrix switching, volume adjustment.
+
+| Item                      | Specification                                                |
+| ------------------------- | ------------------------------------------------------------ |
+| **Panel Type**            | IPS (TFT-LCD)                                                |
+| **Effective Screen Size** | 10.1 inch                                                    |
+| **Resolution**            | 1200(H) x 1920 (V)                                           |
+| **Brightness**            | 300 cd/m²                                                    |
+| **Contrast Ratio**        | 1000:1                                                       |
+| **Surface**               | 3mm Hardened Anti-Reflection Safety Glass (7 H); AG+AF, Optical Bonding technology |
+| **Viewing Angles**        | 178° (H), 178° (V)                                           |
+| **Connection Type**       | Built-in                                                     |
+
+
+
+### 2.3 Interface
+
+**Left //待补充**
+
+
+
+**Rear** 
 
 <img src="./img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom:50%;" />
 
@@ -54,7 +123,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 | 4    | **IN 4**              | Connected to HDMI Seamless Matrix Switcher (IN 4), used for NDP500's broadcast functionality. |
 | 5    | **OUT 3**             | Output connected to the Seamless Matrix Switcher's OUT 3, used to switch content for NDP500's Interactive Pen Display. |
 | 6    | **MIC BASE** (LAN)    | Reserved interface.                                          |
-| 7    | **LAN** (Ethernet) *2 | Standard Ethernet port for network connectivity (100Mbps, non-PoE). |
+| 7    | **LAN** (Ethernet) *2 | Standard Ethernet port for network connectivity (1000Mbps, non-PoE). |
 | 10   | **Touch USB 1**       | Works with OUT 1 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
 | 11   | **Touch USB 2**       | Works with OUT 2 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
 | 12   | **RS232**             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
@@ -66,7 +135,9 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 
-### HDMI  Seamless Matrix Switcher //4 *4 还是 3 * 3待定
+
+
+## 3. HDMI  Seamless Matrix Switcher
 
 <img src="../UserManual/img/Seamless_AV_Switcher_Wireframe.png" alt="Seamless_AV_Switcher_Wireframe" style="zoom: 33%;" />
 
@@ -94,76 +165,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 
-###  Wireless Reciver Module
-
-| No.  | Specification             | Details                                                      |
-| ---- | ------------------------- | ------------------------------------------------------------ |
-| 1    | **RF Transceiver**        | “Wi-Fi friendly” 2.4 GHz spread spectrum 2-way RF (2400 to 2483 MHz) |
-| 2    | **RF Transmitting Power** | 13.5dBm                                                      |
-| 3    | **Range**                 | < 30 m, support to connect up to 4 units of control box for extended RS232/IR/Relay control |
-
-
-
-### Networked AV Decoder
-
-Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
-
-| No.  | Item                    | Specification                                                |
-| ---- | ----------------------- | ------------------------------------------------------------ |
-| 1    | Decoding Protocol       | RTMP                                                         |
-| 2    | Resolution              | 1080p@30fps (recommended), up to 4K@30fps                    |
-| 3    | Media Source            | Media server with Q-NEX streaming service system             |
-| 4    | Playback Options        | Instant playback or scheduled playback on classroom media devices |
-| 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
-| 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
-
-### Live AV Streaming
-
-Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
-
-| No.  | Item               | Specification                                                |
-| ---- | ------------------ | ------------------------------------------------------------ |
-| 1    | Streaming Protocol | RTMP                                                         |
-| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps                    |
-| 3    | Source             | IP cameras, smartphones with broadcasting software (e.g., OBS), PCs with OBS, audio/video encoders |
-
-**General Specifications**
-
-| No.  | Item              | Specification                                                |
-| ---- | ----------------- | ------------------------------------------------------------ |
-| 1    | Size \(mm\)       | 440(L)\*292(W)\*50(H)                                        |
-| 2    | Weight            | 3.9 Kg                                                       |
-| 3    | Design            | Standard 1U rack-mount, suitable for installation in various types of cabinets |
-| 4    | Motherboard       | Industrial-grade, high-speed 32-bit CPU with embedded operating system |
-| 5    | Push Notification | Displays messages, alerts, and announcements from IT admin or teachers on classroom displays instantly or on schedule |
-
-### Touch Panel
-
-The Touch Panel allows users to access ndp500 functionalities such as power control, matrix switching, volume adjustment.
-
-| No.  | Item             | Specification                                                |
-| ---- | ---------------- | ------------------------------------------------------------ |
-| 1    | Model            | CPL20                                                        |
-| 2    | CPU              | Quad-core, Main frequency 1.6GHz                             |
-| 3    | GPU              | Quad-core                                                    |
-| 4    | RAM              | 2G                                                           |
-| 5    | ROM              | 16G                                                          |
-| 6    | O.S.             | Android 10                                                   |
-| 7    | Screen           | 10-inch 1280*800 IPS                                         |
-| 8    | Dimension (mm)   | 244(L)\*171.5(H)\*28(W)                                      |
-| 9    | Touch            | Capacitive screen with tempered glass, 10-point touch <br>Optical bonding |
-| 10   | I/O Port         | RJ45*1 (PoE supported) <br>USB2.0 *3 <br>Type-C OTG *1 <br>Audio (3.5mm) *1 <br>DC (12V) *1 |
-| 11   | Physical Button  | Power *1                                                     |
-| 12   | IC               | Supported                                                    |
-| 13   | Working          | -20°C to 70°C                                                |
-| 14   | Working Humidity | <85%                                                         |
-| 15   | Installation     | Desktop stand                                                |
-
-
-
-
-
-## 3. Microphone 
+## 4. Microphone 
 
 #### Wireless Mic Receiver (Built-in NDP500)
 
@@ -205,11 +207,42 @@ The Touch Panel allows users to access ndp500 functionalities such as power cont
 
 
 
-## 4. Media Server (Optional)
+## 5. Live Streaming
+
+
+
+### Networked AV Decoder
+
+Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
+
+| No.  | Item                    | Specification                                                |
+| ---- | ----------------------- | ------------------------------------------------------------ |
+| 1    | Decoding Protocol       | RTMP                                                         |
+| 2    | Resolution              | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 3    | Media Source            | Media server with Q-NEX streaming service system             |
+| 4    | Playback Options        | Instant playback or scheduled playback on classroom media devices |
+| 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
+| 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
+
+### Live AV Streaming
+
+Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
+
+| No.  | Item               | Specification                                                |
+| ---- | ------------------ | ------------------------------------------------------------ |
+| 1    | Streaming Protocol | RTMP                                                         |
+| 2    | Resolution         | 1080p@30fps (recommended), up to 4K@30fps                    |
+| 3    | Source             | IP cameras, smartphones with broadcasting software (e.g., OBS), PCs with OBS, audio/video encoders |
+
+
+
+
+
+### Media Server (Optional)
 
 <img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
-<font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
+The Media Server is an optional component for the NDP500, providing AV broadcasting and media file storage. It is placed under the campus core router and supports broadcasting to multiple devices, including NMP, NDP100, NDP500, and Media Box.
 
 The table below shows the minimum recommended specifications:
 
@@ -223,7 +256,7 @@ The table below shows the minimum recommended specifications:
 
 
 
-## 5. Lite Media Server (Optional)
+### Lite Media Server (Optional)
 
 | No.  | Item               | Specification                                                |
 | ---- | ------------------ | ------------------------------------------------------------ |
@@ -258,4 +291,14 @@ The Control Box (CBX) wirelessly connects to a NDP500 using Wi-Fi 2.4G. Placed n
 | 5    | RS232             | Allows wired communication and control with RS232-compatible devices. |
 | 6    | IR                | Enables IR communication for controlling devices with infrared signals. |
 | 7    | Relay             | Provides control over devices using relay switches for on/off functions. |
+
+
+
+###  Wireless Reciver Module
+
+| No.  | Specification             | Details                                                      |
+| ---- | ------------------------- | ------------------------------------------------------------ |
+| 1    | **RF Transceiver**        | “Wi-Fi friendly” 2.4 GHz spread spectrum 2-way RF (2400 to 2483 MHz) |
+| 2    | **RF Transmitting Power** | 13.5dBm                                                      |
+| 3    | **Range**                 | < 30 m, support to connect up to 4 units of control box for extended RS232/IR/Relay control |
 
