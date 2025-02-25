@@ -30,7 +30,17 @@ table th {
 
 
 
-# NDP500 //临时示意图
+## 1. Product List
+
+
+
+## 2. Desktop Digital Podium 
+
+
+
+
+
+### NDP500 Interface //临时示意图
 
 The Networked Media Processor (NMP) serves as the central control unit responsible for managing and coordinating various functionalities. 
 
@@ -63,11 +73,9 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 
-#### HDMI  Seamless Matrix Switcher //4 *4 还是 3 * 3待定
+### HDMI  Seamless Matrix Switcher //4 *4 还是 3 * 3待定
 
 <img src="../UserManual/img/Seamless_AV_Switcher_Wireframe.png" alt="Seamless_AV_Switcher_Wireframe" style="zoom: 33%;" />
-
-## 
 
 | Sequence | Name                        | Description                                                  |
 | -------- | --------------------------- | ------------------------------------------------------------ |
@@ -93,7 +101,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 
-####  Wireless Module
+###  Wireless Reciver Module
 
 | No.  | Specification             | Details                                                      |
 | ---- | ------------------------- | ------------------------------------------------------------ |
@@ -103,7 +111,7 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 
 
-#### Networked AV Decoder
+### Networked AV Decoder
 
 Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
 
@@ -116,7 +124,7 @@ Requires a media server to decode and play networked media content on classroom 
 | 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
 | 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
 
-#### Live AV Streaming
+### Live AV Streaming
 
 Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
 
@@ -136,7 +144,7 @@ Supports live video streaming from various sources, including IP cameras, smartp
 | 4    | Motherboard       | Industrial-grade, high-speed 32-bit CPU with embedded operating system |
 | 5    | Push Notification | Displays messages, alerts, and announcements from IT admin or teachers on classroom displays instantly or on schedule |
 
-#### Touch Panel
+### Touch Panel
 
 The Touch Panel allows users to access ndp500 functionalities such as power control, matrix switching, volume adjustment.
 
@@ -162,17 +170,49 @@ The Touch Panel allows users to access ndp500 functionalities such as power cont
 
 
 
-# Microphone //待补充
+## 3. Microphone 
 
-#### Wireless MIC Receiver //待补充
+#### Wireless Mic Receiver (Built-in NDP500)
+
+| No.  | Item                  | Specification                                        |
+| ---- | --------------------- | ---------------------------------------------------- |
+| 1    | Power Supply          | 12V                                                  |
+| 2    | Frequency Bandwidth   | 300 kHz                                              |
+| 3    | Frequency Response    | 30 Hz – 16 kHz                                       |
+| 4    | Frequency Range       | Low: 642 MHz – 672 MHz <br />High: 674 MHz – 702 MHz |
+| 5    | Maximum Channels      | 40 channels (20 per band)                            |
+| 6    | Receiving Sensitivity | -96 dBm                                              |
+| 7    | SNR                   | 94 dB                                                |
+| 8    | Audio Output Level    | Max 0.9 Vrms                                         |
+| 9    | Distortion (THD+N)    | < 0.1%                                               |
+| 10   | Latency               | 4 ms (2.2 ms with frequency shift off)               |
+| 11   | Operating Temperature | -20°C to 80°C                                        |
 
 
 
-#### Handheld Microphone //待补充
+#### Wireless Microphone WX-D11
+
+| No.  | Item                       | Specification                                    |
+| ---- | -------------------------- | ------------------------------------------------ |
+| 1    | Receiving Sensitivity      | -96 dBm                                          |
+| 2    | Receiver Working Current   | 150 mA                                           |
+| 3    | Frequency Range            | Low: 642 MHz – 672 MHz / High: 674 MHz – 702 MHz |
+| 4    | Sensitivity                | -96 dBm                                          |
+| 5    | Frequency Response         | 30 Hz – 16 kHz                                   |
+| 6    | Microphone Type            | Unidirectional                                   |
+| 7    | SNR                        | 94 dB                                            |
+| 8    | Transmit Power             | 10 dBm                                           |
+| 9    | Distortion (THD+N)         | < 0.1%                                           |
+| 10   | Effective Distance         | ≤30 m                                            |
+| 11   | Latency                    | 3 ms                                             |
+| 12   | Operating Temperature      | -20°C to 80°C                                    |
+| 13   | Power Supply               | 4.2V 800mAh 14500 Li-ion Battery                 |
+| 14   | Microphone Working Current | 120 mA                                           |
+| 15   | Battery Runtime            | Up to 6 hours                                    |
 
 
 
-# Media Server (Optional)
+## 4. Media Server (Optional)
 
 <img src="../UserManual/img/note.png" style="zoom:55%;" />**Note**:
 
@@ -190,7 +230,7 @@ The table below shows the minimum recommended specifications:
 
 
 
-# Lite Media Server (Optional)
+## 5. Lite Media Server (Optional)
 
 | No.  | Item               | Specification                                                |
 | ---- | ------------------ | ------------------------------------------------------------ |
@@ -210,7 +250,7 @@ The Lite Media Server is intended for demonstration. For practical use, it is st
 
 
 
-# Control Box
+## 6. Control Box
 
 The Control Box (CBX) wirelessly connects to a NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
 
