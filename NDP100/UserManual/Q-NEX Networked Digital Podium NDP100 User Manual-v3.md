@@ -1,4 +1,11 @@
-
+---
+title: Q-NEX Networked Digital Podium NDP100 User Manual
+author: Q-NEX team
+version: GEN 3.0
+date: 2025-02-25
+status: Final
+tags: [NDP100, User Manual, Q-NEX]
+---
 
 <img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 

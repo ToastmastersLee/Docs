@@ -1,3 +1,12 @@
+---
+title: Q-NEX Networked Digital Podium NDP500 Datasheet
+author: Q-NEX team
+version: GEN 2.1
+date: 2025-02-25
+status: Final
+tags: [NDP500, Datasheet, Q-NEX]
+---
+
 <style>
 table th {
     font-weight: bold;
