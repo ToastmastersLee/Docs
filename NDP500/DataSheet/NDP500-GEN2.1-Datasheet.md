@@ -46,30 +46,23 @@ The Networked Media Processor (NMP) serves as the central control unit responsib
 
 <img src="./img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom:50%;" />
 
-| No.  | Interface                                     | Description                                                  |
-| ---- | --------------------------------------------- | ------------------------------------------------------------ |
-| 1    | RJ45 * 4                                      | Ethernet ports (100Mbps, non-PoE) for NMP network connectivity; also enables NMP to function as a switch. |
-| 2    | HDMI Matrix 3 * 3                             | Consists of 3 HDMI inputs and 3 HDMI outputs, forming the video matrix for NMP. |
-| 3    | 2.4G Wi-Fi Antenna Interface * 2              | Built-in 2.4G Wi-Fi RP Transceiver within NMP, allowing wireless device integration and control expansion with Q-NEX's CBX component. |
-| 4    | UHF Wireless Microphone Antenna Interface * 1 | Built-in receiver for UHF wireless microphones, supporting one-to-two wireless microphone setups for teaching/meeting scenarios. |
-| 5    | Display (WAGO) * 1                            | Provides power output for connected devices, such as projectors, TVs, Interactive Flat Panels (IFP), and smart podiums. |
-| 6    | UP-DOWN (WAGO) * 1                            | Offering up, pause, and down functions for connected devices like projector screens and motorized curtains. |
-| 7    | RS232 * 1                                     | Allows connection to devices equipped with standard RS232 ports, such as Pan-Tilt-Zoom (PTZ) cameras and Interactive Flat Panels (IFP), etc. |
-| 8    | Panel * 1                                     | Interface for connection to mechanical control panels, allowing direct control of basic devices and AV matrix switching without the need for network connectivity. |
-| 9    | IR * 2                                        | IR learner port * 1: Used for learning IR remote control codes.<br />IR emitter port * 1: For infrared remote-control functionality. |
-| 10   | USB * 2                                       | Reserved for card reader                                     |
-| 11   | Touch USB * 3                                 | TOUCH USB IN * 1 :  Receives touch signals from the Interactive Pen Display. <br />TOUCH USB OUT * 2 : Sends touch signals to OPS or Laptop for touch-following functionality. |
-| 12   | 6.35mm Wired Microphone In * 1                | Interface for connecting a 6.35mm wired microphone.          |
-| 13   | 3.5mm MIC Mixed Out * 1                       | Mixes audio from both the microphone input and the wireless microphones (handheld and lapel) for combined output. |
-| 14   | Audio-IN * 2                                  | Two 3.5mm line-in interfaces for connecting external audio devices such as laptops, smartphones etc. |
-| 15   | Audio Out                                     | Audio output interface for connecting to speakers or amplifiers. |
-| 16   | External Speaker Output                       | The NMP includes an integrated power amplifier, capable of delivering 2*(40w+40w) output, designed to connect with passive speakers.  (Fixed impedance speakers only). |
-| 17   | Electric Lock Interface (LOCK) * 1            | Allows integration with electric lock systems, enabling scenarios such as automatic door locking after a specified period post door opening. <br /><img src="../UserManual/img/note.png"  style="zoom:67%;" />Note: <br />Only supports electric locks, not electronic lock systems. |
-| 18   | Power Fuse * 1                                | Power fuse for protection against electrical faults.         |
-| 19   | External Port (WAGO) * 1                      | External port interface for lighting control and other devices. there are two methods to control lighting and other devices:<br />1. **Direct Connection to NMP-External**: With this mode, users can directly manage lighting control using NMP.<br />2. **Integration with SPDT Switch**: By replacing the existing switch panel with a Single Pole Double Throw (SPDT) switch and connecting it to NMP, both NMP and the switch panel can control the lighting. |
-| 20   | NMP Power Supply (WAGO) * 1                   | Power supply for NMP, supporting wide voltage range (110-240 V AC). |
-
-
+| No.  | Interface             | Description                                                  |
+| ---- | --------------------- | ------------------------------------------------------------ |
+| 1    | **IN 1**              | Connected to HDMI Seamless Matrix Switcher (IN 1) for seamless input switch. The source is from NDP500's HDMI IN 1; for example, if a laptop is connected to HDMI IN 1, switching to IN 1 will display the laptop's content. |
+| 2    | **IN 2**              | Connected to HDMI Seamless Matrix Switcher (IN 2) for seamless input switch. Similar to IN 1, used for different video sources like a document camera, laptop, etc. |
+| 3    | **IN 3**              | Connected to HDMI Seamless Matrix Switcher (IN 3). The input source is from the built-in OPS of NDP500. |
+| 4    | **IN 4**              | Connected to HDMI Seamless Matrix Switcher (IN 4), used for NDP500's broadcast functionality. |
+| 5    | **OUT 3**             | Output connected to the Seamless Matrix Switcher's OUT 3, used to switch content for NDP500's Interactive Pen Display. |
+| 6    | **MIC BASE** (LAN)    | Reserved interface.                                          |
+| 7    | **LAN** (Ethernet) *2 | Standard Ethernet port for network connectivity (100Mbps, non-PoE). |
+| 10   | **Touch USB 1**       | Works with OUT 1 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
+| 11   | **Touch USB 2**       | Works with OUT 2 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
+| 12   | **RS232**             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
+| 13   | **CONTROL**           | Dedicated RS232 port for communication between NDP500 and the Seamless Matrix Switcher. Pinout sequence is G-R-T. |
+| 14   | **IR-IN**             | NDP500 uses this port to learn infrared control codes from devices. |
+| 15   | **IR-OUT**            | IR port for controlling compatible devices remotely (e.g., projector, screen). |
+| 16   | **MIC IN 1**          | Input port for microphones or audio sources, supporting various microphone models. |
+| 17   | **MIC OUT**           | Output port for routing audio from microphones to other systems or devices. |
 
 
 
@@ -214,7 +207,7 @@ The Touch Panel allows users to access ndp500 functionalities such as power cont
 
 ## 4. Media Server (Optional)
 
-<img src="../UserManual/img/note.png" style="zoom:55%;" />**Note**:
+<img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
 <font color=red> Media Server is a recommended option that works with NMP 211-G for AV Broadcasting and media files storage.</font>
 
