@@ -61,122 +61,36 @@ table th {
 | **Colors**                | 16.7M                                                        |
 | **Brightness**            | 300 cd/m²                                                    |
 | **Contrast Ratio**        | 1000:1                                                       |
-| **Surface**               | 3mm Hardened Anti-Reflection Safety Glass (7 H); AG+AF, Optical Bonding technology |
-| **Viewing Angles**        | 178° (H), 178° (V), Optical Bonding technology               |
-
-
-
-**Touch Specification**
-
-Supports up to 10 touch points with a 4096 x 4096 resolution, compatible with Windows 7/8/10/11.
-
-| Item                             | Specification        |
-| -------------------------------- | -------------------- |
-| **Technology**                   | Capacitive           |
-| **Touch Points**                 | 10-point multi-touch |
-| **Resolution**                   | 4096 x 4096          |
-| **Compatible Operating Systems** | Windows 7/8/10/11    |
-
-
-
-**Handwriting Specification**
-
-Uses an active capacitive pen with 4096 pressure levels, supporting Windows Ink.
-
-| Item                             | Specification     |
-| -------------------------------- | ----------------- |
-| **Technology**                   | Capacitive        |
-| **Pen**                          | Active pen        |
-| **Pen Pressure**                 | 4096 levels       |
-| **Reading Accuracy**             | ±0.25 mm (center) |
-| **Identification Height**        | <5mm              |
-| **Windows INK**                  | YES               |
-| **Compatible Operating Systems** | Windows 7/8/10/11 |
-
-
-
-### 2.2 Touch Panel
-
-The Touch Panel allows users to access NDP500 functionalities such as power control, matrix switching, volume adjustment.
-
-| Item                      | Specification                                                |
-| ------------------------- | ------------------------------------------------------------ |
-| **Panel Type**            | IPS (TFT-LCD)                                                |
-| **Effective Screen Size** | 10.1 inch                                                    |
-| **Resolution**            | 1200(H) x 1920 (V)                                           |
-| **Brightness**            | 300 cd/m²                                                    |
-| **Contrast Ratio**        | 1000:1                                                       |
-| **Surface**               | 3mm Hardened Anti-Reflection Safety Glass (7 H); AG+AF, Optical Bonding technology |
+| **Surface**               | 3mm Hardened Anti-Reflection Safety Glass (7 H); <br />AG+AF<br />Optical Bonding technology |
 | **Viewing Angles**        | 178° (H), 178° (V)                                           |
-| **Connection Type**       | Built-in                                                     |
+| **Touch**                 | Capacitive, 10-point multi-touch, 4096x4096 resolution, Windows 7/8/10/11 compatible |
+| **Handwriting**           | Active capacitive pen, 4096 pressure levels, ±0.25mm accuracy, <5mm detection height, Windows Ink, Windows 7/8/10/11 compatible |
+| **Control Panel**         | 10.1-inch Touch Control Panel for acessing NDP500 functions. <br />RAM:  2G<br />ROM: 16G<br />CPU: Quad-cord, 1.6GHz<br />NFC: Supported |
 
 
 
-### 2.3 Interface
+### 2.2 Interface 
 
-**Front View** 
-
-<img src="./img/image-20240705102715413.png" alt=" " style="zoom: 25%;" />
-
-| No.  | Interface        | Description                                                  |
-| ---- | ---------------- | ------------------------------------------------------------ |
-| 1    | Indicator Light  | Display the operational status of the NDP500. The indicator has two states:<br />- Red (No signal source)<br />- Green (Signal source present) |
-| 2    | Card Reader Area | Allows users to authenticate using a swipe card for access control and logging in. |
-| 3    | Hidden Antenna   | UHF for wireless microphones<br />2.4G Wi-Fi for CBX         |
+<img src="./img/NDP500-Vanilla.png" style="zoom: 50%;" /> <img src="./img/NDP500-Vanilla-2.png" style="zoom: 50%;" /> 
 
 
 
-**Left View**
-
-| No.  | Interface    | Description                                                  |
-| ---- | ------------ | ------------------------------------------------------------ |
-| 1    | OPS Slot * 1 | Supports the insertion and removal of Euro-standard OPS (Open Pluggable Specification) modules. |
-
-
-
-**Right View**
-
-| No.  | Interface        | Description                                                  |
-| ---- | ---------------- | ------------------------------------------------------------ |
-| 1    | HDMI IN 1        | Connects to devices such as laptops. For Interactive Pen Display and IFP reverse touch control, USB HOST connection is also required. |
-| 2    | USB-HOST         | USB-TYPE B 2.0. Paired with HDMI IN 1 to enable reverse touch control and other interactive functions. |
-| 3    | HDMI IN 2        | Acts as the third input source for the NDP500.               |
-| 4    | MIC IN-2 (3.5mm) | Line-in interface for connecting external microphones or audio devices. |
+| Category                    | Interface Description                                        |
+| --------------------------- | ------------------------------------------------------------ |
+| **LAN switch**              | 10M / 100M / 1000M RJ45 *2                                   |
+| **Audio**                   | 3.5mm audio in *1; <br />3.5mm audio out *1                  |
+| **Mic**                     | 6.35mm wired MIC in *1; <br />UHF wireless MIC (Built-in receiver); <br />3.5mm MIC mixed out *1 |
+| **HDMI Port**               | HDMI 2.0 in *5<br />HDMI 2.0 out *1                          |
+| **Touch  USB**              | Touch  USB *2                                                |
+| **Communication interface** | RS232 *2 (RS232, CONTROL); <br />IR-In *1; <br />IR-Out *1   |
+| **Power amplifier**         | 2*(40W+40W), supports up to 4 passive speakers (2 pairs, fixed impedance) |
+| **Power control**           | Light control port (EXTERNAL port) *1  <br />Power output and control for display or others (Display port) *1<br />Projector / Curtain screen control (UP-DOWN port) * 1 |
+| **Power**                   | Power supply for NDP500 *1 (POWER port)                      |
+| **Antenna**                 | Integrated hidden antennas (wireless mic & 2.4G Wi-Fi) *1    |
 
 
 
-**Rear View**
-
-<img src="./img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom: 33%;" /> 
-
-<img src="./img/image-20250225171932384.png" alt="image-20250225171932384" style="zoom:50%;" /> 
-
-| No.  | Interface             | Description                                                  |
-| ---- | --------------------- | ------------------------------------------------------------ |
-| 1    | **IN 1**              | Connected to HDMI Seamless Matrix Switcher (IN 1) for seamless input switch. The source is from NDP500's HDMI IN 1; for example, if a laptop is connected to HDMI IN 1, switching to IN 1 will display the laptop's content. |
-| 2    | **IN 2**              | Connected to HDMI Seamless Matrix Switcher (IN 2) for seamless input switch. Similar to IN 1, used for different video sources like a document camera, laptop, etc. |
-| 3    | **IN 3**              | Connected to HDMI Seamless Matrix Switcher (IN 3). The input source is from the built-in PC of NDP500. |
-| 4    | **IN 4**              | Connected to HDMI Seamless Matrix Switcher (IN 4), used for NDP500's broadcast functionality. |
-| 5    | **OUT 3**             | Output connected to the Seamless Matrix Switcher's OUT 3, used to switch content for NDP500's Interactive Pen Display. |
-| 6    | **MIC BASE** (LAN)    | Reserved interface.                                          |
-| 7    | **LAN** (Ethernet) *2 | Standard Ethernet port for network connectivity (1000Mbps, non-PoE). |
-| 10   | **Touch USB 1**       | Works with OUT 1 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
-| 11   | **Touch USB 2**       | Works with OUT 2 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
-| 12   | **RS232**             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
-| 13   | **CONTROL**           | Dedicated RS232 port for communication between NDP500 and the Seamless Matrix Switcher. Pinout sequence is G-R-T. |
-| 14   | **IR-IN**             | NDP500 uses this port to learn infrared control codes from devices. |
-| 15   | **IR-OUT**            | IR port for controlling compatible devices remotely (e.g., projector, screen). |
-| 16   | **MIC IN 1**          | Input port for microphones or audio sources, supporting various microphone models. |
-| 17   | **MIC OUT**           | Output port for routing audio from microphones to other systems or devices. |
-| 18   | AUDIO OUT             | 3.5mm port for audio output to speakers or amplifiers.       |
-| 19   | SPEAKER * 2           | Terminal block with 4-pin for connecting two pairs of passive speakers. Integrated dual-channel amplifier, with 40W and 4-8Ω load per channel. |
-| 20   | UP-DOWN               | C13 outlet offering up, pause, and down functions for connected devices like projector screens and motorized curtains.  (110~220V AC, 300W) |
-| 21   | DISPLAY               | C13 outlet used for power control of connected display devices like IFPs and projectors, supporting delayed power off. (110~220V AC, 1200W) |
-| 22   | EXTERNAL              | C13 outlet, acts as a switch for controlling external devices such as lighting. Can be directly connected to NDP500-External or integrated with an SPDT switch. (110~220V AC, 1200W, This power does not count towards Digital's total power consumption) |
-| 23   | POWER                 | C14 inlet for powering the entire NDP500 unit, including the 23.8-inch display, 10.1-inch control screen, and internal OPS. (110~220V AC, 2000W) |
-| 24   | POWER SWITCH          | Switch for powering the NDP500 unit on and off.              |
-
-### 2.4 Built-in PC
+### 2.3 Built-in PC
 
 | Item              | Specification                                    |
 | ----------------- | ------------------------------------------------ |
@@ -189,16 +103,18 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 
 
-### 2.5 General Specification
+### 2.4 General Specification
 
-| Item                  | Specification                                                |
-| --------------------- | ------------------------------------------------------------ |
-| **Stand Adjustment**  | 30°-60°                                                      |
-| **Power Supply**      | 100V~240V AC 50 / 60Hz                                       |
-| **Temperature**       | During use: +0 – +40°C; in storage: -15– +60°C               |
-| **Humidity**          | During use: 20-80% (no condensation); in storage: 10-90% (no condensation) |
-| **Net Weight**        | 25 kg                                                        |
-| **Product Size (mm)** | 716(L) * 350(W) * 242(H)                                     |
+| Item                          | Specification                                                |
+| ----------------------------- | ------------------------------------------------------------ |
+| **AV Decoder-Media Content**  | Protocol:RTMP<br />Resolution: 720p@30fps (recommended), up to 1080p@30fps  <br />Sources: Media server<br />Audio Formats Supported: MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats.<br/>Video Formats Supported: MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats. |
+| **AV Decoder-Live Streaming** | Protocol:RTMP<br />Resolution: 720p@30fps (recommended), up to 1080p@30fps  <br />Sources:   From IP cameras, smartphones, PCs etc., through media server that is with Q-NEX streaming service system built-in, delivering content to classroom media devices. |
+| **Stand Adjustment**          | 30°-60°                                                      |
+| **Power Supply**              | 100V~240V AC 50 / 60Hz                                       |
+| **Temperature**               | During use: +0 – +40°C; in storage: -15– +60°C               |
+| **Humidity**                  | During use: 20-80% (no condensation); in storage: 10-90% (no condensation) |
+| **Net Weight**                | 25 kg                                                        |
+| **Product Size (mm)**         | 716(L) * 350(W) * 242(H)                                     |
 
 
 
@@ -272,34 +188,11 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 
 
-## 5. Live Streaming
+## 5. Media Server
 
 
 
-### 5.1 Networked AV Decoder
-
-Requires a media server to decode and play networked media content on classroom devices, supporting both scheduled and instant playback.
-
-| No.  | Item                    | Specification                                                |
-| ---- | ----------------------- | ------------------------------------------------------------ |
-| 1    | Decoding Protocol       | RTMP                                                         |
-| 2    | Resolution              | 720p@30fps (recommended), up to 1080@30fps                   |
-| 3    | Media Source            | Media server with Q-NEX streaming service system             |
-| 4    | Playback Options        | Instant playback or scheduled playback on classroom media devices |
-| 5    | Audio Formats Supported | MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats |
-| 6    | Video Formats Supported | MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats |
-
-### 5.2 Live AV Streaming
-
-Supports live video streaming from various sources, including IP cameras, smartphones, PCs (using third-party software like OBS), and audio/video encoders. The RTMP protocol is used to transmit streams to the media server, which the NMP decodes for playback on display devices in classrooms and other locations.
-
-| No.  | Item               | Specification                                                |
-| ---- | ------------------ | ------------------------------------------------------------ |
-| 1    | Streaming Protocol | RTMP                                                         |
-| 2    | Resolution         | 720p@30fps (recommended), up to 1080@30fps                   |
-| 3    | Source             | IP cameras, smartphones with broadcasting software (e.g., OBS), PCs with OBS, audio/video encoders |
-
-### 5.3 Media Server (Optional)
+### 5.1 Enterprise Media Server (Optional)
 
 <img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
@@ -317,7 +210,7 @@ The table below shows the minimum recommended specifications:
 
 
 
-### 5.4 Lite Media Server (Optional)
+### 5.2 Lite Media Server (Optional)
 
 | No.  | Item               | Specification                                                |
 | ---- | ------------------ | ------------------------------------------------------------ |
@@ -353,13 +246,4 @@ The Control Box (CBX) wirelessly connects to a NDP500 using Wi-Fi 2.4G. Placed n
 | 6    | IR                | Enables IR communication for controlling devices with infrared signals. |
 | 7    | Relay             | Provides control over devices using relay switches for on/off functions. |
 
-
-
-###  6.1 Wireless Reciver Module
-
-| No.  | Specification             | Details                                                      |
-| ---- | ------------------------- | ------------------------------------------------------------ |
-| 1    | **RF Transceiver**        | “Wi-Fi friendly” 2.4 GHz spread spectrum 2-way RF (2400 to 2483 MHz) |
-| 2    | **RF Transmitting Power** | 13.5dBm                                                      |
-| 3    | **Range**                 | < 30 m, support to connect up to 4 units of control box for extended RS232/IR/Relay control |
 
