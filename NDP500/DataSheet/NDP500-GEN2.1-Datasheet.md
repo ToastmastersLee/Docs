@@ -1,5 +1,5 @@
 ---
-title: Q-NEX Networked Desktop Podium NDP500 Datasheet
+title: Q-NEX Desktop Podium NDP500 Datasheet
 author: Q-NEX team
 version: GEN 2.1
 date: 2025-02-25
@@ -27,7 +27,7 @@ table th {
 
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Desktop Digital Podium</div>
 
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP500 GEN2.1</div>
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP500 Gen 2.1</div>
 
 
 
@@ -98,7 +98,7 @@ table th {
 | **RAM**           | 8GB                                              |
 | **Storage**       | 512 SSD                                          |
 | **Graphics Card** | Intel® Iris® Xe Graphics eligible                |
-| **Network Card**  | 1 × 10/100/1000M self adaptive Ethernet LAN port |
+| **Network Card**  | 1 × 10/100/1000M self-adaptive Ethernet LAN port |
 | **WIFI**          | Supports 802.11ac/a/b/g/n; BT                    |
 
 
@@ -107,9 +107,9 @@ table th {
 
 | Item                          | Specification                                                |
 | ----------------------------- | ------------------------------------------------------------ |
-| **AV Decoder-Media Content**  | Protocol:RTMP<br />Resolution: 720p@30fps (recommended), up to 1080p@30fps  <br />Sources: Media server<br />Audio Formats Supported: MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats.<br/>Video Formats Supported: MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats. |
-| **AV Decoder-Live Streaming** | Protocol:RTMP<br />Resolution: 720p@30fps (recommended), up to 1080p@30fps  <br />Sources:   From IP cameras, smartphones, PCs etc., through media server that is with Q-NEX streaming service system built-in, delivering content to classroom media devices. |
-| **Stand Adjustment**          | 30°-60°                                                      |
+| **AV Decoder-Media Content**  | Protocol: RTMP<br />Resolution: 720p@30fps (recommended), up to 1080p@30fps  <br />Sources: Media server<br />Audio Formats Supported: MP3, WAV, FLAC, Ogg, Opus, and other mainstream audio formats.<br/>Video Formats Supported: MP4, MKV, RMVB, RM, MOV, AVI, FLV, WMV, and other mainstream video formats. |
+| **AV Decoder-Live Streaming** | Protocol: RTMP<br />Resolution: 720p@30fps (recommended), up to 1080p@30fps  <br />Sources:   From IP cameras, smartphones, PCs, etc., through a media server with Q-NEX Streaming Service System built-in, delivering content to classroom media devices. |
+| **Stand Adjustment**          | 30°-50°                                                      |
 | **Power Supply**              | 100V~240V AC 50 / 60Hz                                       |
 | **Temperature**               | During use: +0 – +40°C; in storage: -15– +60°C               |
 | **Humidity**                  | During use: 20-80% (no condensation); in storage: 10-90% (no condensation) |
@@ -230,9 +230,9 @@ The Lite Media Server is intended for demonstration. For practical use, it is st
 
 
 
-## 6. Control Box
+## 6. Control Box (Optional)
 
-The Control Box (CBX) wirelessly connects to a NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
+The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
 
 <img src="../../NMP/UserManual/img/CBX/CBX200-Interface.png"  style="zoom: 33%;" />
 
