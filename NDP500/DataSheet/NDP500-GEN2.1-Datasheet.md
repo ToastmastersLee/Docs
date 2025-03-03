@@ -71,10 +71,6 @@ table th {
 
 ### 2.2 Interface 
 
-<img src="./img/NDP500-Vanilla.png" style="zoom: 50%;" /> <img src="./img/NDP500-Vanilla-2.png" style="zoom: 50%;" /> 
-
-
-
 | Category                    | Interface Description                                        |
 | --------------------------- | ------------------------------------------------------------ |
 | **LAN switch**              | 10M / 100M / 1000M RJ45 *2                                   |
@@ -245,5 +241,4 @@ The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed 
 | 5    | RS232             | Allows wired communication and control with RS232-compatible devices. |
 | 6    | IR                | Enables IR communication for controlling devices with infrared signals. |
 | 7    | Relay             | Provides control over devices using relay switches for on/off functions. |
-
 
