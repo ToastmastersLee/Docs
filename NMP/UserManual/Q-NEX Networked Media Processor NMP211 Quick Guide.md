@@ -23,13 +23,13 @@ tags: [NDP100, User_Manual, Q-NEX]
 
  
 
-<img src="./img/Q-NEXNMP211.png" style="zoom: 40%;" />
+<img src="./img/Q-NEXNMP211.png" style="zoom: 30%;" />
 
 
 
 <div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstar Interactive Technology Group Co., Ltd.</div>
 
-<div style="page-break-after: always; break-after: page;"></div>
+
 
 # 1. Introduction
 
