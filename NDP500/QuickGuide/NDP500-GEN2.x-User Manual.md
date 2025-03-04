@@ -116,7 +116,7 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 **Front View** 
 
-<img src="./img/image-20240705102715413.png" alt=" " style="zoom: 25%;" />
+<img src="../UserManual/img/image-20240705102715413.png" alt=" " style="zoom: 25%;" />
 
 | No.  | Interface        | Description                                                  |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -147,9 +147,9 @@ The Touch Panel allows users to access NDP500 functionalities such as power cont
 
 **Rear View**
 
-<img src="./img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom: 33%;" /> 
+<img src="../UserManual/img/image-20250219105417532.png" alt="image-20250219105417532" style="zoom: 33%;" /> 
 
-<img src="./img/image-20250225171932384.png" alt="image-20250225171932384" style="zoom:50%;" /> 
+<img src="../UserManual/img/image-20250225171932384.png" alt="image-20250225171932384" style="zoom:50%;" /> 
 
 | No.  | Interface             | Description                                                  |
 | ---- | --------------------- | ------------------------------------------------------------ |

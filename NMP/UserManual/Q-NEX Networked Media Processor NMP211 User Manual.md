@@ -69,7 +69,7 @@ The Q-NEX Networked Media Processor integrates the Ethernet connection into the 
 
 ## 1.1 Device Connection Diagram
 
-<img src="./img/image-20240305103333689.png" style="zoom: 15%;" />
+<img src="./img/Device-Connection-1.jpg"  style="zoom: 25%;" />
 
 ## 1.3 Terminology
 
