@@ -1,6 +1,10 @@
 ---
 title: Q-NEX Networked Digital Podium NDP100 Quick Guide
 author: Q-NEX team
+version: GEN 3.0
+date: 2025-03-06
+status: Sealed
+tags: [NDP100, UserManual, Q-NEX]
 ---
 
 

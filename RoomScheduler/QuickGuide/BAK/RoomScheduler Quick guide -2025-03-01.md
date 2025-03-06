@@ -1,32 +1,13 @@
 ---
 title: Q-NEX Room Scheduler Quick Guide
 author: Q-NEX team
-version: 1.0
-date: 2025-03-06
-status: Published
-tags: [CPL50, Quick Guide, Q-NEX]
 ---
 
-<img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
-
-
-<div style="text-align:center; color:#2B5C9C; font-size:30px; font-weight:bold; ">Q-NEX Room Scheduler </div>
-
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">—— Quick Guide ——</div>
 
 
 
 <img src="../UserManual/img/CPL50-Main.png"  style="zoom: 25%;" />
-
-
-<div style="text-align:center; color:#2B5C9C; font-size:20px; ">Returnstar Interactive Technology Group Co., Ltd.</div>
-
-<div style="page-break-after: always; break-after: page;"></div>
-
-<!-- break -->
-
-
 
 
 
@@ -38,7 +19,7 @@ The **Q-NEX Room Scheduler Quick Guide** provides instructions for installing, w
 
 ## 2.1 Dimensions
 
- <img src="/Users/leewang/Documents/Githubs/IQ/Docs/RoomScheduler/QuickGuide/img/image-20250306143029579.png" alt="image-20250306143029579" style="zoom: 33%;" /> 
+<img src="./img/image-20250207151424598.png" alt="image-20250207151424598" style="zoom: 15%;" /> <img src="./img/image-20250207151444033.png" alt="image-20250207151444033" style="zoom:13%;" /> 
 
 
 
@@ -52,14 +33,14 @@ The **Q-NEX Room Scheduler Quick Guide** provides instructions for installing, w
 
 <img src="../UserManual/img/interface.png"  style="zoom: 15%;" /> 
 
-| No.  | Port(s)          | Description                                                  |
-| ---- | ---------------- | ------------------------------------------------------------ |
-| 1    | USB-C            | Used for firmware flashing.                                  |
-| 2    | Audio            | Reserved port.                                               |
-| 3    | USB (Type A) * 3 | Reserved port.                                               |
-| 4    | Reset Button     | Used to reset the device to default settings.                |
-| 5    | RJ45 Ethernet    | For wired network connection. <br />Supports **PoE (Power over Ethernet)** for power supply when connected to a PoE switch. |
-| 6    | DC Power Jack    | For connecting the power adapter.<br /> :warning:**Do not use PoE and the power adapter simultaneously.** |
+| No.  | Port(s)          | Description                                   |
+| ---- | ---------------- | --------------------------------------------- |
+| 1    | USB-C            | Used for firmware flashing.                   |
+| 2    | Audio            | Reserved port.                                |
+| 3    | USB (Type A) * 3 | Reserved port.                                |
+| 4    | Reset Button     | Used to reset the device to default settings. |
+| 5    | RJ45 Ethernet    | For wired network connection.                 |
+| 6    | DC Power Jack    | For connecting the power adapter.             |
 
 
 
@@ -89,14 +70,7 @@ The **Q-NEX Room Scheduler Quick Guide** provides instructions for installing, w
 
 **Guide for CPL50 Wiring**
 
-1. **Power Options**: CPL50 supports both **PoE (Power over Ethernet)** and a standard power adapter.
-
-   :warning:**Warning:**
-   Do **not** use both PoE and the power adapter simultaneously, as voltage inconsistencies may cause potential damage to the device.Use either:
-
-   - **PoE with a PoE switch**, or
-   - **The power adapter with a non-PoE switch/router**.
-
+1. Connect the power adapter to the CPL50.
 2. Use a LAN cable to connect the CPL50 to the meeting room's network, ensuring it shares the same LAN as the Q-NEX system.
 
 

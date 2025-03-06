@@ -303,7 +303,7 @@ While the **POWER** interface is pre-configured before shipment, the other three
 | 1.   | POWER          | C14 Inlet      | Used to power the entire NDP500 unit, requires a C13 connector cable ( pre-configured before shipment). |
 | 2.   | UP-DOWN        | C13 Outlet     | Provides power to external devices, such as motorized projection screens. |
 | 3.   | DISPLAY        | C13 Outlet     | Provides power to connected display devices, such as IFPs or projectors. |
-| 4.   | EXTERNAL       | C13 Outlet     | Provides power to external devices, such as lighting systems or other peripherals. |
+| 4.   | EXTERNAL       | C13 Outlet     | The EXTERNAL interface offers flexible lighting control via direct connection or SPDT switch integration. |
 
  
 
