@@ -92,12 +92,12 @@ The **Q-NEX Room Scheduler Quick Guide** provides instructions for installing, w
 1. **Power Options**: CPL50 supports both **PoE (Power over Ethernet)** and a standard power adapter.
 
    :warning:**Warning:**
-   Do **not** use both PoE and the power adapter simultaneously, as voltage inconsistencies may cause potential damage to the device.Use either:
+   Do **not** use both PoE and the power adapter simultaneously, as voltage inconsistencies may cause potential damage to the device. Use either:
 
    - **PoE with a PoE switch**, or
    - **The power adapter with a non-PoE switch/router**.
 
-2. Use a LAN cable to connect the CPL50 to the meeting room's network, ensuring it shares the same LAN as the Q-NEX system.
+2. Use an LAN cable to connect the CPL50 to the meeting room's network, ensuring it shares the same LAN as the Q-NEX system.
 
 
 
