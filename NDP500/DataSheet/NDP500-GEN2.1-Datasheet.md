@@ -52,11 +52,8 @@ table th {
 
 
 
-### 2.1 Display Screen
+**Display Screen**
 
-**General Specification**
-| Display Screen                                                                           |
-| ---------------------------------------------------------------------------------------- |
 | Item                      | Specification                                                |
 | ------------------------- | ------------------------------------------------------------ |
 | **Panel Type**            | IPS (TFT-LCD)                                                |
@@ -73,7 +70,7 @@ table th {
 
 
 
-### 2.2 Interface 
+**Interface**
 
 | Category                    | Interface Description                                        |
 | --------------------------- | ------------------------------------------------------------ |
@@ -90,7 +87,7 @@ table th {
 
 
 
-### 2.3 Built-in PC
+**Built-in PC**
 
 | Item              | Specification                                    |
 | ----------------- | ------------------------------------------------ |
@@ -103,7 +100,7 @@ table th {
 
 
 
-### 2.4 General Specification
+**General Specification**
 
 | Item                          | Specification                                                |
 | ----------------------------- | ------------------------------------------------------------ |
