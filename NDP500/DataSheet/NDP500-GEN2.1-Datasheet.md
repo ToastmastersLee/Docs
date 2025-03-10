@@ -14,6 +14,9 @@ table th {
     background-color: #1f4e79; /* 背景颜色为蓝色 */
     padding: 6px 13px;
     text-align: center;
+};
+.th-stress{
+    background-color: #1f4e79;
 }
 </style>
 
@@ -39,19 +42,19 @@ table th {
 
 
 
-## 1. Product List 
+
+## 1. Product List
 
 <img src="../UserManual/img/NDP500-list.png" style="zoom: 67%;" />
 
+<img src="../UserManual/img/NDP500-list.png" style="zoom: 35%;" />
 
 
 ## 2. Desktop Digital Podium 
 
 
 
-### 2.1 Display Screen
-
-**General Specification**
+**Display Screen**
 
 | Item                      | Specification                                                |
 | ------------------------- | ------------------------------------------------------------ |
@@ -69,7 +72,7 @@ table th {
 
 
 
-### 2.2 Interface 
+**Interface**
 
 | Category                    | Interface Description                                        |
 | --------------------------- | ------------------------------------------------------------ |
@@ -86,7 +89,7 @@ table th {
 
 
 
-### 2.3 Built-in PC
+**Built-in PC**
 
 | Item              | Specification                                    |
 | ----------------- | ------------------------------------------------ |
@@ -99,7 +102,7 @@ table th {
 
 
 
-### 2.4 General Specification
+**General Specification**
 
 | Item                          | Specification                                                |
 | ----------------------------- | ------------------------------------------------------------ |
