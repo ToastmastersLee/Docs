@@ -46,6 +46,7 @@ table th {
 
 ## 1. Product List
 
+<br><br>
 <img src="../UserManual/img/NDP500-list.png" style="zoom: 67%;" />
 
 
@@ -72,7 +73,8 @@ table th {
 | **Handwriting**           | Active capacitive pen, 4096 pressure levels, ±0.25mm accuracy, <5mm detection height, Windows Ink, Windows 7/8/10/11 compatible |
 | **Control Panel**         | 10.1-inch Touch Control Panel for acessing NDP500 functions. <br />RAM:  2G<br />ROM: 16G<br />CPU: Quad-cord, 1.6GHz<br />NFC: Supported |
 
-
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
 
 **Interface**
 
@@ -103,7 +105,8 @@ table th {
 | **WIFI**          | Supports 802.11ac/a/b/g/n; BT                    |
 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
 **General Specification**
 
 | Item                          | Specification                                                |
@@ -118,7 +121,8 @@ table th {
 | **Product Size (mm)**         | 716(L) * 350(W) * 242(H)                                     |
 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
 ## 3. HDMI Seamless Matrix Switcher
 
 <img src="../UserManual/img/Seamless_AV_Switcher_Wireframe.png" alt="Seamless_AV_Switcher_Wireframe" style="zoom: 33%;" />
@@ -145,7 +149,8 @@ table th {
 
 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
 
 ## 4. Microphone 
 
@@ -230,7 +235,8 @@ The table below shows the minimum recommended specifications:
 The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
 ## 6. Control Box (Optional)
 
 The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
