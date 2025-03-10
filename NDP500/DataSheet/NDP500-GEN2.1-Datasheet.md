@@ -42,10 +42,10 @@ table th {
 
 
 
-## 1. Product List //少图
+## 1. Product List
 
 
-
+<img src="../UserManual/img/NDP500-list.png" style="zoom: 35%;" />
 
 
 ## 2. Desktop Digital Podium 
