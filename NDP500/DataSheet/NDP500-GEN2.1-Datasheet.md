@@ -14,6 +14,9 @@ table th {
     background-color: #1f4e79; /* 背景颜色为蓝色 */
     padding: 6px 13px;
     text-align: center;
+};
+.th-stress{
+    background-color: #1f4e79;
 }
 </style>
 
@@ -52,7 +55,8 @@ table th {
 ### 2.1 Display Screen
 
 **General Specification**
-
+| Display Screen                                                                           |
+| ---------------------------------------------------------------------------------------- |
 | Item                      | Specification                                                |
 | ------------------------- | ------------------------------------------------------------ |
 | **Panel Type**            | IPS (TFT-LCD)                                                |
