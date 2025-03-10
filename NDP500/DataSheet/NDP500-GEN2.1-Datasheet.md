@@ -47,7 +47,7 @@ table th {
 
 <img src="../UserManual/img/NDP500-list.png" style="zoom: 67%;" />
 
-<img src="../UserManual/img/NDP500-list.png" style="zoom: 35%;" />
+
 
 
 ## 2. Desktop Digital Podium 
