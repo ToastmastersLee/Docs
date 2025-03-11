@@ -15,8 +15,34 @@ table th {
     padding: 6px 13px;
     text-align: center;
 };
-.th-stress{
-    background-color: #1f4e79;
+.tbody {
+    width: 100%;
+}
+
+.tbody-tr:nth-child(2n+1) {
+    background: #f5f6f7;
+}
+
+.tbody-td {
+    padding: 5px 15px;
+}
+
+.tbody-tr td:nth-child(1) {
+    width: 15%;
+}
+
+.tbody-tr td:nth-child(2) {
+    width: 20%;
+}
+
+.tbody-tr td:nth-child(3) {
+    width: 65%;
+}
+
+.tbody-tr:nth-child(1) {
+    background: #333;
+    color: white;
+    font-weight: bold;
 }
 </style>
 
@@ -57,39 +83,107 @@ table th {
 
 
 
-**Display Screen**
-
-| Item                      | Specification                                                |
-| ------------------------- | ------------------------------------------------------------ |
-| **Panel Type**            | IPS (TFT-LCD)                                                |
-| **Effective Screen Size** | 23.8 inch                                                    |
-| **Resolution**            | 1920(H) x 1080 (V)                                           |
-| **Colors**                | 16.7M                                                        |
-| **Brightness**            | 300 cd/m²                                                    |
-| **Contrast Ratio**        | 1000:1                                                       |
-| **Surface**               | 3mm Hardened Anti-Reflection Safety Glass (7 H); <br />AG+AF<br />Optical Bonding technology |
-| **Viewing Angles**        | 178° (H), 178° (V)                                           |
-| **Touch**                 | Capacitive, 10-point multi-touch, 4096x4096 resolution, Windows 7/8/10/11 compatible |
-| **Handwriting**           | Active capacitive pen, 4096 pressure levels, ±0.25mm accuracy, <5mm detection height, Windows Ink, Windows 7/8/10/11 compatible |
-| **Control Panel**         | 10.1-inch Touch Control Panel for acessing NDP500 functions. <br />RAM:  2G<br />ROM: 16G<br />CPU: Quad-cord, 1.6GHz<br />NFC: Supported |
-
-<div style="page-break-after: always; break-after: page;"></div>
-<!-- break -->
-
-**Interface**
-
-| Category                    | Interface Description                                        |
-| --------------------------- | ------------------------------------------------------------ |
-| **LAN switch**              | 10M / 100M / 1000M RJ45 *2                                   |
-| **Audio**                   | 3.5mm audio in *1; <br />3.5mm audio out *1                  |
-| **Mic**                     | 6.35mm wired MIC in *1; <br />UHF wireless MIC (Built-in receiver); <br />3.5mm MIC mixed out *1 |
-| **HDMI Port**               | HDMI 2.0 in *5<br />HDMI 2.0 out *1                          |
-| **Touch  USB**              | Touch  USB *2                                                |
-| **Communication interface** | RS232 *2 (RS232, CONTROL); <br />IR-In *1; <br />IR-Out *1   |
-| **Power amplifier**         | 2*(40W+40W), supports up to 4 passive speakers (2 pairs, fixed impedance) |
-| **Power control**           | Light control port (EXTERNAL port) *1  <br />Power output and control for display or others (Display port) *1<br />Projector / Curtain screen control (UP-DOWN port) * 1 |
-| **Power**                   | Power supply for NDP500 *1 (POWER port)                      |
-| **Antenna**                 | Integrated hidden antennas (wireless mic & 2.4G Wi-Fi) *1    |
+<table>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> </td>
+        <td class="tbody-td"> Item </td>
+        <td class="tbody-td"> Specification </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td  class="tbody-td" rowspan="11"> Display Screen </td>
+        <td class="tbody-td"> Panel Type </td>
+        <td class="tbody-td"> IPS (TFT-LCD) </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Effective Screen Size </td>
+        <td class="tbody-td"> 23.8 inch </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Resolution </td>
+        <td class="tbody-td"> 1920(H) x 1080 (V) </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Colors </td>
+        <td class="tbody-td"> 16.7M </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Brightness </td>
+        <td class="tbody-td"> 300 cd/m² </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Contrast Ratio </td>
+        <td class="tbody-td"> 1000:1 </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Surface </td>
+        <td class="tbody-td"> 3mm Hardened Anti-Reflection Safety Glass (7 H); <br />AG+AF<br />Optical Bonding
+            technology </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Viewing Angles </td>
+        <td class="tbody-td"> 178° (H), 178° (V) </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Touch </td>
+        <td class="tbody-td"> Capacitive, 10-point multi-touch, 4096x4096 resolution, Windows 7/8/10/11 compatible
+        </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Handwriting </td>
+        <td class="tbody-td"> Active capacitive pen, 4096 pressure levels, ±0.25mm accuracy, < 5mm detection height,
+                Windows Ink, Windows 7/8/10/11 compatible </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td"> Control Panel </td>
+        <td class="tbody-td"> 10.1-inch Touch Control Panel for acessing NDP500 functions. <br />RAM: 2G<br />ROM:
+            16G<br />CPU:
+            Quad-cord,
+            1.6GHz<br />NFC: Supported </td>
+    </tr>
+    <tr class="tbody-tr">
+        <td  class="tbody-td" rowspan="10">Interface</td>
+        <td class="tbody-td">LAN switch</td>
+        <td class="tbody-td">10M / 100M / 1000M RJ45 *2</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Audio</td>
+        <td class="tbody-td">3.5mm audio in *1; <br />3.5mm audio out *1</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Mic</td>
+        <td class="tbody-td">6.35mm wired MIC in *1; <br />UHF wireless MIC (Built-in receiver); <br />3.5mm MIC
+            mixed out *1</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">HDMI Port</td>
+        <td class="tbody-td">HDMI 2.0 in *5<br />HDMI 2.0 out *1</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Touch USB</td>
+        <td class="tbody-td">Touch USB *2</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Communication interface</td>
+        <td class="tbody-td">RS232 *2 (RS232, CONTROL); <br />IR-In *1; <br />IR-Out *1</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Power amplifier</td>
+        <td class="tbody-td">2*(40W+40W), supports up to 4 passive speakers (2 pairs, fixed impedance)</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Power control</td>
+        <td class="tbody-td">Light control port (EXTERNAL port) *1 <br />Power output and control for display or
+            others (Display port) *1<br />Projector / Curtain screen control (UP-DOWN port) *1</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Power</td>
+        <td class="tbody-td">Power supply for NDP500 *1 (POWER port)</td>
+    </tr>
+    <tr class="tbody-tr">
+        <td class="tbody-td">Antenna</td>
+        <td class="tbody-td">Integrated hidden antennas (wireless mic & 2.4G Wi-Fi) *1</td>
+    </tr>
+</table>
 
 
 
