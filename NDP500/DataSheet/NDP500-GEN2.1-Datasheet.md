@@ -18,27 +18,21 @@ table th {
 .tbody {
     width: 100%;
 }
-
 .tbody-tr:nth-child(2n+1) {
     background: #f5f6f7;
 }
-
 .tbody-td {
     padding: 5px 15px;
 }
-
 .tbody-tr td:nth-child(1) {
     width: 15%;
 }
-
 .tbody-tr td:nth-child(2) {
     width: 20%;
 }
-
 .tbody-tr td:nth-child(3) {
     width: 65%;
 }
-
 .tbody-tr:nth-child(1) {
     background: #333;
     color: white;
