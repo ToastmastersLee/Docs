@@ -17,6 +17,8 @@ table th {
 };
 .tbw {
     width: 100%;
+    border-collapse: collapse;
+    page-break-inside: avoid; /* 避免表格被切断 */
 }
 .tb-tr:nth-child(2n+1),
 .tbody-tr:nth-child(2n+1) {
@@ -219,7 +221,7 @@ table th {
     </tr>
     <!-- Wireless Mic Receiver -->
     <tr class="tbody-tr">
-        <td class="tbody-td" rowspan="11">General Specification</td>
+        <td class="tbody-td" rowspan="11">Wireless Mic Receiver</td>
         <td class="tbody-td">Power Supply </td>
         <td class="tbody-td">12V </td>
     </tr>
@@ -471,7 +473,7 @@ table th {
 
 
 
-### 5.1 Enterprise Media Server (Optional)
+### 5.1 Enterprise Media Server
 
 <img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
@@ -508,7 +510,7 @@ The table below shows the minimum recommended specifications:
 
 
 
-### 5.2 Lite Media Server (Optional)
+### 5.2 Lite Media Server
 
 <table class="tbw">
 <tr class="tb-tr">
