@@ -17,6 +17,8 @@ table th {
 };
 .tbw {
     width: 100%;
+    border-collapse: collapse;
+    page-break-inside: avoid; /* 避免表格被切断 */
 }
 .tb-tr:nth-child(2n+1),
 .tbody-tr:nth-child(2n+1) {
@@ -149,7 +151,7 @@ table th {
     </tr>
     <!-- Interface -->
     <tr class="tbody-tr">
-        <td class="tbody-td" rowspan="10">Interface</td>
+        <td class="tbody-td" rowspan="6">Interface</td>
         <td class="tbody-td">LAN switch</td>
         <td class="tbody-td">10M / 100M / 1000M RJ45 *2</td>
     </tr>
@@ -174,7 +176,18 @@ table th {
         <td class="tbody-td">Communication interface</td>
         <td class="tbody-td">RS232 *2 (RS232, CONTROL); <br />IR-In *1; <br />IR-Out *1</td>
     </tr>
+</table>
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
+<!-- 这里增加一个跨页 -->
+<table class="tbw">
+<tr class="tbody-tr">
+        <td class="tbody-td"> </td>
+        <td class="tbody-td"> Item </td>
+        <td class="tbody-td"> Specification </td>
+    </tr>
     <tr class="tbody-tr">
+        <td class="tbody-td" rowspan="4">Interface</td>
         <td class="tbody-td">Power amplifier</td>
         <td class="tbody-td">2*(40W+40W), supports up to 4 passive speakers (2 pairs, fixed impedance)</td>
     </tr>
@@ -219,7 +232,7 @@ table th {
     </tr>
     <!-- Wireless Mic Receiver -->
     <tr class="tbody-tr">
-        <td class="tbody-td" rowspan="11">General Specification</td>
+        <td class="tbody-td" rowspan="11">Wireless Mic Receiver</td>
         <td class="tbody-td">Power Supply </td>
         <td class="tbody-td">12V </td>
     </tr>
@@ -264,7 +277,17 @@ table th {
         <td class="tbody-td"> Operating Temperature </td>
         <td class="tbody-td">-20°C to 80°C </td>
     </tr>
+</table>
+<!-- 这里增加一个跨页 -->
+<div style="page-break-after: always; break-after: page;"></div>
+<!-- break -->
+<table class="tbw">
     <!-- General Specification -->
+    <tr class="tbody-tr">
+        <td class="tbody-td"> </td>
+        <td class="tbody-td"> Item </td>
+        <td class="tbody-td"> Specification </td>
+    </tr>
     <tr class="tbody-tr">
         <td class="tbody-td" rowspan="8">General Specification</td>
         <td class="tbody-td"> AV Decoder-Media Content </td>
@@ -308,6 +331,7 @@ table th {
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
+
 ## 3. HDMI Seamless Matrix Switcher
 
 <img src="../UserManual/img/Seamless_AV_Switcher_Wireframe.png" alt="Seamless_AV_Switcher_Wireframe" style="zoom: 33%;" />
@@ -471,7 +495,7 @@ table th {
 
 
 
-### 5.1 Enterprise Media Server (Optional)
+### 5.1 Enterprise Media Server
 
 <img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
@@ -508,7 +532,7 @@ The table below shows the minimum recommended specifications:
 
 
 
-### 5.2 Lite Media Server (Optional)
+### 5.2 Lite Media Server
 
 <table class="tbw">
 <tr class="tb-tr">
@@ -560,6 +584,7 @@ The Lite Media Server is intended for demonstration. For practical use, it is st
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
+
 ## 6. Control Box (Optional)
 
 The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
