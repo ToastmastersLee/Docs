@@ -9,16 +9,17 @@ tags: [NDP500, Datasheet, Q-NEX]
 
 <style>
 table th {
-    font-weight: bold;
-    color: white; /* 字体颜色为白色 */
-    background-color: #1f4e79; /* 背景颜色为蓝色 */
-    padding: 6px 13px;
-    text-align: center;
-};
+   font-weight: bold;
+   color: white; /* 字体颜色为白色 */
+   background-color: #1f4e79 !important; /* 背景颜色为蓝色 */
+   padding: 6px 13px;
+   text-align: center;
+}
 .tbw {
-    width: 100%;
+    /*width: 100%;*/
+  	width: 560px;
     border-collapse: collapse;
-    page-break-inside: avoid; /* 避免表格被切断 */
+    page-break-inside: avoid1; /* 避免表格被切断 */
 }
 .tb-tr:nth-child(2n+1),
 .tbody-tr:nth-child(2n+1) {
@@ -48,11 +49,12 @@ table th {
 }
 .tb-tr:nth-child(1),
 .tbody-tr:nth-child(1) {
-    background: #333;
+    background: #1f4e79;
     color: white;
     font-weight: bold;
 }
 </style>
+
 
 
 
@@ -625,4 +627,3 @@ The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed 
         <td class="tbody-td">Provides control over devices using relay switches for on/off functions. </td>
     </tr>
 </table>
-
