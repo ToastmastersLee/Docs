@@ -16,8 +16,8 @@ table th {
    text-align: center;
 }
 .tbw {
-    /*width: 100%;*/
-  	width: 560px;
+    width: 100%;
+  	/*width: 560px;*/
     border-collapse: collapse;
     page-break-inside: avoid1; /* 避免表格被切断 */
 }
