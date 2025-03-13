@@ -70,11 +70,12 @@ table th {
 
 <img src="../UserManual/img/image-20240705102715413.png" alt=" " style="zoom: 25%;" />
 
-| No.  | Interface        | Description                                                  |
-| ---- | ---------------- | ------------------------------------------------------------ |
-| 1    | Indicator Light  | Display the operational status of the NDP500. The indicator has two states:<br />- Red (No signal source)<br />- Green (Signal source present) |
-| 2    | Card Reader Area | Allows users to authenticate using a swipe card for access control and logging in. |
-| 3    | Hidden Antenna   | UHF for wireless microphones<br />2.4G Wi-Fi for CBX         |
+| No.  | Interface               | Description                                                  |
+| ---- | ----------------------- | ------------------------------------------------------------ |
+| 1    | Display Indicator       | Display status of the NDP500. The indicator has two states:<br />- Red (No signal source)<br />- Green (Signal source present) |
+| 2    | Card Reader Area        | Allows users to authenticate using a swipe card for access control and logging in. |
+| 3    | Hidden Antenna          | UHF for wireless microphones<br />2.4G Wi-Fi for CBX         |
+| 4    | Wireless Mic Indicators | 1. Pairing Indicator(Left):<br />2. Infrared Paring Receiver |
 
 
 
