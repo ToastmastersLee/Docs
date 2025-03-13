@@ -527,8 +527,9 @@ The table below shows the minimum recommended specifications:
 </table>
 
 
-
 ### 5.2 Lite Media Server
+
+
 
 <table class="tbw">
 <tr class="tb-tr">
@@ -550,7 +551,7 @@ The table below shows the minimum recommended specifications:
     <tr class="tb-tr">
         <td class="tbody-td"> Network Card </td>
         <td class="tbody-td"> 1 x RJ45 LAN 10/100/1000M </td>
-    </tr>*
+    </tr>
     <tr class="tb-tr">
         <td class="tbody-td"> Wi-Fi </td>
         <td class="tbody-td"> IEEE 802.11 a/g/n/ac </td>
@@ -573,7 +574,7 @@ The table below shows the minimum recommended specifications:
     </tr>
 </table>
 
-<img src="../UserManual/img/note.png" style="zoom:67%;" />**Note:** 
+<img src="../UserManual/img/note.png" style="zoom:67%;" /> **Note:** 
 
 The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
 
