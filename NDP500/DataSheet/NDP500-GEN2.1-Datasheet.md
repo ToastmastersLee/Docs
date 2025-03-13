@@ -17,6 +17,9 @@ table th {
 }
 .tbw {
     width: 100%;
+  	/*width: 560px;*/
+    border-collapse: collapse;
+    page-break-inside: avoid1; /* 避免表格被切断 */
 }
 .tb-tr:nth-child(2n+1),
 .tbody-tr:nth-child(2n+1) {
