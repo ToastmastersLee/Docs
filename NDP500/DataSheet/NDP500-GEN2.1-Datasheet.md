@@ -74,7 +74,7 @@ table th {
 
 
 
-<img src="../UserManual/img/NDP500.png" style="zoom: 35%;" />
+<img src="../UserManual/img/NDP-500_GEN2.png" style="zoom: 35%;" />
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->

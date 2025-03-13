@@ -1,9 +1,9 @@
 ---
-title: Q-NEX Networked Digital Podium NDP500 User Manual
+title: Q-NEX Desktop Digital Podium NDP500 User Manual
 author: Q-NEX team
-version: GEN 2.0
+version: GEN 1.0
 date: 2025-03-05
-status: Progressing
+status: SEALED
 tags: [NDP500, Quick Guide, Q-NEX]
 ---
 
@@ -21,7 +21,7 @@ table th {
 
 # Q-NEX NDP500 Quick Guide
 
-<img src="../UserManual/img/NDP500.png" alt="771717585960_" style="zoom:67%;" /> 
+<img src="../UserManual/img/NDP-500_GEN2.png" alt="771717585960_" style="zoom:67%;" /> 
 
 
 
@@ -33,7 +33,7 @@ table th {
 
 
 
-<img src="../Designs/NDP500-DeviceConnection.png" alt="Six Views for NDP500" style="zoom: 67%;" />
+<img src="../UserManual/img/NDP500-DeviceConnection.png" alt="Six Views for NDP500" style="zoom: 67%;" />
 
 
 
@@ -45,13 +45,13 @@ table th {
 
 ## 2.1 Dimensions
 
-<img src="../Designs/Six-Views.png" alt="Six Views for NDP500" style="zoom: 67%;" /> 
+<img src="../UserManual/img/Six-Views.png" alt="Six Views for NDP500" style="zoom: 67%;" /> 
 
 
 
 ## 2.2 Overview for NDP500
 
-<img src="../Designs/NDP500-Overview.png" alt="Six Views for NDP500" style="zoom: 67%;" /> 
+<img src="../UserManual/img/NDP500-Overview.png" alt="Six Views for NDP500" style="zoom: 67%;" /> 
 
 
 
@@ -63,7 +63,7 @@ table th {
 
 ### Front View 
 
-<img src="./img/image-20240705102715413.png" alt="image-20240705102715413" style="zoom: 33%;" /> 
+<img src="../UserManual/img/image-20240705102715413.png" alt="image-20240705102715413" style="zoom: 33%;" /> 
 
 | No.  | Interface        | Description                                                  |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -87,7 +87,7 @@ table th {
 
 ### Right View
 
-![image-20240702135726288](./img/image-20240702135726288.png)  
+![image-20240702135726288](../UserManual/img/image-20240702135726288.png)  
 
 | No.  | Interface        | Description                                                  |
 | ---- | ---------------- | ------------------------------------------------------------ |
@@ -100,9 +100,9 @@ table th {
 
 ### Rear View
 
-<img src="./img/image-20240702135811050.png" alt="image-20240702135811050" style="zoom:77%;" /> 
+<img src="../UserManual/img/image-20240702135811050.png" alt="image-20240702135811050" style="zoom:77%;" /> 
 
-<img src="./img/image-20240702135821939.png" alt="image-20240702135821939" style="zoom:77%;" /> 
+<img src="../UserManual/img/image-20240702135821939.png" alt="image-20240702135821939" style="zoom:77%;" /> 
 
 | No.  | Interface    | Description                                                  |
 | ---- | ------------ | ------------------------------------------------------------ |
