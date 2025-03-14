@@ -46,7 +46,7 @@ The NDP500 is a versatile podium engineered for seamless integration into a vari
 
 The following diagram illustrates the typical connections between the NDP500 and external devices. Refer to this diagram for a visual representation of the input and output ports and their corresponding connections.
 
-<img src="../UserManual/img/NDP500GEN21_Device_Conn.png" style="zoom: 35%;" />
+<img src="../UserManual/img/NDP500GEN21_Device_Conn.png" style="zoom: 50%;" />
 
 
 
@@ -58,11 +58,11 @@ This section provides a comprehensive overview of the NDP500, detailing its phys
 
 
 
-## 2.1 Dimensions 
+## 2.1 Dimensions //等诗雨
 
 
 
-## 2.2 Overview for NDP500 //等待诗雨
+## 2.2 Overview for NDP500
 
 <img src="../UserManual/img/NDP500-GEN2-OV.png" alt=" " style="zoom: 67%;" />
 
@@ -122,15 +122,16 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 | 6    | RS232             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
 | 7    | CONTROL           | Communication port for the Seamless Matrix. See **[2.4 Seamless Matrix Wiring Instructions](#2.4 Seamless Matrix Wiring Instructions)** for details. Pinout sequence is G-R-T. |
 | 8    | IR                | IR-IN: NDP500 uses this port to learn infrared control codes from devices.<br />IR-OUT: For controlling compatible devices remotely (e.g., projector, screen). |
-| 16   | MIC IN 1          | Input port for microphones or audio sources, supporting various microphone models. |
-| 17   | MIC OUT           | Output port for routing audio from microphones to other systems or devices. |
-| 18   | AUDIO OUT         | 3.5mm port for audio output to speakers or amplifiers.       |
-| 19   | SPEAKER * 2       | Terminal block with 4-pin for connecting two pairs of passive speakers. Integrated dual-channel amplifier, with 40W and 4-8Ω load per channel. |
-| 20   | UP-DOWN           | C13 outlet offering up, pause, and down functions for connected devices like projector screens and motorized curtains.  (110~220V AC, 300W) |
-| 21   | DISPLAY           | C13 outlet used for power control of connected display devices like IFPs and projectors, supporting delayed power off. (110~220V AC, 1200W) |
-| 22   | EXTERNAL          | C13 outlet, acts as a switch for controlling external devices such as lighting. Can be directly connected to NDP500-External or integrated with an SPDT switch. (110~220V AC, 1200W, This power does not count towards Digital's total power consumption) |
-| 23   | POWER             | C14 inlet for powering the entire NDP500 unit, including the 23.8-inch display, 10.1-inch control screen, and internal OPS. (110~220V AC, 2000W) |
-| 24   | POWER SWITCH      | Switch for powering the NDP500 unit on and off.              |
+| 9    | MIC IN 1          | Input port for microphones or audio sources, supporting various microphone models. |
+| 10   | MIC OUT           | Output port for routing audio from microphones to other systems or devices. |
+| --   | ---               | ---                                                          |
+| 1    | AUDIO OUT         | 3.5mm port for audio output to speakers or amplifiers.       |
+| 2    | SPEAKER * 2       | Terminal block with 4-pin for connecting two pairs of passive speakers. Integrated dual-channel amplifier, with 40W and 4-8Ω load per channel. |
+| 3    | UP-DOWN           | C13 outlet offering up, pause, and down functions for connected devices like projector screens and motorized curtains.  (110~220V AC, 300W) |
+| 4    | DISPLAY           | C13 outlet used for power control of connected display devices like IFPs and projectors, supporting delayed power off. (110~220V AC, 1200W) |
+| 5    | EXTERNAL          | C13 outlet, acts as a switch for controlling external devices such as lighting. Can be directly connected to NDP500-External or integrated with an SPDT switch. (110~220V AC, 1200W, This power does not count towards Digital's total power consumption) |
+| 6    | POWER             | C14 inlet for powering the entire NDP500 unit, including the 23.8-inch display, 10.1-inch control screen, and internal OPS. (110~220V AC, 2000W) |
+| 7    | POWER SWITCH      | Switch for powering the NDP500 unit on and off.              |
 
 
 
