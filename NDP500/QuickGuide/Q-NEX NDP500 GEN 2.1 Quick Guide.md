@@ -58,11 +58,15 @@ This section provides a comprehensive overview of the NDP500, detailing its phys
 
 
 
-## 2.1 Dimensions //等待诗雨
+## 2.1 Dimensions 
 
 
 
 ## 2.2 Overview for NDP500 //等待诗雨
+
+<img src="../UserManual/img/NDP500-GEN2-OV.png" alt=" " style="zoom: 67%;" />
+
+
 
 
 
@@ -74,7 +78,7 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 
 ### Front View 
 
-<img src="../UserManual/img/image-20240705102715413.png" alt=" " style="zoom: 25%;" />
+<img src="../UserManual/img/NDP500-GEN2-FrontView.png" alt=" " style="zoom: 33%;" />
 
 | No.  | Interface                | Description                                                  |
 | ---- | ------------------------ | ------------------------------------------------------------ |
@@ -110,19 +114,14 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 
 | No.  | Interface         | Description                                                  |
 | ---- | ----------------- | ------------------------------------------------------------ |
-| 1    | IN 1              | Connected to HDMI Seamless Matrix Switcher (IN 1) for seamless input switch. The source is from NDP500's HDMI IN 1; for example, if a laptop is connected to HDMI IN 1, switching to IN 1 will display the laptop's content. |
-| 2    | IN 2              | Connected to HDMI Seamless Matrix Switcher (IN 2) for seamless input switch. Similar to IN 1, used for different video sources like a document camera, laptop, etc. |
-| 3    | IN 3              | Connected to HDMI Seamless Matrix Switcher (IN 3). The input source is from the built-in PC of NDP500. |
-| 4    | IN 4              | Connected to HDMI Seamless Matrix Switcher (IN 4), used for NDP500's broadcast functionality. |
-| 5    | OUT 3             | Output connected to the Seamless Matrix Switcher's OUT 3, used to switch content for NDP500's Interactive Pen Display. |
-| 6    | MIC BASE (LAN)    | Reserved interface.                                          |
-| 7    | LAN (Ethernet) *2 | Standard Ethernet port for network connectivity (1000Mbps, non-PoE). |
-| 10   | Touch USB 1       | Works with OUT 1 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
-| 11   | Touch USB 2       | Works with OUT 2 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
-| 12   | RS232             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
-| 13   | CONTROL           | Dedicated RS232 port for communication between NDP500 and the Seamless Matrix Switcher. Pinout sequence is G-R-T. |
-| 14   | IR-IN             | NDP500 uses this port to learn infrared control codes from devices. |
-| 15   | IR-OUT            | IR port for controlling compatible devices remotely (e.g., projector, screen). |
+| 1    | HDMI Ports        | IN x 4, OUT x 1, HD AUDIO x 1  <br />Handles seamless switching via the HDMI Seamless Matrix Switcher. See **[2.4 Seamless Matrix Wiring Instructions](#2.4 Seamless Matrix Wiring Instructions)** for details. |
+| 2    | MIC BASE (LAN)    | Reserved interface.                                          |
+| 3    | LAN (Ethernet) *2 | Standard Ethernet port for network connectivity (1000Mbps, non-PoE). |
+| 4    | Touch USB 1       | Works with OUT 1 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
+| 5    | Touch USB 2       | Works with OUT 2 of the Seamless Matrix for bidirectional touch control on devices (e.g., IFP) and Interactive Pen Display. |
+| 6    | RS232             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
+| 7    | CONTROL           | Communication port for the Seamless Matrix. See **[2.4 Seamless Matrix Wiring Instructions](#2.4 Seamless Matrix Wiring Instructions)** for details. Pinout sequence is G-R-T. |
+| 8    | IR                | IR-IN: NDP500 uses this port to learn infrared control codes from devices.<br />IR-OUT: For controlling compatible devices remotely (e.g., projector, screen). |
 | 16   | MIC IN 1          | Input port for microphones or audio sources, supporting various microphone models. |
 | 17   | MIC OUT           | Output port for routing audio from microphones to other systems or devices. |
 | 18   | AUDIO OUT         | 3.5mm port for audio output to speakers or amplifiers.       |
@@ -132,3 +131,28 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 | 22   | EXTERNAL          | C13 outlet, acts as a switch for controlling external devices such as lighting. Can be directly connected to NDP500-External or integrated with an SPDT switch. (110~220V AC, 1200W, This power does not count towards Digital's total power consumption) |
 | 23   | POWER             | C14 inlet for powering the entire NDP500 unit, including the 23.8-inch display, 10.1-inch control screen, and internal OPS. (110~220V AC, 2000W) |
 | 24   | POWER SWITCH      | Switch for powering the NDP500 unit on and off.              |
+
+
+
+## 2.4 Seamless Matrix Wiring Instructions
+
+Below is the wiring diagram for the connection between the NDP500 and the Seamless Matrix Switcher. 
+
+<img src="../UserManual/img/NDP500-Switcher-Conn-v2.jpg" alt=" " style="zoom: 67%;" />
+
+Follow the table for step-by-step connections:
+
+| **NDP500**      | **Matrix Switcher** | **Description**                                              |
+| --------------- | ------------------- | ------------------------------------------------------------ |
+| IN1             | IN1                 | Connected to the Seamless Matrix Switcher (IN1) for seamless switching. The source comes from NDP500's side HDMI IN1, e.g., a laptop. |
+| IN2             | IN2                 | Connected to the Seamless Matrix Switcher (IN2) for seamless switching. The source comes from NDP500's side HDMI IN2, e.g., a document camera. |
+| IN3             | IN3                 | Connected to the Seamless Matrix Switcher (IN 3). The input source is from the built-in PC of NDP500. |
+| IN 4            | IN4                 | Connected to the Seamless Matrix Switcher (IN 4), used for NDP500's broadcast functionality. |
+| OUT3            | OUT 3               | Connected to the Seamless Matrix Switcher's OUT3 to enable seamless switching for NDP500's Interactive Pen Display |
+| HD AUDIO        | OUT1-AUDIO          | Analog Audio Signal Output                                   |
+| CONTROL (G R T) | RS232 OUT           | Dedicated RS232 port for communication between NDP500 and the Seamless Matrix Switcher. Pinout sequence is G-R-T. |
+
+Follow the wiring overview above to complete the connections. 
+
+
+
