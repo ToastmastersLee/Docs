@@ -24,7 +24,7 @@ table th {
 
 <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP500 GEN2.1</div>
 
-<div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— 用户手册 ——</div>
+<div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— 快捷手册 ——</div>
 
 <img src="../UserManual/img/NDP-500_GEN2.png" style="zoom: 35%;" />
 

@@ -101,7 +101,9 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 
 
 
-### Right View
+### Right View  
+
+<img src="../UserManual/img/NDP500GEN2.1-RightView.png" style="zoom:33%;" />
 
 | No.  | Interface        | Description                                                  |
 | ---- | ---------------- | ------------------------------------------------------------ |
