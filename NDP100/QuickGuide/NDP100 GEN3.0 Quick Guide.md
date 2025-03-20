@@ -1,14 +1,38 @@
 ---
 title: Q-NEX Networked Digital Podium NDP100 Quick Guide
 author: Q-NEX team
+version: GEN 3.0
+date: 2025-03-18
+status: Final
+tags: [NDP100, Quick Guide, Q-NEX]
 ---
 
+<style>
+table th {
+    font-weight: bold;
+    color: white; /* 字体颜色为白色 */
+    background-color: #1f4e79; /* 背景颜色为蓝色 */
+    padding: 6px 13px;
+    text-align: center;
+}
+</style>
 
 
 
 
+<img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
 
-<img src="../UserManual/img/NDP100v3-All.png" style="zoom: 25%;" />
+
+
+<div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Networked Digital Podium</div>
+
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP100 GEN3.0</div>
+
+
+
+ <div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— Quick Guide ——</div>
+
+<img src="../UserManual/img/NDP100v3-All.png" style="zoom: 15%;" />
 
 
 
