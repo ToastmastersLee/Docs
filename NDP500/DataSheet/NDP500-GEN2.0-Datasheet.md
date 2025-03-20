@@ -1,8 +1,8 @@
 ---
 title: Q-NEX Desktop Podium NDP500 Datasheet
 author: Q-NEX team
-version: GEN 2.1
-date: 2025-02-25
+version: GEN 2.0
+date: 2025-03-20
 status: Final
 tags: [NDP500, Datasheet, Q-NEX]
 ---
@@ -74,7 +74,7 @@ table th {
 
 
 
-<img src="../UserManual/img/NDP-500_GEN2.png" style="zoom: 35%;" />
+<img src="../UserManual1/img/NDP-500_GEN2.png" style="zoom: 35%;" />
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
@@ -83,7 +83,6 @@ table th {
 ## 1. Product List
 
 <br><br>
-<img src="../UserManual/img/NDP500-list.png" style="zoom: 67%;" />
 
 
 <div style="page-break-after: always; break-after: page;"></div>
@@ -182,7 +181,6 @@ table th {
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
 <!-- 这里增加一个跨页 -->
-
 <table class="tbw">
 <tr class="tbody-tr">
         <td class="tbody-td"> </td>
@@ -333,94 +331,7 @@ table th {
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
 
-## 3. HDMI Seamless Matrix Switcher
-
-<img src="../UserManual/img/Seamless_AV_Switcher_Wireframe.png" alt="Seamless_AV_Switcher_Wireframe" style="zoom: 33%;" />
-
-<table class="tbw">
-    <tr class="tb-tr">
-        <td class="tbody-td"> Item </td>
-        <td class="tbody-td"> Specification</td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> HDMI HD Matrix </td>
-        <td class="tbody-td"> HDMI High Definition Matrix </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td">
-            Video Input Ports </td>
-        <td class="tbody-td"> 4x HDMI </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Video Output Ports </td>
-        <td class="tbody-td"> 4x HDMI </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Device Height </td>
-        <td class="tbody-td"> 1U </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Supported Resolutions</td>
-        <td class="tbody-td"> 480i, 576i, 480p, 576p, 720p, 1080i, 1080p@24/30/50/60 Hz, 1080P3D@60Hz, 4K x2K@30Hz </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Control Ports </td>
-        <td class="tbody-td"> 1x RS232 IN, 1x RS232 OUT, 1x RJ45 LAN </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Supported Protocol </td>
-        <td class="tbody-td"> Supports 4K30Hz, EDID management and erasable, HDCP decoding (HDMI 1.4) </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Supported Color Spaces </td>
-        <td class="tbody-td"> Supports RGB444, YUV444, YUV422 color spaces, supports x.v.Color extended color gamut
-            standard
-        </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> ESD Protection </td>
-        <td class="tbody-td"> Human body discharge mode: ± 6kV (air discharge) ±4kV (contact discharge) </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Control Options </td>
-        <td class="tbody-td"> Standard buttons, RS232, remote switching; optional WEB, APP control </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Power Supply </td>
-        <td class="tbody-td"> AC 110V-240V 50/60Hz </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> DC Input Voltage </td>
-        <td class="tbody-td"> Power supply 12V/2A </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Power Consumption </td>
-        <td class="tbody-td"> 8W </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Dimensions (mm) </td>
-        <td class="tbody-td"> 430mm x 45mm x 150mm </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Operating Temperature </td>
-        <td class="tbody-td"> 0°C to 40°C / 32°F to 104°F </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Storage Temperature </td>
-        <td class="tbody-td"> -20°C to 60°C / -4°F to 140°F </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Net Weight </td>
-        <td class="tbody-td"> 2.45Kg </td>
-    </tr>
-</table>
-
-
-
-<div style="page-break-after: always; break-after: page;"></div>
-<!-- break -->
-
-## 4. Wireless Microphone WX-D11
+## 3. Wireless Microphone WX-D11
 
 <table class="tbw">
     <tr class="tb-tr">
@@ -488,11 +399,11 @@ table th {
 
 
 
-## 5. Media Server (Optional)
+## 4. Media Server (Optional)
 
 
 
-### 5.1 Enterprise Media Server
+### 4.1 Enterprise Media Server
 
 <img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
 
@@ -528,7 +439,7 @@ The table below shows the minimum recommended specifications:
 </table>
 
 
-### 5.2 Lite Media Server
+### 4.2 Lite Media Server
 
 
 
@@ -583,7 +494,7 @@ The Lite Media Server is intended for demonstration. For practical use, it is st
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
 
-## 6. Control Box (Optional)
+## 5. Control Box (Optional)
 
 The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
 
