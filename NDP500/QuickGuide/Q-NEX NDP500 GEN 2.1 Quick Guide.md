@@ -1,9 +1,9 @@
 ---
-title: Q-NEX Desktop Digital Podium NDP500 User Manual
+title: Q-NEX Desktop Digital Podium NDP500 Quick Guide
 author: Q-NEX team
 version: GEN 2.1
 date: 2025-03-18
-status: Progressing
+status: Final
 tags: [NDP500, Quick Guide, Q-NEX]
 ---
 
@@ -30,7 +30,7 @@ table th {
 
 
 
- <div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— User Manual ——</div>
+ <div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— Quick Guide ——</div>
 
 
 
@@ -46,7 +46,7 @@ The NDP500 is a versatile podium engineered for seamless integration into a vari
 
 The following diagram illustrates the typical connections between the NDP500 and external devices. Refer to this diagram for a visual representation of the input and output ports and their corresponding connections.
 
-<img src="../UserManual/img/NDP500GEN21_Device_Conn.png" style="zoom: 50%;" />
+<img src="../UserManual/img/NDP500GEN21_Device_Conn.jpg" style="zoom: 50%;" />
 
 
 
@@ -66,11 +66,7 @@ This section provides a comprehensive overview of the NDP500, detailing its phys
 
 ## 2.2 Overview for NDP500
 
-<img src="../UserManual/img/NDP500-GEN2-OV.png" alt=" " style="zoom: 67%;" />
-
-
-
-
+<img src="../UserManual/img/NDP500-GEN2.1-OV.jpg" alt=" " style="zoom: 50%;" />
 
 
 
@@ -118,7 +114,7 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 
 **Left**
 
-<img src="../UserManual/img/NDP500-RearView-1.png" alt=" " style="zoom: 33%;" />
+<img src="../UserManual/img/NDP500-RearView-1.png" alt=" " style="zoom: 12%;" />
 
 | No.  | Interface         | Description                                                  |
 | ---- | ----------------- | ------------------------------------------------------------ |
@@ -130,14 +126,14 @@ This subsection details the NDP500's interfaces from front, left, right, and rea
 | 6    | RS232             | For serial communication to other devices, typically for control or configuration purposes. Pinout sequence is R-G-T. |
 | 7    | CONTROL           | Communication port for the Seamless Matrix. See **[2.4 Seamless Matrix Wiring Instructions](#2.4 Seamless Matrix Wiring Instructions)** for details. Pinout sequence is G-R-T. |
 | 8    | IR                | IR-IN: NDP500 uses this port to learn infrared control codes from devices.<br />IR-OUT: For controlling compatible devices remotely (e.g., projector, screen). |
-| 9    | MIC IN 1          | Input port for microphones or audio sources, supporting various microphone models. |
-| 10   | MIC OUT           | Output port for routing audio from microphones to other systems or devices. |
+| 9    | MIC IN 1 (6.35mm) | Connects a wired microphone for clear audio reinforcement during instruction or conferences. |
+| 10   | MIC OUT           | Outputs combined audio from MIC IN 1, MIC IN 2, and wireless microphones. |
 
 
 
 **Right**:
 
-<img src="../UserManual/img/NDP500-RearView-2.png" alt=" " style="zoom: 33%;" />
+<img src="../UserManual/img/NDP500-RearView-2.png" alt=" " style="zoom: 12%;" />
 
 | No.  | Interface    | Description                                                  |
 | ---- | ------------ | ------------------------------------------------------------ |

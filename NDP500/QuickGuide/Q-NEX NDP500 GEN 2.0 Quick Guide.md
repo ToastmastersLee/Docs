@@ -1,7 +1,7 @@
 ---
 title: Q-NEX Desktop Digital Podium NDP500 User Manual
 author: Q-NEX team
-version: GEN 1.0
+version: GEN 2.0
 date: 2025-03-05
 status: SEALED
 tags: [NDP500, Quick Guide, Q-NEX]
@@ -19,7 +19,22 @@ table th {
 
 
 
-# Q-NEX NDP500 Quick Guide
+
+
+<img src="../../NMP/UserManual/img/Q-LOGO.png" style="zoom: 10%;" />
+
+
+
+<div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Desktop Digital Podium</div>
+
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP500 GEN2.0</div>
+
+
+
+ <div style="text-align:center;  color:grey; font-size:30px; font-weight:bold;">—— Quick Guide ——</div>
+
+
+
 
 <img src="../UserManual/img/NDP-500_GEN2.png" alt="771717585960_" style="zoom:67%;" /> 
 
@@ -33,9 +48,7 @@ table th {
 
 
 
-<img src="../UserManual/img/NDP500-DeviceConnection.png" alt="Six Views for NDP500" style="zoom: 67%;" />
-
-
+<img src="../UserManual/img/NDP500GEN2.0-DeviceConnection.png" alt="Six Views for NDP500" style="zoom: 67%;" />
 
 
 
@@ -45,25 +58,19 @@ table th {
 
 ## 2.1 Dimensions
 
-<img src="../UserManual/img/Six-Views.png" alt="Six Views for NDP500" style="zoom: 67%;" /> 
-
-
+<img src="../UserManual/img/Six-Views.png" alt="Six Views for NDP500" style="zoom: 33%;" />
 
 ## 2.2 Overview for NDP500
 
-<img src="../UserManual/img/NDP500-GEN2-OV.png" style="zoom: 67%;" /> 
-
-
-
-
+<img src="../UserManual/img/NDP500-GEN2-OV.png" style="zoom: 67%;" />
 
 ## 2.3 NDP500 Interface Introduction 
 
 
 
-### Front View 
+### Front View
 
-<img src="../UserManual/img/NDP500-GEN2-FrontView.png" style="zoom: 33%;" /> 
+<img src="../UserManual/img/NDP500-GEN2-FrontView.png" style="zoom: 33%;" />
 
 | No.  | Interface                | Description                                                  |
 | ---- | ------------------------ | ------------------------------------------------------------ |
@@ -74,17 +81,11 @@ table th {
 | 5    | IR Pairing Receiver      | Infrared pairing receiver for wireless microphones.          |
 | 6    | Active Capacitive Stylus | Active capacitive stylus for NDP500. Magnetically attaches to the right-side slot for storage. |
 
-
-
-
-
 ### Left View
 
 | No.  | Interface    | Description                                                  |
 | ---- | ------------ | ------------------------------------------------------------ |
 | 1    | OPS Slot * 1 | Supports the insertion and removal of Euro-standard OPS (Open Pluggable Specification) modules. |
-
-
 
 
 
@@ -103,34 +104,25 @@ table th {
 
 **Left** 
 
- 
+<img src="../UserManual/img/NDP500GEN2.0-RearView-1.png" alt=" " style="zoom: 12%;" />
 
-| No.  | Interface    | Description                                                  |
-| ---- | ------------ | ------------------------------------------------------------ |
-| 1    | LAN * 3      | 10M / 100M RJ45 ports for network connectivity. Does not support PoE. Can be used for connecting external devices like laptops. One port must be connected to a router to assign an IP address to the NDP500. |
-| 2    | HDMI OUT B   | Serves as an output source for the NDP500. Can be connected to classroom IFPs or other display devices. For interactive touch functionality on IFPs, it must be paired with USB DEVICE B. |
-| 3    | USB DEVICE B | USB Type A 2.0 port for touch control of external display devices. Works with HDMI OUT B as an output pair. |
-| 4    | HDMI OUT A   | Serves as an output source for the NDP500. Can be connected to classroom IFPs or other large display devices. For interactive touch functionality on IFPs, it must be paired with USB DEVICE A<br /><br />Special feature: <br />1.The display on the NDP500 (Interactive Pen Display) is always synchronized with HDMI OUT A (firmware-level binding) <br />2. Can separate digital audio signal for IFPs with built-in speakers. |
-| 5    | USB DEVICE A | USB Type A 2.0 port for touch control of external display devices. Works with HDMI OUT A as an output pair. |
-| 6    | RS232        | 3-pin (R, G, T) for controlling devices like PTZ cameras, IFPs, and recording cameras. |
-| 7    | RS485        | 3-pin (G, B, A) for controlling devices with RS485 interface, such as PTZ cameras. |
-| 8    | IR IN        | Infrared learning port for capturing IR control codes from devices like air conditioners and TVs. |
-| 9    | IR OUT       | Infrared control port for sending IR signals to control devices like air conditioners and TVs. |
-| 10   | MIC IN       | 6.35mm port for connecting a wired microphone for clear audio reinforcement during instruction or conferences. |
-| 11   | MIC OUT      | 3.5mm port for mixing audio from both the microphone input and wireless microphones for combined output. |
-| 12   | AUDIO OUT    | 3.5mm port for audio output to speakers or amplifiers.       |
-| 13   | SPEAKER * 2  | Terminal block with 4-pin for connecting two pairs of passive speakers. Integrated dual-channel amplifier, with 40W and 4-8Ω load per channel. |
-| 14   | UP-DOWN      | C13 outlet offering up, pause, and down functions for connected devices like projector screens and motorized curtains.  (110~220V AC, 300W) |
-| 15   | DISPLAY      | C13 outlet used for power control of connected display devices like IFPs and projectors, supporting delayed power off. (110~220V AC, 1200W) |
-| 16   | EXTERNAL     | C13 outlet, acts as a switch for controlling external devices such as lighting. Can be directly connected to NDP500-External or integrated with an SPDT switch. (110~220V AC, 1200W, This power does not count towards Digital's total power consumption) |
-| 17   | POWER        | C14 inlet for powering the entire NDP500 unit, including the 23.8-inch display, 10.1-inch control screen, and internal OPS. (110~220V AC, 2000W) |
-| 20   | POWER SWITCH | Switch for powering the NDP500 unit on and off.              |
+| No.  | Interface                      | Description                                                  |
+| ---- | ------------------------------ | ------------------------------------------------------------ |
+| 1    | MIC BASE (LAN)                 | Reserved interface.                                          |
+| 2    | LAN (Ethernet) *2              | Standard Ethernet port for network connectivity (1000Mbps, non-PoE). |
+| 3    | HDMI OUT B & USB DEVICE B Pair | HDMI OUT B outputs video/audio from the NDP500 to classroom IFPs or displays, while USB DEVICE B (Type A 2.0) enables touch control. Must be paired for interactive touch functionality on IFPs. |
+| 4    | HDMI OUT A & USB DEVICE A Pair | HDMI OUT A[^1] outputs video/audio from the NDP500 to classroom IFPs or large displays, while USB DEVICE A (Type A 2.0) enables touch control. Must be paired for interactive touch functionality on IFPs. |
+| 5    | RS232                          | 3-pin (R, G, T) for controlling devices like PTZ cameras, IFPs, and recording cameras. |
+| 6    | RS485                          | 3-pin (G, B, A) for controlling devices with RS485 interface, such as PTZ cameras. |
+| 7    | IR                             | IR IN: Infrared learning port for capturing IR control codes from devices like air conditioners and TVs.<br />IR OUT:Infrared control port for sending IR signals to control devices like air conditioners and TVs. |
+| 8    | MIC IN 1 (6.35mm)              | Connects a wired microphone for clear audio reinforcement during instruction or conferences. |
+| 9    | MIC OUT                        | Outputs combined audio from MIC IN 1, MIC IN 2, and wireless microphones. |
+
+[^1]: Special feature: <br />1.The display on the NDP500 (Interactive Pen Display) is always synchronized with HDMI OUT A (firmware-level binding) <br />2. Can separate digital audio signal for IFPs with built-in speakers.
 
 **Right**:
 
-**Right**:
-
-<img src="/Users/leewang/Documents/Githubs/IQ/Docs/NDP500/UserManual/img/NDP500-RearView-2.png" alt=" " style="zoom: 33%;" />
+<img src="../UserManual/img/NDP500-RearView-2.png" alt=" " style="zoom: 12%;" />
 
 | No.  | Interface    | Description                                                  |
 | ---- | ------------ | ------------------------------------------------------------ |

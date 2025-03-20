@@ -1,5 +1,5 @@
 ---
-title: Q-NEX 桌面数字讲台 NDP500 用户手册
+title: Q-NEX 桌面数字讲台 NDP500 快捷手册
 author: Q-NEX 团队
 version: GEN 2.1
 date: 2025-03-18
@@ -36,7 +36,7 @@ NDP500 是一款多功能讲台，适用于各类专业及教育场景。本指�
 
 下图展示了NDP500与外部设备的典型连接方式，各输入/输出端口功能对应关系可参考此示意图进行理解。
 
-<img src="../UserManual/img/NDP500GEN21_Device_Conn.png" style="zoom: 50%;" />
+<img src="../UserManual/img/NDP500GEN21_Device_Conn.jpg" style="zoom: 50%;" />
 
 # 2. 设备详解
 
@@ -48,7 +48,7 @@ NDP500 是一款多功能讲台，适用于各类专业及教育场景。本指�
 
 ## 2.2 整体布局
 
-<img src="../UserManual/img/NDP500-GEN2-OV.png" alt="整体布局" style="zoom: 67%;" />
+<img src="../UserManual/img/NDP500-GEN2.1-OV.jpg" alt="整体布局" style="zoom: 50%;" />
 
 ## 2.3 接口定义
 
@@ -73,6 +73,8 @@ NDP500 是一款多功能讲台，适用于各类专业及教育场景。本指�
 
 ### 右视图
 
+<img src="../UserManual/img/NDP500GEN2.1-RightView.png" style="zoom:33%;" />
+
 | 序号 | 接口             | 功能说明                                               |
 | ---- | ---------------- | ------------------------------------------------------ |
 | 1    | HDMI输入1        | 外接设备（如笔记本）<br>需配合USB HOST实现触控回传功能 |
@@ -84,7 +86,7 @@ NDP500 是一款多功能讲台，适用于各类专业及教育场景。本指�
 
 **左侧区域**
 
-<img src="../UserManual/img/NDP500-RearView-1.png" alt="后视图左半部分" style="zoom: 33%;" />
+<img src="../UserManual/img/NDP500-RearView-1.png" alt="后视图左半部分" style="zoom: 12%;" />
 
 | 序号 | 接口            | 技术参数                                                     |
 | ---- | --------------- | ------------------------------------------------------------ |
@@ -101,7 +103,7 @@ NDP500 是一款多功能讲台，适用于各类专业及教育场景。本指�
 
 **右侧区域**
 
-<img src="../UserManual/img/NDP500-RearView-2.png" alt="后视图右半部分" style="zoom: 33%;" />
+<img src="../UserManual/img/NDP500-RearView-2.png" alt="后视图右半部分" style="zoom: 12%;" />
 
 | 序号 | 接口            | 电气参数                                                     |
 | ---- | --------------- | ------------------------------------------------------------ |
