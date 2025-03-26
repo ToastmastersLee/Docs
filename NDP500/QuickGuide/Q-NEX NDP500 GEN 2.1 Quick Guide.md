@@ -168,6 +168,3 @@ Follow the table for step-by-step connections:
 | CONTROL (G R T) | RS232 OUT           | Dedicated RS232 port for communication between NDP500 and the Seamless Matrix Switcher. Pinout sequence is G-R-T. |
 
 Follow the wiring overview above to complete the connections. 
-
-
-
