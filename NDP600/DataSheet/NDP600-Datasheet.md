@@ -1,10 +1,10 @@
 ---
-title: Q-NEX Desktop Podium NDP500 Datasheet
+title: Q-NEX Desktop Podium NDP600 Datasheet
 author: Q-NEX team
-version: GEN 2.0
-date: 2025-03-20
+version: GEN 1.0
+date: 2025-04-11
 status: Final
-tags: [NDP500, Datasheet, Q-NEX]
+tags: [NDP600, Datasheet, Q-NEX]
 ---
 
 <style>
@@ -66,7 +66,7 @@ table th {
 
 <div style="text-align:center; color:#2B5C9C; font-size:30px;font-weight:bold; ">Q-NEX Desktop Digital Podium</div>
 
- <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP500 Gen 2.0</div>
+ <div style="text-align:center;  color:#2B5C9C; font-size:30px; font-weight:bold;">NDP600</div>
 
 
 
@@ -74,23 +74,14 @@ table th {
 
 
 
-<img src="../UserManual/img/NDP-500-GEN2.0.png" style="zoom: 35%;" />
+<img src="../UserManual/img/NDP600.png" style="zoom: 35%;" />
 
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
 
 
-## 1. Product List
 
-<br><br>
-
-
-<div style="page-break-after: always; break-after: page;"></div>
-<!-- break -->
-
-## 2. Desktop Digital Podium 
-
-
+## 1. Desktop Digital Podium 
 
 <table class="tbw">
     <tr class="tbody-tr">
@@ -167,7 +158,7 @@ table th {
     </tr>
     <tr class="tbody-tr">
         <td class="tbody-td">HDMI Port</td>
-        <td class="tbody-td">HDMI 2.0 in x5;<br />HDMI 2.0 out x1</td>
+        <td class="tbody-td">HDMI 2.0 in x2;<br />HDMI 2.0 out x1</td>
     </tr>
     <tr class="tbody-tr">
         <td class="tbody-td">Touch USB</td>
@@ -175,10 +166,11 @@ table th {
     </tr>
     <tr class="tbody-tr">
         <td class="tbody-td">Communication interface</td>
-        <td class="tbody-td">RS232 x2 (RS232, CONTROL); <br />IR-In x1; <br />IR-Out x1</td>
+        <td class="tbody-td">RS232 x2; <br />IR-In x1; <br />IR-Out x1</td>
     </tr>
 </table>
 <div style="page-break-after: always; break-after: page;"></div>
+
 <!-- break -->
 <!-- 这里增加一个跨页 -->
 
@@ -282,6 +274,7 @@ table th {
 <!-- 这里增加一个跨页 -->
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
+
 <table class="tbw">
     <!-- General Specifications -->
     <tr class="tbody-tr">
@@ -332,7 +325,7 @@ table th {
 <div style="page-break-after: always; break-after: page;"></div>
 <!-- break -->
 
-## 3. Wireless Microphone WX-D11
+## 2. Wireless Microphone WX-D11
 
 <table class="tbw">
     <tr class="tb-tr">
@@ -399,139 +392,3 @@ table th {
 </table>
 
 
-
-## 4. Media Server (Optional)
-
-
-
-### 4.1 Enterprise Media Server
-
-<img src="../UserManual/img/note.png" style="zoom: 87%;" />**Note**:
-
-The Media Server is an optional component for the NDP500, providing AV broadcasting and media file storage. It is placed under the campus core router and supports broadcasting to multiple devices, including NMP, NDP100, NDP500, and Media Box.
-
-The table below shows the minimum recommended specifications:
-
-<table class="tbw">
-    <tr class="tb-tr">
-        <td class="tbody-td"> Item </td>
-        <td class="tbody-td"> Specification</td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Storage Type </td>
-        <td class="tbody-td"> ECC RAM </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> RAM </td>
-        <td class="tbody-td"> 16GB ECC RAM </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> HDD Storage </td>
-        <td class="tbody-td"> 4 × 4TB SATA HDDs (Total 16TB) </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> CPU </td>
-        <td class="tbody-td"> 4-Core / 8-Thread Processor </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> System </td>
-        <td class="tbody-td"> Windows Server </td>
-    </tr>
-</table>
-
-
-### 4.2 Lite Media Server
-
-
-
-<table class="tbw">
-<tr class="tb-tr">
-        <td class="tbody-td"> Item </td>
-        <td class="tbody-td"> Specification</td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Processor </td>
-        <td class="tbody-td"> Intel® Core™ i5 4200M 2.5GHz </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> RAM </td>
-        <td class="tbody-td"> 4GB DDR3 </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Storage </td>
-        <td class="tbody-td"> 256G SSD </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Network Card </td>
-        <td class="tbody-td"> 1 x RJ45 LAN 10/100/1000M </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Wi-Fi </td>
-        <td class="tbody-td"> IEEE 802.11 a/g/n/ac </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Power Supply Input</td>
-        <td class="tbody-td"> 19V </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Dimension </td>
-        <td class="tbody-td"> 180mm (L) x 195mm (W) x 42mm (H) </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Temperature </td>
-        <td class="tbody-td"> Operating temperature: 0°C to 50°C <br> Storage temperature: -20°C to 70°C </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Humidity </td>
-        <td class="tbody-td"> 5% to 90% No condensation </td>
-    </tr>
-</table>
-
-<img src="../UserManual/img/note.png" style="zoom:67%;" /> **Note:** 
-
-The Lite Media Server is intended for demonstration. For practical use, it is strongly recommended to choose a formal Media Server.
-
-
-<div style="page-break-after: always; break-after: page;"></div>
-<!-- break -->
-
-## 5. Control Box (Optional)
-
-The Control Box (CBX) wirelessly connects to an NDP500 using Wi-Fi 2.4G. Placed near devices like air conditioners, displays, lights, or smart curtains, the CBX acts as a bridge, enabling wired control of these devices without extensive cabling.
-
-<img src="../../NMP/UserManual/img/CBX/CBX200-Interface.png"  style="zoom: 33%;" />
-
-<table class="tbw">
-    <tr class="tb-tr">
-        <td class="tbody-td"> Item </td>
-        <td class="tbody-td"> Specification</td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Power Supply (DC)</td>
-        <td class="tbody-td"> DC 12V,1A </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Reset Button </td>
-        <td class="tbody-td"> Restores the CBX to factory default settings </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Link Indicator </td>
-        <td class="tbody-td"> Indicates the connection status between the CBX and the NDP500 </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> DIP Switch </td>
-        <td class="tbody-td"> Used for configuring and adjusting CBX settings </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> RS232 </td>
-        <td class="tbody-td"> Supports wired communication and control with RS232-compatible devices </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> IR </td>
-        <td class="tbody-td"> Enables infrared (IR) communication for remote device control </td>
-    </tr>
-    <tr class="tb-tr">
-        <td class="tbody-td"> Relay </td>
-        <td class="tbody-td"> Controls external devices via relay switches for on/off functions </td>
-    </tr>
-</table>
